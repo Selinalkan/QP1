@@ -8,13 +8,14 @@ import argparse
 import csv
 import logging
 import pynini
+import collections
 
 
 from pynini.lib import pynutil
 from pynini.lib import rewrite
 from collections import Counter
 
-logging.basicConfig(filename="info.log", level=logging.DEBUG)
+# logging.basicConfig(filename="info.log", level=logging.DEBUG)
 
 # The alphabet: https://teara.govt.nz/en/interactive/41063/the-maori-alphabet
 # <ng> and <wh> are diagraphs, but we treat them as separete characters 
@@ -129,17 +130,35 @@ rule_dict = {
     "kina": kina_rule,
 }
 
+vowel_dict = {
+    # Short vowels
+    "a",
+    "e",
+    "i",
+    "o",
+    "u",
+    # Long vowels
+    "ā",
+    "ē",
+    "ī",
+    "ō",
+    "ū",
+}
 
 def main(args: argparse.Namespace) -> None:
-    final_vowel_counts = Counter()
-    with open(args.input, "r") as source:
+    final_vowel_counts = collections.Counter()
+    with open(args.input, "r") as source, open(args.output, "w") as sink:
         tsv_reader = csv.reader(source, delimiter="\t")
+        tsv_writer = csv.writer(sink, delimiter="\t")
         for lemma, passive in tsv_reader:
-            for vowel in v:
+            for vowel in vowel_dict:
                 if lemma.endswith(vowel):
                     final_vowel_counts[vowel] += 1
-    for vowel, count in final_vowel_counts:
-        print(f"{vowel}:\t{count}")
+    # with open(args.output, "w") as sink:
+        for vowel, count in final_vowel_counts.most_common():
+            # tsv_writer = csv.writer(sink, delimiter="\t")
+            tsv_writer.writerow([vowel, count]) # need to give a list argument
+            print(f"{vowel}:\t{count}")
 
 
     
