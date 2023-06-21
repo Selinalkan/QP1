@@ -15,7 +15,7 @@ from pynini.lib import pynutil
 from pynini.lib import rewrite
 from collections import Counter
 
-# logging.basicConfig(filename="info.log", level=logging.DEBUG)
+logging.basicConfig(filename="info.log", level=logging.DEBUG)
 
 # The alphabet: https://teara.govt.nz/en/interactive/41063/the-maori-alphabet
 # <ng> and <wh> are diagraphs, but we treat them as separete characters 
@@ -36,6 +36,8 @@ v = pynini.union(
 )
 
 c = pynini.union(
+        # Adding <f> for fakarārangi from Parker Jones' list
+        "f",
         "h",
         "k",
         "m",
@@ -147,6 +149,7 @@ vowel_dict = {
 
 def main(args: argparse.Namespace) -> None:
     final_vowel_counts = collections.Counter()
+    final_v_suffix_counts = collections.Counter()
     with open(args.input, "r") as source, open(args.output, "w") as sink:
         tsv_reader = csv.reader(source, delimiter="\t")
         tsv_writer = csv.writer(sink, delimiter="\t")
@@ -154,10 +157,23 @@ def main(args: argparse.Namespace) -> None:
             for vowel in vowel_dict:
                 if lemma.endswith(vowel):
                     final_vowel_counts[vowel] += 1
-    # with open(args.output, "w") as sink:
+            for rule_name, rule in rule_dict.items():
+                rule_found = False
+                try:
+                    if rewrite.matches(lemma, passive, rule):
+                        final_v_suffix_counts[(vowel, rule_name)] += 1
+                        rule_found = True
+                        logging.info("Rule Found: %s\t\t%s", lemma, passive)
+                        break
+                except rewrite.Error:
+                    logging.warning("Composition Failure: %s\t\t%s", lemma, passive)
+            if not rule_found:
+                logging.info("No Rules Found: %s\t\t%s", lemma, passive)
+                print(f"No rules found for {lemma} -> {passive}")
         for vowel, count in final_vowel_counts.most_common():
-            # tsv_writer = csv.writer(sink, delimiter="\t")
-            tsv_writer.writerow([vowel, count]) # need to give a list argument
+            tsv_writer.writerow([vowel, count]) # need to give a list as an argument
+        for vowel, rule_name in final_v_suffix_counts.most_common():    
+            tsv_writer.writerow([vowel, rule_name])
             print(f"{vowel}:\t{count}")
 
 
