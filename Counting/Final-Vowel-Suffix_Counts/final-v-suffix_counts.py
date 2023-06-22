@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""This script counts the numbers of passive suffixes attached to verbs in
+"""This script counts stem-final vowels and final-vowel & passive-suffix pairs attached to verbs in
      Maori.The verbs going through various internal changes are not accounted
      for in this script."""
 
