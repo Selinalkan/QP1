@@ -67,7 +67,7 @@ def main(args: argparse.Namespace) -> None:
         # Writing the vowel-vowel counts into a tsv file
         for vowel, count in final_vowel_counts.most_common():
             tsv_writer1.writerow([vowel, count])
-            print(f"{vowel}:\t{count}")
+            # print(f"{vowel}:\t{count}")
         # print(final_vowel_counts)
         # print("\n")
 
@@ -80,8 +80,8 @@ def main(args: argparse.Namespace) -> None:
         for vowel1, count1 in final_vowel_counts.items():
             for (vowel2, suffix), count2 in final_v_suffix_counts.items():
                 if vowel1 == vowel2:
-                    p = count1 / count2
-                tsv_writer3.writerow([vowel1, vowel2, suffix, p])
+                    p = count2 / count1
+                    tsv_writer3.writerow([vowel1, vowel2, suffix, p])
 
 
 if __name__ == "__main__":
