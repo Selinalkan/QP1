@@ -119,15 +119,8 @@ def main(args: argparse.Namespace) -> None:
             # print(f"{vowel}\t{suffix}:\t{count}")
         # Conditional Probability: p(passive|final_vowel)
         for (vowel1, suffix), count1 in final_vowel_suffix.items():
-            # I left the inner loop and the if-statement because otherwise
-            # the vowel order is messed up in the output file
-            for vowel2, count2 in final_vowel.items():
-                if vowel1 == vowel2:
-                    # The following only outputs the probabilities for
-                    # "hia", "mia", "ria"
-                    # if suffix in ["hia", "mia", "ria"]:
-                    p = count1 / count2
-                    tsv_writer3.writerow([vowel1, vowel2, suffix, p])
+            p = count1 / final_vowel[vowel1]
+            tsv_writer3.writerow([vowel1, suffix, p])
 
     # PART 2 – Sound sequences and passives
     with open(args.input, "r") as source, open(
