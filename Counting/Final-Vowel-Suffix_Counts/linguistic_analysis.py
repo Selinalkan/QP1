@@ -78,11 +78,13 @@ def main(args: argparse.Namespace) -> None:
     final_vowel_suffix: Counter[Tuple[str, str]] = collections.Counter()
     # Reading from an input file and writing into .tsv files
 
-    # PART 2 – Sounds sequences and passives
+    # PART 2 – Vowel sequences and passives
     # Vowel sequences
     vowel_seq: Counter[str] = collections.Counter()
     # Vowel sequence-passive counter
     vowel_seq_suffix: Counter[Tuple[str, str]] = collections.Counter()
+
+    # PART 3 - Consonant sequences and passives
     # Consonant sequences
     cons_seq: Counter[str] = collections.Counter()
     # Consonant sequence-passive counter
@@ -92,7 +94,8 @@ def main(args: argparse.Namespace) -> None:
     with open(args.input, "r") as source, open(
         args.output1, "w"
     ) as sink1, open(args.output2, "w") as sink2, open(
-        args.output3, "w") as sink3:
+        args.output3, "w"
+    ) as sink3:
         # Input file
         tsv_reader = csv.reader(source, delimiter="\t")
         # Output files
@@ -122,12 +125,10 @@ def main(args: argparse.Namespace) -> None:
             p = count1 / final_vowel[vowel1]
             tsv_writer3.writerow([vowel1, suffix, p])
 
-    # PART 2 – Sound sequences and passives
+    # PART 2 – Vowel sequences and passives
     with open(args.input, "r") as source, open(
         args.output4, "w"
-    ) as sink4, open(
-        args.output5, "w"
-    ) as sink5, open(
+    ) as sink4, open(args.output5, "w") as sink5, open(
         args.output6, "w"
     ) as sink6:
         # Input file
@@ -151,9 +152,12 @@ def main(args: argparse.Namespace) -> None:
                     vowel_seq_suffix[(current_sequence, suffix)] += 1
         # Writing the vowel sequences into a tsv file
         for seq, count in vowel_seq.most_common():
-                tsv_writer4.writerow([seq, count])
+            tsv_writer4.writerow([seq, count])
         # Writing the vowel seq-suffix counts into a tsv file
-        for (current_sequence, suffix), count in vowel_seq_suffix.most_common():
+        for (
+            current_sequence,
+            suffix,
+        ), count in vowel_seq_suffix.most_common():
             if suffix in ["hia", "mia", "ria"]:
                 tsv_writer5.writerow([current_sequence, suffix, count])
         # Conditional Probability: p(passive|vowel_sequence)
@@ -164,36 +168,107 @@ def main(args: argparse.Namespace) -> None:
                 p = count1 / vowel_seq[sequence1]
                 tsv_writer6.writerow([sequence1, suffix, p])
 
+    # PART 3 – Sound sequences and passives
+    with open(args.input, "r") as source, open(
+        args.output7, "w"
+    ) as sink7, open(args.output8, "w") as sink8, open(
+        args.output9, "w"
+    ) as sink9:
+        # Input file
+        tsv_reader = csv.reader(source, delimiter="\t")
+        # Output files
+        # Vowel sequence: output4
+        tsv_writer7 = csv.writer(sink7, delimiter="\t")
+        # Vowel seq-passive: output5
+        tsv_writer8 = csv.writer(sink8, delimiter="\t")
+        # Vowel seq-passive conditional probabilities: output6
+        tsv_writer9 = csv.writer(sink9, delimiter="\t")
+
+        # Filling the counters for vowel sequences and passives
+        for lemma, suffix in tsv_reader:
+            current_sequence = ""
+            for char in lemma:
+                if char in consonant_dict:
+                    current_sequence += char
+                if current_sequence:
+                    cons_seq[current_sequence] += 1
+                    cons_seq_suffix[(current_sequence, suffix)] += 1
+        # Writing the vowel sequences into a tsv file
+        for seq, count in cons_seq.most_common():
+            tsv_writer7.writerow([seq, count])
+        # Writing the vowel seq-suffix counts into a tsv file
+        for (
+            current_sequence,
+            suffix,
+        ), count in cons_seq_suffix.most_common():
+            if suffix in ["hia", "mia", "ria"]:
+                tsv_writer8.writerow([current_sequence, suffix, count])
+        # Conditional Probability: p(passive|vowel_sequence)
+        for (sequence1, suffix), count1 in cons_seq_suffix.items():
+            # I left the inner loop and the if-statement because otherwise
+            # the vowel order is messed up in the output file
+            if suffix in ["hia", "mia", "ria"]:
+                p = count1 / cons_seq[sequence1]
+                tsv_writer9.writerow([sequence1, suffix, p])
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-i", "--input", required=True, help="input Maori TSV file")
-    parser.add_argument("-o1", 
+    parser.add_argument(
+        "-i", "--input", required=True, help="input Maori TSV file"
+    )
+    parser.add_argument(
+        "-o1",
         "--output1",
         required=True,
         help="outputs stem-final vowel counts",
     )
-    parser.add_argument("-o2", 
-        "--output2", required=True, help="outputs the final vowel-suffix counts"
+    parser.add_argument(
+        "-o2",
+        "--output2",
+        required=True,
+        help="outputs the final vowel-suffix counts",
     )
-    parser.add_argument("-o3", 
+    parser.add_argument(
+        "-o3",
         "--output3",
         required=True,
         help="outputs p(passive|final_vowel)",
     )
-    parser.add_argument("-o4", 
+    parser.add_argument(
+        "-o4",
         "--output4",
         required=True,
         help="outputs vowel sequence counts",
     )
-    parser.add_argument("-o5", 
+    parser.add_argument(
+        "-o5",
         "--output5",
         required=True,
         help="outputs vowel sequence-passive counts",
     )
-    parser.add_argument("-o6", 
+    parser.add_argument(
+        "-o6",
         "--output6",
         required=True,
         help="outputs p(passive|vowel_sequence)",
+    )
+    parser.add_argument(
+        "-o7",
+        "--output7",
+        required=True,
+        help="outputs consonant sequence counts",
+    )
+    parser.add_argument(
+        "-o8",
+        "--output8",
+        required=True,
+        help="outputs consonant sequence-passive counts",
+    )
+    parser.add_argument(
+        "-o9",
+        "--output9",
+        required=True,
+        help="outputs p(passive|consonant_sequence)",
     )
     main(parser.parse_args())
