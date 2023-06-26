@@ -164,9 +164,11 @@ def main(args: argparse.Namespace) -> None:
         for (sequence1, suffix), count1 in vowel_seq_suffix.items():
             # I left the inner loop and the if-statement because otherwise
             # the vowel order is messed up in the output file
-            if suffix in ["hia", "mia", "ria"]:
-                p = count1 / vowel_seq[sequence1]
-                tsv_writer6.writerow([sequence1, suffix, p])
+            # I removed the /-hia,-mia,-ria/ restriction based on
+            # Kyle's suggestion
+            # if suffix in ["hia", "mia", "ria"]:
+            p = count1 / vowel_seq[sequence1]
+            tsv_writer6.writerow([sequence1, suffix, p])
 
     # PART 3 – Sound sequences and passives
     with open(args.input, "r") as source, open(
@@ -207,9 +209,11 @@ def main(args: argparse.Namespace) -> None:
         for (sequence1, suffix), count1 in cons_seq_suffix.items():
             # I left the inner loop and the if-statement because otherwise
             # the vowel order is messed up in the output file
-            if suffix in ["hia", "mia", "ria"]:
-                p = count1 / cons_seq[sequence1]
-                tsv_writer9.writerow([sequence1, suffix, p])
+            # I removed the /-hia,-mia,-ria/ restriction based on
+            # Kyle's suggestion
+            # if suffix in ["hia", "mia", "ria"]:
+            p = count1 / cons_seq[sequence1]
+            tsv_writer9.writerow([sequence1, suffix, p])
 
 
 if __name__ == "__main__":
