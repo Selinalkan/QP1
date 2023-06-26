@@ -14,9 +14,8 @@ import csv
 from typing import Counter, Tuple
 
 # The alphabet is based on Biggs 2013 English-Māori Māori-English 
-# Dictionary.
-# <ng> and <wh> are diagraphs, but we treat them as separete characters
-# while including their corresponding phonemes.
+# Dictionary. <ng> and <wh> are diagraphs, but I treat them as 
+# separete characters; they correspond to [ŋ] and [ɸ] respectively.
 vowels = {
     # Short vowels
     "a",
@@ -33,8 +32,6 @@ vowels = {
 }
 
 consonants = {
-    # Adding <f> for fakarārangi from Parker Jones' list
-    "f",
     "h",
     "k",
     "m",
@@ -44,15 +41,10 @@ consonants = {
     "r",
     "t",
     "w",
-    "ā",
-    "ē",
-    "ī",
-    "ō",
-    "ū",
     # Consonantal phonemes that correspond to the two diagraphs,
     # <ng> and <wh>, respectively
-    "ŋ",
-    "ɸ",
+    # "ŋ",
+    # "ɸ",
 }
 
 suffixes = {
@@ -194,7 +186,7 @@ def main(args: argparse.Namespace) -> None:
         for lemma, suffix in tsv_reader:
             current_sequence = ""
             for char in lemma:
-                if (char in consonants) and (char not in vowels):
+                if char in consonants:
                     current_sequence += char
             # I unindented the following statement once to count each 
             # sequence only once rather than counting everything 
