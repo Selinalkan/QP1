@@ -11,10 +11,10 @@ examined are stem-final vowels, vowel sequences, consonant sequences,
 import argparse
 import collections
 import csv
-from typing import Counter, Tuple
+from typing import Counter, Tuple, Any
 
-# The alphabet is based on Biggs 2013 English-Māori Māori-English 
-# Dictionary. <ng> and <wh> are diagraphs, but I treat them as 
+# The alphabet is based on Biggs 2013 English-Māori Māori-English
+# Dictionary. <ng> and <wh> are diagraphs, but I treat them as
 # separete characters; they correspond to [ŋ] and [ɸ] respectively.
 vowels = {
     # Short vowels
@@ -86,7 +86,7 @@ consonant_features_dict = {
     "r": ("voiced", "dental-alveolar", "oral", "flap"),
     "t": ("voiceless", "dental", "oral", "stop"),
     "w": ("voiced", "bilabial", "oral", "approximant"),
-    "wh": ("voiceless", "labio-dental", "oral", "fricative")
+    "wh": ("voiceless", "labio-dental", "oral", "fricative"),
 }
 
 
@@ -112,9 +112,15 @@ def main(args: argparse.Namespace) -> None:
 
     # PART 4 – Vowel features and passives
     # Vowel features
-    vowel_features: Counter[tuple] = collections.Counter()
+    vowel_features: Counter[Tuple[str, ...]] = collections.Counter()
     # Vowel feature-passive counter
-    vowel_features_suffix: Counter[Tuple[str, tuple]] = collections.Counter()
+    vowel_features_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
+
+    # PART 5 – Consonant features and passives
+    # Consonant features
+    cons_features: Counter[Tuple[str, ...]] = collections.Counter()
+    # Consonant feature-passive counter
+    cons_features_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 1 – Stem-final vowels and passives
     with open(args.input, "r") as source, open(
@@ -147,9 +153,9 @@ def main(args: argparse.Namespace) -> None:
             tsv_writer2.writerow([vowel, suffix, count])
             # print(f"{vowel}\t{suffix}:\t{count}")
         # Conditional Probability: p(passive|final_vowel)
-        for (vowel1, suffix), count1 in final_vowel_suffix.items():
-            p = count1 / final_vowel[vowel1]
-            tsv_writer3.writerow([vowel1, suffix, p])
+        for (vowel, suffix), count in final_vowel_suffix.items():
+            p = count / final_vowel[vowel]
+            tsv_writer3.writerow([vowel, suffix, p])
 
     # PART 2 – Vowel sequences and passives
     with open(args.input, "r") as source, open(
@@ -190,14 +196,12 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             tsv_writer5.writerow([current_sequence, suffix, count])
         # Conditional Probability: p(passive|vowel_sequence)
-        for (sequence1, suffix), count1 in vowel_seq_suffix.items():
-            # I left the inner loop and the if-statement because otherwise
-            # the vowel order is messed up in the output file
+        for (sequence, suffix), count in vowel_seq_suffix.items():
             # I removed the /-hia,-mia,-ria/ restriction based on
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
-            p = count1 / vowel_seq[sequence1]
-            tsv_writer6.writerow([sequence1, suffix, p])
+            p = count / vowel_seq[sequence]
+            tsv_writer6.writerow([sequence, suffix, p])
 
     # PART 3 – Consonant sequences and passives
     with open(args.input, "r") as source, open(
@@ -221,8 +225,8 @@ def main(args: argparse.Namespace) -> None:
             for char in lemma:
                 if char in consonants:
                     current_sequence += char
-            # I unindented the following statement once to count each 
-            # sequence only once rather than counting everything 
+            # I unindented the following statement once to count each
+            # sequence only once rather than counting everything
             # incrementally, which is what happened before
             if current_sequence:
                 cons_seq[current_sequence] += 1
@@ -240,14 +244,12 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             tsv_writer8.writerow([current_sequence, suffix, count])
         # Conditional Probability: p(passive|vowel_sequence)
-        for (sequence1, suffix), count1 in cons_seq_suffix.items():
-            # I left the inner loop and the if-statement because otherwise
-            # the vowel order is messed up in the output file
+        for (sequence, suffix), count in cons_seq_suffix.items():
             # I removed the /-hia,-mia,-ria/ restriction based on
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
-            p = count1 / cons_seq[sequence1]
-            tsv_writer9.writerow([sequence1, suffix, p])
+            p = count / cons_seq[sequence]
+            tsv_writer9.writerow([sequence, suffix, p])
 
     # PART 4 – Vowel features and passives
     with open(args.input, "r") as source, open(
@@ -267,37 +269,71 @@ def main(args: argparse.Namespace) -> None:
 
         # Filling the counters for vowel features and passives
         for lemma, suffix in tsv_reader:
-            vowel_feat = ()
+            # vowel_feature_sequence: tuple[Any, ...] = ()
+            vowel_feature_sequence = []
             for char in lemma:
                 if char in vowel_features_dict:
-                    vowel_feat += vowel_features_dict[char]
-            # I unindented the following statement once to count each 
-            # sequence only once rather than counting everything 
+                    vowel_feature_sequence.append(vowel_features_dict[char])
+            # I unindented the following statement once to count each
+            # sequence only once rather than counting everything
             # incrementally, which is what happened before
-            if vowel_feat:
-                vowel_features[vowel_feat] += 1
-                vowel_features_suffix[(vowel_feat, suffix)] += 1
+            if vowel_feature_sequence:
+                vowel_features[tuple(vowel_feature_sequence)] += 1
+                vowel_features_suffix[(tuple(vowel_feature_sequence), suffix)] += 1
         # Writing the vowel features into a tsv file
         for feature, count in vowel_features.most_common():
             tsv_writer10.writerow([feature, count])
         # Writing the consonant seq-suffix counts into a tsv file
         for (
-            v_feature,
+            feature,
             suffix,
         ), count in vowel_features_suffix.most_common():
             # I removed the /-hia,-mia,-ria/ restriction based on
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
-            tsv_writer11.writerow([v_feature, suffix, count])
+            tsv_writer11.writerow([feature, suffix, count])
         # Conditional Probability: p(passive|vowel_features)
         for (vowel_feature, suffix), count in vowel_features_suffix.items():
-            # I left the inner loop and the if-statement because otherwise
-            # the vowel order is messed up in the output file
             # I removed the /-hia,-mia,-ria/ restriction based on
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = count / vowel_features[vowel_feature]
             tsv_writer12.writerow([vowel_feature, suffix, p])
+
+    # # PART 5 – Consonant features and passives
+    # with open(args.input, "r") as source, open(
+    #     args.output13, "w"
+    # ) as sink13, open(args.output14, "w") as sink14, open(
+    #     args.output15, "w"
+    # ) as sink15:
+    #     # Input file
+    #     tsv_reader = csv.reader(source, delimiter="\t")
+    #     # Output files
+    #     # Vowel features: output10
+    #     tsv_writer13 = csv.writer(sink13, delimiter="\t")
+    #     # Vowel features-passive: output11
+    #     tsv_writer14 = csv.writer(sink14, delimiter="\t")
+    #     # Vowel features-passive conditional probabilities: output12
+    #     tsv_writer15 = csv.writer(sink15, delimiter="\t")
+
+    #     # Filling the counters for consonant features and passives
+    #     for lemma, suffix in tsv_reader:
+    #         consonant_feat: tuple[Any, ...] = ()
+    #         for char in lemma:
+    #             if char in vowel_features_dict:
+    #                 vowel_feat += vowel_features_dict[char]
+    #         # I unindented the following statement once to count each
+    #         # sequence only once rather than counting everything
+    #         # incrementally, which is what happened before
+    #         if vowel_feat:
+    #             vowel_features[vowel_feat] += 1
+    #             vowel_features_suffix[(vowel_feat, suffix)] += 1
+    #     # Writing the vowel features into a tsv file
+    #     for feature, count in vowel_features.most_common():
+    #         tsv_writer10.writerow([feature, count])
+
+    #     # I took a pause here
+
 
 
 if __name__ == "__main__":

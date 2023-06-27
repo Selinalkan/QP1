@@ -1,303 +1,303 @@
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	24
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	22
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	21
-('low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	19
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	19
-('high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	19
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	18
-('high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	16
-('low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	14
-('high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	14
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	14
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	13
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	12
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	12
-('mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	12
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	12
-('mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	11
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	10
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	10
-('mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	10
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	10
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	9
-('mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	9
-('mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	9
-('mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short')	8
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	8
-('low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	8
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	8
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	7
-('high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	7
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	7
-('high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	6
-('high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short')	6
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	6
-('mid', 'back', 'round', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	6
-('mid', 'back', 'round', 'long', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	6
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	6
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	6
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	6
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	6
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short')	5
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	5
-('mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	5
-('high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	5
-('high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	5
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	5
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	5
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	5
-('low', 'back', 'unround', 'long')	4
-('low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	4
-('mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	4
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	4
-('high', 'front', 'unround', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	4
-('high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	4
-('mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	4
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	4
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	4
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	4
-('low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	3
-('low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	3
-('low', 'back', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	3
-('high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	3
-('high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	3
-('high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	3
-('high', 'front', 'unround', 'long', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	3
-('high', 'front', 'unround', 'long', 'high', 'front', 'unround', 'short')	3
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	3
-('mid', 'back', 'round', 'long')	3
-('mid', 'back', 'round', 'long', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	3
-('mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	3
-('mid', 'back', 'round', 'long', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	3
-('low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	3
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short')	3
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	3
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	3
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	2
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'long', 'mid', 'front', 'unround', 'short')	2
-('mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	2
-('high', 'front', 'unround', 'long')	2
-('high', 'front', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	2
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short')	2
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	2
-('mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short')	2
-('high', 'central', 'round', 'long', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	2
-('mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('mid', 'back', 'round', 'long', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short')	2
-('mid', 'back', 'round', 'long', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	2
-('mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	2
-('mid', 'back', 'round', 'long', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	2
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	2
-('high', 'front', 'unround', 'long', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	2
-('mid', 'front', 'unround', 'long', 'high', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	2
-('mid', 'front', 'unround', 'long', 'low', 'back', 'unround', 'long')	2
-('high', 'front', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('high', 'central', 'round', 'long')	2
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	2
-('high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('high', 'front', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	2
-('high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	2
-('high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('mid', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'long')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	2
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'long')	2
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'long')	1
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'short')	1
-('mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'long', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('mid', 'back', 'round', 'long', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long')	1
-('mid', 'front', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('mid', 'front', 'unround', 'long', 'mid', 'front', 'unround', 'short')	1
-('mid', 'front', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'long', 'mid', 'front', 'unround', 'long')	1
-('mid', 'back', 'round', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('mid', 'back', 'round', 'long', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('mid', 'front', 'unround', 'long', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'high', 'central', 'round', 'long')	1
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'long')	1
-('low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('high', 'front', 'unround', 'long', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('high', 'front', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'long')	1
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('high', 'central', 'round', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('high', 'central', 'round', 'long', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('high', 'central', 'round', 'long', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'high', 'central', 'round', 'long', 'high', 'central', 'round', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'long', 'mid', 'back', 'round', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'high', 'front', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'low', 'back', 'unround', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'mid', 'front', 'unround', 'long', 'mid', 'front', 'unround', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'long', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'long', 'high', 'central', 'round', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'mid', 'back', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'long', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'long', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'long')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'short', 'high', 'central', 'round', 'short')	1
-('low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('low', 'back', 'unround', 'long', 'low', 'back', 'unround', 'long')	1
-('mid', 'front', 'unround', 'short', 'mid', 'front', 'unround', 'short', 'low', 'back', 'unround', 'short', 'low', 'back', 'unround', 'short')	1
-('mid', 'front', 'unround', 'short', 'high', 'central', 'round', 'long', 'low', 'back', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
-('high', 'front', 'unround', 'long', 'high', 'front', 'unround', 'short', 'high', 'front', 'unround', 'short')	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	24
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	22
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	21
+(('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	19
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	19
+(('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	19
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	18
+(('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	16
+(('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	14
+(('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	14
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	14
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	13
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	12
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	12
+(('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	12
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	12
+(('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	11
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	10
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	10
+(('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	10
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	10
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	9
+(('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	9
+(('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	9
+(('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'))	8
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	8
+(('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	8
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	8
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	7
+(('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	7
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	7
+(('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	6
+(('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	6
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	6
+(('mid', 'back', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	6
+(('mid', 'back', 'round', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	6
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	6
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	6
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	6
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	6
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'))	5
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	5
+(('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	5
+(('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	5
+(('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	5
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	5
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	5
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	5
+(('low', 'back', 'unround', 'long'),)	4
+(('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	4
+(('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	4
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	4
+(('high', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	4
+(('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	4
+(('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	4
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	4
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	4
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	4
+(('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	3
+(('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('high', 'front', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('high', 'front', 'unround', 'long'), ('high', 'front', 'unround', 'short'))	3
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	3
+(('mid', 'back', 'round', 'long'),)	3
+(('mid', 'back', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	3
+(('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('mid', 'back', 'round', 'long'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'))	3
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	3
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	3
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	2
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'long'), ('mid', 'front', 'unround', 'short'))	2
+(('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	2
+(('high', 'front', 'unround', 'long'),)	2
+(('high', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	2
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'))	2
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'))	2
+(('high', 'central', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	2
+(('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	2
+(('mid', 'back', 'round', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('high', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('mid', 'front', 'unround', 'long'), ('high', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('mid', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'long'))	2
+(('high', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('high', 'central', 'round', 'long'),)	2
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('high', 'front', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('mid', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'long'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	2
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'long'))	2
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'long'))	1
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'short'),)	1
+(('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'))	1
+(('mid', 'front', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'long'), ('mid', 'front', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'long'), ('mid', 'front', 'unround', 'long'))	1
+(('mid', 'back', 'round', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('high', 'central', 'round', 'long'))	1
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'long'))	1
+(('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('high', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('high', 'front', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'long'))	1
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('high', 'central', 'round', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('high', 'central', 'round', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('high', 'central', 'round', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'long'), ('high', 'central', 'round', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'long'), ('mid', 'back', 'round', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('high', 'front', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('low', 'back', 'unround', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('mid', 'front', 'unround', 'long'), ('mid', 'front', 'unround', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'long'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'long'), ('high', 'central', 'round', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('mid', 'back', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'long'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'long'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'short'), ('high', 'central', 'round', 'short'))	1
+(('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('low', 'back', 'unround', 'long'), ('low', 'back', 'unround', 'long'))	1
+(('mid', 'front', 'unround', 'short'), ('mid', 'front', 'unround', 'short'), ('low', 'back', 'unround', 'short'), ('low', 'back', 'unround', 'short'))	1
+(('mid', 'front', 'unround', 'short'), ('high', 'central', 'round', 'long'), ('low', 'back', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
+(('high', 'front', 'unround', 'long'), ('high', 'front', 'unround', 'short'), ('high', 'front', 'unround', 'short'))	1
