@@ -62,6 +62,47 @@ suffixes = {
     "kina",
 }
 
+# # Sound features are based on Harlow 1996, Māori
+# vowel_features_dict: dict[str, list] = {
+#     "a": ["low", "back", "unround", "short"],
+#     "ā": ["low", "back", "unround", "long"],
+#     "e": ["mid", "front", "unround", "short"],
+#     "ē": ["mid", "front", "unround", "long"],
+#     "i": ["high", "front", "unround", "short"],
+#     "ī": ["high", "front", "unround", "long"],
+#     "o": ["mid", "back", "round", "short"],
+#     "ō": ["mid", "back", "round", "long"],
+#     "u": ["high", "central", "round", "short"],
+#     "ū": ["high", "central", "round", "long"],
+# }
+
+# Sound features are based on Harlow 1996, Māori
+vowel_features_dict: dict[str, list] = {
+    "a": ("low", "back", "unround", "short"),
+    "ā": ("low", "back", "unround", "long"),
+    "e": ("mid", "front", "unround", "short"),
+    "ē": ("mid", "front", "unround", "long"),
+    "i": ("high", "front", "unround", "short"),
+    "ī": ("high", "front", "unround", "long"),
+    "o": ("mid", "back", "round", "short"),
+    "ō": ("mid", "back", "round", "long"),
+    "u": ("high", "central", "round", "short"),
+    "ū": ("high", "central", "round", "long"),
+}
+
+consonant_features_dict: dict[str, list] = {
+    "h": ["voiceless", "glottal", "oral", "fricative"],
+    "k": ["voiceless", "velar", "oral", "stop"],
+    "m": ["voiced", "bilabial", "nasal", "stop"],
+    "n": ["voiced", "dental", "nasal", "stop"],
+    "ng": ["voiced", "velar", "nasal", "stop"],
+    "p": ["voiceless", "bilabial", "oral", "stop"],
+    "r": ["voiced", "dental-alveolar", "oral", "flap"],
+    "t": ["voiceless", "dental", "oral", "stop"],
+    "w": ["voiced", "bilabial", "oral", "approximant"],
+    "wh": ["voiceless", "labio-dental", "oral", "fricative"]
+}
+
 
 def main(args: argparse.Namespace) -> None:
     # PART 1 - Stem-final vowels and passives
@@ -82,6 +123,12 @@ def main(args: argparse.Namespace) -> None:
     cons_seq: Counter[str] = collections.Counter()
     # Consonant sequence-passive counter
     cons_seq_suffix: Counter[Tuple[str, str]] = collections.Counter()
+
+    # PART 4 – Vowel features and passives
+    # Vowel features
+    vowel_features: Counter[tuple] = collections.Counter()
+    # Vowel feature-passive counter
+    vowel_features_suffix: Counter[Tuple[str, tuple]] = collections.Counter()
 
     # PART 1 – Stem-final vowels and passives
     with open(args.input, "r") as source, open(
@@ -216,6 +263,39 @@ def main(args: argparse.Namespace) -> None:
             p = count1 / cons_seq[sequence1]
             tsv_writer9.writerow([sequence1, suffix, p])
 
+    # PART 4 – Vowel features and passives
+    with open(args.input, "r") as source, open(
+        args.output10, "w"
+    ) as sink10:
+    # open(args.output11, "w") as sink11, open(
+    #     args.output12, "w"
+    # ) as sink12:
+        # Input file
+        tsv_reader = csv.reader(source, delimiter="\t")
+        # Output files
+        # Vowel features: output10
+        tsv_writer10 = csv.writer(sink10, delimiter="\t")
+        # # Vowel features-passive: output11
+        # tsv_writer11 = csv.writer(sink11, delimiter="\t")
+        # # Vowel features-passive conditional probabilities: output12
+        # tsv_writer12 = csv.writer(sink12, delimiter="\t")
+
+        # Filling the counters for vowel features and passives
+        for lemma, suffix in tsv_reader:
+            vowel_feat = ()
+            for char in lemma:
+                if char in vowel_features_dict:
+                    vowel_feat += vowel_features_dict[char]
+            # I unindented the following statement once to count each 
+            # sequence only once rather than counting everything 
+            # incrementally, which is what happened before
+            if vowel_feat:
+                vowel_features[vowel_feat] += 1
+                vowel_features_suffix[(vowel_feat, suffix)] += 1
+        # Writing the vowel features into a tsv file
+        for feature, count in vowel_features.most_common():
+            tsv_writer10.writerow([feature, count])
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -275,5 +355,11 @@ if __name__ == "__main__":
         "--output9",
         required=True,
         help="outputs p(passive|consonant_sequence)",
+    )
+    parser.add_argument(
+        "-o10",
+        "--output10",
+        required=True,
+        help="outputs vowel feature counts",
     )
     main(parser.parse_args())
