@@ -1,0 +1,567 @@
+(('voiceless', 'glottal', 'oral', 'fricative'),)	ria	0.09090909090909091
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	ngia	0.07692307692307693
+(('voiceless', 'velar', 'oral', 'stop'),)	na	0.125
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.14285714285714285
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.3
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'),)	tia	0.2857142857142857
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	ngia	0.16666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'),)	hia	0.14285714285714285
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	0.2
+(('voiceless', 'bilabial', 'oral', 'stop'),)	hia	0.07142857142857142
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	hia	0.25
+(('voiceless', 'bilabial', 'oral', 'stop'),)	ria	0.07142857142857142
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.35294117647058826
+(('voiced', 'dental-alveolar', 'oral', 'flap'),)	hia	0.16666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	na	0.2
+(('voiced', 'dental-alveolar', 'oral', 'flap'),)	a	0.5
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'),)	ngia	0.08333333333333333
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	ina	0.1
+(('voiced', 'dental-alveolar', 'oral', 'flap'),)	mia	0.08333333333333333
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	mia	0.1111111111111111
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	tia	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.16666666666666666
+(('voiceless', 'dental', 'oral', 'stop'),)	hia	0.05555555555555555
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.5714285714285714
+(('voiced', 'dental-alveolar', 'oral', 'flap'),)	tia	0.16666666666666666
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'),)	a	0.625
+(('voiceless', 'labio-dental', 'oral', 'fricative'),)	tia	0.375
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.8
+(('voiceless', 'glottal', 'oral', 'fricative'),)	a	0.6363636363636364
+(('voiceless', 'velar', 'oral', 'stop'),)	a	0.3125
+(('voiceless', 'bilabial', 'oral', 'stop'),)	ina	0.14285714285714285
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.5384615384615384
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5714285714285714
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.38461538461538464
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.2
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5454545454545454
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.6666666666666666
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.8
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	a	0.5
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'bilabial', 'oral', 'stop'))	nga	0.5
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.25
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	ia	0.18181818181818182
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.09090909090909091
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	na	0.25
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.14285714285714285
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.18181818181818182
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.3333333333333333
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'bilabial', 'oral', 'stop'))	kia	0.5
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.21428571428571427
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	mia	0.07142857142857142
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'),)	hia	0.09090909090909091
+(('voiceless', 'glottal', 'oral', 'fricative'),)	ia	0.09090909090909091
+(('voiceless', 'glottal', 'oral', 'fricative'),)	ina	0.09090909090909091
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.2
+(('voiced', 'dental', 'nasal', 'stop'),)	a	0.16666666666666666
+(('voiced', 'dental', 'nasal', 'stop'),)	mia	0.5
+(('voiceless', 'velar', 'oral', 'stop'),)	ngia	0.0625
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiceless', 'velar', 'oral', 'stop'),)	nga	0.0625
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	hia	0.25
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ria	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ria	0.2857142857142857
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5714285714285714
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	a	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	0.8
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	hia	0.2
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	hia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.2
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ina	0.1111111111111111
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.6666666666666666
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	hia	0.2222222222222222
+(('voiceless', 'velar', 'oral', 'stop'),)	ria	0.0625
+(('voiceless', 'velar', 'oral', 'stop'),)	tia	0.0625
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.42857142857142855
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	hia	0.25
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'),)	ia	0.1875
+(('voiceless', 'velar', 'oral', 'stop'),)	ina	0.125
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.6666666666666666
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.3333333333333333
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.25
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.25
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	hia	0.5
+(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.6666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	hia	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.16666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.6666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.16666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	0.3333333333333333
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.3333333333333333
+(('voiced', 'bilabial', 'nasal', 'stop'),)	ria	0.14285714285714285
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.3333333333333333
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	hia	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	hia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'),)	a	0.2857142857142857
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.3333333333333333
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.6666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	kia	0.16666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	kia	0.16666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	hia	0.16666666666666666
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	ia	0.16666666666666666
+(('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	mia	0.5
+(('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.3333333333333333
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.3333333333333333
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	hia	0.4
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	hia	1.0
+(('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	1.0
+(('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiced', 'velar', 'nasal', 'stop'),)	a	1.0
+(('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	a	1.0
+(('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.2
+(('voiced', 'dental', 'nasal', 'stop'),)	tia	0.16666666666666666
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ia	0.3333333333333333
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ia	0.2
+(('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'),)	tia	0.1111111111111111
+(('voiced', 'bilabial', 'nasal', 'stop'),)	kia	0.14285714285714285
+(('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.5
+(('voiced', 'dental', 'nasal', 'stop'),)	kia	0.16666666666666666
+(('voiceless', 'dental', 'oral', 'stop'),)	ina	0.2777777777777778
+(('voiceless', 'bilabial', 'oral', 'stop'),)	ngia	0.21428571428571427
+(('voiceless', 'bilabial', 'oral', 'stop'),)	a	0.35714285714285715
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.5882352941176471
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.5
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.36363636363636365
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.45454545454545453
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.3333333333333333
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	a	0.6666666666666666
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.5555555555555556
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.4
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	hia	0.1
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.5
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ina	0.09090909090909091
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'),)	tia	0.07142857142857142
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	ngia	0.058823529411764705
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	0.5
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ia	0.09090909090909091
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	ia	0.1111111111111111
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	0.25
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.5
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.1
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	kia	0.1
+(('voiceless', 'bilabial', 'oral', 'stop'),)	ia	0.07142857142857142
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ina	0.1
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.5
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.2
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.4
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.6666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	a	0.2
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'))	ngia	0.16666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'))	hia	0.16666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	0.6666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5555555555555556
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.5
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'))	hia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'))	ngia	0.3333333333333333
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	ngia	0.1111111111111111
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	hia	0.6
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	hia	0.5
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.6666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.2
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	hia	0.4
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.1111111111111111
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.1111111111111111
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'),)	ngia	0.05555555555555555
+(('voiceless', 'dental', 'oral', 'stop'),)	a	0.2777777777777778
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.2727272727272727
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.5454545454545454
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.6666666666666666
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	na	0.09090909090909091
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	0.25
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.2222222222222222
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.6666666666666666
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ina	0.1
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.4
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.25
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.1
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.4
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.75
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.25
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	hia	0.4
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	mia	0.25
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'),)	na	0.05555555555555555
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5555555555555556
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ia	0.08333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.6666666666666666
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ngia	0.08333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	0.08333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'),)	ria	0.1111111111111111
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	hia	0.08333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.4
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.75
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.1111111111111111
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.6666666666666666
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	1.0
+(('voiceless', 'dental', 'oral', 'stop'),)	kia	0.05555555555555555
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ina	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ngia	0.09090909090909091
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	kia	0.25
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	na	0.1111111111111111
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	hia	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	a	0.2
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	kia	0.3333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ria	0.08333333333333333
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	ia	0.16666666666666666
+(('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.16666666666666666
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.2
+(('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	0.3333333333333333
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.75
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'),)	tia	0.5
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiced', 'bilabial', 'oral', 'approximant'),)	a	0.5
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.3333333333333333
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.25
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	ngia	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.5
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	1.0
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'))	kia	0.3333333333333333
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'))	kina	0.3333333333333333
+(('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'))	kia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	ria	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.4
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.6
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.625
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ria	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.16666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.2222222222222222
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	0.75
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.8
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ngia	0.125
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.6666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'velar', 'nasal', 'stop'))	ia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	mia	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ngia	0.16666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ria	0.16666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.16666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.6666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.6666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.6666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.6666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	mia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	ia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	ngia	0.1111111111111111
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	kia	0.16666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	a	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.75
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ngia	0.16666666666666666
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	hia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	hia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ina	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.6
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'))	hia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'bilabial', 'oral', 'approximant'))	ia	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	ia	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	hia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	na	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'velar', 'nasal', 'stop'))	hia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	ria	0.75
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ina	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ngia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	ia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	kia	0.125
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.125
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'))	tia	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'bilabial', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'))	ria	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	ngia	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	kia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'dental', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'bilabial', 'oral', 'approximant'), ('voiced', 'bilabial', 'oral', 'approximant'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	tia	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.5
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	a	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	a	0.75
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	ia	0.25
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'labio-dental', 'oral', 'fricative'))	tia	0.3333333333333333
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	hia	0.2
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.4
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	ria	1.0
