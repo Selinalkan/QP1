@@ -179,7 +179,7 @@
 (('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	mia	1
 (('voiceless', 'dental', 'oral', 'stop'),)	hia	1
 (('voiced', 'bilabial', 'oral', 'approximant'), ('voiceless', 'velar', 'oral', 'stop'))	tia	1
-(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	1
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	tia	1

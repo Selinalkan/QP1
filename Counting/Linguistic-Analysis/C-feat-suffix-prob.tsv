@@ -33,7 +33,7 @@
 (('voiceless', 'glottal', 'oral', 'fricative'),)	a	0.6363636363636364
 (('voiceless', 'velar', 'oral', 'stop'),)	a	0.3125
 (('voiceless', 'bilabial', 'oral', 'stop'),)	ina	0.14285714285714285
-(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	tia	1.0
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	a	0.5384615384615384
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	a	0.5714285714285714
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'))	tia	0.38461538461538464

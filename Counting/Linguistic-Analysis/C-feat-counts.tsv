@@ -153,7 +153,7 @@
 (('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	2
 (('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	1
 (('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiceless', 'dental', 'oral', 'stop'), ('voiceless', 'velar', 'oral', 'stop'))	1
-(('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	1
+(('voiceless', 'labio-dental', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'dental-alveolar', 'oral', 'flap'), ('voiced', 'velar', 'nasal', 'stop'))	1
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'), ('voiced', 'dental-alveolar', 'oral', 'flap'))	1
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiced', 'bilabial', 'nasal', 'stop'), ('voiced', 'dental', 'nasal', 'stop'))	1
 (('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'glottal', 'oral', 'fricative'), ('voiceless', 'velar', 'oral', 'stop'))	1

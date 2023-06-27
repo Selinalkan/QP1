@@ -354,7 +354,8 @@ def main(args: argparse.Namespace) -> None:
         # Writing the consonant features into a tsv file
         for feature, count in cons_features.most_common():
             tsv_writer13.writerow([feature, count])
-        # Writing the consonant seq-suffix counts into a tsv file
+            # print(f"{feature}:\t{count}")
+        # Writing the consonant feature seq-suffix counts into a tsv file
         for (
             feature,
             suffix,
@@ -370,6 +371,7 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             p = count / cons_features[consonant_feature]
             tsv_writer15.writerow([consonant_feature, suffix, p])
+                # print(f"{consonant_feature}\t{suffix}:\t{count}\t{p}")
 
 
 if __name__ == "__main__":
