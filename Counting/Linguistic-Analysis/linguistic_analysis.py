@@ -47,21 +47,6 @@ consonants = {
     # "ɸ",
 }
 
-# To get the digraph features:
-final_segments = {
-    "ng",
-    "wh",
-    "h",
-    "k",
-    "m",
-    "n",
-    "g",
-    "p",
-    "r",
-    "t",
-    "w",
-}
-
 suffixes = {
     "tia",
     "a",
