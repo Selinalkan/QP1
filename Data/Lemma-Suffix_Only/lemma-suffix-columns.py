@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 
-# For some reason, ./ execution gives me "env: python\r: No such file or directory error"
-# but I could run the file with "python Maori...py"
-# there's something not working in this file, though, since it works with others.
-
 """This script splits the Maori verbs with passive suffixes into two columns
-        the first of which with the uninflected lemmas and the second of which
-        with the unhyphenated inflected forms. The verbs going through internal
+        the first of which with the lemmas and the second of which with the 
+        unhyphenated passive endings. The verbs going through internal
         change have not been included in this data set."""
 
 import argparse
