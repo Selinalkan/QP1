@@ -62,22 +62,8 @@ suffixes = {
     "kina",
 }
 
-# # Sound features are based on Harlow 1996, Māori
-# vowel_features_dict: dict[str, list] = {
-#     "a": ["low", "back", "unround", "short"],
-#     "ā": ["low", "back", "unround", "long"],
-#     "e": ["mid", "front", "unround", "short"],
-#     "ē": ["mid", "front", "unround", "long"],
-#     "i": ["high", "front", "unround", "short"],
-#     "ī": ["high", "front", "unround", "long"],
-#     "o": ["mid", "back", "round", "short"],
-#     "ō": ["mid", "back", "round", "long"],
-#     "u": ["high", "central", "round", "short"],
-#     "ū": ["high", "central", "round", "long"],
-# }
-
 # Sound features are based on Harlow 1996, Māori
-vowel_features_dict: dict[str, list] = {
+vowel_features_dict = {
     "a": ("low", "back", "unround", "short"),
     "ā": ("low", "back", "unround", "long"),
     "e": ("mid", "front", "unround", "short"),
@@ -90,17 +76,17 @@ vowel_features_dict: dict[str, list] = {
     "ū": ("high", "central", "round", "long"),
 }
 
-consonant_features_dict: dict[str, list] = {
-    "h": ["voiceless", "glottal", "oral", "fricative"],
-    "k": ["voiceless", "velar", "oral", "stop"],
-    "m": ["voiced", "bilabial", "nasal", "stop"],
-    "n": ["voiced", "dental", "nasal", "stop"],
-    "ng": ["voiced", "velar", "nasal", "stop"],
-    "p": ["voiceless", "bilabial", "oral", "stop"],
-    "r": ["voiced", "dental-alveolar", "oral", "flap"],
-    "t": ["voiceless", "dental", "oral", "stop"],
-    "w": ["voiced", "bilabial", "oral", "approximant"],
-    "wh": ["voiceless", "labio-dental", "oral", "fricative"]
+consonant_features_dict = {
+    "h": ("voiceless", "glottal", "oral", "fricative"),
+    "k": ("voiceless", "velar", "oral", "stop"),
+    "m": ("voiced", "bilabial", "nasal", "stop"),
+    "n": ("voiced", "dental", "nasal", "stop"),
+    "ng": ("voiced", "velar", "nasal", "stop"),
+    "p": ("voiceless", "bilabial", "oral", "stop"),
+    "r": ("voiced", "dental-alveolar", "oral", "flap"),
+    "t": ("voiceless", "dental", "oral", "stop"),
+    "w": ("voiced", "bilabial", "oral", "approximant"),
+    "wh": ("voiceless", "labio-dental", "oral", "fricative")
 }
 
 
@@ -244,7 +230,7 @@ def main(args: argparse.Namespace) -> None:
         # Writing the consonant sequences into a tsv file
         for seq, count in cons_seq.most_common():
             tsv_writer7.writerow([seq, count])
-        # Writing the vowel seq-suffix counts into a tsv file
+        # Writing the consonant seq-suffix counts into a tsv file
         for (
             current_sequence,
             suffix,
@@ -266,19 +252,18 @@ def main(args: argparse.Namespace) -> None:
     # PART 4 – Vowel features and passives
     with open(args.input, "r") as source, open(
         args.output10, "w"
-    ) as sink10:
-    # open(args.output11, "w") as sink11, open(
-    #     args.output12, "w"
-    # ) as sink12:
+    ) as sink10, open(args.output11, "w") as sink11, open(
+        args.output12, "w"
+    ) as sink12:
         # Input file
         tsv_reader = csv.reader(source, delimiter="\t")
         # Output files
         # Vowel features: output10
         tsv_writer10 = csv.writer(sink10, delimiter="\t")
-        # # Vowel features-passive: output11
-        # tsv_writer11 = csv.writer(sink11, delimiter="\t")
-        # # Vowel features-passive conditional probabilities: output12
-        # tsv_writer12 = csv.writer(sink12, delimiter="\t")
+        # Vowel features-passive: output11
+        tsv_writer11 = csv.writer(sink11, delimiter="\t")
+        # Vowel features-passive conditional probabilities: output12
+        tsv_writer12 = csv.writer(sink12, delimiter="\t")
 
         # Filling the counters for vowel features and passives
         for lemma, suffix in tsv_reader:
@@ -295,6 +280,24 @@ def main(args: argparse.Namespace) -> None:
         # Writing the vowel features into a tsv file
         for feature, count in vowel_features.most_common():
             tsv_writer10.writerow([feature, count])
+        # Writing the consonant seq-suffix counts into a tsv file
+        for (
+            v_feature,
+            suffix,
+        ), count in vowel_features_suffix.most_common():
+            # I removed the /-hia,-mia,-ria/ restriction based on
+            # Kyle's suggestion
+            # if suffix in ["hia", "mia", "ria"]:
+            tsv_writer11.writerow([v_feature, suffix, count])
+        # Conditional Probability: p(passive|vowel_features)
+        for (vowel_feature, suffix), count in vowel_features_suffix.items():
+            # I left the inner loop and the if-statement because otherwise
+            # the vowel order is messed up in the output file
+            # I removed the /-hia,-mia,-ria/ restriction based on
+            # Kyle's suggestion
+            # if suffix in ["hia", "mia", "ria"]:
+            p = count / vowel_features[vowel_feature]
+            tsv_writer12.writerow([vowel_feature, suffix, p])
 
 
 if __name__ == "__main__":
@@ -361,5 +364,17 @@ if __name__ == "__main__":
         "--output10",
         required=True,
         help="outputs vowel feature counts",
+    )
+    parser.add_argument(
+        "-o11",
+        "--output11",
+        required=True,
+        help="outputs vowel feature-passive counts",
+    )
+    parser.add_argument(
+        "-o12",
+        "--output12",
+        required=True,
+        help="outputs p(passive|vowel_feature)",
     )
     main(parser.parse_args())
