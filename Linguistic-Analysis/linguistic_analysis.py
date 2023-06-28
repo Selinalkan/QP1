@@ -377,96 +377,96 @@ def main(args: argparse.Namespace) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-i", "--input", required=True, help="input Maori TSV file"
+        "-i", "--input", default="lemma-suffix_only.tsv", help="input Maori TSV file"
     )
     parser.add_argument(
         "-o1",
         "--output1",
-        required=True,
+        default="final-V_counts.tsv",
         help="outputs stem-final vowel counts",
     )
     parser.add_argument(
         "-o2",
         "--output2",
-        required=True,
+        default="final-V-suffix_counts.tsv",
         help="outputs the final vowel-suffix counts",
     )
     parser.add_argument(
         "-o3",
         "--output3",
-        required=True,
+        default="final-V-suffix_probabilities.tsv",
         help="outputs p(passive|final_vowel)",
     )
     parser.add_argument(
         "-o4",
         "--output4",
-        required=True,
+        default="seq-V_counts.tsv",
         help="outputs vowel sequence counts",
     )
     parser.add_argument(
         "-o5",
         "--output5",
-        required=True,
+        default="seq-V-suffix_counts.tsv",
         help="outputs vowel sequence-passive counts",
     )
     parser.add_argument(
         "-o6",
         "--output6",
-        required=True,
+        default="seq-V-suffix_prob.tsv",
         help="outputs p(passive|vowel_sequence)",
     )
     parser.add_argument(
         "-o7",
         "--output7",
-        required=True,
+        default="seq-C_counts.tsv",
         help="outputs consonant sequence counts",
     )
     parser.add_argument(
         "-o8",
         "--output8",
-        required=True,
+        default="seq-C-suffix_counts.tsv",
         help="outputs consonant sequence-passive counts",
     )
     parser.add_argument(
         "-o9",
         "--output9",
-        required=True,
+        default="seq-C-suffix_prob.tsv",
         help="outputs p(passive|consonant_sequence)",
     )
     parser.add_argument(
         "-o10",
         "--output10",
-        required=True,
+        default="V-feat_counts.tsv",
         help="outputs vowel feature counts",
     )
     parser.add_argument(
         "-o11",
         "--output11",
-        required=True,
+        default="V-feat-suffix_counts.tsv",
         help="outputs vowel feature-passive counts",
     )
     parser.add_argument(
         "-o12",
         "--output12",
-        required=True,
+        default="V-feat-suffix_prob.tsv",
         help="outputs p(passive|vowel_feature)",
     )
     parser.add_argument(
         "-o13",
         "--output13",
-        required=True,
+        default="C-feat_counts.tsv",
         help="outputs consonant feature counts",
     )
     parser.add_argument(
         "-o14",
         "--output14",
-        required=True,
+        default="C-feat-suffix_counts.tsv",
         help="outputs consonant feature-passive counts",
     )
     parser.add_argument(
         "-o15",
         "--output15",
-        required=True,
+        default="C-feat-suffix_prob.tsv",
         help="outputs p(passive|consonant_feature)",
     )
     main(parser.parse_args())
