@@ -155,7 +155,9 @@ def main(args: argparse.Namespace) -> None:
         # Conditional Probability: p(passive|final_vowel)
         for (vowel, suffix), count in final_vowel_suffix.items():
             p = count / final_vowel[vowel]
-            tsv_writer3.writerow([vowel, suffix, p])
+            # Outputting vowel, suffix, total final vowel count per vowel,
+            # and the probabilities
+            tsv_writer3.writerow([vowel, suffix, final_vowel[vowel], p])
 
     # PART 2 – Vowel sequences and passives
     with open(args.input, "r") as source, open(
@@ -201,7 +203,9 @@ def main(args: argparse.Namespace) -> None:
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = count / vowel_seq[sequence]
-            tsv_writer6.writerow([sequence, suffix, p])
+            # Outputting vowel sequence, suffix, total vowel seq counts,
+            # and the probabilities
+            tsv_writer6.writerow([sequence, suffix, vowel_seq[sequence], p])
 
     # PART 3 – Consonant sequences and passives
     with open(args.input, "r") as source, open(
@@ -249,7 +253,9 @@ def main(args: argparse.Namespace) -> None:
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = count / cons_seq[sequence]
-            tsv_writer9.writerow([sequence, suffix, p])
+            # Outputting consonant sequence, suffix, total consonant
+            # seq counts, and the probabilities
+            tsv_writer9.writerow([sequence, suffix, cons_seq[sequence], p])
 
     # PART 4 – Vowel features and passives
     with open(args.input, "r") as source, open(
@@ -300,7 +306,9 @@ def main(args: argparse.Namespace) -> None:
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = count / vowel_features[vowel_feature]
-            tsv_writer12.writerow([vowel_feature, suffix, p])
+            # Outputting vowel features, suffix, total vowel
+            # feature sequence counts, and the probabilities
+            tsv_writer12.writerow([vowel_feature, suffix, vowel_features[vowel_feature], p])
 
     # PART 5 – Consonant features and passives
     with open(args.input, "r") as source, open(
@@ -370,7 +378,9 @@ def main(args: argparse.Namespace) -> None:
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = count / cons_features[consonant_feature]
-            tsv_writer15.writerow([consonant_feature, suffix, p])
+            # Outputting consontn features, suffix, total consonant
+            # feature sequence counts, and the probabilities
+            tsv_writer15.writerow([consonant_feature, suffix, cons_features[consonant_feature], p])
                 # print(f"{consonant_feature}\t{suffix}:\t{count}\t{p}")
 
 
