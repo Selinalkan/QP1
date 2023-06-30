@@ -209,7 +209,7 @@ def main(args: argparse.Namespace) -> None:
             p = round(count / final_vowel[vowel], 4)
             # Outputting vowel, suffix, total final vowel count per vowel,
             # and the probabilities
-            tsv_writer3.writerow([vowel, suffix, final_vowel[vowel], p])
+            tsv_writer3.writerow([vowel, suffix, final_vowel_suffix[(vowel, suffix)], p, final_vowel[vowel]])
 
         # FEATURES
         # Writing the final vowel feature counts into a tsv file
