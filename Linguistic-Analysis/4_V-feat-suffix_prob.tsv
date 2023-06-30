@@ -1,478 +1,478 @@
-('low, back, unround, long',)	ia	4	0.25
-('low, back, unround, short', 'high, central, round, short')	ria	21	0.2381
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	ngia	9	0.1111
-('low, back, unround, short', 'high, front, unround, short')	tia	24	0.0833
-('low, back, unround, long', 'high, front, unround, short')	na	5	0.2
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	10	0.2
-('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	tia	7	0.7143
-('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'mid, back, round, short')	na	19	0.1053
-('low, back, unround, long', 'high, front, unround, short')	tia	5	0.2
-('low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	ngia	2	0.5
-('low, back, unround, short', 'mid, back, round, short')	hia	19	0.5263
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	tia	9	0.4444
-('low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	ria	2	0.5
-('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	ria	7	0.1429
-('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short')	hia	3	0.3333
-('low, back, unround, long', 'high, central, round, short', 'high, central, round, short')	a	3	0.3333
-('low, back, unround, short', 'low, back, unround, short')	hia	19	0.0526
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	13	0.2308
-('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	na	12	0.3333
-('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	a	12	0.4167
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	12	0.1667
-('low, back, unround, short', 'mid, back, round, short')	ngia	19	0.0526
-('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ina	2	0.5
-('low, back, unround, short', 'high, central, round, short')	mia	21	0.0952
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	mia	9	0.1111
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	12	0.1667
-('low, back, unround, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	3	0.6667
-('low, back, unround, short', 'high, central, round, short', 'mid, front, unround, long')	tia	1	1.0
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'low, back, unround, short')	tia	3	1.0
-('low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	tia	2	1.0
-('low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	4	0.5
-('low, back, unround, short', 'mid, front, unround, short')	a	14	1.0
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	5	0.8
-('low, back, unround, long', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, long', 'high, front, unround, short', 'mid, back, round, short')	tia	2	1.0
-('mid, front, unround, short', 'high, central, round, short')	a	9	1.0
-('mid, front, unround, short', 'mid, front, unround, short')	a	12	0.6667
-('mid, front, unround, short', 'low, back, unround, short')	ina	4	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	3	1.0
-('low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	2	0.5
-('low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	4	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	4	0.5
-('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	10	0.5
-('low, back, unround, short', 'high, central, round, short')	a	21	0.5714
-('low, back, unround, short', 'low, back, unround, short')	a	19	0.6316
-('low, back, unround, long', 'mid, front, unround, short', 'mid, front, unround, short')	a	3	0.3333
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	a	9	0.2222
-('low, back, unround, short', 'mid, back, round, short')	a	19	0.2632
-('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	nga	12	0.0833
-('low, back, unround, short', 'high, front, unround, short')	a	24	0.6667
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	3	0.3333
-('low, back, unround, long', 'mid, front, unround, short')	tia	2	1.0
-('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	5	0.4
-('mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	tia	2	0.5
-('high, front, unround, long',)	a	2	1.0
-('high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	tia	4	0.5
-('high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	3	1.0
-('high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	3	0.6667
-('high, front, unround, short', 'low, back, unround, short')	ia	3	0.3333
-('high, front, unround, short', 'high, front, unround, short')	tia	19	0.1579
-('high, front, unround, short', 'mid, back, round, short')	ia	6	0.1667
-('high, front, unround, short', 'low, back, unround, short')	na	3	0.3333
-('high, front, unround, long', 'mid, back, round, short', 'high, front, unround, short')	na	3	0.3333
-('high, front, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	2	1.0
-('high, front, unround, long', 'high, front, unround, short')	tia	3	0.6667
-('high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	a	4	1.0
-('high, front, unround, short', 'high, front, unround, short')	a	19	0.6842
-('mid, back, round, short', 'mid, front, unround, short')	a	11	0.9091
-('mid, back, round, short', 'mid, back, round, short', 'high, central, round, short')	tia	2	1.0
-('mid, back, round, short', 'high, front, unround, short')	a	10	1.0
-('mid, back, round, short', 'mid, back, round, short')	na	18	0.1111
-('mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	na	3	0.6667
-('mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0
-('mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	4	0.75
-('mid, back, round, short', 'mid, back, round, short')	a	18	0.3333
-('mid, back, round, short', 'high, central, round, short')	kia	8	0.125
-('mid, back, round, short', 'low, back, unround, short')	hia	9	0.1111
-('mid, back, round, short', 'mid, back, round, short')	mia	18	0.0556
-('mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short')	a	2	1.0
-('mid, back, round, short', 'high, central, round, short')	hia	8	0.25
-('mid, back, round, short', 'high, central, round, short', 'mid, back, round, short', 'high, central, round, short')	a	2	1.0
-('high, central, round, short', 'low, back, unround, short')	ia	14	0.2857
-('high, central, round, short', 'low, back, unround, short')	ina	14	0.3571
-('high, central, round, short', 'low, back, unround, short', 'high, front, unround, short')	na	5	1.0
-('high, central, round, short', 'high, central, round, short')	a	22	0.7727
-('high, central, round, short', 'high, front, unround, short')	a	16	0.875
-('high, central, round, short', 'high, front, unround, short', 'high, central, round, short', 'high, front, unround, short')	a	7	1.0
-('high, central, round, short', 'mid, front, unround, short')	a	6	0.8333
-('high, central, round, short', 'low, back, unround, short')	a	14	0.2857
-('high, central, round, short', 'high, central, round, short', 'high, central, round, short', 'high, central, round, short')	a	8	0.75
-('high, central, round, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	1.0
-('high, central, round, short', 'low, back, unround, short')	hia	14	0.0714
-('high, central, round, short', 'high, front, unround, short')	hia	16	0.0625
-('high, front, unround, short', 'mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	a	1	1.0
-('high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	2	0.5
-('high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0
-('high, front, unround, short', 'high, central, round, short')	mia	5	0.2
-('low, back, unround, long',)	ngia	4	0.75
-('low, back, unround, short', 'high, front, unround, short')	nga	24	0.0417
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'high, central, round, short')	hia	1	1.0
-('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	ria	10	0.3
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	hia	3	0.6667
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	4	0.5
-('low, back, unround, long', 'high, central, round, short', 'high, front, unround, short')	a	8	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	5	0.4
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	hia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	7	0.7143
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, central, round, short')	a	4	0.5
-('low, back, unround, short', 'low, back, unround, short')	ina	19	0.1053
-('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	2	1.0
-('low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	tia	2	1.0
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	ria	9	0.1111
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, long', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	a	3	0.6667
-('mid, front, unround, short', 'high, front, unround, short')	a	2	1.0
-('mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	a	2	0.5
-('high, front, unround, short', 'high, front, unround, short')	hia	19	0.1053
-('high, front, unround, short', 'mid, front, unround, short')	a	2	1.0
-('mid, back, round, short',)	ia	1	1.0
-('mid, back, round, long',)	ia	3	0.3333
-('mid, back, round, short', 'low, back, unround, short')	ina	9	0.4444
-('mid, back, round, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('mid, back, round, long', 'low, back, unround, short', 'high, front, unround, short')	tia	6	0.5
-('mid, back, round, long', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('mid, back, round, long', 'high, central, round, short', 'mid, front, unround, short')	tia	2	0.5
-('mid, back, round, long', 'high, central, round, short', 'mid, front, unround, short')	a	2	0.5
-('mid, back, round, long', 'high, central, round, short', 'high, central, round, short')	tia	2	1.0
-('mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('mid, back, round, long', 'high, front, unround, short', 'high, front, unround, short')	tia	6	0.5
-('mid, back, round, long', 'high, front, unround, short', 'high, front, unround, short')	a	6	0.3333
-('mid, back, round, short', 'mid, back, round, short')	tia	18	0.1111
-('mid, back, round, short', 'high, central, round, short', 'high, central, round, short')	a	2	1.0
-('mid, back, round, long', 'low, back, unround, short', 'high, central, round, short')	a	1	1.0
-('mid, back, round, long', 'low, back, unround, short', 'mid, front, unround, short')	tia	3	0.3333
-('mid, back, round, long', 'low, back, unround, short', 'high, front, unround, short')	na	6	0.1667
-('mid, back, round, short', 'low, back, unround, short', 'high, front, unround, short')	a	3	0.3333
-('mid, back, round, long', 'low, back, unround, short', 'high, front, unround, short')	a	6	0.3333
-('mid, back, round, long', 'low, back, unround, short', 'mid, front, unround, short')	a	3	0.6667
-('mid, back, round, long', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0
-('mid, back, round, long', 'mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0
-('mid, back, round, long', 'high, front, unround, short', 'mid, back, round, short')	a	2	0.5
-('mid, back, round, long', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('mid, back, round, long', 'mid, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('mid, back, round, long', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0
-('mid, back, round, short', 'mid, front, unround, short')	hia	11	0.0909
-('mid, back, round, long', 'high, front, unround, short')	a	3	0.3333
-('mid, back, round, long', 'high, central, round, short', 'high, front, unround, short')	a	1	1.0
-('mid, back, round, short', 'low, back, unround, short', 'high, front, unround, short')	na	3	0.3333
-('mid, back, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('mid, back, round, long', 'high, front, unround, short', 'high, front, unround, short')	hia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	6	0.6667
-('low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	10	0.7
-('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	hia	7	0.1429
-('low, back, unround, long', 'high, central, round, short', 'high, central, round, short')	ria	3	0.3333
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	a	5	0.2
-('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	a	10	0.2
-('low, back, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	3	1.0
-('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	1	1.0
-('low, back, unround, long', 'high, central, round, short', 'high, central, round, short')	tia	3	0.3333
-('mid, front, unround, short', 'low, back, unround, short')	tia	4	0.25
-('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	hia	5	0.4
-('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	hia	1	1.0
-('high, front, unround, long', 'low, back, unround, short', 'mid, back, round, short')	tia	2	1.0
-('high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('high, front, unround, short', 'mid, back, round, short')	a	6	0.5
-('mid, back, round, long', 'high, front, unround, short', 'mid, back, round, short')	tia	2	0.5
-('mid, back, round, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('mid, back, round, short', 'mid, back, round, short')	kia	18	0.2222
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	mia	3	0.3333
-('low, back, unround, short', 'mid, back, round, short')	mia	19	0.0526
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	tia	5	1.0
-('mid, front, unround, long', 'high, front, unround, short')	tia	2	0.5
-('mid, front, unround, short', 'mid, front, unround, short')	hia	12	0.0833
-('mid, back, round, short', 'low, back, unround, short')	tia	9	0.1111
-('mid, back, round, short', 'mid, back, round, short')	ia	18	0.0556
-('high, central, round, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0
-('high, central, round, short', 'high, central, round, short')	hia	22	0.0909
-('high, central, round, short', 'high, central, round, short', 'high, central, round, short', 'high, central, round, short')	hia	8	0.125
-('mid, back, round, short', 'low, back, unround, short', 'high, front, unround, short')	tia	3	0.3333
-('mid, back, round, short', 'low, back, unround, short')	kia	9	0.1111
-('mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	tia	4	0.25
-('mid, back, round, short', 'mid, back, round, short')	hia	18	0.1111
-('low, back, unround, long', 'high, central, round, short', 'low, back, unround, short')	tia	3	1.0
-('low, back, unround, short', 'high, front, unround, short')	ngia	24	0.0417
-('low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	1.0
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	a	2	0.5
-('low, back, unround, short', 'low, back, unround, short')	tia	19	0.1053
-('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	a	1	1.0
-('low, back, unround, long', 'low, back, unround, short', 'mid, front, unround, short')	tia	3	0.6667
-('low, back, unround, long', 'high, central, round, short', 'high, front, unround, short')	tia	8	0.5
-('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	tia	2	0.5
-('low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	13	0.2308
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	2	1.0
-('low, back, unround, short', 'mid, back, round, long')	hia	1	1.0
-('low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0
-('mid, front, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('mid, front, unround, long', 'high, front, unround, short')	a	2	0.5
-('mid, front, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	a	1	1.0
-('mid, front, unround, long', 'mid, front, unround, short')	tia	1	1.0
-('mid, front, unround, long', 'low, back, unround, long')	tia	2	1.0
-('mid, front, unround, long', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('mid, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('high, front, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	2	0.5
-('high, front, unround, long', 'mid, back, round, short', 'high, front, unround, short')	tia	3	0.6667
-('high, front, unround, short', 'mid, back, round, short')	ngia	6	0.1667
-('high, front, unround, short', 'high, central, round, short')	a	5	0.8
-('high, front, unround, short', 'high, central, round, short', 'high, front, unround, short', 'high, central, round, short')	a	1	1.0
-('mid, back, round, long',)	ngia	3	0.3333
-('mid, back, round, long', 'mid, front, unround, long', 'mid, front, unround, long')	tia	1	1.0
-('mid, back, round, short', 'low, back, unround, short')	ia	9	0.2222
-('mid, back, round, long', 'mid, back, round, short', 'mid, back, round, short')	tia	1	1.0
-('mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	tia	3	0.3333
-('mid, back, round, short', 'mid, back, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short', 'high, central, round, short')	a	1	1.0
-('mid, back, round, long', 'high, front, unround, short')	tia	3	0.6667
-('mid, back, round, short', 'high, central, round, short')	a	8	0.5
-('mid, back, round, long', 'high, central, round, short', 'mid, back, round, short')	kia	1	1.0
-('high, central, round, long',)	ia	2	0.5
-('high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('high, central, round, long', 'low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0
-('high, central, round, long', 'low, back, unround, short', 'mid, front, unround, short')	a	1	1.0
-('high, central, round, long', 'low, back, unround, short', 'high, front, unround, short')	tia	2	0.5
-('high, central, round, long', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('high, central, round, short', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('high, central, round, long', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0
-('high, central, round, short', 'high, front, unround, short')	tia	16	0.0625
-('high, central, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	2	1.0
-('high, central, round, short', 'high, central, round, long', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short')	a	3	0.6667
-('low, back, unround, long', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	a	14	0.6429
-('low, back, unround, short', 'low, back, unround, short')	ngia	19	0.0526
-('low, back, unround, short', 'high, front, unround, short')	hia	24	0.0833
-('low, back, unround, long', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0
-('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	12	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	hia	13	0.0769
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	13	0.4615
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, back, round, short')	ngia	2	0.5
-('mid, front, unround, long', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('mid, front, unround, short', 'mid, front, unround, short')	ngia	12	0.0833
-('mid, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('high, front, unround, long', 'high, front, unround, short')	hia	3	0.3333
-('high, front, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	hia	3	0.3333
-('mid, back, round, short', 'mid, back, round, short', 'high, central, round, short', 'high, front, unround, short')	tia	1	1.0
-('high, central, round, short', 'mid, front, unround, short')	hia	6	0.1667
-('high, central, round, short', 'mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short')	a	2	1.0
-('high, central, round, long', 'high, front, unround, short')	tia	1	1.0
-('high, central, round, long', 'high, central, round, long')	hia	1	1.0
-('high, central, round, short', 'high, central, round, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'high, central, round, short')	na	21	0.0476
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	10	0.1
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	tia	6	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	a	12	0.25
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	14	0.2143
-('low, back, unround, long', 'low, back, unround, short', 'mid, back, round, short')	hia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	10	0.2
-('low, back, unround, short', 'high, front, unround, short')	na	24	0.0417
-('low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	ria	2	0.5
-('low, back, unround, long', 'high, front, unround, short')	a	5	0.6
-('low, back, unround, long', 'high, central, round, short', 'high, front, unround, short', 'high, central, round, short', 'high, front, unround, short')	a	1	1.0
-('low, back, unround, long', 'mid, back, round, short', 'mid, back, round, short')	a	1	1.0
-('low, back, unround, short', 'low, back, unround, short')	ia	19	0.0526
-('low, back, unround, long', 'low, back, unround, short', 'mid, front, unround, short')	a	3	0.3333
-('low, back, unround, long', 'low, back, unround, long', 'low, back, unround, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ia	12	0.0833
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	3	0.6667
-('low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	2	0.5
-('low, back, unround, long', 'high, central, round, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, long', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ngia	6	0.1667
-('low, back, unround, long', 'low, back, unround, long', 'high, front, unround, short')	a	3	0.6667
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, back, round, short')	hia	2	0.5
-('low, back, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	2	1.0
-('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'high, front, unround, short')	na	1	1.0
-('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'mid, front, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'mid, back, round, short')	na	1	1.0
-('low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, long', 'high, front, unround, short', 'high, central, round, short')	a	1	1.0
-('high, front, unround, short', 'low, back, unround, short')	ina	3	0.3333
-('high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	2	0.5
-('high, front, unround, long', 'low, back, unround, short', 'mid, front, unround, short')	a	1	1.0
-('high, front, unround, long', 'mid, back, round, short', 'mid, front, unround, short')	a	2	1.0
-('high, front, unround, short', 'high, front, unround, short')	na	19	0.0526
-('high, front, unround, long', 'mid, back, round, short', 'mid, back, round, short')	a	1	1.0
-('high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	ria	4	0.25
-('high, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	1	1.0
-('high, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	a	1	1.0
-('high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0
-('high, front, unround, short', 'mid, back, round, short')	hia	6	0.1667
-('high, front, unround, long', 'low, back, unround, short', 'high, front, unround, short')	a	2	0.5
-('high, front, unround, short', 'mid, back, round, short', 'mid, back, round, short')	na	1	1.0
-('high, front, unround, long', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	na	1	1.0
-('high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	hia	4	0.25
-('mid, back, round, long',)	kia	3	0.3333
-('mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ina	1	1.0
-('mid, back, round, short', 'high, central, round, short')	ngia	8	0.125
-('high, central, round, long',)	ria	2	0.5
-('high, central, round, long', 'low, back, unround, long')	ina	1	1.0
-('high, central, round, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0
-('high, central, round, long', 'mid, back, round, short', 'mid, back, round, short')	a	1	1.0
-('high, central, round, long', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('high, central, round, long', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	hia	1	1.0
-('high, central, round, short', 'mid, front, unround, short', 'low, back, unround, short', 'high, central, round, short')	kia	1	1.0
-('high, central, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	1.0
-('high, central, round, short', 'mid, back, round, short', 'high, front, unround, short')	na	1	1.0
-('high, central, round, short', 'high, central, round, short')	ria	22	0.0455
-('high, central, round, short', 'high, central, round, short', 'high, front, unround, short')	tia	3	0.6667
-('high, central, round, long', 'low, back, unround, short', 'high, front, unround, short')	na	2	0.5
-('high, central, round, long', 'high, central, round, short', 'high, front, unround, short')	a	1	1.0
-('high, central, round, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('high, central, round, long', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('high, central, round, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('high, central, round, short', 'high, central, round, short')	ia	22	0.0455
-('high, central, round, short', 'high, central, round, short', 'high, front, unround, short')	a	3	0.3333
-('high, central, round, short', 'high, central, round, short')	mia	22	0.0455
-('high, central, round, short', 'high, central, round, short', 'high, central, round, short', 'high, central, round, short')	tia	8	0.125
-('high, central, round, short', 'high, central, round, short', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	ngia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short', 'high, central, round, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	2	0.5
-('low, back, unround, short', 'high, central, round, short')	hia	21	0.0476
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	1	1.0
-('mid, front, unround, short', 'mid, back, round, short')	hia	2	0.5
-('mid, front, unround, short', 'mid, front, unround, short')	kia	12	0.0833
-('mid, front, unround, short', 'mid, front, unround, short')	kina	12	0.0833
-('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	kia	5	0.2
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	6	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	12	0.5833
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ria	12	0.0833
-('low, back, unround, short', 'high, front, unround, short', 'mid, back, round, long', 'mid, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	8	0.25
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	14	0.0714
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	tia	2	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	na	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	hia	12	0.0833
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	2	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	6	0.6667
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	a	3	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, back, round, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	3	0.6667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	ngia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, back, round, short')	a	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	ia	5	0.6
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	tia	4	0.75
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	a	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	tia	2	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	tia	3	0.6667
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	a	10	0.8
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, central, round, short')	mia	4	0.25
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	hia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long')	ngia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ngia	12	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	ria	12	0.0833
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	4	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	8	0.75
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short')	a	3	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'high, front, unround, short')	tia	7	0.2857
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, central, round, long', 'high, central, round, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, long')	tia	2	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, long', 'mid, back, round, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short')	ria	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	ria	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	ria	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	a	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'low, back, unround, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	a	3	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	a	5	0.8
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	tia	3	0.6667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	mia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	ia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	tia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ngia	4	0.25
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long')	kia	3	0.6667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	12	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ngia	14	0.0714
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	a	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'mid, front, unround, long', 'mid, front, unround, long')	ngia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	hia	6	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, front, unround, short')	na	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, front, unround, short')	a	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	ina	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	ngia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	hia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	ngia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	ia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	ia	6	0.1667
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	ngia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	ngia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	ria	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	ria	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	hia	3	0.3333
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	hia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short', 'mid, front, unround, short')	a	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	ina	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	ngia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, central, round, short')	ria	4	0.25
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long')	kia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'high, central, round, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long')	ria	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long', 'low, back, unround, short', 'mid, back, round, short')	ria	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	ria	5	0.2
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long')	ngia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	2	0.5
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'high, central, round, long')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'high, central, round, short', 'high, central, round, short')	tia	1	1.0
-('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0
-('low, back, unround, short', 'high, front, unround, short')	ia	24	0.0417
-('low, back, unround, long', 'low, back, unround, long')	ria	1	1.0
-('low, back, unround, long', 'low, back, unround, long', 'high, front, unround, short')	tia	3	0.3333
-('mid, front, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0
-('mid, front, unround, short', 'mid, back, round, short')	tia	2	0.5
-('mid, front, unround, short', 'low, back, unround, short')	hia	4	0.25
-('mid, front, unround, short', 'high, central, round, long', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0
-('high, front, unround, long', 'high, front, unround, short', 'high, front, unround, short')	ria	1	1.0
+('low, back, unround, long',)	ia	1	0.25	4
+('low, back, unround, short', 'high, central, round, short')	ria	5	0.2381	21
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	ngia	1	0.1111	9
+('low, back, unround, short', 'high, front, unround, short')	tia	2	0.0833	24
+('low, back, unround, long', 'high, front, unround, short')	na	1	0.2	5
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	2	0.2	10
+('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	tia	5	0.7143	7
+('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'mid, back, round, short')	na	2	0.1053	19
+('low, back, unround, long', 'high, front, unround, short')	tia	1	0.2	5
+('low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	ngia	1	0.5	2
+('low, back, unround, short', 'mid, back, round, short')	hia	10	0.5263	19
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	tia	4	0.4444	9
+('low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	ria	1	0.5	2
+('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	ria	1	0.1429	7
+('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short')	hia	1	0.3333	3
+('low, back, unround, long', 'high, central, round, short', 'high, central, round, short')	a	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short')	hia	1	0.0526	19
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	3	0.2308	13
+('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	na	4	0.3333	12
+('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	a	5	0.4167	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	2	0.1667	12
+('low, back, unround, short', 'mid, back, round, short')	ngia	1	0.0526	19
+('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ina	1	0.5	2
+('low, back, unround, short', 'high, central, round, short')	mia	2	0.0952	21
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	mia	1	0.1111	9
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	2	0.1667	12
+('low, back, unround, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	0.6667	3
+('low, back, unround, short', 'high, central, round, short', 'mid, front, unround, long')	tia	1	1.0	1
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'low, back, unround, short')	tia	3	1.0	3
+('low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	tia	2	1.0	2
+('low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	0.5	4
+('low, back, unround, short', 'mid, front, unround, short')	a	14	1.0	14
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	4	0.8	5
+('low, back, unround, long', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, long', 'high, front, unround, short', 'mid, back, round, short')	tia	2	1.0	2
+('mid, front, unround, short', 'high, central, round, short')	a	9	1.0	9
+('mid, front, unround, short', 'mid, front, unround, short')	a	8	0.6667	12
+('mid, front, unround, short', 'low, back, unround, short')	ina	2	0.5	4
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	3	1.0	3
+('low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	1	0.5	2
+('low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	2	0.5	4
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	2	0.5	4
+('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	5	0.5	10
+('low, back, unround, short', 'high, central, round, short')	a	12	0.5714	21
+('low, back, unround, short', 'low, back, unround, short')	a	12	0.6316	19
+('low, back, unround, long', 'mid, front, unround, short', 'mid, front, unround, short')	a	1	0.3333	3
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	a	2	0.2222	9
+('low, back, unround, short', 'mid, back, round, short')	a	5	0.2632	19
+('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	nga	1	0.0833	12
+('low, back, unround, short', 'high, front, unround, short')	a	16	0.6667	24
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	0.3333	3
+('low, back, unround, long', 'mid, front, unround, short')	tia	2	1.0	2
+('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	2	0.4	5
+('mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	tia	1	0.5	2
+('high, front, unround, long',)	a	2	1.0	2
+('high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	tia	2	0.5	4
+('high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	3	1.0	3
+('high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	2	0.6667	3
+('high, front, unround, short', 'low, back, unround, short')	ia	1	0.3333	3
+('high, front, unround, short', 'high, front, unround, short')	tia	3	0.1579	19
+('high, front, unround, short', 'mid, back, round, short')	ia	1	0.1667	6
+('high, front, unround, short', 'low, back, unround, short')	na	1	0.3333	3
+('high, front, unround, long', 'mid, back, round, short', 'high, front, unround, short')	na	1	0.3333	3
+('high, front, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	2	1.0	2
+('high, front, unround, long', 'high, front, unround, short')	tia	2	0.6667	3
+('high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	a	4	1.0	4
+('high, front, unround, short', 'high, front, unround, short')	a	13	0.6842	19
+('mid, back, round, short', 'mid, front, unround, short')	a	10	0.9091	11
+('mid, back, round, short', 'mid, back, round, short', 'high, central, round, short')	tia	2	1.0	2
+('mid, back, round, short', 'high, front, unround, short')	a	10	1.0	10
+('mid, back, round, short', 'mid, back, round, short')	na	2	0.1111	18
+('mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	na	2	0.6667	3
+('mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0	1
+('mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	3	0.75	4
+('mid, back, round, short', 'mid, back, round, short')	a	6	0.3333	18
+('mid, back, round, short', 'high, central, round, short')	kia	1	0.125	8
+('mid, back, round, short', 'low, back, unround, short')	hia	1	0.1111	9
+('mid, back, round, short', 'mid, back, round, short')	mia	1	0.0556	18
+('mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short')	a	2	1.0	2
+('mid, back, round, short', 'high, central, round, short')	hia	2	0.25	8
+('mid, back, round, short', 'high, central, round, short', 'mid, back, round, short', 'high, central, round, short')	a	2	1.0	2
+('high, central, round, short', 'low, back, unround, short')	ia	4	0.2857	14
+('high, central, round, short', 'low, back, unround, short')	ina	5	0.3571	14
+('high, central, round, short', 'low, back, unround, short', 'high, front, unround, short')	na	5	1.0	5
+('high, central, round, short', 'high, central, round, short')	a	17	0.7727	22
+('high, central, round, short', 'high, front, unround, short')	a	14	0.875	16
+('high, central, round, short', 'high, front, unround, short', 'high, central, round, short', 'high, front, unround, short')	a	7	1.0	7
+('high, central, round, short', 'mid, front, unround, short')	a	5	0.8333	6
+('high, central, round, short', 'low, back, unround, short')	a	4	0.2857	14
+('high, central, round, short', 'high, central, round, short', 'high, central, round, short', 'high, central, round, short')	a	6	0.75	8
+('high, central, round, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	1.0	2
+('high, central, round, short', 'low, back, unround, short')	hia	1	0.0714	14
+('high, central, round, short', 'high, front, unround, short')	hia	1	0.0625	16
+('high, front, unround, short', 'mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	a	1	1.0	1
+('high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.5	2
+('high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0	1
+('high, front, unround, short', 'high, central, round, short')	mia	1	0.2	5
+('low, back, unround, long',)	ngia	3	0.75	4
+('low, back, unround, short', 'high, front, unround, short')	nga	1	0.0417	24
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'high, central, round, short')	hia	1	1.0	1
+('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	ria	3	0.3	10
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	hia	2	0.6667	3
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	2	0.5	4
+('low, back, unround, long', 'high, central, round, short', 'high, front, unround, short')	a	4	0.5	8
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	2	0.4	5
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	hia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'high, front, unround, short')	a	5	0.7143	7
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, central, round, short')	a	2	0.5	4
+('low, back, unround, short', 'low, back, unround, short')	ina	2	0.1053	19
+('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	ria	1	0.1111	9
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, long', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	a	2	0.6667	3
+('mid, front, unround, short', 'high, front, unround, short')	a	2	1.0	2
+('mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	a	1	0.5	2
+('high, front, unround, short', 'high, front, unround, short')	hia	2	0.1053	19
+('high, front, unround, short', 'mid, front, unround, short')	a	2	1.0	2
+('mid, back, round, short',)	ia	1	1.0	1
+('mid, back, round, long',)	ia	1	0.3333	3
+('mid, back, round, short', 'low, back, unround, short')	ina	4	0.4444	9
+('mid, back, round, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, back, round, long', 'low, back, unround, short', 'high, front, unround, short')	tia	3	0.5	6
+('mid, back, round, long', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, back, round, long', 'high, central, round, short', 'mid, front, unround, short')	tia	1	0.5	2
+('mid, back, round, long', 'high, central, round, short', 'mid, front, unround, short')	a	1	0.5	2
+('mid, back, round, long', 'high, central, round, short', 'high, central, round, short')	tia	2	1.0	2
+('mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('mid, back, round, long', 'high, front, unround, short', 'high, front, unround, short')	tia	3	0.5	6
+('mid, back, round, long', 'high, front, unround, short', 'high, front, unround, short')	a	2	0.3333	6
+('mid, back, round, short', 'mid, back, round, short')	tia	2	0.1111	18
+('mid, back, round, short', 'high, central, round, short', 'high, central, round, short')	a	2	1.0	2
+('mid, back, round, long', 'low, back, unround, short', 'high, central, round, short')	a	1	1.0	1
+('mid, back, round, long', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	0.3333	3
+('mid, back, round, long', 'low, back, unround, short', 'high, front, unround, short')	na	1	0.1667	6
+('mid, back, round, short', 'low, back, unround, short', 'high, front, unround, short')	a	1	0.3333	3
+('mid, back, round, long', 'low, back, unround, short', 'high, front, unround, short')	a	2	0.3333	6
+('mid, back, round, long', 'low, back, unround, short', 'mid, front, unround, short')	a	2	0.6667	3
+('mid, back, round, long', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('mid, back, round, long', 'mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('mid, back, round, long', 'high, front, unround, short', 'mid, back, round, short')	a	1	0.5	2
+('mid, back, round, long', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, back, round, long', 'mid, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('mid, back, round, long', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0	1
+('mid, back, round, short', 'mid, front, unround, short')	hia	1	0.0909	11
+('mid, back, round, long', 'high, front, unround, short')	a	1	0.3333	3
+('mid, back, round, long', 'high, central, round, short', 'high, front, unround, short')	a	1	1.0	1
+('mid, back, round, short', 'low, back, unround, short', 'high, front, unround, short')	na	1	0.3333	3
+('mid, back, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('mid, back, round, long', 'high, front, unround, short', 'high, front, unround, short')	hia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	4	0.6667	6
+('low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	7	0.7	10
+('low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	hia	1	0.1429	7
+('low, back, unround, long', 'high, central, round, short', 'high, central, round, short')	ria	1	0.3333	3
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	a	1	0.2	5
+('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	a	2	0.2	10
+('low, back, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	3	1.0	3
+('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	1	1.0	1
+('low, back, unround, long', 'high, central, round, short', 'high, central, round, short')	tia	1	0.3333	3
+('mid, front, unround, short', 'low, back, unround, short')	tia	1	0.25	4
+('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	hia	2	0.4	5
+('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	hia	1	1.0	1
+('high, front, unround, long', 'low, back, unround, short', 'mid, back, round, short')	tia	2	1.0	2
+('high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('high, front, unround, short', 'mid, back, round, short')	a	3	0.5	6
+('mid, back, round, long', 'high, front, unround, short', 'mid, back, round, short')	tia	1	0.5	2
+('mid, back, round, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('mid, back, round, short', 'mid, back, round, short')	kia	4	0.2222	18
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	mia	1	0.3333	3
+('low, back, unround, short', 'mid, back, round, short')	mia	1	0.0526	19
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	tia	5	1.0	5
+('mid, front, unround, long', 'high, front, unround, short')	tia	1	0.5	2
+('mid, front, unround, short', 'mid, front, unround, short')	hia	1	0.0833	12
+('mid, back, round, short', 'low, back, unround, short')	tia	1	0.1111	9
+('mid, back, round, short', 'mid, back, round, short')	ia	1	0.0556	18
+('high, central, round, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('high, central, round, short', 'high, central, round, short')	hia	2	0.0909	22
+('high, central, round, short', 'high, central, round, short', 'high, central, round, short', 'high, central, round, short')	hia	1	0.125	8
+('mid, back, round, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.3333	3
+('mid, back, round, short', 'low, back, unround, short')	kia	1	0.1111	9
+('mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short')	tia	1	0.25	4
+('mid, back, round, short', 'mid, back, round, short')	hia	2	0.1111	18
+('low, back, unround, long', 'high, central, round, short', 'low, back, unround, short')	tia	3	1.0	3
+('low, back, unround, short', 'high, front, unround, short')	ngia	1	0.0417	24
+('low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	a	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short')	tia	2	0.1053	19
+('low, back, unround, long', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	a	1	1.0	1
+('low, back, unround, long', 'low, back, unround, short', 'mid, front, unround, short')	tia	2	0.6667	3
+('low, back, unround, long', 'high, central, round, short', 'high, front, unround, short')	tia	4	0.5	8
+('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	tia	1	0.5	2
+('low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	3	0.2308	13
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'mid, back, round, long')	hia	1	1.0	1
+('low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0	2
+('mid, front, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, front, unround, long', 'high, front, unround, short')	a	1	0.5	2
+('mid, front, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	a	1	1.0	1
+('mid, front, unround, long', 'mid, front, unround, short')	tia	1	1.0	1
+('mid, front, unround, long', 'low, back, unround, long')	tia	2	1.0	2
+('mid, front, unround, long', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('mid, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, front, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.5	2
+('high, front, unround, long', 'mid, back, round, short', 'high, front, unround, short')	tia	2	0.6667	3
+('high, front, unround, short', 'mid, back, round, short')	ngia	1	0.1667	6
+('high, front, unround, short', 'high, central, round, short')	a	4	0.8	5
+('high, front, unround, short', 'high, central, round, short', 'high, front, unround, short', 'high, central, round, short')	a	1	1.0	1
+('mid, back, round, long',)	ngia	1	0.3333	3
+('mid, back, round, long', 'mid, front, unround, long', 'mid, front, unround, long')	tia	1	1.0	1
+('mid, back, round, short', 'low, back, unround, short')	ia	2	0.2222	9
+('mid, back, round, long', 'mid, back, round, short', 'mid, back, round, short')	tia	1	1.0	1
+('mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	tia	1	0.3333	3
+('mid, back, round, short', 'mid, back, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short', 'high, central, round, short')	a	1	1.0	1
+('mid, back, round, long', 'high, front, unround, short')	tia	2	0.6667	3
+('mid, back, round, short', 'high, central, round, short')	a	4	0.5	8
+('mid, back, round, long', 'high, central, round, short', 'mid, back, round, short')	kia	1	1.0	1
+('high, central, round, long',)	ia	1	0.5	2
+('high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('high, central, round, long', 'low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, central, round, long', 'low, back, unround, short', 'mid, front, unround, short')	a	1	1.0	1
+('high, central, round, long', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.5	2
+('high, central, round, long', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('high, central, round, short', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, central, round, long', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('high, central, round, short', 'high, front, unround, short')	tia	1	0.0625	16
+('high, central, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	2	1.0	2
+('high, central, round, short', 'high, central, round, long', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short')	a	2	0.6667	3
+('low, back, unround, long', 'mid, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	a	9	0.6429	14
+('low, back, unround, short', 'low, back, unround, short')	ngia	1	0.0526	19
+('low, back, unround, short', 'high, front, unround, short')	hia	2	0.0833	24
+('low, back, unround, long', 'mid, back, round, short', 'high, front, unround, short')	a	1	1.0	1
+('low, back, unround, long', 'low, back, unround, short', 'high, front, unround, short')	tia	2	0.1667	12
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	hia	1	0.0769	13
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	6	0.4615	13
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, back, round, short')	ngia	1	0.5	2
+('mid, front, unround, long', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, front, unround, short', 'mid, front, unround, short')	ngia	1	0.0833	12
+('mid, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, front, unround, long', 'high, front, unround, short')	hia	1	0.3333	3
+('high, front, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('high, front, unround, short', 'high, front, unround, short', 'high, front, unround, short')	hia	1	0.3333	3
+('mid, back, round, short', 'mid, back, round, short', 'high, central, round, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, central, round, short', 'mid, front, unround, short')	hia	1	0.1667	6
+('high, central, round, short', 'mid, front, unround, short', 'high, central, round, short', 'mid, front, unround, short')	a	2	1.0	2
+('high, central, round, long', 'high, front, unround, short')	tia	1	1.0	1
+('high, central, round, long', 'high, central, round, long')	hia	1	1.0	1
+('high, central, round, short', 'high, central, round, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, central, round, short')	na	1	0.0476	21
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.1	10
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	tia	3	0.5	6
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	a	3	0.25	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	3	0.2143	14
+('low, back, unround, long', 'low, back, unround, short', 'mid, back, round, short')	hia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	2	0.2	10
+('low, back, unround, short', 'high, front, unround, short')	na	1	0.0417	24
+('low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	ria	1	0.5	2
+('low, back, unround, long', 'high, front, unround, short')	a	3	0.6	5
+('low, back, unround, long', 'high, central, round, short', 'high, front, unround, short', 'high, central, round, short', 'high, front, unround, short')	a	1	1.0	1
+('low, back, unround, long', 'mid, back, round, short', 'mid, back, round, short')	a	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short')	ia	1	0.0526	19
+('low, back, unround, long', 'low, back, unround, short', 'mid, front, unround, short')	a	1	0.3333	3
+('low, back, unround, long', 'low, back, unround, long', 'low, back, unround, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ia	1	0.0833	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	2	0.6667	3
+('low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	0.5	2
+('low, back, unround, long', 'high, central, round, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, long', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ngia	1	0.1667	6
+('low, back, unround, long', 'low, back, unround, long', 'high, front, unround, short')	a	2	0.6667	3
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, back, round, short')	hia	1	0.5	2
+('low, back, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	2	1.0	2
+('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'high, front, unround, short')	na	1	1.0	1
+('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'mid, front, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, central, round, short', 'mid, back, round, short', 'mid, back, round, short')	na	1	1.0	1
+('low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, long', 'high, front, unround, short', 'high, central, round, short')	a	1	1.0	1
+('high, front, unround, short', 'low, back, unround, short')	ina	1	0.3333	3
+('high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	1	0.5	2
+('high, front, unround, long', 'low, back, unround, short', 'mid, front, unround, short')	a	1	1.0	1
+('high, front, unround, long', 'mid, back, round, short', 'mid, front, unround, short')	a	2	1.0	2
+('high, front, unround, short', 'high, front, unround, short')	na	1	0.0526	19
+('high, front, unround, long', 'mid, back, round, short', 'mid, back, round, short')	a	1	1.0	1
+('high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	ria	1	0.25	4
+('high, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	1	1.0	1
+('high, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	a	1	1.0	1
+('high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0	2
+('high, front, unround, short', 'mid, back, round, short')	hia	1	0.1667	6
+('high, front, unround, long', 'low, back, unround, short', 'high, front, unround, short')	a	1	0.5	2
+('high, front, unround, short', 'mid, back, round, short', 'mid, back, round, short')	na	1	1.0	1
+('high, front, unround, long', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	na	1	1.0	1
+('high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	hia	1	0.25	4
+('mid, back, round, long',)	kia	1	0.3333	3
+('mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ina	1	1.0	1
+('mid, back, round, short', 'high, central, round, short')	ngia	1	0.125	8
+('high, central, round, long',)	ria	1	0.5	2
+('high, central, round, long', 'low, back, unround, long')	ina	1	1.0	1
+('high, central, round, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('high, central, round, long', 'mid, back, round, short', 'mid, back, round, short')	a	1	1.0	1
+('high, central, round, long', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('high, central, round, long', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	hia	1	1.0	1
+('high, central, round, short', 'mid, front, unround, short', 'low, back, unround, short', 'high, central, round, short')	kia	1	1.0	1
+('high, central, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	2	1.0	2
+('high, central, round, short', 'mid, back, round, short', 'high, front, unround, short')	na	1	1.0	1
+('high, central, round, short', 'high, central, round, short')	ria	1	0.0455	22
+('high, central, round, short', 'high, central, round, short', 'high, front, unround, short')	tia	2	0.6667	3
+('high, central, round, long', 'low, back, unround, short', 'high, front, unround, short')	na	1	0.5	2
+('high, central, round, long', 'high, central, round, short', 'high, front, unround, short')	a	1	1.0	1
+('high, central, round, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('high, central, round, long', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, central, round, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('high, central, round, short', 'high, central, round, short')	ia	1	0.0455	22
+('high, central, round, short', 'high, central, round, short', 'high, front, unround, short')	a	1	0.3333	3
+('high, central, round, short', 'high, central, round, short')	mia	1	0.0455	22
+('high, central, round, short', 'high, central, round, short', 'high, central, round, short', 'high, central, round, short')	tia	1	0.125	8
+('high, central, round, short', 'high, central, round, short', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	ngia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short', 'high, central, round, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	0.5	2
+('low, back, unround, short', 'high, central, round, short')	hia	1	0.0476	21
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	1	1.0	1
+('mid, front, unround, short', 'mid, back, round, short')	hia	1	0.5	2
+('mid, front, unround, short', 'mid, front, unround, short')	kia	1	0.0833	12
+('mid, front, unround, short', 'mid, front, unround, short')	kina	1	0.0833	12
+('mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	kia	1	0.2	5
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	3	0.5	6
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	a	7	0.5833	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ria	1	0.0833	12
+('low, back, unround, short', 'high, front, unround, short', 'mid, back, round, long', 'mid, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	2	0.25	8
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	0.0714	14
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	tia	2	1.0	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	na	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	hia	1	0.0833	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	4	0.6667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'high, front, unround, short')	a	3	1.0	3
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, back, round, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	a	2	0.6667	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	ngia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, back, round, short')	a	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	ia	3	0.6	5
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	tia	3	0.75	4
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	a	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	tia	2	1.0	2
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	tia	2	0.6667	3
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	a	8	0.8	10
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, central, round, short')	mia	1	0.25	4
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	hia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long')	ngia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	ngia	4	0.3333	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short')	ria	1	0.0833	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	4	1.0	4
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	a	6	0.75	8
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short')	a	3	1.0	3
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'high, front, unround, short')	tia	2	0.2857	7
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, central, round, long', 'high, central, round, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, long')	tia	2	1.0	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, long', 'mid, back, round, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ria	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short', 'mid, back, round, short')	ria	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	ria	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, central, round, short')	ria	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, front, unround, short')	a	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'high, front, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'low, back, unround, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	a	3	1.0	3
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	a	4	0.8	5
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	tia	2	0.6667	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	mia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	ia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	tia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'low, back, unround, short')	ngia	1	0.25	4
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long')	kia	2	0.6667	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'mid, front, unround, short')	tia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	0.1667	12
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short')	ngia	1	0.0714	14
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	2	1.0	2
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	a	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'mid, front, unround, long', 'mid, front, unround, long')	ngia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	hia	3	0.5	6
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, front, unround, short')	na	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'mid, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short', 'high, front, unround, short')	a	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'low, back, unround, short')	ina	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	ngia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short')	hia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	ngia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	ia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, back, round, short')	ia	1	0.1667	6
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'mid, front, unround, short')	ngia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short')	ngia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'mid, back, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	na	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'mid, back, round, short', 'mid, back, round, short')	ria	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short', 'mid, back, round, short')	ria	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	hia	1	0.3333	3
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short')	hia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, front, unround, short', 'mid, front, unround, short')	a	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'low, back, unround, short')	ina	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, long', 'low, back, unround, short', 'low, back, unround, short')	ngia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, central, round, short')	ria	1	0.25	4
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long')	kia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, back, round, long', 'high, central, round, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long')	ria	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long', 'low, back, unround, short', 'mid, back, round, short')	ria	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short')	ria	1	0.2	5
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long', 'mid, front, unround, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, long')	ngia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'high, central, round, short', 'high, central, round, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'mid, front, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'high, front, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'low, back, unround, long', 'low, back, unround, short', 'high, central, round, short')	tia	1	0.5	2
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'high, central, round, long')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'mid, front, unround, short', 'high, central, round, short', 'high, central, round, short')	tia	1	1.0	1
+('low, back, unround, short', 'low, back, unround, short', 'high, front, unround, short', 'high, front, unround, short', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('low, back, unround, short', 'high, front, unround, short')	ia	1	0.0417	24
+('low, back, unround, long', 'low, back, unround, long')	ria	1	1.0	1
+('low, back, unround, long', 'low, back, unround, long', 'high, front, unround, short')	tia	1	0.3333	3
+('mid, front, unround, short', 'mid, front, unround, short', 'low, back, unround, short', 'low, back, unround, short')	tia	1	1.0	1
+('mid, front, unround, short', 'mid, back, round, short')	tia	1	0.5	2
+('mid, front, unround, short', 'low, back, unround, short')	hia	1	0.25	4
+('mid, front, unround, short', 'high, central, round, long', 'low, back, unround, short', 'high, front, unround, short')	tia	1	1.0	1
+('high, front, unround, long', 'high, front, unround, short', 'high, front, unround, short')	ria	1	1.0	1
