@@ -1,0 +1,567 @@
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	10
+('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	8
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	a	8
+('voiceless, glottal, oral, fricative',)	a	7
+('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	a	7
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	6
+('voiced, dental-alveolar, oral, flap',)	a	6
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	a	6
+('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	6
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	a	6
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	a	6
+('voiceless, labio-dental, oral, fricative',)	a	5
+('voiceless, velar, oral, stop',)	a	5
+('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	tia	5
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	5
+('voiceless, dental, oral, stop',)	ina	5
+('voiceless, bilabial, oral, stop',)	a	5
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	5
+('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	tia	5
+('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	a	5
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	5
+('voiceless, dental, oral, stop',)	a	5
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	5
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	tia	5
+('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	tia	4
+('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	tia	4
+('voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	a	4
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	4
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	a	4
+('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	4
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	a	4
+('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	a	4
+('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	a	4
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	a	4
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	4
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	4
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	4
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	4
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	3
+('voiceless, labio-dental, oral, fricative',)	tia	3
+('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	hia	3
+('voiced, dental, nasal, stop',)	mia	3
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	3
+('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	3
+('voiceless, velar, oral, stop',)	ia	3
+('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	a	3
+('voiceless, bilabial, oral, stop',)	ngia	3
+('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	3
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	tia	3
+('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	3
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	3
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	tia	3
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	3
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	tia	3
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	3
+('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	3
+('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	3
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	a	3
+('voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	tia	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	a	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ngia	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ria	3
+('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	a	3
+('voiceless, velar, oral, stop',)	na	2
+('voiced, bilabial, nasal, stop',)	tia	2
+('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ria	2
+('voiced, dental-alveolar, oral, flap',)	hia	2
+('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	na	2
+('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	tia	2
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	tia	2
+('voiced, dental-alveolar, oral, flap',)	tia	2
+('voiceless, bilabial, oral, stop',)	ina	2
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	a	2
+('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	a	2
+('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	ia	2
+('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	na	2
+('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	na	2
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	ria	2
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	2
+('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	hia	2
+('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	na	2
+('voiceless, velar, oral, stop',)	ina	2
+('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	2
+('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	a	2
+('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	a	2
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ria	2
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	2
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	tia	2
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	2
+('voiced, bilabial, nasal, stop',)	a	2
+('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	a	2
+('voiced, dental, nasal, stop', 'voiceless, dental, oral, stop')	a	2
+('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	2
+('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	2
+('voiced, velar, nasal, stop',)	a	2
+('voiced, dental, nasal, stop', 'voiced, bilabial, nasal, stop')	a	2
+('voiceless, dental, oral, stop',)	tia	2
+('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	tia	2
+('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiceless, bilabial, oral, stop', 'voiced, velar, nasal, stop')	a	2
+('voiceless, bilabial, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	2
+('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	a	2
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	2
+('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	2
+('voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	2
+('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	a	2
+('voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	a	2
+('voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	a	2
+('voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	hia	2
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	a	2
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	2
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	tia	2
+('voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	hia	2
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	2
+('voiceless, dental, oral, stop',)	ria	2
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	tia	2
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	2
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	a	2
+('voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	hia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	ria	2
+('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ria	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	tia	2
+('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	2
+('voiceless, glottal, oral, fricative',)	ria	1
+('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	ngia	1
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	ngia	1
+('voiced, bilabial, nasal, stop',)	hia	1
+('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, bilabial, oral, stop',)	hia	1
+('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	hia	1
+('voiceless, bilabial, oral, stop',)	ria	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiced, dental-alveolar, oral, flap',)	ngia	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	ina	1
+('voiced, dental-alveolar, oral, flap',)	mia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	mia	1
+('voiceless, dental, oral, stop',)	hia	1
+('voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop')	nga	1
+('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiceless, labio-dental, oral, fricative')	tia	1
+('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	na	1
+('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	a	1
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	na	1
+('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	a	1
+('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop')	kia	1
+('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	mia	1
+('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	a	1
+('voiceless, glottal, oral, fricative',)	hia	1
+('voiceless, glottal, oral, fricative',)	ia	1
+('voiceless, glottal, oral, fricative',)	ina	1
+('voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop')	a	1
+('voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	a	1
+('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop')	a	1
+('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiced, dental, nasal, stop',)	a	1
+('voiceless, velar, oral, stop',)	ngia	1
+('voiceless, velar, oral, stop',)	nga	1
+('voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	hia	1
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ria	1
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	a	1
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	hia	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	a	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ina	1
+('voiceless, velar, oral, stop',)	ria	1
+('voiceless, velar, oral, stop',)	tia	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative')	tia	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	a	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	1
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	hia	1
+('voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	1
+('voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, dental, oral, stop')	a	1
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	hia	1
+('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop', 'voiced, velar, nasal, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	a	1
+('voiced, bilabial, nasal, stop', 'voiceless, bilabial, oral, stop')	a	1
+('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiced, bilabial, nasal, stop',)	ria	1
+('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	hia	1
+('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	hia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	kia	1
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	kia	1
+('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	hia	1
+('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	a	1
+('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	ia	1
+('voiced, dental, nasal, stop', 'voiced, dental, nasal, stop')	mia	1
+('voiced, dental, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, velar, nasal, stop', 'voiceless, velar, oral, stop')	a	1
+('voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiced, velar, nasal, stop', 'voiced, velar, nasal, stop')	a	1
+('voiced, velar, nasal, stop', 'voiceless, dental, oral, stop')	a	1
+('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	a	1
+('voiced, dental, nasal, stop',)	tia	1
+('voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	ia	1
+('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	ia	1
+('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiced, bilabial, nasal, stop',)	kia	1
+('voiced, dental, nasal, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiced, dental, nasal, stop',)	kia	1
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	hia	1
+('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	ina	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, bilabial, oral, stop',)	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	ngia	1
+('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	ia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	ia	1
+('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	kia	1
+('voiceless, bilabial, oral, stop',)	ia	1
+('voiceless, bilabial, oral, stop', 'voiced, bilabial, oral, approximant')	tia	1
+('voiceless, bilabial, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ina	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	ngia	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	hia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	hia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	ngia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	ngia	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	na	1
+('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	na	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, dental, oral, stop',)	ngia	1
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	na	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ina	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	a	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	ria	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, bilabial, oral, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	mia	1
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, dental, oral, stop',)	na	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ngia	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	hia	1
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant')	a	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiceless, dental, oral, stop',)	kia	1
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	ina	1
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	ngia	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	kia	1
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	na	1
+('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	1
+('voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	a	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	kia	1
+('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ria	1
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	na	1
+('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	ia	1
+('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	tia	1
+('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	tia	1
+('voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, bilabial, oral, approximant',)	tia	1
+('voiced, bilabial, oral, approximant',)	a	1
+('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	tia	1
+('voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	tia	1
+('voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	ngia	1
+('voiced, bilabial, oral, approximant', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiced, bilabial, oral, approximant', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiced, bilabial, oral, approximant', 'voiced, dental, nasal, stop')	a	1
+('voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant')	a	1
+('voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	tia	1
+('voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1
+('voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop')	a	1
+('voiced, bilabial, oral, approximant', 'voiceless, bilabial, oral, stop')	a	1
+('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	kia	1
+('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	kina	1
+('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	kia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	na	1
+('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiced, velar, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	mia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, labio-dental, oral, fricative')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiced, bilabial, oral, approximant')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiced, dental, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	mia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	kia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, bilabial, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ina	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ina	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	kia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ria	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	ngia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	kia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	ia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	hia	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1
+('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1
+('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ria	1
