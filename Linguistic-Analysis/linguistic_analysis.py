@@ -505,37 +505,37 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o7",
         "--output7",
-        default="2_seq-V_counts.tsv",
+        default="2_V-seq_counts.tsv",
         help="outputs vowel sequence counts",
     )
     parser.add_argument(
         "-o8",
         "--output8",
-        default="2_seq-V-suffix_counts.tsv",
+        default="2_V-seq-suffix_counts.tsv",
         help="outputs vowel sequence-passive counts",
     )
     parser.add_argument(
         "-o9",
         "--output9",
-        default="2_seq-V-suffix_prob.tsv",
+        default="2_V-seq-suffix_prob.tsv",
         help="outputs p(passive|vowel_sequence)",
     )
     parser.add_argument(
         "-o10",
         "--output10",
-        default="3_seq-C_counts.tsv",
+        default="3_C-seq_counts.tsv",
         help="outputs consonant sequence counts",
     )
     parser.add_argument(
         "-o11",
         "--output11",
-        default="3_seq-C-suffix_counts.tsv",
+        default="3_C-seq-suffix_counts.tsv",
         help="outputs consonant sequence-passive counts",
     )
     parser.add_argument(
         "-o12",
         "--output12",
-        default="3_seq-C-suffix_prob.tsv",
+        default="3_C-seq-suffix_prob.tsv",
         help="outputs p(passive|consonant_sequence)",
     )
     parser.add_argument(
