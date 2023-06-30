@@ -1,61 +1,61 @@
-('low, back, unround, long',)	ia	15	0.0667
-('high, central, round, short',)	ria	165	0.1333
-('high, central, round, short',)	ngia	165	0.0182
-('high, front, unround, short',)	tia	274	0.2883
-('high, front, unround, short',)	na	274	0.1058
-('mid, back, round, short',)	na	116	0.0862
-('mid, front, unround, short',)	ngia	134	0.0299
-('mid, back, round, short',)	hia	116	0.2155
-('high, central, round, short',)	tia	165	0.2424
-('high, front, unround, short',)	ria	274	0.0146
-('high, central, round, short',)	a	165	0.503
-('low, back, unround, short',)	hia	166	0.0482
-('high, front, unround, short',)	a	274	0.5292
-('mid, back, round, short',)	ngia	116	0.0345
-('low, back, unround, short',)	ina	166	0.1084
-('high, central, round, short',)	mia	165	0.0364
-('mid, front, unround, short',)	tia	134	0.306
-('mid, front, unround, long',)	tia	3	0.6667
-('low, back, unround, short',)	tia	166	0.5602
-('mid, front, unround, short',)	a	134	0.597
-('mid, back, round, short',)	tia	116	0.3017
-('low, back, unround, short',)	a	166	0.1205
-('mid, back, round, short',)	a	116	0.1983
-('high, front, unround, short',)	nga	274	0.0073
-('high, front, unround, long',)	a	3	0.6667
-('low, back, unround, short',)	ia	166	0.0843
-('mid, back, round, short',)	ia	116	0.0431
-('low, back, unround, short',)	na	166	0.006
-('high, central, round, short',)	kia	165	0.0121
-('mid, back, round, short',)	mia	116	0.0345
-('high, central, round, short',)	hia	165	0.0424
-('high, front, unround, short',)	hia	274	0.0401
-('low, back, unround, long',)	ngia	15	0.2667
-('mid, back, round, long',)	ia	6	0.1667
-('mid, front, unround, short',)	hia	134	0.0448
-('mid, back, round, short',)	kia	116	0.0431
-('low, back, unround, short',)	kia	166	0.006
-('high, front, unround, short',)	ngia	274	0.0109
-('mid, back, round, long',)	hia	6	0.1667
-('low, back, unround, long',)	tia	15	0.4
-('mid, back, round, long',)	ngia	6	0.1667
-('high, central, round, long',)	ia	8	0.125
-('low, back, unround, short',)	ngia	166	0.0542
-('high, central, round, long',)	hia	8	0.125
-('high, central, round, short',)	na	165	0.0061
-('mid, back, round, short',)	ria	116	0.0431
-('low, back, unround, short',)	ria	166	0.012
-('mid, back, round, long',)	kia	6	0.3333
-('high, central, round, long',)	ria	8	0.25
-('low, back, unround, long',)	ina	15	0.0667
-('high, central, round, short',)	ia	165	0.0061
-('mid, front, unround, short',)	kia	134	0.0149
-('mid, front, unround, short',)	kina	134	0.0075
-('high, front, unround, long',)	tia	3	0.3333
-('high, central, round, long',)	tia	8	0.375
-('mid, back, round, long',)	tia	6	0.1667
-('low, back, unround, long',)	kia	15	0.1333
-('mid, front, unround, long',)	ngia	3	0.3333
-('high, central, round, long',)	ngia	8	0.125
-('high, front, unround, short',)	ia	274	0.0036
-('low, back, unround, long',)	ria	15	0.0667
+('low, back, unround, long',)	ia	1	0.0667	15
+('high, central, round, short',)	ria	22	0.1333	165
+('high, central, round, short',)	ngia	3	0.0182	165
+('high, front, unround, short',)	tia	79	0.2883	274
+('high, front, unround, short',)	na	29	0.1058	274
+('mid, back, round, short',)	na	10	0.0862	116
+('mid, front, unround, short',)	ngia	4	0.0299	134
+('mid, back, round, short',)	hia	25	0.2155	116
+('high, central, round, short',)	tia	40	0.2424	165
+('high, front, unround, short',)	ria	4	0.0146	274
+('high, central, round, short',)	a	83	0.503	165
+('low, back, unround, short',)	hia	8	0.0482	166
+('high, front, unround, short',)	a	145	0.5292	274
+('mid, back, round, short',)	ngia	4	0.0345	116
+('low, back, unround, short',)	ina	18	0.1084	166
+('high, central, round, short',)	mia	6	0.0364	165
+('mid, front, unround, short',)	tia	41	0.306	134
+('mid, front, unround, long',)	tia	2	0.6667	3
+('low, back, unround, short',)	tia	93	0.5602	166
+('mid, front, unround, short',)	a	80	0.597	134
+('mid, back, round, short',)	tia	35	0.3017	116
+('low, back, unround, short',)	a	20	0.1205	166
+('mid, back, round, short',)	a	23	0.1983	116
+('high, front, unround, short',)	nga	2	0.0073	274
+('high, front, unround, long',)	a	2	0.6667	3
+('low, back, unround, short',)	ia	14	0.0843	166
+('mid, back, round, short',)	ia	5	0.0431	116
+('low, back, unround, short',)	na	1	0.006	166
+('high, central, round, short',)	kia	2	0.0121	165
+('mid, back, round, short',)	mia	4	0.0345	116
+('high, central, round, short',)	hia	7	0.0424	165
+('high, front, unround, short',)	hia	11	0.0401	274
+('low, back, unround, long',)	ngia	4	0.2667	15
+('mid, back, round, long',)	ia	1	0.1667	6
+('mid, front, unround, short',)	hia	6	0.0448	134
+('mid, back, round, short',)	kia	5	0.0431	116
+('low, back, unround, short',)	kia	1	0.006	166
+('high, front, unround, short',)	ngia	3	0.0109	274
+('mid, back, round, long',)	hia	1	0.1667	6
+('low, back, unround, long',)	tia	6	0.4	15
+('mid, back, round, long',)	ngia	1	0.1667	6
+('high, central, round, long',)	ia	1	0.125	8
+('low, back, unround, short',)	ngia	9	0.0542	166
+('high, central, round, long',)	hia	1	0.125	8
+('high, central, round, short',)	na	1	0.0061	165
+('mid, back, round, short',)	ria	5	0.0431	116
+('low, back, unround, short',)	ria	2	0.012	166
+('mid, back, round, long',)	kia	2	0.3333	6
+('high, central, round, long',)	ria	2	0.25	8
+('low, back, unround, long',)	ina	1	0.0667	15
+('high, central, round, short',)	ia	1	0.0061	165
+('mid, front, unround, short',)	kia	2	0.0149	134
+('mid, front, unround, short',)	kina	1	0.0075	134
+('high, front, unround, long',)	tia	1	0.3333	3
+('high, central, round, long',)	tia	3	0.375	8
+('mid, back, round, long',)	tia	1	0.1667	6
+('low, back, unround, long',)	kia	2	0.1333	15
+('mid, front, unround, long',)	ngia	1	0.3333	3
+('high, central, round, long',)	ngia	1	0.125	8
+('high, front, unround, short',)	ia	1	0.0036	274
+('low, back, unround, long',)	ria	1	0.0667	15

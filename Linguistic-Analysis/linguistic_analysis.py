@@ -232,7 +232,7 @@ def main(args: argparse.Namespace) -> None:
             p = round(count / final_vowel_features[feature], 4)
             # Outputting vowel features, suffix, total vowel
             # feature sequence counts, and the probabilities
-            tsv_writer6.writerow([feature, suffix, final_vowel_features[feature], p])
+            tsv_writer6.writerow([feature, suffix, final_vowel_features_suffix[(feature, suffix)], p, final_vowel_features[feature]])
 
     # PART 2 – Vowel sequences and passives
     with open(args.input, "r") as source, open(
@@ -469,19 +469,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o1",
         "--output1",
-        default="1_final-V_counts.tsv",
+        default="01_final-V_counts.tsv",
         help="outputs stem-final vowel counts",
     )
     parser.add_argument(
         "-o2",
         "--output2",
-        default="1_final-V-suffix_counts.tsv",
+        default="01_final-V-suffix_counts.tsv",
         help="outputs the final vowel-suffix counts",
     )
     parser.add_argument(
         "-o3",
         "--output3",
-        default="1_final-V-suffix_prob.tsv",
+        default="01_final-V-suffix_prob.tsv",
         help="outputs p(passive|final_vowel)",
     )
     parser.add_argument(
