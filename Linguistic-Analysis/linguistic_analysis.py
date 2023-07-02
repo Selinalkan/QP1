@@ -127,6 +127,7 @@ def main(args: argparse.Namespace) -> None:
     final_vowel: Counter[str] = collections.Counter()
     # Stem-final vowels and suffixes counter
     final_vowel_suffix: Counter[Tuple[str, str]] = collections.Counter()
+    # FINAL VOWEL FEATURES
     # Stem-final vowel features counter
     final_vowel_features: Counter[Tuple[str, ...]] = collections.Counter()
     # Stem-final vowel feature-passive counter
@@ -157,6 +158,13 @@ def main(args: argparse.Namespace) -> None:
     cons_features: Counter[Tuple[str, ...]] = collections.Counter()
     # Consonant feature-passive counter
     cons_features_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
+    # FINAL CONSONANT FEATURES
+    # Final consonant features counter
+    final_cons_features: Counter[Tuple[str, ...]] = collections.Counter()
+    # Final consonant feature-passive counter
+    final_cons_features_suffix: Counter[
+        Tuple[Any, ...]
+    ] = collections.Counter()
 
     # PART 1 – Stem-final vowels and passives
     with open(args.input, "r") as source, open(
@@ -309,7 +317,15 @@ def main(args: argparse.Namespace) -> None:
             p = round(count / vowel_seq[sequence], 4)
             # Outputting vowel sequence, suffix, vowel seq-suffix counts,
             # the probabilities, and total vowel seq counts out of 890
-            tsv_writer9.writerow([sequence, suffix, vowel_seq_suffix[(sequence, suffix)], p, vowel_seq[sequence]])
+            tsv_writer9.writerow(
+                [
+                    sequence,
+                    suffix,
+                    vowel_seq_suffix[(sequence, suffix)],
+                    p,
+                    vowel_seq[sequence],
+                ]
+            )
 
     # PART 3 – Consonant sequences and passives
     with open(args.input, "r") as source, open(
@@ -359,7 +375,15 @@ def main(args: argparse.Namespace) -> None:
             p = round(count / cons_seq[sequence], 4)
             # Outputting consonant sequence, suffix, consonant seq-suffix
             # counts, the probabilities, and cons seq-suffix counts out of 890
-            tsv_writer12.writerow([sequence, suffix, cons_seq_suffix[(sequence, suffix)], p, cons_seq[sequence]])
+            tsv_writer12.writerow(
+                [
+                    sequence,
+                    suffix,
+                    cons_seq_suffix[(sequence, suffix)],
+                    p,
+                    cons_seq[sequence],
+                ]
+            )
 
     # PART 4 – Vowel features and passives
     with open(args.input, "r") as source, open(
@@ -412,10 +436,16 @@ def main(args: argparse.Namespace) -> None:
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = round(count / vowel_features[v_feature], 4)
-            # Outputting vowel features, suffix, total vowel
-            # feature sequence counts, and the probabilities
+            # Outputting vowel features, suffix, vowel feat-suffix counts,
+            # the probabilities, and vowel feat counts out of 890
             tsv_writer15.writerow(
-                [v_feature, suffix, vowel_features_suffix[(v_feature, suffix)], p, vowel_features[v_feature]]
+                [
+                    v_feature,
+                    suffix,
+                    vowel_features_suffix[(v_feature, suffix)],
+                    p,
+                    vowel_features[v_feature],
+                ]
             )
 
     # PART 5 – Consonant features and passives
@@ -423,20 +453,37 @@ def main(args: argparse.Namespace) -> None:
         args.output16, "w"
     ) as sink16, open(args.output17, "w") as sink17, open(
         args.output18, "w"
-    ) as sink18:
+    ) as sink18, open(
+        args.output19, "w"
+    ) as sink19, open(
+        args.output20, "w"
+    ) as sink20, open(
+        args.output21, "w"
+    ) as sink21:
+        # open(args.output22, "w") as sink22:
         # Input file
         tsv_reader = csv.reader(source, delimiter="\t")
         # Output files
-        # Vowel features: output16
+        # Consonant features: output16
         tsv_writer16 = csv.writer(sink16, delimiter="\t")
-        # Vowel features-passive: output17
+        # Consonant features-passive: output17
         tsv_writer17 = csv.writer(sink17, delimiter="\t")
-        # Vowel features-passive conditional probabilities: output18
+        # Consonant features-passive conditional probabilities: output18
         tsv_writer18 = csv.writer(sink18, delimiter="\t")
+        # FINAL CONSONANT FEATURES
+        # Final consonant feature counts: output19
+        tsv_writer19 = csv.writer(sink19, delimiter="\t")
+        # Final consonant feature-suffix counts: output20
+        tsv_writer20 = csv.writer(sink20, delimiter="\t")
+        # Final consonant features-passive conditional probabilities: output21
+        tsv_writer21 = csv.writer(sink21, delimiter="\t")
+        # # The following is for lemma-cons feat seq for testing purposes
+        # tsv_writer22 = csv.writer(sink22, delimiter="\t")
 
         # Filling the counters for consonant features and passives
         for lemma, suffix in tsv_reader:
             consonant_feature_sequence = []
+
             # Traversing each character for the digraphs and the rest
             i = 0
             while i < len(lemma):
@@ -461,7 +508,22 @@ def main(args: argparse.Namespace) -> None:
                         consonant_features_dict[char]
                     )
                 i += 1
-            # Handling the counter
+            # # The following gives the lemma-cons feature sequence
+            # # for testing purposes. The outputted file is in Data/5_...
+            # tsv_writer22.writerow([lemma, consonant_feature_sequence])
+
+            # Final consonant features:
+            final_cons_features_sequence = []
+            if len(consonant_feature_sequence) >= 1:
+                final_cons_features_sequence.append(
+                    consonant_feature_sequence[-1]
+                )
+                final_cons_features[tuple(final_cons_features_sequence)] += 1
+                final_cons_features_suffix[
+                    (tuple(final_cons_features_sequence), suffix)
+                ] += 1
+
+            # Handling the consonant feature sequence counter
             if consonant_feature_sequence:
                 cons_features[tuple(consonant_feature_sequence)] += 1
                 cons_features_suffix[
@@ -494,10 +556,30 @@ def main(args: argparse.Namespace) -> None:
                     suffix,
                     cons_features_suffix[(c_feature, suffix)],
                     p,
-                    cons_features[c_feature]
+                    cons_features[c_feature],
                 ]
             )
             # print(f"{consonant_feature}\t{suffix}:\t{count}\t{p}")
+
+        # CONSONANT FEATURES OUTPUT
+        for feature, count in final_cons_features.most_common():
+            tsv_writer19.writerow([feature, count])
+        for (
+            feature,
+            suffix,
+        ), count in final_cons_features_suffix.most_common():
+            tsv_writer20.writerow([feature, suffix, count])
+        for (feature, suffix), count in final_cons_features_suffix.items():
+            p = round(count / final_cons_features[feature], 4)
+            tsv_writer21.writerow(
+                [
+                    feature,
+                    suffix,
+                    final_cons_features_suffix[(feature, suffix)],
+                    p,
+                    final_cons_features[feature],
+                ]
+            )
 
 
 if __name__ == "__main__":
@@ -616,4 +698,30 @@ if __name__ == "__main__":
         default="5_C-feat-suffix_prob.tsv",
         help="outputs p(passive|consonant_feature)",
     )
+    parser.add_argument(
+        "-o19",
+        "--output19",
+        default="6_final-C-feat_counts.tsv",
+        help="outputs final consonant feature counts",
+    )
+    parser.add_argument(
+        "-o20",
+        "--output20",
+        default="6_final-C-feat-suffix_counts.tsv",
+        help="outputs the final vowel feature-suffix counts",
+    )
+    parser.add_argument(
+        "-o21",
+        "--output21",
+        default="6_final-C-feat-suffix_prob.tsv",
+        help="outputs p(passive|final_vowel_feature)",
+    )
+    # # -o22 gives all lemma-cons feature sequences for testing
+    # # purposes
+    # parser.add_argument(
+    #     "-o22",
+    #     "--output22",
+    #     default="7_lemma-C-feat-.tsv",
+    #     help="outputs p(passive|final_vowel_feature)",
+    # )
     main(parser.parse_args())
