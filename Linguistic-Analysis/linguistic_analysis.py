@@ -1,11 +1,61 @@
 #!/usr/bin/env python
 
 """
-This script examines the Māori verb stem properties and their
-correspondences with the suffixes building conditional probabilities
-of the form P(suffix|property of the stem). The linguistic features
-examined are stem-final vowels, vowel sequences, consonant sequences,
-...
+This program analyzes 886 Māori verb-passive suffix pairs in a TSV file and
+performs various computations and counts related to 7 linguistic features. It
+focuses on stem-final vowels and passives, vowel sequences and passives,
+consonant sequences and passives, vowel features and passives, consonant
+features and passives, final consonant features and passives, and syllable
+counts and passives.
+
+The program performs the following steps:
+
+PART 0 & 1 - Stem-final vowels and passives:
+It counts the occurrences of stem-final vowels.
+It counts the occurrences of vowel-suffix combinations.
+It calculates the stem-final vowel-suffix probabilities.
+It collects the features of stem-final vowels and counts their occurrences.
+It counts the occurrences of vowel feature-suffix combinations.
+It calculates the vowel feature-suffix probabilities.
+
+PART 2 - Vowel sequences and passives:
+It counts the occurrences of vowel sequences.
+It counts the occurrences of vowel sequences-suffix combinations.
+It calculates the vowel sequence-suffix probabilities.
+
+PART 3 - Consonant sequences and passives:
+It counts the occurrences of consonant sequences.
+It counts the occurrences of consonant sequence-suffix combinations.
+It calculates the consonant sequence-suffix probabilities.
+
+PART 4 - Vowel features and passives:
+It counts the occurrences of vowel features.
+It counts the occurrences of vowel feature-suffix combinations.
+It calculates the vowel feature-suffix probabilities.
+
+PART 5 - Consonant features and passives:
+It counts the occurrences of consonant features.
+It counts the occurrences of consonant feature-suffix combinations.
+It calculates the consonant feature-suffix probabilities.
+
+PART 6 - Final consonant features and passives:
+It counts the occurrences of final consonant features.
+It counts the occurrences of final consonant feature-suffix combinations.
+It calculates the final consonant feature-suffix probabilities.
+
+PART 7 - Syllable counts and passives:
+It counts the occurrences of syllables.
+It counts the occurrences of syllable-suffix combinations.
+It calculates the syllable count-suffix probabilities.
+
+The program uses several counters from the collections module to keep track
+of the counts. The vowel, consonant, diphthong, reduplication, and suffix sets
+and dictionaries define the language-specific elements used for counting and
+analysis.
+
+Note: The program assumes the existence of input and output files specified in
+the command-line arguments and writes the results of its analysis to the
+respective output files.
 """
 
 import argparse
@@ -266,12 +316,13 @@ consonant_features_dict = {
 
 
 def main(args: argparse.Namespace) -> None:
-    # PART 1 - Stem-final vowels and passives
+    # PART 0 - Stem-final vowels and passives
     # Stem-final vowels counter
     final_vowel: Counter[str] = collections.Counter()
     # Stem-final vowels and suffixes counter
     final_vowel_suffix: Counter[Tuple[str, str]] = collections.Counter()
-    # FINAL VOWEL FEATURES
+
+    # PART 1 - Stem-Final vowel features
     # Stem-final vowel features counter
     final_vowel_features: Counter[Tuple[str, ...]] = collections.Counter()
     # Stem-final vowel feature-passive counter
@@ -317,7 +368,8 @@ def main(args: argparse.Namespace) -> None:
     # Syllable-passive counter
     syllable_suffix_count: Counter[Tuple[str, str]] = collections.Counter()
 
-    # PART 1 – Stem-final vowels and passives
+    # PART 0 & 1 – Stem-final vowels (0), stem-final vowel features (1)
+    # and passives
     with open(args.input, "r") as source, open(
         args.output1, "w"
     ) as sink1, open(args.output2, "w") as sink2, open(
@@ -332,13 +384,14 @@ def main(args: argparse.Namespace) -> None:
         # Input file
         tsv_reader = csv.reader(source, delimiter="\t")
         # Output files
+        # PART 0
         # Vowel-count output file: output1
         tsv_writer1 = csv.writer(sink1, delimiter="\t")
         # Vowel-suffix count output file: output2
         tsv_writer2 = csv.writer(sink2, delimiter="\t")
         # Stem-final vowel-suffix probability output file: output3
         tsv_writer3 = csv.writer(sink3, delimiter="\t")
-        # FEATURES
+        # PART 1 - Stem-final vowel features
         # Stem-final vowel features: output4
         tsv_writer4 = csv.writer(sink4, delimiter="\t")
         # Stem-final vowel features-suffix: output5
@@ -359,7 +412,7 @@ def main(args: argparse.Namespace) -> None:
                             vowel_features_dict[vowel]
                         )
 
-            # FEATURES
+            # PART 1 - Stem-final vowel features
             # Checking if the final_vowel_features_seq is non-empty
             if final_vowel_feature_sequence:
                 final_vowel_features[tuple(final_vowel_feature_sequence)] += 1
@@ -367,6 +420,7 @@ def main(args: argparse.Namespace) -> None:
                     (tuple(final_vowel_feature_sequence), suffix)
                 ] += 1
 
+        # PART 0
         # Writing the final vowel counts into a tsv file
         for vowel, count in final_vowel.most_common():
             tsv_writer1.writerow([vowel, count])
@@ -390,7 +444,7 @@ def main(args: argparse.Namespace) -> None:
                 ]
             )
 
-        # FEATURES
+        # PART 1 - Stem-final vowel features
         # Writing the final vowel feature counts into a tsv file
         for feature, count in final_vowel_features.most_common():
             tsv_writer4.writerow([feature, count])
@@ -688,7 +742,7 @@ def main(args: argparse.Namespace) -> None:
         # Writing the consonant features into a tsv file
         for c_feature, count in cons_features.most_common():
             tsv_writer16.writerow([c_feature, count])
-            # print(f"{feature}:\t{count}")
+            # print(f"{c_feature}:\t{count}")
         # Writing the consonant feature seq-suffix counts into a tsv file
         for (
             c_feature,
@@ -704,7 +758,7 @@ def main(args: argparse.Namespace) -> None:
             # Kyle's suggestion
             # if suffix in ["hia", "mia", "ria"]:
             p = round(count / cons_features[c_feature], 4)
-            # Outputting consontn features, suffix, cons feature-suffix
+            # Outputting cons features, suffix, cons feature-suffix
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer18.writerow(
                 [
@@ -784,7 +838,7 @@ def main(args: argparse.Namespace) -> None:
 
             # Indicating syllable counts by sigma
             syllable_sequence = "σ" * lemma_syllable_count
-            print(lemma, syllable_sequence)
+            # print(lemma, syllable_sequence)
 
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
@@ -800,7 +854,8 @@ def main(args: argparse.Namespace) -> None:
         for (syllable, suffix), count in syllable_suffix_count.items():
             p = round(count / syllable_count[syllable_sequence], 4)
             # Outputting syllable representation, suffix, syllable-suffix
-            # counts, the probabilities, and syllable counts out of 886
+            # counts, the probabilities, and syllable counts out of 886 -
+            # reduplications
             tsv_writer25.writerow(
                 [
                     syllable,
@@ -952,7 +1007,7 @@ if __name__ == "__main__":
     #     "-o22",
     #     "--output22",
     #     default="7_lemma-C-feat-.tsv",
-    #     help="outputs p(passive|final_vowel_feature)",
+    #     help="outputs p(passive|cons_feature)",
     # )
     parser.add_argument(
         "-o23",
