@@ -14,9 +14,33 @@ import csv
 from typing import Counter, Tuple, Any
 
 # The alphabet is based on Biggs 2013 English-Māori Māori-English
-# Dictionary. <ng> and <wh> are diagraphs, but I treat them as
-# separete characters; they correspond to [ŋ] and [ɸ] respectively.
+# Dictionary. Even though I have <n, g, w, h> as single entries
+# in the consonant dictionary, they are handled as diagraphs in
+# the consonant sequences.
 vowels = {
+    # Diphthongs
+    "ae",
+    "aae",
+    "ai",
+    "aai",
+    "ao",
+    "aao",
+    "au",
+    "aau",
+    "ou",
+    "oou",
+    "ei",
+    "ie",
+    "eo",
+    "eu",
+    "ea",
+    "ia",
+    "oa",
+    "ua",
+    "oi",
+    "oe",
+    "iu",
+    "io"
     # Short vowels
     "a",
     "e",
@@ -41,10 +65,147 @@ consonants = {
     "r",
     "t",
     "w",
-    # Consonantal phonemes that correspond to the two diagraphs,
-    # <ng> and <wh>, respectively
-    # "ŋ",
-    # "ɸ",
+}
+
+# Diphthongs are also based on Biggs 2013. They are used
+# to handle syllable counts.
+# diphthongs = {
+#     "ae",
+#     "aae",
+#     "ai",
+#     "aai",
+#     "ao",
+#     "aao",
+#     "au",
+#     "aau",
+#     "ou",
+#     "oou",
+#     "ei",
+#     "ie",
+#     "eo",
+#     "eu",
+#     "ea",
+#     "ia",
+#     "oa",
+#     "ua",
+#     "oi",
+#     "oe",
+#     "iu",
+#     "io"
+# }
+
+reduplications = {
+    "ahuahu",
+    "akiaki",
+    "ākirikiri",
+    "amuamu",
+    "apoapo",
+    "aruaru",
+    "haehae",
+    "hakuhaku",
+    "herehere",
+    "heuheu",
+    "hiahia",
+    "hihira",
+    "hihiri",
+    "hirihiri",
+    "hokohoko",
+    "hongihongi",
+    "houhou",
+    "huihui",
+    "hukihuki",
+    "hunuhunu",
+    "iheuheu",
+    "ihiihi",
+    "kakaro",
+    "kakau",
+    "kaukau",
+    "ketuketu",
+    "kikini",
+    "kohikohi",
+    "māharahara",
+    "mahimahi",
+    "mātakitaki",
+    "mekemeke",
+    "memeke",
+    "mitimiti",
+    "muimui",
+    "mukumuku",
+    "mutumutu",
+    "nanao",
+    "nekeneke",
+    "ngaungau",
+    "nukunuku",
+    "pākarukaru",
+    "panipani",
+    "pehipehi",
+    "piupiu",
+    "poipoi",
+    "pōpopo",
+    "poroporo",
+    "purupuru",
+    "rahoraho",
+    "rangirangi",
+    "rārangi",
+    "rarapi",
+    "rarawhi",
+    "riringi",
+    "rurerure",
+    "ruruku",
+    "tāhawahawa",
+    "tahitahi",
+    "taitai",
+    "takitaki",
+    "tāmuimui",
+    "tamumu",
+    "tāpapa",
+    "tāpāpā",
+    "tapatapa",
+    "tapatapahi",
+    "tautohetohe",
+    "titokotoko",
+    "tokotoko",
+    "toutou",
+    "tuhituhi",
+    "tuitui",
+    "tuketuke",
+    "tukutuku",
+    "tunutunu",
+    "uiui",
+    "uwhiuwhi",
+    "waawaahi",
+    "wareware",
+    "wawata",
+    "wehewehe",
+    "wetewete",
+    "whaawhaa",
+    "whaiwhai",
+    "whakahohori",
+    "whakahohoro",
+    "whakahorohoro",
+    "whakaipoipo",
+    "whakakakara",
+    "whakakopakopa",
+    "whakakorokoro",
+    "whakamātaotao",
+    "whakamātautau",
+    "whakapaipai",
+    "whakapakeke",
+    "whakapakoko",
+    "whakapōhēhē",
+    "whakarāpopoto",
+    "whakataetae",
+    "whakatakitaki",
+    "whakatākotokoto",
+    "whakatangitangi",
+    "whakataratara",
+    "whakatikatika",
+    "whanowhano",
+    "whatiwhati",
+    "whāwhā",
+    "whawhai",
+    "whāwhāi",
+    "whiriwhiri",
 }
 
 suffixes = {
@@ -63,23 +224,6 @@ suffixes = {
 }
 
 # Sound features are based on Harlow 1996, Māori
-# vowel_features_dict = {
-#     "a": ("low", "back", "unround", "short"),
-#     "ā": ("low", "back", "unround", "long"),
-#     "e": ("mid", "front", "unround", "short"),
-#     "ē": ("mid", "front", "unround", "long"),
-#     "i": ("high", "front", "unround", "short"),
-#     "ī": ("high", "front", "unround", "long"),
-#     "o": ("mid", "back", "round", "short"),
-#     "ō": ("mid", "back", "round", "long"),
-#     "u": ("high", "central", "round", "short"),
-#     "ū": ("high", "central", "round", "long"),
-# }
-
-# Created the version below to save the vowel features
-# as a string to get rid of the mypy error, as Kyle
-# suggested, but I couldn't figure it out.
-# This made thing more readable, though
 vowel_features_dict = {
     "a": "low, back, unround, short",
     "ā": "low, back, unround, long",
@@ -93,20 +237,6 @@ vowel_features_dict = {
     "ū": "high, central, round, long",
 }
 
-# consonant_features_dict = {
-#     "h": ("voiceless", "glottal", "oral", "fricative"),
-#     "k": ("voiceless", "velar", "oral", "stop"),
-#     "m": ("voiced", "bilabial", "nasal", "stop"),
-#     "n": ("voiced", "dental", "nasal", "stop"),
-#     "ng": ("voiced", "velar", "nasal", "stop"),
-#     "p": ("voiceless", "bilabial", "oral", "stop"),
-#     "r": ("voiced", "dental-alveolar", "oral", "flap"),
-#     "t": ("voiceless", "dental", "oral", "stop"),
-#     "w": ("voiced", "bilabial", "oral", "approximant"),
-#     "wh": ("voiceless", "labio-dental", "oral", "fricative"),
-# }
-
-# Turning consonant values into strings for readability
 consonant_features_dict = {
     "h": "voiceless, glottal, oral, fricative",
     "k": "voiceless, velar, oral, stop",
@@ -158,13 +288,20 @@ def main(args: argparse.Namespace) -> None:
     cons_features: Counter[Tuple[str, ...]] = collections.Counter()
     # Consonant feature-passive counter
     cons_features_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
-    # FINAL CONSONANT FEATURES
+
+    # PART 6 – Final consonant features and passives
     # Final consonant features counter
     final_cons_features: Counter[Tuple[str, ...]] = collections.Counter()
     # Final consonant feature-passive counter
     final_cons_features_suffix: Counter[
         Tuple[Any, ...]
     ] = collections.Counter()
+
+    # PART 7 – Syllable counts and passives
+    # Syllable counter
+    syllable_count: Counter[str] = collections.Counter()
+    # Syllable-passive counter
+    syllable_suffix_count: Counter[Tuple[str, str]] = collections.Counter()
 
     # PART 1 – Stem-final vowels and passives
     with open(args.input, "r") as source, open(
@@ -448,7 +585,7 @@ def main(args: argparse.Namespace) -> None:
                 ]
             )
 
-    # PART 5 – Consonant features and passives
+    # PART 5 & 6 – Consonant features and passives
     with open(args.input, "r") as source, open(
         args.output16, "w"
     ) as sink16, open(args.output17, "w") as sink17, open(
@@ -470,7 +607,8 @@ def main(args: argparse.Namespace) -> None:
         tsv_writer17 = csv.writer(sink17, delimiter="\t")
         # Consonant features-passive conditional probabilities: output18
         tsv_writer18 = csv.writer(sink18, delimiter="\t")
-        # FINAL CONSONANT FEATURES
+
+        # PART 6 – Final consonant features
         # Final consonant feature counts: output19
         tsv_writer19 = csv.writer(sink19, delimiter="\t")
         # Final consonant feature-suffix counts: output20
@@ -512,6 +650,7 @@ def main(args: argparse.Namespace) -> None:
             # # for testing purposes. The outputted file is in Data/5_...
             # tsv_writer22.writerow([lemma, consonant_feature_sequence])
 
+            # PART 6
             # Final consonant features:
             final_cons_features_sequence = []
             if len(consonant_feature_sequence) >= 1:
@@ -523,6 +662,7 @@ def main(args: argparse.Namespace) -> None:
                     (tuple(final_cons_features_sequence), suffix)
                 ] += 1
 
+            # PART 5 – Consonant Features Sequence
             # Handling the consonant feature sequence counter
             if consonant_feature_sequence:
                 cons_features[tuple(consonant_feature_sequence)] += 1
@@ -561,7 +701,8 @@ def main(args: argparse.Namespace) -> None:
             )
             # print(f"{consonant_feature}\t{suffix}:\t{count}\t{p}")
 
-        # CONSONANT FEATURES OUTPUT
+        # PART 6 – Final Consonant Features
+        # Writing the final consonant features into a tsv file
         for feature, count in final_cons_features.most_common():
             tsv_writer19.writerow([feature, count])
         for (
@@ -578,6 +719,55 @@ def main(args: argparse.Namespace) -> None:
                     final_cons_features_suffix[(feature, suffix)],
                     p,
                     final_cons_features[feature],
+                ]
+            )
+
+    # PART 7 – Syllable counts and passives
+    with open(args.input, "r") as source, open(
+        args.output23, "w"
+    ) as sink23, open(args.output24, "w") as sink24, open(
+        args.output25, "w"
+    ) as sink25:
+        # Input file
+        tsv_reader = csv.reader(source, delimiter="\t")
+        # Output files
+        # Syllable counts: output23
+        tsv_writer23 = csv.writer(sink23, delimiter="\t")
+        # Syllable-passive counts: output24
+        tsv_writer24 = csv.writer(sink24, delimiter="\t")
+        # Syllable count-passive conditional probabilities: output25
+        tsv_writer25 = csv.writer(sink25, delimiter="\t")
+
+        # Counting the syllables and passives
+        for lemma, suffix in tsv_reader:
+            syllable_sequence = ""
+            # Skipping reduplications
+            if lemma in reduplications:
+                continue
+            for sound in vowels:
+                if sound in lemma:
+                    syllable_sequence += "σ"
+                    print(lemma, sound)
+
+            if syllable_sequence:
+                syllable_count[syllable_sequence] += 1
+                syllable_suffix_count[syllable_sequence, suffix] += 1
+            
+            print(lemma, syllable_sequence)
+
+        for syllable, count in syllable_count.most_common():
+            tsv_writer23.writerow([syllable, count])
+        for (syllable, suffix), count in syllable_suffix_count.most_common():
+            tsv_writer24.writerow([syllable, suffix, count])
+        for (syllable, suffix), count in syllable_suffix_count.items():
+            p = round(count / syllable_count[syllable_sequence], 4)
+            tsv_writer25.writerow(
+                [
+                    syllable,
+                    suffix,
+                    syllable_suffix_count[(syllable, suffix)],
+                    p,
+                    syllable_count[syllable],
                 ]
             )
 
@@ -724,4 +914,22 @@ if __name__ == "__main__":
     #     default="7_lemma-C-feat-.tsv",
     #     help="outputs p(passive|final_vowel_feature)",
     # )
+    parser.add_argument(
+        "-o23",
+        "--output23",
+        default="7_syllable_counts.tsv",
+        help="outputs final consonant feature counts",
+    )
+    parser.add_argument(
+        "-o24",
+        "--output24",
+        default="7_syllable-suffix_counts.tsv",
+        help="outputs the final vowel feature-suffix counts",
+    )
+    parser.add_argument(
+        "-o25",
+        "--output25",
+        default="7_syllable-suffix_prob.tsv",
+        help="outputs p(passive|syllable-counts)",
+    )
     main(parser.parse_args())

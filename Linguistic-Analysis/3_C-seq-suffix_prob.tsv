@@ -2,7 +2,7 @@ h	ria	1	0.0909	11
 hh	ngia	1	0.0769	13
 k	na	2	0.125	16
 kk	na	1	0.1429	7
-kr	tia	3	0.3	10
+kr	tia	3	0.3333	9
 krkr	tia	1	1.0	1
 m	tia	2	0.2857	7
 mn	ngia	1	0.1667	6
@@ -33,7 +33,6 @@ whn	tia	4	0.8	5
 h	a	7	0.6364	11
 k	a	5	0.3125	16
 p	ina	2	0.1429	14
-whkrrng	tia	1	1.0	1
 hh	a	7	0.5385	13
 hr	a	8	0.5714	14
 hh	tia	5	0.3846	13
@@ -91,8 +90,8 @@ krk	tia	1	1.0	1
 krng	hia	1	0.5	2
 krpt	a	1	1.0	1
 krwh	a	1	1.0	1
-kr	a	5	0.5	10
-kr	hia	2	0.2	10
+kr	a	5	0.5556	9
+kr	hia	1	0.1111	9
 kt	ina	1	0.1111	9
 kt	a	6	0.6667	9
 kt	hia	2	0.2222	9
@@ -150,8 +149,8 @@ mrn	tia	1	1.0	1
 mr	hia	1	0.1667	6
 mtk	na	1	1.0	1
 mtktk	na	1	1.0	1
-mt	ria	2	0.3333	6
-mt	a	2	0.3333	6
+mt	ria	1	0.2	5
+mt	a	2	0.4	5
 m	ria	1	0.1429	7
 mn	tia	2	0.3333	6
 mkmk	hia	1	0.5	2
@@ -164,8 +163,8 @@ mh	tia	1	0.3333	3
 mkt	tia	1	0.5	2
 mm	a	2	0.6667	3
 mn	kia	1	0.1667	6
-mt	kia	1	0.1667	6
-mt	hia	1	0.1667	6
+mt	kia	1	0.2	5
+mt	hia	1	0.2	5
 mkmk	a	1	0.5	2
 mn	ia	1	0.1667	6
 nn	mia	1	0.5	2
@@ -498,6 +497,7 @@ whkrn	a	1	1.0	1
 whkrp	ngia	1	1.0	1
 whkrph	tia	1	1.0	1
 whkrppt	ngia	1	1.0	1
+whkrrng	tia	1	1.0	1
 whkrr	a	3	0.6	5
 whkrt	hia	1	0.5	2
 whkrw	tia	2	0.5	4
@@ -508,7 +508,7 @@ whkrrk	tia	1	1.0	1
 whkrr	ia	1	0.2	5
 whkrt	a	1	0.5	2
 whkrng	hia	1	0.5	2
-whktt	ngia	3	1.0	3
+whktt	ngia	2	1.0	2
 whkth	a	1	1.0	1
 whkthr	ngia	1	1.0	1
 whktrng	tia	1	1.0	1
