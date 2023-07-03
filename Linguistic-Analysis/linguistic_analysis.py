@@ -452,15 +452,9 @@ def main(args: argparse.Namespace) -> None:
             feature,
             suffix,
         ), count in final_vowel_features_suffix.most_common():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             tsv_writer5.writerow([feature, suffix, count])
         # Conditional Probability: p(passive|final_vowel_features)
         for (feature, suffix), count in final_vowel_features_suffix.items():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             p = round(count / final_vowel_features[feature], 4)
             # Outputting vowel features, suffix, total vowel
             # feature sequence-suffix counts, the probabilities,
@@ -510,15 +504,9 @@ def main(args: argparse.Namespace) -> None:
             sequence,
             suffix,
         ), count in vowel_seq_suffix.most_common():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             tsv_writer8.writerow([sequence, suffix, count])
         # Conditional Probability: p(passive|vowel_sequence)
         for (sequence, suffix), count in vowel_seq_suffix.items():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             p = round(count / vowel_seq[sequence], 4)
             # Outputting vowel sequence, suffix, vowel seq-suffix counts,
             # the probabilities, and total vowel seq counts out of 886
@@ -568,15 +556,9 @@ def main(args: argparse.Namespace) -> None:
             sequence,
             suffix,
         ), count in cons_seq_suffix.most_common():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             tsv_writer11.writerow([sequence, suffix, count])
         # Conditional Probability: p(passive|vowel_sequence)
         for (sequence, suffix), count in cons_seq_suffix.items():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             p = round(count / cons_seq[sequence], 4)
             # Outputting consonant sequence, suffix, consonant seq-suffix
             # counts, the probabilities, and cons seq-suffix counts out of 886
@@ -618,8 +600,6 @@ def main(args: argparse.Namespace) -> None:
             # incrementally, which is what happened before
             if vowel_feature_sequence:
                 vowel_features[tuple(vowel_feature_sequence)] += 1
-                # converting the list to a string as Kyle suggested
-                # vowel_features[vowel_feature_sequence] += 1
                 vowel_features_suffix[
                     (tuple(vowel_feature_sequence), suffix)
                 ] += 1
@@ -631,15 +611,9 @@ def main(args: argparse.Namespace) -> None:
             v_feature,
             suffix,
         ), count in vowel_features_suffix.most_common():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             tsv_writer14.writerow([v_feature, suffix, count])
         # Conditional Probability: p(passive|vowel_features)
         for (v_feature, suffix), count in vowel_features_suffix.items():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             p = round(count / vowel_features[v_feature], 4)
             # Outputting vowel features, suffix, vowel feat-suffix counts,
             # the probabilities, and vowel feat counts out of 886
@@ -747,15 +721,9 @@ def main(args: argparse.Namespace) -> None:
             c_feature,
             suffix,
         ), count in cons_features_suffix.most_common():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             tsv_writer17.writerow([c_feature, suffix, count])
         # Conditional Probability: p(passive|consonant_features)
         for (c_feature, suffix), count in cons_features_suffix.items():
-            # I removed the /-hia,-mia,-ria/ restriction based on
-            # Kyle's suggestion
-            # if suffix in ["hia", "mia", "ria"]:
             p = round(count / cons_features[c_feature], 4)
             # Outputting cons features, suffix, cons feature-suffix
             # counts, the probabilities, cons feat counts out of 886
