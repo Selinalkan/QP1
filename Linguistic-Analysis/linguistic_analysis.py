@@ -18,29 +18,6 @@ from typing import Counter, Tuple, Any
 # in the consonant dictionary, they are handled as diagraphs in
 # the consonant sequences.
 vowels = {
-    # Diphthongs
-    "ae",
-    "aae",
-    "ai",
-    "aai",
-    "ao",
-    "aao",
-    "au",
-    "aau",
-    "ou",
-    "oou",
-    "ei",
-    "ie",
-    "eo",
-    "eu",
-    "ea",
-    "ia",
-    "oa",
-    "ua",
-    "oi",
-    "oe",
-    "iu",
-    "io"
     # Short vowels
     "a",
     "e",
@@ -69,30 +46,30 @@ consonants = {
 
 # Diphthongs are also based on Biggs 2013. They are used
 # to handle syllable counts.
-# diphthongs = {
-#     "ae",
-#     "aae",
-#     "ai",
-#     "aai",
-#     "ao",
-#     "aao",
-#     "au",
-#     "aau",
-#     "ou",
-#     "oou",
-#     "ei",
-#     "ie",
-#     "eo",
-#     "eu",
-#     "ea",
-#     "ia",
-#     "oa",
-#     "ua",
-#     "oi",
-#     "oe",
-#     "iu",
-#     "io"
-# }
+diphthongs = {
+    "ae",
+    "āe",
+    "ai",
+    "āi",
+    "ao",
+    "āo",
+    "au",
+    "āu",
+    "ou",
+    "ōu",
+    "ei",
+    "ie",
+    "eo",
+    "eu",
+    "ea",
+    "ia",
+    "oa",
+    "ua",
+    "oi",
+    "oe",
+    "iu",
+    "io",
+}
 
 reduplications = {
     "ahuahu",
@@ -101,28 +78,39 @@ reduplications = {
     "amuamu",
     "apoapo",
     "aruaru",
+    "ātete",
     "haehae",
+    "hahau",
+    "hāhau",
     "hakuhaku",
+    "haupapa",
     "herehere",
     "heuheu",
     "hiahia",
     "hihira",
     "hihiri",
     "hirihiri",
+    "hohou",
     "hokohoko",
     "hongihongi",
     "houhou",
+    "huhu",
     "huihui",
     "hukihuki",
     "hunuhunu",
     "iheuheu",
     "ihiihi",
+    "kākahu",
     "kakaro",
     "kakau",
     "kaukau",
     "ketuketu",
+    "kiki",
     "kikini",
     "kohikohi",
+    "koko",
+    "kōpenupenu",
+    "kuku",
     "māharahara",
     "mahimahi",
     "mātakitaki",
@@ -136,25 +124,33 @@ reduplications = {
     "nekeneke",
     "ngaungau",
     "nukunuku",
+    "onioni",
     "pākarukaru",
     "panipani",
     "pehipehi",
     "piupiu",
+    "pōhēhē",
     "poipoi",
+    "popo",
     "pōpopo",
     "poroporo",
     "purupuru",
     "rahoraho",
     "rangirangi",
+    "rara",
     "rārangi",
     "rarapi",
     "rarawhi",
+    "rere",
+    "riri",
     "riringi",
     "rurerure",
+    "rūrū",
     "ruruku",
     "tāhawahawa",
     "tahitahi",
     "taitai",
+    "takapapa",
     "takitaki",
     "tāmuimui",
     "tamumu",
@@ -162,8 +158,15 @@ reduplications = {
     "tāpāpā",
     "tapatapa",
     "tapatapahi",
+    "tātāmi",
+    "tātari",
+    "tatau",
+    "tātāwhi",
     "tautohetohe",
-    "titokotoko",
+    "tīkoko",
+    "titi",
+    "tītokotoko",
+    "tohatoha",
     "tokotoko",
     "toutou",
     "tuhituhi",
@@ -173,12 +176,13 @@ reduplications = {
     "tunutunu",
     "uiui",
     "uwhiuwhi",
-    "waawaahi",
+    "wāwāhi",
     "wareware",
+    "wawae",
     "wawata",
     "wehewehe",
     "wetewete",
-    "whaawhaa",
+    "whāwhā",
     "whaiwhai",
     "whakahohori",
     "whakahohoro",
@@ -187,19 +191,29 @@ reduplications = {
     "whakakakara",
     "whakakopakopa",
     "whakakorokoro",
+    "whakamākūkū",
+    "whakamāmā",
+    "whakamamae",
+    "whakamārōrō",
     "whakamātaotao",
     "whakamātautau",
     "whakapaipai",
     "whakapakeke",
     "whakapakoko",
+    "whakapapa",
     "whakapōhēhē",
     "whakarāpopoto",
+    "whakarere",
+    "whakaririki",
     "whakataetae",
     "whakatakitaki",
     "whakatākotokoto",
     "whakatangitangi",
     "whakataratara",
+    "whakatata",
     "whakatikatika",
+    "whakawāwā",
+    "whakawhiwhi",
     "whanowhano",
     "whatiwhati",
     "whāwhā",
@@ -365,7 +379,7 @@ def main(args: argparse.Namespace) -> None:
         for (vowel, suffix), count in final_vowel_suffix.items():
             p = round(count / final_vowel[vowel], 4)
             # Outputting vowel, suffix, total final vowel count per suffix,
-            # the probabilities, and total final vowel count out of 890
+            # the probabilities, and total final vowel count out of 886
             tsv_writer3.writerow(
                 [
                     vowel,
@@ -397,7 +411,7 @@ def main(args: argparse.Namespace) -> None:
             p = round(count / final_vowel_features[feature], 4)
             # Outputting vowel features, suffix, total vowel
             # feature sequence-suffix counts, the probabilities,
-            # and total vowel feature counts out of 890
+            # and total vowel feature counts out of 886
             tsv_writer6.writerow(
                 [
                     feature,
@@ -434,6 +448,7 @@ def main(args: argparse.Namespace) -> None:
             if current_sequence:
                 vowel_seq[current_sequence] += 1
                 vowel_seq_suffix[(current_sequence, suffix)] += 1
+
         # Writing the vowel sequences into a tsv file
         for seq, count in vowel_seq.most_common():
             tsv_writer7.writerow([seq, count])
@@ -453,7 +468,7 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             p = round(count / vowel_seq[sequence], 4)
             # Outputting vowel sequence, suffix, vowel seq-suffix counts,
-            # the probabilities, and total vowel seq counts out of 890
+            # the probabilities, and total vowel seq counts out of 886
             tsv_writer9.writerow(
                 [
                     sequence,
@@ -511,7 +526,7 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             p = round(count / cons_seq[sequence], 4)
             # Outputting consonant sequence, suffix, consonant seq-suffix
-            # counts, the probabilities, and cons seq-suffix counts out of 890
+            # counts, the probabilities, and cons seq-suffix counts out of 886
             tsv_writer12.writerow(
                 [
                     sequence,
@@ -574,7 +589,7 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             p = round(count / vowel_features[v_feature], 4)
             # Outputting vowel features, suffix, vowel feat-suffix counts,
-            # the probabilities, and vowel feat counts out of 890
+            # the probabilities, and vowel feat counts out of 886
             tsv_writer15.writerow(
                 [
                     v_feature,
@@ -585,7 +600,8 @@ def main(args: argparse.Namespace) -> None:
                 ]
             )
 
-    # PART 5 & 6 – Consonant features and passives
+    # PART 5 & 6 – Consonant features (5), final consonant features (6)
+    # and suffixes
     with open(args.input, "r") as source, open(
         args.output16, "w"
     ) as sink16, open(args.output17, "w") as sink17, open(
@@ -689,7 +705,7 @@ def main(args: argparse.Namespace) -> None:
             # if suffix in ["hia", "mia", "ria"]:
             p = round(count / cons_features[c_feature], 4)
             # Outputting consontn features, suffix, cons feature-suffix
-            # counts, the probabilities, cons feat counts out of 890
+            # counts, the probabilities, cons feat counts out of 886
             tsv_writer18.writerow(
                 [
                     c_feature,
@@ -705,11 +721,14 @@ def main(args: argparse.Namespace) -> None:
         # Writing the final consonant features into a tsv file
         for feature, count in final_cons_features.most_common():
             tsv_writer19.writerow([feature, count])
+        # Writing the final consonant features-suffix pair counts
+        # into a tsv file
         for (
             feature,
             suffix,
         ), count in final_cons_features_suffix.most_common():
             tsv_writer20.writerow([feature, suffix, count])
+        # Conditional Probability: p(passive|final_cons_features)
         for (feature, suffix), count in final_cons_features_suffix.items():
             p = round(count / final_cons_features[feature], 4)
             tsv_writer21.writerow(
@@ -738,29 +757,50 @@ def main(args: argparse.Namespace) -> None:
         # Syllable count-passive conditional probabilities: output25
         tsv_writer25 = csv.writer(sink25, delimiter="\t")
 
-        # Counting the syllables and passives
+        # Counting the diphthong and monophthongs
         for lemma, suffix in tsv_reader:
-            syllable_sequence = ""
+            diphthong_count = 0
+            vowel_count = 0
             # Skipping reduplications
             if lemma in reduplications:
                 continue
-            for sound in vowels:
-                if sound in lemma:
-                    syllable_sequence += "σ"
-                    print(lemma, sound)
+            # Diphthong counts
+            for diphthong in diphthongs:
+                diphthong_count += lemma.count(diphthong)
+            # Monophthong counts
+            for vowel in vowels:
+                vowel_count += lemma.count(vowel)
+            # Syllable count per lemma
+            lemma_syllable_count = 0
+            # Total syllable count per word getting rid of overlaps
+            if diphthong_count == 1:
+                lemma_syllable_count = diphthong_count + vowel_count - 2
+            elif diphthong_count == 2:
+                lemma_syllable_count = diphthong_count + vowel_count - 4
+            elif diphthong_count == 3:
+                lemma_syllable_count = diphthong_count + vowel_count - 6
+            else:
+                lemma_syllable_count = vowel_count
+
+            # Indicating syllable counts by sigma
+            syllable_sequence = "σ" * lemma_syllable_count
+            print(lemma, syllable_sequence)
 
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
                 syllable_suffix_count[syllable_sequence, suffix] += 1
-            
-            print(lemma, syllable_sequence)
 
+        # Writing the syllable counts into a tsv file
         for syllable, count in syllable_count.most_common():
             tsv_writer23.writerow([syllable, count])
+        # Writing the syllable-suffix pair counts into a tsv file
         for (syllable, suffix), count in syllable_suffix_count.most_common():
             tsv_writer24.writerow([syllable, suffix, count])
+        # Conditional probability: p(suffix|syllable_count)
         for (syllable, suffix), count in syllable_suffix_count.items():
             p = round(count / syllable_count[syllable_sequence], 4)
+            # Outputting syllable representation, suffix, syllable-suffix
+            # counts, the probabilities, and syllable counts out of 886
             tsv_writer25.writerow(
                 [
                     syllable,
@@ -783,19 +823,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o1",
         "--output1",
-        default="01_final-V_counts.tsv",
+        default="0_final-V_counts.tsv",
         help="outputs stem-final vowel counts",
     )
     parser.add_argument(
         "-o2",
         "--output2",
-        default="01_final-V-suffix_counts.tsv",
+        default="0_final-V-suffix_counts.tsv",
         help="outputs the final vowel-suffix counts",
     )
     parser.add_argument(
         "-o3",
         "--output3",
-        default="01_final-V-suffix_prob.tsv",
+        default="0_final-V-suffix_prob.tsv",
         help="outputs p(passive|final_vowel)",
     )
     parser.add_argument(

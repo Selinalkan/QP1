@@ -12,10 +12,10 @@ h	11
 hk	11
 pk	11
 th	11
-kr	10
 pt	10
 rh	10
 tk	10
+kr	9
 rr	9
 kt	9
 pn	9
@@ -31,7 +31,6 @@ whwh	7
 mn	6
 n	6
 mr	6
-mt	6
 rp	6
 tpk	6
 whkk	6
@@ -40,6 +39,7 @@ whn	5
 hn	5
 nk	5
 kp	5
+mt	5
 rk	5
 rng	5
 tng	5
@@ -88,7 +88,6 @@ whkmn	3
 whkmr	3
 whkmt	3
 whkpt	3
-whktt	3
 whkwh	3
 wk	2
 hp	2
@@ -144,15 +143,14 @@ whkpkk	2
 whkpk	2
 whkrt	2
 whkrng	2
+whktt	2
 whktk	2
 whktktk	2
 whkw	2
 whkwr	2
 whkwht	2
-whkwhr	2
 krkr	1
 rtk	1
-whkrrng	1
 hkr	1
 hmn	1
 hhk	1
@@ -315,6 +313,7 @@ whkrn	1
 whkrp	1
 whkrph	1
 whkrppt	1
+whkrrng	1
 whkrk	1
 whkrrk	1
 whkth	1
@@ -338,6 +337,7 @@ whkwrk	1
 whkwt	1
 whkww	1
 whkwhn	1
+whkwhr	1
 whkwhrnk	1
 whkwhwh	1
 whnwhn	1

@@ -64,7 +64,6 @@ whkm	a	3
 whkpp	tia	3
 whkpr	a	3
 whkrr	a	3
-whktt	ngia	3
 whktp	ria	3
 whkwh	a	3
 wht	a	3
@@ -86,7 +85,6 @@ hr	tia	2
 hk	na	2
 khk	na	2
 kk	ria	2
-kr	hia	2
 kt	hia	2
 kwhk	na	2
 k	ina	2
@@ -95,7 +93,6 @@ kpn	a	2
 km	a	2
 mhr	tia	2
 mh	a	2
-mt	ria	2
 mt	a	2
 mn	tia	2
 mtmt	a	2
@@ -157,8 +154,8 @@ whkmt	a	2
 whkp	a	2
 whkpkk	tia	2
 whkrw	tia	2
+whktt	ngia	2
 whkwr	a	2
-whkwhr	tia	2
 whwh	tia	2
 whr	a	2
 h	ria	1
@@ -178,7 +175,6 @@ r	mia	1
 rr	mia	1
 t	hia	1
 wk	tia	1
-whkrrng	tia	1
 hn	tia	1
 hkr	a	1
 hmn	tia	1
@@ -218,6 +214,7 @@ krk	tia	1
 krng	hia	1
 krpt	a	1
 krwh	a	1
+kr	hia	1
 kt	ina	1
 k	ria	1
 k	tia	1
@@ -261,6 +258,7 @@ mrn	tia	1
 mr	hia	1
 mtk	na	1
 mtktk	na	1
+mt	ria	1
 m	ria	1
 mkmk	hia	1
 mmk	hia	1
@@ -508,6 +506,7 @@ whkrn	a	1
 whkrp	ngia	1
 whkrph	tia	1
 whkrppt	ngia	1
+whkrrng	tia	1
 whkrt	hia	1
 whkrw	a	1
 whkrk	ngia	1
@@ -549,6 +548,7 @@ whkwt	tia	1
 whkww	tia	1
 whkwht	tia	1
 whkwhn	tia	1
+whkwhr	tia	1
 whkwhrnk	tia	1
 whkwht	a	1
 whkwhwh	a	1

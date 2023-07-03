@@ -1,5 +1,5 @@
 ('voiced, dental-alveolar, oral, flap',)	a	86
-('voiced, dental-alveolar, oral, flap',)	tia	83
+('voiced, dental-alveolar, oral, flap',)	tia	82
 ('voiceless, glottal, oral, fricative',)	a	58
 ('voiceless, dental, oral, stop',)	a	51
 ('voiceless, velar, oral, stop',)	tia	49
@@ -9,13 +9,13 @@
 ('voiced, dental, nasal, stop',)	tia	31
 ('voiced, dental, nasal, stop',)	a	29
 ('voiceless, bilabial, oral, stop',)	a	27
-('voiced, dental-alveolar, oral, flap',)	hia	20
 ('voiced, velar, nasal, stop',)	tia	20
 ('voiced, bilabial, nasal, stop',)	tia	19
+('voiced, dental-alveolar, oral, flap',)	hia	19
 ('voiceless, dental, oral, stop',)	tia	19
 ('voiced, bilabial, nasal, stop',)	a	19
-('voiceless, dental, oral, stop',)	ria	18
 ('voiceless, labio-dental, oral, fricative',)	a	18
+('voiceless, dental, oral, stop',)	ria	17
 ('voiceless, bilabial, oral, stop',)	tia	17
 ('voiced, velar, nasal, stop',)	a	14
 ('voiced, bilabial, oral, approximant',)	tia	12
@@ -26,7 +26,7 @@
 ('voiceless, velar, oral, stop',)	ia	8
 ('voiced, bilabial, oral, approximant',)	a	8
 ('voiceless, dental, oral, stop',)	ina	8
-('voiceless, dental, oral, stop',)	ngia	8
+('voiceless, dental, oral, stop',)	ngia	7
 ('voiceless, bilabial, oral, stop',)	hia	6
 ('voiceless, bilabial, oral, stop',)	ria	6
 ('voiced, dental-alveolar, oral, flap',)	ngia	6
