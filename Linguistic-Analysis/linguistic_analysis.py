@@ -792,16 +792,10 @@ def main(args: argparse.Namespace) -> None:
             for vowel in vowels:
                 vowel_count += lemma.count(vowel)
             # Syllable count per lemma
-            lemma_syllable_count = 0
-            # Total syllable count per word getting rid of overlaps
-            if diphthong_count == 1:
-                lemma_syllable_count = diphthong_count + vowel_count - 2
-            elif diphthong_count == 2:
-                lemma_syllable_count = diphthong_count + vowel_count - 4
-            elif diphthong_count == 3:
-                lemma_syllable_count = diphthong_count + vowel_count - 6
-            else:
-                lemma_syllable_count = vowel_count
+            lemma_syllable_count = diphthong_count + vowel_count - (2 * diphthong_count)
+            # print(lemma, lemma_syllable_count, diphthong_count)
+
+
 
             # Indicating syllable counts by sigma
             syllable_sequence = "σ" * lemma_syllable_count
