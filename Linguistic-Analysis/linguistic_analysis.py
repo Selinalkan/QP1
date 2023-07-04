@@ -318,7 +318,7 @@ def main(args: argparse.Namespace) -> None:
     # PART 0 - Stem-final vowels and passives
     # Stem-final vowels counter
     final_vowel: Counter[str] = collections.Counter()
-    # Stem-final vowels and suffixes counter
+    # Stem-final vowels-suffix combinations counter
     final_vowel_suffix: Counter[Tuple[str, str]] = collections.Counter()
 
     # PART 1 - Stem-Final vowel features
@@ -795,8 +795,6 @@ def main(args: argparse.Namespace) -> None:
             lemma_syllable_count = diphthong_count + vowel_count - (2 * diphthong_count)
             # print(lemma, lemma_syllable_count, diphthong_count)
 
-
-
             # Indicating syllable counts by sigma
             syllable_sequence = "σ" * lemma_syllable_count
             # print(lemma, syllable_sequence)
@@ -813,7 +811,7 @@ def main(args: argparse.Namespace) -> None:
             tsv_writer24.writerow([syllable, suffix, count])
         # Conditional probability: p(suffix|syllable_count)
         for (syllable, suffix), count in syllable_suffix_count.items():
-            p = round(count / syllable_count[syllable_sequence], 4)
+            p = round(count / syllable_count[syllable], 4)
             # Outputting syllable representation, suffix, syllable-suffix
             # counts, the probabilities, and syllable counts out of 886 -
             # reduplications
@@ -821,8 +819,8 @@ def main(args: argparse.Namespace) -> None:
                 [
                     syllable,
                     suffix,
-                    syllable_suffix_count[(syllable, suffix)],
                     p,
+                    syllable_suffix_count[(syllable, suffix)],
                     syllable_count[syllable],
                 ]
             )
