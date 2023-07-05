@@ -483,8 +483,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         vowel,
                         suffix,
-                        final_vowel_suffix[(vowel, suffix)],
                         p,
+                        final_vowel_suffix[(vowel, suffix)],
                         final_vowel[vowel],
                     ]
                 )
@@ -516,8 +516,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         feature,
                         suffix,
-                        final_vowel_features_suffix[(feature, suffix)],
                         p,
+                        final_vowel_features_suffix[(feature, suffix)],
                         final_vowel_features[feature],
                     ]
                 )
@@ -572,8 +572,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         sequence,
                         suffix,
-                        vowel_seq_suffix[(sequence, suffix)],
                         p,
+                        vowel_seq_suffix[(sequence, suffix)],
                         vowel_seq[sequence],
                     ]
                 )
@@ -629,8 +629,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         sequence,
                         suffix,
-                        cons_seq_suffix[(sequence, suffix)],
                         p,
+                        cons_seq_suffix[(sequence, suffix)],
                         cons_seq[sequence],
                     ]
                 )
@@ -691,8 +691,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         v_feature,
                         suffix,
-                        vowel_features_suffix[(v_feature, suffix)],
                         p,
+                        vowel_features_suffix[(v_feature, suffix)],
                         vowel_features[v_feature],
                     ]
                 )
@@ -802,8 +802,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         c_feature,
                         suffix,
-                        cons_features_suffix[(c_feature, suffix)],
                         p,
+                        cons_features_suffix[(c_feature, suffix)],
                         cons_features[c_feature],
                     ]
                 )
@@ -829,8 +829,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         feature,
                         suffix,
-                        final_cons_features_suffix[(feature, suffix)],
                         p,
+                        final_cons_features_suffix[(feature, suffix)],
                         final_cons_features[feature],
                     ]
                 )

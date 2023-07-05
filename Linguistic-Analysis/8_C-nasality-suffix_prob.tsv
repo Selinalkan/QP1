@@ -1,124 +1,124 @@
-('oral',)	ria	5	0.0617	81
-('oral', 'oral')	ngia	8	0.0308	260
-('oral',)	na	3	0.037	81
-('oral', 'oral')	na	13	0.05	260
-('oral', 'oral')	tia	65	0.25	260
-('oral', 'oral', 'oral', 'oral')	tia	25	0.266	94
-('nasal',)	tia	3	0.2	15
-('nasal', 'nasal')	ngia	1	0.0714	14
-('nasal',)	hia	1	0.0667	15
-('nasal', 'nasal')	tia	4	0.2857	14
-('oral', 'oral')	ria	8	0.0308	260
-('oral',)	hia	5	0.0617	81
-('oral', 'oral')	hia	18	0.0692	260
-('oral', 'oral')	a	130	0.5	260
-('oral',)	a	34	0.4198	81
-('oral', 'oral', 'oral')	na	14	0.0993	141
-('oral',)	ngia	6	0.0741	81
-('oral', 'oral')	ina	5	0.0192	260
-('oral',)	mia	1	0.0123	81
-('oral', 'oral')	mia	2	0.0077	260
-('oral',)	tia	10	0.1235	81
-('oral', 'nasal')	tia	21	0.3559	59
-('oral',)	ina	10	0.1235	81
-('oral', 'oral', 'oral')	a	38	0.2695	141
-('oral', 'oral', 'oral', 'oral')	a	47	0.5	94
-('oral', 'nasal', 'nasal')	tia	4	0.8	5
-('oral', 'nasal')	a	28	0.4746	59
-('oral', 'oral')	nga	1	0.0038	260
-('oral', 'oral', 'oral')	tia	66	0.4681	141
-('oral', 'oral')	ia	6	0.0231	260
-('oral', 'nasal')	na	1	0.0169	59
-('oral', 'oral', 'oral', 'oral')	na	5	0.0532	94
-('oral', 'oral', 'nasal', 'oral', 'nasal', 'oral')	a	1	1.0	1
-('oral', 'nasal', 'oral', 'nasal')	a	6	0.8571	7
-('oral', 'oral')	kia	3	0.0115	260
-('oral', 'oral', 'nasal')	a	11	0.3333	33
-('oral',)	ia	5	0.0617	81
-('nasal', 'oral')	tia	4	0.125	32
-('nasal',)	a	5	0.3333	15
-('nasal',)	mia	3	0.2	15
-('oral',)	nga	1	0.0123	81
-('oral', 'nasal', 'oral')	tia	8	0.5333	15
-('oral', 'oral', 'nasal')	hia	3	0.0909	33
-('oral', 'oral', 'oral')	ria	7	0.0496	141
-('oral', 'oral', 'oral')	hia	7	0.0496	141
-('oral', 'oral', 'nasal')	tia	18	0.5455	33
-('oral', 'nasal')	hia	6	0.1017	59
-('oral', 'nasal', 'oral')	a	5	0.3333	15
-('oral', 'oral', 'nasal', 'oral', 'nasal')	tia	3	1.0	3
-('nasal', 'oral', 'nasal')	tia	3	1.0	3
-('nasal', 'oral', 'oral')	tia	5	0.625	8
-('nasal', 'oral', 'oral', 'oral', 'oral')	tia	1	0.5	2
-('nasal', 'oral')	a	20	0.625	32
-('nasal', 'oral', 'nasal', 'oral')	a	4	0.5714	7
-('nasal', 'oral', 'oral')	hia	1	0.125	8
-('nasal', 'oral', 'oral')	ria	1	0.125	8
-('nasal', 'nasal', 'nasal')	tia	1	1.0	1
-('nasal', 'nasal', 'oral')	tia	2	0.5	4
-('nasal', 'nasal', 'oral')	hia	2	0.5	4
-('nasal', 'nasal')	a	6	0.4286	14
-('nasal', 'oral')	hia	4	0.125	32
-('nasal', 'oral', 'oral')	na	1	0.125	8
-('nasal', 'oral', 'oral', 'oral', 'oral')	na	1	0.5	2
-('nasal', 'oral')	ria	1	0.0312	32
-('nasal',)	ria	1	0.0667	15
-('nasal', 'oral', 'nasal', 'oral')	hia	3	0.4286	7
-('nasal', 'nasal')	kia	1	0.0714	14
-('nasal', 'oral')	kia	1	0.0312	32
-('nasal', 'nasal')	ia	1	0.0714	14
-('nasal', 'nasal')	mia	1	0.0714	14
-('nasal', 'oral')	ia	2	0.0625	32
-('nasal',)	kia	2	0.1333	15
-('oral', 'oral', 'oral', 'oral', 'oral')	a	4	0.1379	29
-('oral', 'oral', 'oral', 'oral', 'oral')	tia	19	0.6552	29
-('oral', 'nasal')	ia	1	0.0169	59
-('oral', 'nasal', 'oral')	na	1	0.0667	15
-('oral', 'oral', 'oral', 'nasal')	tia	6	0.5	12
-('oral', 'nasal', 'nasal')	a	1	0.2	5
-('oral', 'nasal')	mia	1	0.0169	59
-('oral', 'oral', 'oral', 'oral')	ia	4	0.0426	94
-('oral', 'nasal', 'oral')	ria	1	0.0667	15
-('oral', 'nasal', 'oral', 'nasal')	tia	1	0.1429	7
-('oral', 'oral', 'oral', 'oral', 'oral')	na	1	0.0345	29
-('oral',)	kia	1	0.0123	81
-('oral', 'oral', 'oral', 'oral')	ina	2	0.0213	94
-('oral', 'nasal')	kia	1	0.0169	59
-('oral', 'nasal', 'nasal', 'oral')	hia	1	1.0	1
-('oral', 'oral', 'oral')	kia	4	0.0284	141
-('oral', 'oral', 'oral')	ngia	5	0.0355	141
-('oral', 'oral')	kina	1	0.0038	260
-('oral', 'oral', 'oral', 'oral')	kia	1	0.0106	94
-('oral', 'oral', 'oral', 'oral', 'oral')	ria	3	0.1034	29
-('oral', 'oral', 'oral', 'nasal', 'oral')	tia	4	0.8	5
-('oral', 'oral', 'oral', 'nasal', 'nasal')	tia	1	1.0	1
-('oral', 'oral', 'oral', 'nasal')	a	2	0.1667	12
-('oral', 'oral', 'oral', 'nasal')	ia	2	0.1667	12
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	tia	3	0.375	8
-('oral', 'oral', 'nasal')	mia	1	0.0303	33
-('oral', 'oral', 'oral', 'oral')	ngia	5	0.0532	94
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ia	1	0.125	8
-('oral', 'oral', 'oral', 'oral', 'nasal', 'oral')	tia	2	1.0	2
-('oral', 'oral', 'nasal', 'oral', 'oral')	tia	7	0.7	10
-('oral', 'oral', 'nasal', 'oral')	a	6	0.4286	14
-('oral', 'oral', 'nasal', 'nasal')	tia	3	0.5	6
-('oral', 'oral', 'nasal', 'nasal')	a	3	0.5	6
-('oral', 'oral', 'nasal', 'nasal', 'oral')	tia	1	1.0	1
-('oral', 'oral', 'nasal', 'oral')	tia	5	0.3571	14
-('oral', 'oral', 'nasal', 'oral', 'oral')	ria	3	0.3	10
-('oral', 'oral', 'nasal', 'oral')	ria	1	0.0714	14
-('oral', 'oral', 'nasal', 'oral')	mia	1	0.0714	14
-('oral', 'oral', 'nasal', 'oral')	ia	1	0.0714	14
-('oral', 'oral', 'oral', 'oral', 'oral')	ngia	2	0.069	29
-('oral', 'oral', 'oral', 'nasal')	hia	2	0.1667	12
-('oral', 'oral', 'oral', 'oral')	hia	2	0.0213	94
-('oral', 'oral', 'oral', 'nasal', 'oral', 'oral')	tia	1	1.0	1
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ngia	1	0.125	8
-('oral', 'oral', 'oral', 'oral', 'nasal')	tia	2	1.0	2
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	na	1	0.125	8
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ria	1	1.0	1
-('oral', 'oral', 'oral', 'nasal', 'oral', 'nasal')	hia	1	1.0	1
-('oral', 'oral', 'oral', 'oral')	ria	3	0.0319	94
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	hia	1	0.125	8
-('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ina	1	0.125	8
-('oral', 'oral', 'oral', 'nasal', 'oral')	ngia	1	0.2	5
+('oral',)	ria	0.0617	5	81
+('oral', 'oral')	ngia	0.0308	8	260
+('oral',)	na	0.037	3	81
+('oral', 'oral')	na	0.05	13	260
+('oral', 'oral')	tia	0.25	65	260
+('oral', 'oral', 'oral', 'oral')	tia	0.266	25	94
+('nasal',)	tia	0.2	3	15
+('nasal', 'nasal')	ngia	0.0714	1	14
+('nasal',)	hia	0.0667	1	15
+('nasal', 'nasal')	tia	0.2857	4	14
+('oral', 'oral')	ria	0.0308	8	260
+('oral',)	hia	0.0617	5	81
+('oral', 'oral')	hia	0.0692	18	260
+('oral', 'oral')	a	0.5	130	260
+('oral',)	a	0.4198	34	81
+('oral', 'oral', 'oral')	na	0.0993	14	141
+('oral',)	ngia	0.0741	6	81
+('oral', 'oral')	ina	0.0192	5	260
+('oral',)	mia	0.0123	1	81
+('oral', 'oral')	mia	0.0077	2	260
+('oral',)	tia	0.1235	10	81
+('oral', 'nasal')	tia	0.3559	21	59
+('oral',)	ina	0.1235	10	81
+('oral', 'oral', 'oral')	a	0.2695	38	141
+('oral', 'oral', 'oral', 'oral')	a	0.5	47	94
+('oral', 'nasal', 'nasal')	tia	0.8	4	5
+('oral', 'nasal')	a	0.4746	28	59
+('oral', 'oral')	nga	0.0038	1	260
+('oral', 'oral', 'oral')	tia	0.4681	66	141
+('oral', 'oral')	ia	0.0231	6	260
+('oral', 'nasal')	na	0.0169	1	59
+('oral', 'oral', 'oral', 'oral')	na	0.0532	5	94
+('oral', 'oral', 'nasal', 'oral', 'nasal', 'oral')	a	1.0	1	1
+('oral', 'nasal', 'oral', 'nasal')	a	0.8571	6	7
+('oral', 'oral')	kia	0.0115	3	260
+('oral', 'oral', 'nasal')	a	0.3333	11	33
+('oral',)	ia	0.0617	5	81
+('nasal', 'oral')	tia	0.125	4	32
+('nasal',)	a	0.3333	5	15
+('nasal',)	mia	0.2	3	15
+('oral',)	nga	0.0123	1	81
+('oral', 'nasal', 'oral')	tia	0.5333	8	15
+('oral', 'oral', 'nasal')	hia	0.0909	3	33
+('oral', 'oral', 'oral')	ria	0.0496	7	141
+('oral', 'oral', 'oral')	hia	0.0496	7	141
+('oral', 'oral', 'nasal')	tia	0.5455	18	33
+('oral', 'nasal')	hia	0.1017	6	59
+('oral', 'nasal', 'oral')	a	0.3333	5	15
+('oral', 'oral', 'nasal', 'oral', 'nasal')	tia	1.0	3	3
+('nasal', 'oral', 'nasal')	tia	1.0	3	3
+('nasal', 'oral', 'oral')	tia	0.625	5	8
+('nasal', 'oral', 'oral', 'oral', 'oral')	tia	0.5	1	2
+('nasal', 'oral')	a	0.625	20	32
+('nasal', 'oral', 'nasal', 'oral')	a	0.5714	4	7
+('nasal', 'oral', 'oral')	hia	0.125	1	8
+('nasal', 'oral', 'oral')	ria	0.125	1	8
+('nasal', 'nasal', 'nasal')	tia	1.0	1	1
+('nasal', 'nasal', 'oral')	tia	0.5	2	4
+('nasal', 'nasal', 'oral')	hia	0.5	2	4
+('nasal', 'nasal')	a	0.4286	6	14
+('nasal', 'oral')	hia	0.125	4	32
+('nasal', 'oral', 'oral')	na	0.125	1	8
+('nasal', 'oral', 'oral', 'oral', 'oral')	na	0.5	1	2
+('nasal', 'oral')	ria	0.0312	1	32
+('nasal',)	ria	0.0667	1	15
+('nasal', 'oral', 'nasal', 'oral')	hia	0.4286	3	7
+('nasal', 'nasal')	kia	0.0714	1	14
+('nasal', 'oral')	kia	0.0312	1	32
+('nasal', 'nasal')	ia	0.0714	1	14
+('nasal', 'nasal')	mia	0.0714	1	14
+('nasal', 'oral')	ia	0.0625	2	32
+('nasal',)	kia	0.1333	2	15
+('oral', 'oral', 'oral', 'oral', 'oral')	a	0.1379	4	29
+('oral', 'oral', 'oral', 'oral', 'oral')	tia	0.6552	19	29
+('oral', 'nasal')	ia	0.0169	1	59
+('oral', 'nasal', 'oral')	na	0.0667	1	15
+('oral', 'oral', 'oral', 'nasal')	tia	0.5	6	12
+('oral', 'nasal', 'nasal')	a	0.2	1	5
+('oral', 'nasal')	mia	0.0169	1	59
+('oral', 'oral', 'oral', 'oral')	ia	0.0426	4	94
+('oral', 'nasal', 'oral')	ria	0.0667	1	15
+('oral', 'nasal', 'oral', 'nasal')	tia	0.1429	1	7
+('oral', 'oral', 'oral', 'oral', 'oral')	na	0.0345	1	29
+('oral',)	kia	0.0123	1	81
+('oral', 'oral', 'oral', 'oral')	ina	0.0213	2	94
+('oral', 'nasal')	kia	0.0169	1	59
+('oral', 'nasal', 'nasal', 'oral')	hia	1.0	1	1
+('oral', 'oral', 'oral')	kia	0.0284	4	141
+('oral', 'oral', 'oral')	ngia	0.0355	5	141
+('oral', 'oral')	kina	0.0038	1	260
+('oral', 'oral', 'oral', 'oral')	kia	0.0106	1	94
+('oral', 'oral', 'oral', 'oral', 'oral')	ria	0.1034	3	29
+('oral', 'oral', 'oral', 'nasal', 'oral')	tia	0.8	4	5
+('oral', 'oral', 'oral', 'nasal', 'nasal')	tia	1.0	1	1
+('oral', 'oral', 'oral', 'nasal')	a	0.1667	2	12
+('oral', 'oral', 'oral', 'nasal')	ia	0.1667	2	12
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	tia	0.375	3	8
+('oral', 'oral', 'nasal')	mia	0.0303	1	33
+('oral', 'oral', 'oral', 'oral')	ngia	0.0532	5	94
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ia	0.125	1	8
+('oral', 'oral', 'oral', 'oral', 'nasal', 'oral')	tia	1.0	2	2
+('oral', 'oral', 'nasal', 'oral', 'oral')	tia	0.7	7	10
+('oral', 'oral', 'nasal', 'oral')	a	0.4286	6	14
+('oral', 'oral', 'nasal', 'nasal')	tia	0.5	3	6
+('oral', 'oral', 'nasal', 'nasal')	a	0.5	3	6
+('oral', 'oral', 'nasal', 'nasal', 'oral')	tia	1.0	1	1
+('oral', 'oral', 'nasal', 'oral')	tia	0.3571	5	14
+('oral', 'oral', 'nasal', 'oral', 'oral')	ria	0.3	3	10
+('oral', 'oral', 'nasal', 'oral')	ria	0.0714	1	14
+('oral', 'oral', 'nasal', 'oral')	mia	0.0714	1	14
+('oral', 'oral', 'nasal', 'oral')	ia	0.0714	1	14
+('oral', 'oral', 'oral', 'oral', 'oral')	ngia	0.069	2	29
+('oral', 'oral', 'oral', 'nasal')	hia	0.1667	2	12
+('oral', 'oral', 'oral', 'oral')	hia	0.0213	2	94
+('oral', 'oral', 'oral', 'nasal', 'oral', 'oral')	tia	1.0	1	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ngia	0.125	1	8
+('oral', 'oral', 'oral', 'oral', 'nasal')	tia	1.0	2	2
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	na	0.125	1	8
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ria	1.0	1	1
+('oral', 'oral', 'oral', 'nasal', 'oral', 'nasal')	hia	1.0	1	1
+('oral', 'oral', 'oral', 'oral')	ria	0.0319	3	94
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	hia	0.125	1	8
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ina	0.125	1	8
+('oral', 'oral', 'oral', 'nasal', 'oral')	ngia	0.2	1	5
