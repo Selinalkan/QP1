@@ -1,318 +1,318 @@
-('glottal',)	ria	0	0.0909	0
-('glottal', 'glottal')	ngia	0	0.0769	0
-('velar',)	na	0	0.1111	0
-('velar', 'velar')	na	0	0.0909	0
-('velar', 'coronal')	tia	0	0.1905	0
-('velar', 'coronal', 'velar', 'coronal')	tia	0	0.5	0
-('labial',)	tia	0	0.2258	0
-('labial', 'coronal')	ngia	0	0.0267	0
-('labial',)	hia	0	0.0645	0
-('labial', 'labial')	tia	0	0.2778	0
-('labial', 'coronal')	ria	0	0.04	0
-('labial', 'labial')	hia	0	0.0556	0
-('labial',)	ria	0	0.0645	0
-('labial', 'coronal')	a	0	0.3867	0
-('coronal',)	hia	0	0.0833	0
-('coronal', 'glottal')	na	0	0.125	0
-('coronal',)	a	0	0.3333	0
-('coronal', 'coronal', 'velar')	na	0	0.5	0
-('coronal',)	ngia	0	0.0556	0
-('coronal', 'glottal')	ina	0	0.0417	0
-('coronal',)	mia	0	0.1111	0
-('coronal', 'coronal')	mia	0	0.0698	0
-('coronal', 'labial')	tia	0	0.2286	0
-('coronal', 'coronal')	tia	0	0.1395	0
-('velar', 'glottal')	tia	0	0.5	0
-('coronal',)	tia	0	0.1389	0
-('labial', 'velar')	tia	0	0.4	0
-('labial',)	a	0	0.4194	0
-('labial', 'coronal')	tia	0	0.3467	0
-('glottal',)	a	0	0.6364	0
-('velar',)	a	0	0.3889	0
-('labial',)	ina	0	0.0645	0
-('glottal', 'glottal')	a	0	0.5385	0
-('glottal', 'coronal')	a	0	0.65	0
-('glottal', 'glottal')	tia	0	0.3846	0
-('glottal', 'coronal')	tia	0	0.15	0
-('glottal', 'velar')	a	0	0.5333	0
-('glottal', 'velar', 'coronal')	a	0	1.0	0
-('glottal', 'velar', 'glottal', 'velar')	a	0	0.75	0
-('glottal', 'labial', 'coronal')	tia	0	1.0	0
-('glottal', 'labial')	nga	0	0.2	0
-('glottal', 'glottal', 'velar')	tia	0	1.0	0
-('glottal', 'labial', 'labial')	tia	0	1.0	0
-('glottal', 'labial')	tia	0	0.2	0
-('glottal', 'coronal', 'glottal', 'coronal')	a	0	1.0	0
-('glottal', 'velar')	tia	0	0.1333	0
-('glottal', 'glottal', 'coronal')	tia	0	1.0	0
-('glottal', 'velar')	ia	0	0.1333	0
-('glottal', 'velar')	na	0	0.2	0
-('glottal', 'labial', 'velar')	na	0	0.5	0
-('glottal', 'labial')	a	0	0.4	0
-('glottal', 'velar', 'glottal', 'velar')	na	0	0.25	0
-('glottal', 'velar', 'labial', 'coronal', 'labial', 'coronal')	a	0	1.0	0
-('glottal', 'labial')	kia	0	0.2	0
-('glottal', 'coronal')	hia	0	0.15	0
-('glottal', 'coronal')	mia	0	0.05	0
-('glottal', 'coronal', 'labial')	a	0	1.0	0
-('glottal',)	hia	0	0.0909	0
-('glottal',)	ia	0	0.0909	0
-('glottal',)	ina	0	0.0909	0
-('glottal', 'labial', 'velar')	tia	0	0.5	0
-('coronal', 'velar')	tia	0	0.2333	0
-('velar',)	ngia	0	0.0556	0
-('velar', 'glottal', 'velar')	na	0	1.0	0
-('velar',)	nga	0	0.0556	0
-('velar', 'velar', 'velar')	tia	0	1.0	0
-('velar', 'labial', 'coronal')	hia	0	0.1429	0
-('velar', 'velar', 'glottal')	ria	0	1.0	0
-('velar', 'velar', 'coronal')	hia	0	0.3333	0
-('velar', 'velar')	ria	0	0.1818	0
-('velar', 'velar')	a	0	0.6364	0
-('velar', 'labial')	a	0	0.6364	0
-('velar', 'labial')	hia	0	0.1818	0
-('velar', 'coronal', 'velar')	tia	0	0.6667	0
-('velar', 'coronal', 'velar')	hia	0	0.3333	0
-('velar', 'coronal', 'labial', 'coronal')	a	0	1.0	0
-('velar', 'coronal', 'labial')	a	0	1.0	0
-('velar', 'coronal')	a	0	0.619	0
-('velar', 'coronal')	hia	0	0.1429	0
-('velar', 'coronal')	ina	0	0.0476	0
-('velar',)	ria	0	0.0556	0
-('velar',)	tia	0	0.0556	0
-('velar', 'labial', 'coronal')	tia	0	0.2857	0
-('velar', 'labial', 'coronal')	a	0	0.5714	0
-('velar', 'labial')	tia	0	0.1818	0
-('velar', 'labial', 'velar')	na	0	0.75	0
-('velar', 'coronal', 'velar', 'coronal')	a	0	0.5	0
-('velar', 'glottal')	a	0	0.5	0
-('velar', 'velar', 'coronal')	tia	0	0.6667	0
-('velar',)	ia	0	0.1667	0
-('velar',)	ina	0	0.1111	0
-('velar', 'glottal', 'coronal')	tia	0	0.6667	0
-('velar', 'glottal', 'velar', 'glottal')	a	0	1.0	0
-('velar', 'glottal', 'coronal')	a	0	0.3333	0
-('velar', 'velar')	tia	0	0.0909	0
-('velar', 'coronal', 'coronal')	a	0	0.6667	0
-('velar', 'labial', 'velar')	tia	0	0.25	0
-('velar', 'labial', 'coronal', 'labial', 'coronal')	tia	0	1.0	0
-('velar', 'coronal', 'coronal')	tia	0	0.3333	0
-('labial', 'glottal', 'velar')	tia	0	1.0	0
-('labial', 'glottal', 'coronal')	tia	0	1.0	0
-('labial', 'glottal', 'coronal', 'glottal', 'coronal')	tia	0	1.0	0
-('labial', 'glottal')	a	0	0.6364	0
-('labial', 'glottal', 'labial', 'glottal')	a	0	1.0	0
-('labial', 'velar')	a	0	0.44	0
-('labial', 'velar', 'coronal')	hia	0	0.1111	0
-('labial', 'velar', 'coronal')	ria	0	0.1111	0
-('labial', 'labial', 'velar')	tia	0	0.6667	0
-('labial', 'coronal', 'velar')	tia	0	0.6667	0
-('labial', 'coronal', 'velar')	hia	0	0.1111	0
-('labial', 'labial')	a	0	0.5556	0
-('labial', 'coronal', 'coronal')	tia	0	1.0	0
-('labial', 'coronal')	hia	0	0.08	0
-('labial', 'coronal', 'velar')	na	0	0.1111	0
-('labial', 'coronal', 'velar', 'coronal', 'velar')	na	0	1.0	0
-('labial', 'velar', 'labial', 'velar')	hia	0	0.2	0
-('labial', 'labial', 'velar')	hia	0	0.3333	0
-('labial', 'coronal', 'labial', 'coronal')	a	0	0.7	0
-('labial', 'glottal')	tia	0	0.3636	0
-('labial', 'velar', 'coronal')	tia	0	0.2593	0
-('labial', 'coronal')	kia	0	0.0533	0
-('labial', 'velar', 'labial', 'velar')	a	0	0.4	0
-('labial', 'coronal')	ia	0	0.04	0
-('coronal', 'coronal', 'velar')	tia	0	0.4	0
-('coronal', 'coronal')	a	0	0.6279	0
-('coronal', 'glottal')	tia	0	0.25	0
-('coronal', 'glottal')	a	0	0.5	0
-('coronal', 'velar')	hia	0	0.3	0
-('coronal', 'velar', 'coronal', 'velar')	hia	0	0.2857	0
-('coronal', 'velar')	a	0	0.2333	0
-('coronal', 'glottal')	ia	0	0.0417	0
-('coronal', 'velar')	ia	0	0.0333	0
-('coronal', 'velar', 'coronal')	tia	0	0.75	0
-('coronal', 'labial')	a	0	0.5714	0
-('labial',)	kia	0	0.0323	0
-('coronal',)	kia	0	0.0556	0
-('coronal',)	ina	0	0.1389	0
-('labial',)	ngia	0	0.0968	0
-('labial', 'velar', 'coronal', 'glottal')	tia	0	0.3333	0
-('labial', 'velar', 'velar')	tia	0	0.3333	0
-('labial', 'velar', 'coronal')	a	0	0.3704	0
-('labial', 'velar', 'coronal', 'velar', 'coronal')	a	0	0.3333	0
-('labial', 'velar', 'labial')	tia	0	0.2857	0
-('labial', 'coronal', 'velar', 'coronal', 'glottal')	tia	0	1.0	0
-('labial', 'labial', 'coronal')	tia	0	1.0	0
-('labial', 'velar')	ina	0	0.04	0
-('labial', 'coronal', 'glottal')	tia	0	1.0	0
-('labial', 'glottal', 'glottal')	tia	0	1.0	0
-('labial', 'velar')	ia	0	0.04	0
-('labial', 'labial', 'labial')	tia	0	1.0	0
-('labial', 'coronal', 'labial', 'coronal')	tia	0	0.2	0
-('labial', 'coronal', 'labial')	a	0	0.25	0
-('labial',)	ia	0	0.0323	0
-('labial', 'coronal', 'labial')	tia	0	0.75	0
-('labial', 'coronal')	ina	0	0.0133	0
-('coronal', 'glottal', 'coronal', 'glottal')	a	0	0.75	0
-('coronal', 'velar', 'glottal')	a	0	1.0	0
-('coronal', 'velar', 'coronal', 'velar')	a	0	0.4286	0
-('coronal', 'labial')	ngia	0	0.0286	0
-('coronal', 'labial')	hia	0	0.0571	0
-('coronal', 'coronal', 'labial')	hia	0	0.1	0
-('coronal', 'coronal', 'labial')	a	0	0.3	0
-('coronal', 'labial', 'coronal')	tia	0	0.6667	0
-('coronal', 'coronal')	ngia	0	0.0698	0
-('coronal', 'labial', 'velar')	tia	0	0.6667	0
-('coronal', 'glottal', 'coronal')	tia	0	0.25	0
-('coronal', 'coronal', 'velar')	hia	0	0.1	0
-('coronal', 'velar')	na	0	0.1667	0
-('coronal', 'labial', 'velar')	na	0	0.3333	0
-('coronal', 'coronal', 'coronal', 'coronal')	a	0	1.0	0
-('coronal', 'coronal')	hia	0	0.0465	0
-('coronal', 'glottal', 'labial', 'glottal', 'labial')	tia	0	1.0	0
-('coronal', 'velar')	ina	0	0.0333	0
-('coronal', 'velar', 'velar', 'coronal')	tia	0	1.0	0
-('coronal', 'velar', 'labial', 'labial')	a	0	1.0	0
-('coronal', 'velar', 'labial')	ria	0	1.0	0
-('coronal', 'velar', 'coronal')	hia	0	0.125	0
-('coronal', 'velar', 'labial', 'coronal')	tia	0	1.0	0
-('coronal', 'velar', 'coronal', 'velar')	na	0	0.2857	0
-('coronal', 'velar', 'coronal')	ria	0	0.125	0
-('coronal', 'labial', 'labial')	a	0	0.25	0
-('coronal', 'labial', 'labial')	tia	0	0.75	0
-('coronal', 'coronal', 'labial')	tia	0	0.6	0
-('coronal',)	na	0	0.0278	0
-('coronal', 'labial')	ia	0	0.0571	0
-('coronal', 'labial', 'glottal')	a	0	0.5	0
-('coronal', 'labial', 'coronal', 'labial')	ia	0	1.0	0
-('coronal', 'labial', 'coronal', 'labial', 'glottal')	a	0	1.0	0
-('coronal', 'labial', 'glottal')	tia	0	0.25	0
-('coronal', 'labial', 'coronal')	a	0	0.2	0
-('coronal', 'coronal', 'coronal')	tia	0	0.5	0
-('coronal', 'coronal')	ria	0	0.0233	0
-('coronal',)	ria	0	0.0556	0
-('coronal', 'glottal', 'coronal')	a	0	0.75	0
-('coronal', 'coronal', 'glottal')	tia	0	1.0	0
-('coronal', 'coronal', 'glottal', 'coronal', 'glottal')	tia	0	1.0	0
-('coronal', 'velar', 'velar')	a	0	1.0	0
-('coronal', 'labial', 'coronal')	ria	0	0.0667	0
-('coronal', 'coronal', 'glottal', 'velar')	tia	0	1.0	0
-('coronal', 'coronal', 'coronal')	a	0	0.5	0
-('coronal', 'coronal', 'velar', 'coronal', 'velar')	na	0	1.0	0
-('coronal', 'labial', 'coronal')	hia	0	0.0667	0
-('coronal', 'glottal', 'coronal', 'glottal')	ina	0	0.25	0
-('coronal', 'glottal')	ngia	0	0.0417	0
-('coronal', 'labial')	kia	0	0.0286	0
-('coronal', 'coronal')	na	0	0.0233	0
-('coronal', 'labial', 'coronal', 'velar')	hia	0	1.0	0
-('coronal', 'labial', 'glottal')	kia	0	0.25	0
-('coronal', 'labial')	ria	0	0.0286	0
-('labial', 'labial', 'glottal')	a	0	0.5	0
-('labial', 'velar', 'coronal')	ngia	0	0.0741	0
-('labial', 'labial', 'glottal')	tia	0	0.5	0
-('labial', 'coronal')	kina	0	0.0133	0
-('labial', 'coronal', 'labial', 'coronal')	kia	0	0.1	0
-('labial', 'velar')	na	0	0.04	0
-('labial', 'labial')	ria	0	0.1111	0
-('labial', 'velar', 'coronal', 'coronal')	tia	0	0.0769	0
-('labial', 'velar', 'glottal')	tia	0	0.625	0
-('labial', 'velar', 'glottal', 'coronal')	tia	0	0.2	0
-('labial', 'velar', 'velar', 'velar', 'glottal')	ria	0	1.0	0
-('labial', 'velar', 'velar')	na	0	0.1111	0
-('labial', 'velar', 'coronal', 'labial', 'coronal')	tia	0	0.5	0
-('labial', 'velar', 'velar')	a	0	0.3333	0
-('labial', 'velar', 'labial')	a	0	0.5	0
-('labial', 'velar', 'glottal', 'labial')	a	0	0.6667	0
-('labial', 'velar', 'glottal', 'labial')	tia	0	0.3333	0
-('labial', 'velar', 'glottal', 'coronal')	a	0	0.8	0
-('labial', 'velar', 'glottal', 'velar')	tia	0	0.25	0
-('labial', 'velar', 'glottal', 'coronal', 'labial')	tia	0	1.0	0
-('labial', 'velar', 'glottal')	a	0	0.25	0
-('labial', 'velar', 'glottal')	ngia	0	0.125	0
-('labial', 'velar', 'glottal', 'velar')	a	0	0.5	0
-('labial', 'velar', 'glottal', 'velar')	ia	0	0.25	0
-('labial', 'velar', 'glottal', 'glottal', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'glottal', 'coronal', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'glottal', 'coronal', 'glottal', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'coronal')	mia	0	0.037	0
-('labial', 'velar', 'labial', 'labial')	tia	0	0.875	0
-('labial', 'velar', 'velar')	ngia	0	0.1111	0
-('labial', 'velar', 'velar', 'glottal')	ngia	0	0.5	0
-('labial', 'velar', 'velar', 'glottal', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'velar', 'glottal', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'velar')	ria	0	0.1111	0
-('labial', 'velar', 'velar', 'velar', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'velar', 'velar')	a	0	0.5	0
-('labial', 'velar', 'velar', 'coronal', 'labial')	tia	0	1.0	0
-('labial', 'velar', 'velar', 'labial')	a	0	0.5	0
-('labial', 'velar', 'velar', 'velar')	tia	0	0.5	0
-('labial', 'velar', 'velar', 'coronal')	tia	0	0.5	0
-('labial', 'velar', 'velar', 'coronal')	a	0	0.3333	0
-('labial', 'velar', 'velar', 'labial', 'velar', 'labial')	ia	0	1.0	0
-('labial', 'velar', 'velar', 'labial', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'velar', 'labial')	tia	0	0.5	0
-('labial', 'velar', 'velar', 'coronal', 'velar', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'velar', 'coronal', 'labial', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'labial', 'glottal', 'coronal')	tia	0	0.75	0
-('labial', 'velar', 'labial', 'glottal')	a	0	0.8333	0
-('labial', 'velar', 'labial', 'velar', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'labial', 'coronal')	a	0	0.4583	0
-('labial', 'velar', 'labial', 'coronal', 'labial')	tia	0	1.0	0
-('labial', 'velar', 'labial', 'coronal')	tia	0	0.375	0
-('labial', 'velar', 'labial', 'coronal', 'velar')	tia	0	0.6667	0
-('labial', 'velar', 'labial', 'coronal', 'coronal')	tia	0	0.3333	0
-('labial', 'velar', 'labial', 'coronal', 'velar')	ria	0	0.3333	0
-('labial', 'velar', 'labial', 'coronal', 'coronal')	ria	0	0.6667	0
-('labial', 'velar', 'labial', 'coronal')	ria	0	0.0417	0
-('labial', 'velar', 'labial', 'glottal')	tia	0	0.1667	0
-('labial', 'velar', 'labial', 'velar')	tia	0	0.2	0
-('labial', 'velar', 'coronal', 'coronal')	a	0	0.5385	0
-('labial', 'velar', 'velar', 'glottal')	tia	0	0.5	0
-('labial', 'velar', 'velar', 'coronal')	mia	0	0.1667	0
-('labial', 'velar', 'velar', 'labial', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'coronal', 'glottal')	ia	0	0.3333	0
-('labial', 'velar', 'labial')	kia	0	0.1429	0
-('labial', 'velar', 'labial', 'coronal', 'glottal', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'labial')	ngia	0	0.0714	0
-('labial', 'velar', 'labial', 'glottal', 'glottal')	ngia	0	1.0	0
-('labial', 'velar', 'labial', 'velar', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'labial', 'coronal')	hia	0	0.0833	0
-('labial', 'velar', 'labial', 'velar')	na	0	0.2	0
-('labial', 'velar', 'labial', 'glottal', 'coronal')	a	0	0.25	0
-('labial', 'velar', 'labial', 'coronal')	ina	0	0.0417	0
-('labial', 'velar', 'coronal', 'velar', 'coronal', 'coronal')	tia	0	1.0	0
-('labial', 'velar', 'coronal', 'labial')	ngia	0	0.1111	0
-('labial', 'velar', 'coronal', 'labial', 'glottal')	tia	0	1.0	0
-('labial', 'velar', 'coronal', 'labial', 'labial', 'coronal')	ngia	0	1.0	0
-('labial', 'velar', 'coronal', 'coronal', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'coronal', 'coronal')	hia	0	0.0769	0
-('labial', 'velar', 'coronal', 'labial')	tia	0	0.3333	0
-('labial', 'velar', 'coronal', 'labial')	a	0	0.1111	0
-('labial', 'velar', 'coronal', 'velar')	ngia	0	0.2	0
-('labial', 'velar', 'coronal', 'labial')	ia	0	0.1111	0
-('labial', 'velar', 'coronal', 'coronal')	ia	0	0.1538	0
-('labial', 'velar', 'coronal', 'velar')	hia	0	0.2	0
-('labial', 'velar', 'coronal', 'coronal')	ngia	0	0.1538	0
-('labial', 'velar', 'coronal', 'glottal')	a	0	0.3333	0
-('labial', 'velar', 'coronal', 'glottal', 'coronal')	ngia	0	1.0	0
-('labial', 'velar', 'coronal', 'velar', 'coronal')	tia	0	0.3333	0
-('labial', 'velar', 'coronal', 'velar')	na	0	0.2	0
-('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	na	0	0.3333	0
-('labial', 'velar', 'coronal', 'velar', 'coronal')	ria	0	0.3333	0
-('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar', 'coronal')	ria	0	1.0	0
-('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	hia	0	0.3333	0
-('labial', 'velar', 'coronal', 'labial')	ria	0	0.3333	0
-('labial', 'velar', 'coronal', 'coronal', 'coronal', 'coronal')	hia	0	1.0	0
-('labial', 'velar', 'coronal', 'coronal', 'coronal')	a	0	1.0	0
-('labial', 'velar', 'coronal', 'velar')	ia	0	0.2	0
-('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	ina	0	0.3333	0
-('labial', 'velar', 'coronal', 'labial', 'coronal')	ngia	0	0.25	0
-('labial', 'velar', 'coronal', 'coronal', 'glottal')	tia	0	1.0	0
-('labial', 'velar', 'coronal')	kia	0	0.037	0
-('labial', 'velar', 'coronal', 'labial', 'coronal')	ria	0	0.25	0
-('labial', 'velar')	ngia	0	0.04	0
-('labial', 'velar', 'coronal', 'velar')	tia	0	0.2	0
-('labial', 'velar', 'labial', 'coronal', 'coronal', 'velar')	tia	0	1.0	0
-('labial', 'velar', 'labial', 'labial')	a	0	0.125	0
-('labial', 'coronal', 'coronal', 'velar')	tia	0	1.0	0
-('labial', 'coronal', 'velar')	ria	0	0.1111	0
+('glottal',)	ria	1	0.0909	11
+('glottal', 'glottal')	ngia	1	0.0769	13
+('velar',)	na	2	0.1111	18
+('velar', 'velar')	na	1	0.0909	11
+('velar', 'coronal')	tia	4	0.1905	21
+('velar', 'coronal', 'velar', 'coronal')	tia	1	0.5	2
+('labial',)	tia	7	0.2258	31
+('labial', 'coronal')	ngia	2	0.0267	75
+('labial',)	hia	2	0.0645	31
+('labial', 'labial')	tia	5	0.2778	18
+('labial', 'coronal')	ria	3	0.04	75
+('labial', 'labial')	hia	1	0.0556	18
+('labial',)	ria	2	0.0645	31
+('labial', 'coronal')	a	29	0.3867	75
+('coronal',)	hia	3	0.0833	36
+('coronal', 'glottal')	na	3	0.125	24
+('coronal',)	a	12	0.3333	36
+('coronal', 'coronal', 'velar')	na	5	0.5	10
+('coronal',)	ngia	2	0.0556	36
+('coronal', 'glottal')	ina	1	0.0417	24
+('coronal',)	mia	4	0.1111	36
+('coronal', 'coronal')	mia	3	0.0698	43
+('coronal', 'labial')	tia	8	0.2286	35
+('coronal', 'coronal')	tia	6	0.1395	43
+('velar', 'glottal')	tia	4	0.5	8
+('coronal',)	tia	5	0.1389	36
+('labial', 'velar')	tia	10	0.4	25
+('labial',)	a	13	0.4194	31
+('labial', 'coronal')	tia	26	0.3467	75
+('glottal',)	a	7	0.6364	11
+('velar',)	a	7	0.3889	18
+('labial',)	ina	2	0.0645	31
+('glottal', 'glottal')	a	7	0.5385	13
+('glottal', 'coronal')	a	13	0.65	20
+('glottal', 'glottal')	tia	5	0.3846	13
+('glottal', 'coronal')	tia	3	0.15	20
+('glottal', 'velar')	a	8	0.5333	15
+('glottal', 'velar', 'coronal')	a	1	1.0	1
+('glottal', 'velar', 'glottal', 'velar')	a	3	0.75	4
+('glottal', 'labial', 'coronal')	tia	1	1.0	1
+('glottal', 'labial')	nga	1	0.2	5
+('glottal', 'glottal', 'velar')	tia	1	1.0	1
+('glottal', 'labial', 'labial')	tia	1	1.0	1
+('glottal', 'labial')	tia	1	0.2	5
+('glottal', 'coronal', 'glottal', 'coronal')	a	3	1.0	3
+('glottal', 'velar')	tia	2	0.1333	15
+('glottal', 'glottal', 'coronal')	tia	2	1.0	2
+('glottal', 'velar')	ia	2	0.1333	15
+('glottal', 'velar')	na	3	0.2	15
+('glottal', 'labial', 'velar')	na	1	0.5	2
+('glottal', 'labial')	a	2	0.4	5
+('glottal', 'velar', 'glottal', 'velar')	na	1	0.25	4
+('glottal', 'velar', 'labial', 'coronal', 'labial', 'coronal')	a	1	1.0	1
+('glottal', 'labial')	kia	1	0.2	5
+('glottal', 'coronal')	hia	3	0.15	20
+('glottal', 'coronal')	mia	1	0.05	20
+('glottal', 'coronal', 'labial')	a	1	1.0	1
+('glottal',)	hia	1	0.0909	11
+('glottal',)	ia	1	0.0909	11
+('glottal',)	ina	1	0.0909	11
+('glottal', 'labial', 'velar')	tia	1	0.5	2
+('coronal', 'velar')	tia	7	0.2333	30
+('velar',)	ngia	1	0.0556	18
+('velar', 'glottal', 'velar')	na	2	1.0	2
+('velar',)	nga	1	0.0556	18
+('velar', 'velar', 'velar')	tia	1	1.0	1
+('velar', 'labial', 'coronal')	hia	2	0.1429	14
+('velar', 'velar', 'glottal')	ria	1	1.0	1
+('velar', 'velar', 'coronal')	hia	1	0.3333	3
+('velar', 'velar')	ria	2	0.1818	11
+('velar', 'velar')	a	7	0.6364	11
+('velar', 'labial')	a	7	0.6364	11
+('velar', 'labial')	hia	2	0.1818	11
+('velar', 'coronal', 'velar')	tia	2	0.6667	3
+('velar', 'coronal', 'velar')	hia	1	0.3333	3
+('velar', 'coronal', 'labial', 'coronal')	a	1	1.0	1
+('velar', 'coronal', 'labial')	a	1	1.0	1
+('velar', 'coronal')	a	13	0.619	21
+('velar', 'coronal')	hia	3	0.1429	21
+('velar', 'coronal')	ina	1	0.0476	21
+('velar',)	ria	1	0.0556	18
+('velar',)	tia	1	0.0556	18
+('velar', 'labial', 'coronal')	tia	4	0.2857	14
+('velar', 'labial', 'coronal')	a	8	0.5714	14
+('velar', 'labial')	tia	2	0.1818	11
+('velar', 'labial', 'velar')	na	3	0.75	4
+('velar', 'coronal', 'velar', 'coronal')	a	1	0.5	2
+('velar', 'glottal')	a	4	0.5	8
+('velar', 'velar', 'coronal')	tia	2	0.6667	3
+('velar',)	ia	3	0.1667	18
+('velar',)	ina	2	0.1111	18
+('velar', 'glottal', 'coronal')	tia	2	0.6667	3
+('velar', 'glottal', 'velar', 'glottal')	a	1	1.0	1
+('velar', 'glottal', 'coronal')	a	1	0.3333	3
+('velar', 'velar')	tia	1	0.0909	11
+('velar', 'coronal', 'coronal')	a	2	0.6667	3
+('velar', 'labial', 'velar')	tia	1	0.25	4
+('velar', 'labial', 'coronal', 'labial', 'coronal')	tia	1	1.0	1
+('velar', 'coronal', 'coronal')	tia	1	0.3333	3
+('labial', 'glottal', 'velar')	tia	1	1.0	1
+('labial', 'glottal', 'coronal')	tia	4	1.0	4
+('labial', 'glottal', 'coronal', 'glottal', 'coronal')	tia	1	1.0	1
+('labial', 'glottal')	a	7	0.6364	11
+('labial', 'glottal', 'labial', 'glottal')	a	3	1.0	3
+('labial', 'velar')	a	11	0.44	25
+('labial', 'velar', 'coronal')	hia	3	0.1111	27
+('labial', 'velar', 'coronal')	ria	3	0.1111	27
+('labial', 'labial', 'velar')	tia	2	0.6667	3
+('labial', 'coronal', 'velar')	tia	6	0.6667	9
+('labial', 'coronal', 'velar')	hia	1	0.1111	9
+('labial', 'labial')	a	10	0.5556	18
+('labial', 'coronal', 'coronal')	tia	4	1.0	4
+('labial', 'coronal')	hia	6	0.08	75
+('labial', 'coronal', 'velar')	na	1	0.1111	9
+('labial', 'coronal', 'velar', 'coronal', 'velar')	na	1	1.0	1
+('labial', 'velar', 'labial', 'velar')	hia	1	0.2	5
+('labial', 'labial', 'velar')	hia	1	0.3333	3
+('labial', 'coronal', 'labial', 'coronal')	a	7	0.7	10
+('labial', 'glottal')	tia	4	0.3636	11
+('labial', 'velar', 'coronal')	tia	7	0.2593	27
+('labial', 'coronal')	kia	4	0.0533	75
+('labial', 'velar', 'labial', 'velar')	a	2	0.4	5
+('labial', 'coronal')	ia	3	0.04	75
+('coronal', 'coronal', 'velar')	tia	4	0.4	10
+('coronal', 'coronal')	a	27	0.6279	43
+('coronal', 'glottal')	tia	6	0.25	24
+('coronal', 'glottal')	a	12	0.5	24
+('coronal', 'velar')	hia	9	0.3	30
+('coronal', 'velar', 'coronal', 'velar')	hia	2	0.2857	7
+('coronal', 'velar')	a	7	0.2333	30
+('coronal', 'glottal')	ia	1	0.0417	24
+('coronal', 'velar')	ia	1	0.0333	30
+('coronal', 'velar', 'coronal')	tia	6	0.75	8
+('coronal', 'labial')	a	20	0.5714	35
+('labial',)	kia	1	0.0323	31
+('coronal',)	kia	2	0.0556	36
+('coronal',)	ina	5	0.1389	36
+('labial',)	ngia	3	0.0968	31
+('labial', 'velar', 'coronal', 'glottal')	tia	1	0.3333	3
+('labial', 'velar', 'velar')	tia	3	0.3333	9
+('labial', 'velar', 'coronal')	a	10	0.3704	27
+('labial', 'velar', 'coronal', 'velar', 'coronal')	a	1	0.3333	3
+('labial', 'velar', 'labial')	tia	4	0.2857	14
+('labial', 'coronal', 'velar', 'coronal', 'glottal')	tia	1	1.0	1
+('labial', 'labial', 'coronal')	tia	3	1.0	3
+('labial', 'velar')	ina	1	0.04	25
+('labial', 'coronal', 'glottal')	tia	2	1.0	2
+('labial', 'glottal', 'glottal')	tia	1	1.0	1
+('labial', 'velar')	ia	1	0.04	25
+('labial', 'labial', 'labial')	tia	1	1.0	1
+('labial', 'coronal', 'labial', 'coronal')	tia	2	0.2	10
+('labial', 'coronal', 'labial')	a	1	0.25	4
+('labial',)	ia	1	0.0323	31
+('labial', 'coronal', 'labial')	tia	3	0.75	4
+('labial', 'coronal')	ina	1	0.0133	75
+('coronal', 'glottal', 'coronal', 'glottal')	a	3	0.75	4
+('coronal', 'velar', 'glottal')	a	2	1.0	2
+('coronal', 'velar', 'coronal', 'velar')	a	3	0.4286	7
+('coronal', 'labial')	ngia	1	0.0286	35
+('coronal', 'labial')	hia	2	0.0571	35
+('coronal', 'coronal', 'labial')	hia	1	0.1	10
+('coronal', 'coronal', 'labial')	a	3	0.3	10
+('coronal', 'labial', 'coronal')	tia	10	0.6667	15
+('coronal', 'coronal')	ngia	3	0.0698	43
+('coronal', 'labial', 'velar')	tia	6	0.6667	9
+('coronal', 'glottal', 'coronal')	tia	1	0.25	4
+('coronal', 'coronal', 'velar')	hia	1	0.1	10
+('coronal', 'velar')	na	5	0.1667	30
+('coronal', 'labial', 'velar')	na	3	0.3333	9
+('coronal', 'coronal', 'coronal', 'coronal')	a	2	1.0	2
+('coronal', 'coronal')	hia	2	0.0465	43
+('coronal', 'glottal', 'labial', 'glottal', 'labial')	tia	1	1.0	1
+('coronal', 'velar')	ina	1	0.0333	30
+('coronal', 'velar', 'velar', 'coronal')	tia	1	1.0	1
+('coronal', 'velar', 'labial', 'labial')	a	1	1.0	1
+('coronal', 'velar', 'labial')	ria	1	1.0	1
+('coronal', 'velar', 'coronal')	hia	1	0.125	8
+('coronal', 'velar', 'labial', 'coronal')	tia	1	1.0	1
+('coronal', 'velar', 'coronal', 'velar')	na	2	0.2857	7
+('coronal', 'velar', 'coronal')	ria	1	0.125	8
+('coronal', 'labial', 'labial')	a	1	0.25	4
+('coronal', 'labial', 'labial')	tia	3	0.75	4
+('coronal', 'coronal', 'labial')	tia	6	0.6	10
+('coronal',)	na	1	0.0278	36
+('coronal', 'labial')	ia	2	0.0571	35
+('coronal', 'labial', 'glottal')	a	2	0.5	4
+('coronal', 'labial', 'coronal', 'labial')	ia	1	1.0	1
+('coronal', 'labial', 'coronal', 'labial', 'glottal')	a	1	1.0	1
+('coronal', 'labial', 'glottal')	tia	1	0.25	4
+('coronal', 'labial', 'coronal')	a	3	0.2	15
+('coronal', 'coronal', 'coronal')	tia	2	0.5	4
+('coronal', 'coronal')	ria	1	0.0233	43
+('coronal',)	ria	2	0.0556	36
+('coronal', 'glottal', 'coronal')	a	3	0.75	4
+('coronal', 'coronal', 'glottal')	tia	2	1.0	2
+('coronal', 'coronal', 'glottal', 'coronal', 'glottal')	tia	1	1.0	1
+('coronal', 'velar', 'velar')	a	1	1.0	1
+('coronal', 'labial', 'coronal')	ria	1	0.0667	15
+('coronal', 'coronal', 'glottal', 'velar')	tia	1	1.0	1
+('coronal', 'coronal', 'coronal')	a	2	0.5	4
+('coronal', 'coronal', 'velar', 'coronal', 'velar')	na	1	1.0	1
+('coronal', 'labial', 'coronal')	hia	1	0.0667	15
+('coronal', 'glottal', 'coronal', 'glottal')	ina	1	0.25	4
+('coronal', 'glottal')	ngia	1	0.0417	24
+('coronal', 'labial')	kia	1	0.0286	35
+('coronal', 'coronal')	na	1	0.0233	43
+('coronal', 'labial', 'coronal', 'velar')	hia	1	1.0	1
+('coronal', 'labial', 'glottal')	kia	1	0.25	4
+('coronal', 'labial')	ria	1	0.0286	35
+('labial', 'labial', 'glottal')	a	1	0.5	2
+('labial', 'velar', 'coronal')	ngia	2	0.0741	27
+('labial', 'labial', 'glottal')	tia	1	0.5	2
+('labial', 'coronal')	kina	1	0.0133	75
+('labial', 'coronal', 'labial', 'coronal')	kia	1	0.1	10
+('labial', 'velar')	na	1	0.04	25
+('labial', 'labial')	ria	2	0.1111	18
+('labial', 'velar', 'coronal', 'coronal')	tia	1	0.0769	13
+('labial', 'velar', 'glottal')	tia	5	0.625	8
+('labial', 'velar', 'glottal', 'coronal')	tia	1	0.2	5
+('labial', 'velar', 'velar', 'velar', 'glottal')	ria	1	1.0	1
+('labial', 'velar', 'velar')	na	1	0.1111	9
+('labial', 'velar', 'coronal', 'labial', 'coronal')	tia	2	0.5	4
+('labial', 'velar', 'velar')	a	3	0.3333	9
+('labial', 'velar', 'labial')	a	7	0.5	14
+('labial', 'velar', 'glottal', 'labial')	a	2	0.6667	3
+('labial', 'velar', 'glottal', 'labial')	tia	1	0.3333	3
+('labial', 'velar', 'glottal', 'coronal')	a	4	0.8	5
+('labial', 'velar', 'glottal', 'velar')	tia	1	0.25	4
+('labial', 'velar', 'glottal', 'coronal', 'labial')	tia	1	1.0	1
+('labial', 'velar', 'glottal')	a	2	0.25	8
+('labial', 'velar', 'glottal')	ngia	1	0.125	8
+('labial', 'velar', 'glottal', 'velar')	a	2	0.5	4
+('labial', 'velar', 'glottal', 'velar')	ia	1	0.25	4
+('labial', 'velar', 'glottal', 'glottal', 'coronal')	tia	2	1.0	2
+('labial', 'velar', 'glottal', 'coronal', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'glottal', 'coronal', 'glottal', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'coronal')	mia	1	0.037	27
+('labial', 'velar', 'labial', 'labial')	tia	7	0.875	8
+('labial', 'velar', 'velar')	ngia	1	0.1111	9
+('labial', 'velar', 'velar', 'glottal')	ngia	1	0.5	2
+('labial', 'velar', 'velar', 'glottal', 'velar')	tia	1	1.0	1
+('labial', 'velar', 'velar', 'glottal', 'coronal')	tia	2	1.0	2
+('labial', 'velar', 'velar')	ria	1	0.1111	9
+('labial', 'velar', 'velar', 'velar', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'velar', 'velar')	a	1	0.5	2
+('labial', 'velar', 'velar', 'coronal', 'labial')	tia	1	1.0	1
+('labial', 'velar', 'velar', 'labial')	a	1	0.5	2
+('labial', 'velar', 'velar', 'velar')	tia	1	0.5	2
+('labial', 'velar', 'velar', 'coronal')	tia	3	0.5	6
+('labial', 'velar', 'velar', 'coronal')	a	2	0.3333	6
+('labial', 'velar', 'velar', 'labial', 'velar', 'labial')	ia	1	1.0	1
+('labial', 'velar', 'velar', 'labial', 'velar')	tia	1	1.0	1
+('labial', 'velar', 'velar', 'labial')	tia	1	0.5	2
+('labial', 'velar', 'velar', 'coronal', 'velar', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'velar', 'coronal', 'labial', 'velar')	tia	1	1.0	1
+('labial', 'velar', 'labial', 'glottal', 'coronal')	tia	3	0.75	4
+('labial', 'velar', 'labial', 'glottal')	a	5	0.8333	6
+('labial', 'velar', 'labial', 'velar', 'velar')	tia	3	1.0	3
+('labial', 'velar', 'labial', 'coronal')	a	11	0.4583	24
+('labial', 'velar', 'labial', 'coronal', 'labial')	tia	2	1.0	2
+('labial', 'velar', 'labial', 'coronal')	tia	9	0.375	24
+('labial', 'velar', 'labial', 'coronal', 'velar')	tia	2	0.6667	3
+('labial', 'velar', 'labial', 'coronal', 'coronal')	tia	1	0.3333	3
+('labial', 'velar', 'labial', 'coronal', 'velar')	ria	1	0.3333	3
+('labial', 'velar', 'labial', 'coronal', 'coronal')	ria	2	0.6667	3
+('labial', 'velar', 'labial', 'coronal')	ria	1	0.0417	24
+('labial', 'velar', 'labial', 'glottal')	tia	1	0.1667	6
+('labial', 'velar', 'labial', 'velar')	tia	1	0.2	5
+('labial', 'velar', 'coronal', 'coronal')	a	7	0.5385	13
+('labial', 'velar', 'velar', 'glottal')	tia	1	0.5	2
+('labial', 'velar', 'velar', 'coronal')	mia	1	0.1667	6
+('labial', 'velar', 'velar', 'labial', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'coronal', 'glottal')	ia	1	0.3333	3
+('labial', 'velar', 'labial')	kia	2	0.1429	14
+('labial', 'velar', 'labial', 'coronal', 'glottal', 'velar')	tia	1	1.0	1
+('labial', 'velar', 'labial')	ngia	1	0.0714	14
+('labial', 'velar', 'labial', 'glottal', 'glottal')	ngia	1	1.0	1
+('labial', 'velar', 'labial', 'velar', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'labial', 'coronal')	hia	2	0.0833	24
+('labial', 'velar', 'labial', 'velar')	na	1	0.2	5
+('labial', 'velar', 'labial', 'glottal', 'coronal')	a	1	0.25	4
+('labial', 'velar', 'labial', 'coronal')	ina	1	0.0417	24
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'coronal')	tia	1	1.0	1
+('labial', 'velar', 'coronal', 'labial')	ngia	1	0.1111	9
+('labial', 'velar', 'coronal', 'labial', 'glottal')	tia	1	1.0	1
+('labial', 'velar', 'coronal', 'labial', 'labial', 'coronal')	ngia	1	1.0	1
+('labial', 'velar', 'coronal', 'coronal', 'velar')	tia	4	1.0	4
+('labial', 'velar', 'coronal', 'coronal')	hia	1	0.0769	13
+('labial', 'velar', 'coronal', 'labial')	tia	3	0.3333	9
+('labial', 'velar', 'coronal', 'labial')	a	1	0.1111	9
+('labial', 'velar', 'coronal', 'velar')	ngia	1	0.2	5
+('labial', 'velar', 'coronal', 'labial')	ia	1	0.1111	9
+('labial', 'velar', 'coronal', 'coronal')	ia	2	0.1538	13
+('labial', 'velar', 'coronal', 'velar')	hia	1	0.2	5
+('labial', 'velar', 'coronal', 'coronal')	ngia	2	0.1538	13
+('labial', 'velar', 'coronal', 'glottal')	a	1	0.3333	3
+('labial', 'velar', 'coronal', 'glottal', 'coronal')	ngia	1	1.0	1
+('labial', 'velar', 'coronal', 'velar', 'coronal')	tia	1	0.3333	3
+('labial', 'velar', 'coronal', 'velar')	na	1	0.2	5
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	na	1	0.3333	3
+('labial', 'velar', 'coronal', 'velar', 'coronal')	ria	1	0.3333	3
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar', 'coronal')	ria	1	1.0	1
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	hia	1	0.3333	3
+('labial', 'velar', 'coronal', 'labial')	ria	3	0.3333	9
+('labial', 'velar', 'coronal', 'coronal', 'coronal', 'coronal')	hia	1	1.0	1
+('labial', 'velar', 'coronal', 'coronal', 'coronal')	a	1	1.0	1
+('labial', 'velar', 'coronal', 'velar')	ia	1	0.2	5
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	ina	1	0.3333	3
+('labial', 'velar', 'coronal', 'labial', 'coronal')	ngia	1	0.25	4
+('labial', 'velar', 'coronal', 'coronal', 'glottal')	tia	2	1.0	2
+('labial', 'velar', 'coronal')	kia	1	0.037	27
+('labial', 'velar', 'coronal', 'labial', 'coronal')	ria	1	0.25	4
+('labial', 'velar')	ngia	1	0.04	25
+('labial', 'velar', 'coronal', 'velar')	tia	1	0.2	5
+('labial', 'velar', 'labial', 'coronal', 'coronal', 'velar')	tia	1	1.0	1
+('labial', 'velar', 'labial', 'labial')	a	1	0.125	8
+('labial', 'coronal', 'coronal', 'velar')	tia	1	1.0	1
+('labial', 'coronal', 'velar')	ria	1	0.1111	9
