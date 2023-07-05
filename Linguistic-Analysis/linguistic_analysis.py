@@ -618,7 +618,10 @@ def main(args: argparse.Namespace) -> None:
                 cons_seq_suffix[(current_sequence, suffix)] += 1
 
                 # PART 4
-                if current_sequence[-2:] == "ng" or current_sequence[-2:] == "wh":
+                if (
+                    current_sequence[-2:] == "ng"
+                    or current_sequence[-2:] == "wh"
+                ):
                     final_cons = current_sequence[-2:]
                 else:
                     final_cons = current_sequence[-1:]
@@ -905,7 +908,8 @@ def main(args: argparse.Namespace) -> None:
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
                 syllable_suffix_count[syllable_sequence, suffix] += 1
-            # print(lemma, syllable_sequence, syllable_count[syllable_sequence])
+            # print(lemma, syllable_sequence,
+            # syllable_count[syllable_sequence])
 
         # Writing the syllable counts into a tsv file
         for syllable, count in syllable_count.most_common():
@@ -928,7 +932,9 @@ def main(args: argparse.Namespace) -> None:
                     syllable_count[syllable],
                 ]
             )
-            # print(syllable, suffix, p, syllable_suffix_count[(syllable, suffix)], syllable_count[syllable])
+            # print(syllable, suffix, p,
+            # syllable_suffix_count[(syllable, suffix)],
+            # syllable_count[syllable])
 
     # PART 9 – Oral vs nasal consonant features
     # and suffixes
