@@ -946,9 +946,9 @@ def main(args: argparse.Namespace) -> None:
                 [
                     c_feature,
                     suffix,
-                    cons_features_suffix[(c_feature, suffix)],
+                    cons_features_nasality_suffix[(c_feature, suffix)],
                     p,
-                    cons_features[c_feature],
+                    cons_features_nasality[c_feature],
                 ]
             )
 
@@ -1022,9 +1022,9 @@ def main(args: argparse.Namespace) -> None:
                 [
                     c_feature,
                     suffix,
-                    cons_features_suffix[(c_feature, suffix)],
+                    cons_features_place_suffix[(c_feature, suffix)],
                     p,
-                    cons_features[c_feature],
+                    cons_features_place[c_feature],
                 ]
             )
 
