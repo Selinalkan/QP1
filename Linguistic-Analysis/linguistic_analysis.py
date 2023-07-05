@@ -379,7 +379,6 @@ def main(args: argparse.Namespace) -> None:
     # Final consonants-suffix combinations counter
     final_consonant_suffix: Counter[Tuple[str, str]] = collections.Counter()
 
-
     # PART 5 – Vowel features and passives
     # Vowel features
     vowel_features: Counter[Tuple[str, ...]] = collections.Counter()
@@ -580,7 +579,13 @@ def main(args: argparse.Namespace) -> None:
         args.output10, "w"
     ) as sink10, open(args.output11, "w") as sink11, open(
         args.output12, "w"
-    ) as sink12, open(args.output32, "w") as sink32, open(args.output33, "w") as sink33, open(args.output34, "w") as sink34:
+    ) as sink12, open(
+        args.output32, "w"
+    ) as sink32, open(
+        args.output33, "w"
+    ) as sink33, open(
+        args.output34, "w"
+    ) as sink34:
         # Input file
         tsv_reader = csv.reader(source, delimiter="\t")
         # Output files
@@ -612,14 +617,10 @@ def main(args: argparse.Namespace) -> None:
                 cons_seq[current_sequence] += 1
                 cons_seq_suffix[(current_sequence, suffix)] += 1
 
-
-
                 # PART 4
                 final_cons = current_sequence[-1:]
-            # print(final_cons_seq)
                 final_consonant[final_cons] += 1
                 final_consonant_suffix[(final_cons, suffix)] += 1
-
 
         # Writing the consonant sequences into a tsv file
         for seq, count in cons_seq.most_common():
@@ -644,7 +645,6 @@ def main(args: argparse.Namespace) -> None:
                     cons_seq[sequence],
                 ]
             )
-
 
         # PART 4
         # Writing the final consonants into a tsv file
