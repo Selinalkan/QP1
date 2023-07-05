@@ -1,0 +1,35 @@
+('oral', 'oral')	260
+('oral', 'oral', 'oral')	141
+('oral', 'oral', 'oral', 'oral')	94
+('oral',)	81
+('oral', 'nasal')	59
+('oral', 'oral', 'nasal')	33
+('nasal', 'oral')	32
+('oral', 'oral', 'oral', 'oral', 'oral')	29
+('nasal',)	15
+('oral', 'nasal', 'oral')	15
+('nasal', 'nasal')	14
+('oral', 'oral', 'nasal', 'oral')	14
+('oral', 'oral', 'oral', 'nasal')	12
+('oral', 'oral', 'nasal', 'oral', 'oral')	10
+('nasal', 'oral', 'oral')	8
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	8
+('oral', 'nasal', 'oral', 'nasal')	7
+('nasal', 'oral', 'nasal', 'oral')	7
+('oral', 'oral', 'nasal', 'nasal')	6
+('oral', 'nasal', 'nasal')	5
+('oral', 'oral', 'oral', 'nasal', 'oral')	5
+('nasal', 'nasal', 'oral')	4
+('oral', 'oral', 'nasal', 'oral', 'nasal')	3
+('nasal', 'oral', 'nasal')	3
+('nasal', 'oral', 'oral', 'oral', 'oral')	2
+('oral', 'oral', 'oral', 'oral', 'nasal', 'oral')	2
+('oral', 'oral', 'oral', 'oral', 'nasal')	2
+('oral', 'oral', 'nasal', 'oral', 'nasal', 'oral')	1
+('nasal', 'nasal', 'nasal')	1
+('oral', 'nasal', 'nasal', 'oral')	1
+('oral', 'oral', 'oral', 'nasal', 'nasal')	1
+('oral', 'oral', 'nasal', 'nasal', 'oral')	1
+('oral', 'oral', 'oral', 'nasal', 'oral', 'oral')	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral', 'oral')	1
+('oral', 'oral', 'oral', 'nasal', 'oral', 'nasal')	1

@@ -313,6 +313,18 @@ consonant_features_dict = {
     "wh": "voiceless, labio-dental, oral, fricative",
 }
 
+consonant_features_dict_nasality = {
+    "h": "oral",
+    "k": "oral",
+    "m": "nasal",
+    "n": "nasal",
+    "ng": "nasal",
+    "p": "oral",
+    "r": "oral",
+    "t": "oral",
+    "w": "oral",
+    "wh": "oral",
+}
 
 def main(args: argparse.Namespace) -> None:
     # PART 0 - Stem-final vowels and passives
@@ -366,6 +378,17 @@ def main(args: argparse.Namespace) -> None:
     syllable_count: Counter[str] = collections.Counter()
     # Syllable-passive counter
     syllable_suffix_count: Counter[Tuple[str, str]] = collections.Counter()
+
+    # PART 8 – Oral vs nasal consonant features and passives
+    # Oral vs nasal consonant features
+    cons_features_nasality: Counter[Tuple[str, ...]] = collections.Counter()
+    # Oral vs nasal consonant feature-passive counter
+    cons_features_nasality_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
+
+
+
+
+
 
     # PART 0 & 1 – Stem-final vowels (0), stem-final vowel features (1)
     # and passives
@@ -802,7 +825,7 @@ def main(args: argparse.Namespace) -> None:
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
                 syllable_suffix_count[syllable_sequence, suffix] += 1
-            print(lemma, syllable_sequence, syllable_count[syllable_sequence])
+            # print(lemma, syllable_sequence, syllable_count[syllable_sequence])
 
         # Writing the syllable counts into a tsv file
         for syllable, count in syllable_count.most_common():
@@ -826,6 +849,92 @@ def main(args: argparse.Namespace) -> None:
                 ]
             )
             # print(syllable, suffix, p, syllable_suffix_count[(syllable, suffix)], syllable_count[syllable])
+
+
+# PART 8 – Oral vs nasal consonant features
+    # and suffixes
+    with open(args.input, "r") as source, open(
+        args.output26, "w"
+    ) as sink26, open(args.output27, "w") as sink27, open(
+        args.output28, "w"
+    ) as sink28:
+
+        # Input file
+        tsv_reader = csv.reader(source, delimiter="\t")
+        # Output files
+        # Consonant features: output16
+        tsv_writer26 = csv.writer(sink26, delimiter="\t")
+        # Consonant features-passive: output17
+        tsv_writer27 = csv.writer(sink27, delimiter="\t")
+        # Consonant features-passive conditional probabilities: output18
+        tsv_writer28 = csv.writer(sink28, delimiter="\t")
+
+        # Filling the counters for consonant features and passives
+        for lemma, suffix in tsv_reader:
+            consonant_feature_sequence = []
+
+            # Traversing each character for the digraphs and the rest
+            i = 0
+            while i < len(lemma):
+                char = lemma[i]
+                # Checking for <ng> digraph
+                if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
+                    consonant_feature_sequence.append(
+                        consonant_features_dict_nasality["ng"]
+                    )
+                    i += 2
+                    continue
+                # Checking for <wh> digraph
+                if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
+                    consonant_feature_sequence.append(
+                        consonant_features_dict_nasality["wh"]
+                    )
+                    i += 2
+                    continue
+                # Checking for other consonantal segments
+                if char in consonant_features_dict_nasality:
+                    consonant_feature_sequence.append(
+                        consonant_features_dict_nasality[char]
+                    )
+                i += 1
+
+            # PART 5 – Consonant Features Sequence
+            # Handling the consonant feature sequence counter
+            if consonant_feature_sequence:
+                cons_features_nasality[tuple(consonant_feature_sequence)] += 1
+                cons_features_nasality_suffix[
+                    (tuple(consonant_feature_sequence), suffix)
+                ] += 1
+        # Writing the consonant features into a tsv file
+        for c_feature, count in cons_features_nasality.most_common():
+            tsv_writer26.writerow([c_feature, count])
+            # print(f"{c_feature}:\t{count}")
+        # Writing the consonant feature seq-suffix counts into a tsv file
+        for (
+            c_feature,
+            suffix,
+        ), count in cons_features_nasality_suffix.most_common():
+            tsv_writer27.writerow([c_feature, suffix, count])
+        # Conditional Probability: p(passive|consonant_features)
+        for (c_feature, suffix), count in cons_features_nasality_suffix.items():
+            p = round(count / cons_features_nasality[c_feature], 4)
+            # Outputting cons features, suffix, cons feature-suffix
+            # counts, the probabilities, cons feat counts out of 886
+            tsv_writer28.writerow(
+                [
+                    c_feature,
+                    suffix,
+                    cons_features_suffix[(c_feature, suffix)],
+                    p,
+                    cons_features[c_feature],
+                ]
+            )
+            # print(f"{consonant_feature}\t{suffix}:\t{count}\t{p}")
+
+
+
+
+
 
 
 if __name__ == "__main__":
@@ -987,5 +1096,23 @@ if __name__ == "__main__":
         "--output25",
         default="7_syllable-suffix_prob.tsv",
         help="outputs p(passive|syllable-counts)",
+    )
+    parser.add_argument(
+        "-o26",
+        "--output26",
+        default="8_C-nasality_counts.tsv",
+        help="outputs oral vs nasal consonant feature counts",
+    )
+    parser.add_argument(
+        "-o27",
+        "--output27",
+        default="8_C-nasality-suffix_counts.tsv",
+        help="outputs oral vs nasal consonant feature-passive counts",
+    )
+    parser.add_argument(
+        "-o28",
+        "--output28",
+        default="8_C-nasality-suffix_prob.tsv",
+        help="outputs p(passive|consonant_feature_nasality)",
     )
     main(parser.parse_args())

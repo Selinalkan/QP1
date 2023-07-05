@@ -1,0 +1,124 @@
+('oral', 'oral')	a	130
+('oral', 'oral', 'oral')	tia	66
+('oral', 'oral')	tia	65
+('oral', 'oral', 'oral', 'oral')	a	47
+('oral', 'oral', 'oral')	a	38
+('oral',)	a	34
+('oral', 'nasal')	a	28
+('oral', 'oral', 'oral', 'oral')	tia	25
+('oral', 'nasal')	tia	21
+('nasal', 'oral')	a	20
+('oral', 'oral', 'oral', 'oral', 'oral')	tia	19
+('oral', 'oral')	hia	18
+('oral', 'oral', 'nasal')	tia	18
+('oral', 'oral', 'oral')	na	14
+('oral', 'oral')	na	13
+('oral', 'oral', 'nasal')	a	11
+('oral',)	tia	10
+('oral',)	ina	10
+('oral', 'oral')	ngia	8
+('oral', 'oral')	ria	8
+('oral', 'nasal', 'oral')	tia	8
+('oral', 'oral', 'oral')	ria	7
+('oral', 'oral', 'oral')	hia	7
+('oral', 'oral', 'nasal', 'oral', 'oral')	tia	7
+('oral',)	ngia	6
+('oral', 'oral')	ia	6
+('oral', 'nasal', 'oral', 'nasal')	a	6
+('oral', 'nasal')	hia	6
+('nasal', 'nasal')	a	6
+('oral', 'oral', 'oral', 'nasal')	tia	6
+('oral', 'oral', 'nasal', 'oral')	a	6
+('oral',)	ria	5
+('oral',)	hia	5
+('oral', 'oral')	ina	5
+('oral', 'oral', 'oral', 'oral')	na	5
+('oral',)	ia	5
+('nasal',)	a	5
+('oral', 'nasal', 'oral')	a	5
+('nasal', 'oral', 'oral')	tia	5
+('oral', 'oral', 'oral')	ngia	5
+('oral', 'oral', 'oral', 'oral')	ngia	5
+('oral', 'oral', 'nasal', 'oral')	tia	5
+('nasal', 'nasal')	tia	4
+('oral', 'nasal', 'nasal')	tia	4
+('nasal', 'oral')	tia	4
+('nasal', 'oral', 'nasal', 'oral')	a	4
+('nasal', 'oral')	hia	4
+('oral', 'oral', 'oral', 'oral', 'oral')	a	4
+('oral', 'oral', 'oral', 'oral')	ia	4
+('oral', 'oral', 'oral')	kia	4
+('oral', 'oral', 'oral', 'nasal', 'oral')	tia	4
+('oral',)	na	3
+('nasal',)	tia	3
+('oral', 'oral')	kia	3
+('nasal',)	mia	3
+('oral', 'oral', 'nasal')	hia	3
+('oral', 'oral', 'nasal', 'oral', 'nasal')	tia	3
+('nasal', 'oral', 'nasal')	tia	3
+('nasal', 'oral', 'nasal', 'oral')	hia	3
+('oral', 'oral', 'oral', 'oral', 'oral')	ria	3
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	tia	3
+('oral', 'oral', 'nasal', 'nasal')	tia	3
+('oral', 'oral', 'nasal', 'nasal')	a	3
+('oral', 'oral', 'nasal', 'oral', 'oral')	ria	3
+('oral', 'oral', 'oral', 'oral')	ria	3
+('oral', 'oral')	mia	2
+('nasal', 'nasal', 'oral')	tia	2
+('nasal', 'nasal', 'oral')	hia	2
+('nasal', 'oral')	ia	2
+('nasal',)	kia	2
+('oral', 'oral', 'oral', 'oral')	ina	2
+('oral', 'oral', 'oral', 'nasal')	a	2
+('oral', 'oral', 'oral', 'nasal')	ia	2
+('oral', 'oral', 'oral', 'oral', 'nasal', 'oral')	tia	2
+('oral', 'oral', 'oral', 'oral', 'oral')	ngia	2
+('oral', 'oral', 'oral', 'nasal')	hia	2
+('oral', 'oral', 'oral', 'oral')	hia	2
+('oral', 'oral', 'oral', 'oral', 'nasal')	tia	2
+('nasal', 'nasal')	ngia	1
+('nasal',)	hia	1
+('oral',)	mia	1
+('oral', 'oral')	nga	1
+('oral', 'nasal')	na	1
+('oral', 'oral', 'nasal', 'oral', 'nasal', 'oral')	a	1
+('oral',)	nga	1
+('nasal', 'oral', 'oral', 'oral', 'oral')	tia	1
+('nasal', 'oral', 'oral')	hia	1
+('nasal', 'oral', 'oral')	ria	1
+('nasal', 'nasal', 'nasal')	tia	1
+('nasal', 'oral', 'oral')	na	1
+('nasal', 'oral', 'oral', 'oral', 'oral')	na	1
+('nasal', 'oral')	ria	1
+('nasal',)	ria	1
+('nasal', 'nasal')	kia	1
+('nasal', 'oral')	kia	1
+('nasal', 'nasal')	ia	1
+('nasal', 'nasal')	mia	1
+('oral', 'nasal')	ia	1
+('oral', 'nasal', 'oral')	na	1
+('oral', 'nasal', 'nasal')	a	1
+('oral', 'nasal')	mia	1
+('oral', 'nasal', 'oral')	ria	1
+('oral', 'nasal', 'oral', 'nasal')	tia	1
+('oral', 'oral', 'oral', 'oral', 'oral')	na	1
+('oral',)	kia	1
+('oral', 'nasal')	kia	1
+('oral', 'nasal', 'nasal', 'oral')	hia	1
+('oral', 'oral')	kina	1
+('oral', 'oral', 'oral', 'oral')	kia	1
+('oral', 'oral', 'oral', 'nasal', 'nasal')	tia	1
+('oral', 'oral', 'nasal')	mia	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ia	1
+('oral', 'oral', 'nasal', 'nasal', 'oral')	tia	1
+('oral', 'oral', 'nasal', 'oral')	ria	1
+('oral', 'oral', 'nasal', 'oral')	mia	1
+('oral', 'oral', 'nasal', 'oral')	ia	1
+('oral', 'oral', 'oral', 'nasal', 'oral', 'oral')	tia	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ngia	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	na	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ria	1
+('oral', 'oral', 'oral', 'nasal', 'oral', 'nasal')	hia	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	hia	1
+('oral', 'oral', 'oral', 'oral', 'oral', 'oral')	ina	1
+('oral', 'oral', 'oral', 'nasal', 'oral')	ngia	1
