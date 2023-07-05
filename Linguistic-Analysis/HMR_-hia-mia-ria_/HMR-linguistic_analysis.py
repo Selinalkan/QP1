@@ -612,7 +612,10 @@ def main(args: argparse.Namespace) -> None:
                 cons_seq_suffix[(current_sequence, suffix)] += 1
 
                 # PART 4
-                final_cons = current_sequence[-1:]
+                if current_sequence[-2:] == "ng" or current_sequence[-2:] == "wh":
+                    final_cons = current_sequence[-2:]
+                else:
+                    final_cons = current_sequence[-1:]
                 final_consonant[final_cons] += 1
                 final_consonant_suffix[(final_cons, suffix)] += 1
 
@@ -897,7 +900,7 @@ def main(args: argparse.Namespace) -> None:
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
                 syllable_suffix_count[syllable_sequence, suffix] += 1
-            print(lemma, syllable_sequence, syllable_count[syllable_sequence])
+            # print(lemma, syllable_sequence, syllable_count[syllable_sequence])
 
         # # Writing the syllable counts into a tsv file
         # for syllable, count in syllable_count.most_common():

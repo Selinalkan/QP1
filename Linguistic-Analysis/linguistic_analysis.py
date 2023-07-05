@@ -618,7 +618,10 @@ def main(args: argparse.Namespace) -> None:
                 cons_seq_suffix[(current_sequence, suffix)] += 1
 
                 # PART 4
-                final_cons = current_sequence[-1:]
+                if current_sequence[-2:] == "ng" or current_sequence[-2:] == "wh":
+                    final_cons = current_sequence[-2:]
+                else:
+                    final_cons = current_sequence[-1:]
                 final_consonant[final_cons] += 1
                 final_consonant_suffix[(final_cons, suffix)] += 1
 
