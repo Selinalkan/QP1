@@ -823,16 +823,8 @@ def main(args: argparse.Namespace) -> None:
             for vowel in vowels:
                 vowel_count += lemma.count(vowel)
             # Syllable count per lemma
-            lemma_syllable_count = 0
-            # Total syllable count per word getting rid of overlaps
-            if diphthong_count == 1:
-                lemma_syllable_count = diphthong_count + vowel_count - 2
-            elif diphthong_count == 2:
-                lemma_syllable_count = diphthong_count + vowel_count - 4
-            elif diphthong_count == 3:
-                lemma_syllable_count = diphthong_count + vowel_count - 6
-            else:
-                lemma_syllable_count = vowel_count
+            lemma_syllable_count = diphthong_count + vowel_count - (2 * diphthong_count)
+            # print(lemma, lemma_syllable_count, diphthong_count)
 
             # Indicating syllable counts by sigma
             syllable_sequence = "σ" * lemma_syllable_count
@@ -841,6 +833,7 @@ def main(args: argparse.Namespace) -> None:
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
                 syllable_suffix_count[syllable_sequence, suffix] += 1
+            print(lemma, syllable_sequence, syllable_count[syllable_sequence])
 
         # # Writing the syllable counts into a tsv file
         # for syllable, count in syllable_count.most_common():
@@ -852,7 +845,7 @@ def main(args: argparse.Namespace) -> None:
         for (syllable, suffix), count in syllable_suffix_count.items():
             # ONLY /-HIA, -MIA, -RIA/
             if suffix in ["hia", "mia", "ria"]:
-                p = round(count / syllable_count[syllable_sequence], 4)
+                p = round(count / syllable_count[syllable], 4)
                 # Outputting syllable representation, suffix, syllable-suffix
                 # counts, the probabilities, and syllable counts out of 886 -
                 # reduplications
@@ -860,8 +853,8 @@ def main(args: argparse.Namespace) -> None:
                     [
                         syllable,
                         suffix,
-                        syllable_suffix_count[(syllable, suffix)],
                         p,
+                        syllable_suffix_count[(syllable, suffix)],
                         syllable_count[syllable],
                     ]
                 )

@@ -797,11 +797,12 @@ def main(args: argparse.Namespace) -> None:
 
             # Indicating syllable counts by sigma
             syllable_sequence = "σ" * lemma_syllable_count
-            # print(lemma, syllable_sequence)
+            
 
             if syllable_sequence:
                 syllable_count[syllable_sequence] += 1
                 syllable_suffix_count[syllable_sequence, suffix] += 1
+            print(lemma, syllable_sequence, syllable_count[syllable_sequence])
 
         # Writing the syllable counts into a tsv file
         for syllable, count in syllable_count.most_common():
@@ -824,6 +825,7 @@ def main(args: argparse.Namespace) -> None:
                     syllable_count[syllable],
                 ]
             )
+            # print(syllable, suffix, p, syllable_suffix_count[(syllable, suffix)], syllable_count[syllable])
 
 
 if __name__ == "__main__":
