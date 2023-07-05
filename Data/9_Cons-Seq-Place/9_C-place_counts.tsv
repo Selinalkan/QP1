@@ -1,0 +1,141 @@
+('labial', 'coronal')	75
+('coronal', 'coronal')	43
+('coronal',)	36
+('coronal', 'labial')	35
+('labial',)	31
+('coronal', 'velar')	30
+('labial', 'velar', 'coronal')	27
+('labial', 'velar')	25
+('coronal', 'glottal')	24
+('labial', 'velar', 'labial', 'coronal')	24
+('velar', 'coronal')	21
+('glottal', 'coronal')	20
+('velar',)	18
+('labial', 'labial')	18
+('glottal', 'velar')	15
+('coronal', 'labial', 'coronal')	15
+('velar', 'labial', 'coronal')	14
+('labial', 'velar', 'labial')	14
+('glottal', 'glottal')	13
+('labial', 'velar', 'coronal', 'coronal')	13
+('glottal',)	11
+('velar', 'velar')	11
+('velar', 'labial')	11
+('labial', 'glottal')	11
+('coronal', 'coronal', 'velar')	10
+('labial', 'coronal', 'labial', 'coronal')	10
+('coronal', 'coronal', 'labial')	10
+('labial', 'coronal', 'velar')	9
+('labial', 'velar', 'velar')	9
+('coronal', 'labial', 'velar')	9
+('labial', 'velar', 'coronal', 'labial')	9
+('velar', 'glottal')	8
+('coronal', 'velar', 'coronal')	8
+('labial', 'velar', 'glottal')	8
+('labial', 'velar', 'labial', 'labial')	8
+('coronal', 'velar', 'coronal', 'velar')	7
+('labial', 'velar', 'velar', 'coronal')	6
+('labial', 'velar', 'labial', 'glottal')	6
+('glottal', 'labial')	5
+('labial', 'velar', 'labial', 'velar')	5
+('labial', 'velar', 'glottal', 'coronal')	5
+('labial', 'velar', 'coronal', 'velar')	5
+('glottal', 'velar', 'glottal', 'velar')	4
+('velar', 'labial', 'velar')	4
+('labial', 'glottal', 'coronal')	4
+('labial', 'coronal', 'coronal')	4
+('labial', 'coronal', 'labial')	4
+('coronal', 'glottal', 'coronal', 'glottal')	4
+('coronal', 'glottal', 'coronal')	4
+('coronal', 'labial', 'labial')	4
+('coronal', 'labial', 'glottal')	4
+('coronal', 'coronal', 'coronal')	4
+('labial', 'velar', 'coronal', 'labial', 'coronal')	4
+('labial', 'velar', 'glottal', 'velar')	4
+('labial', 'velar', 'labial', 'glottal', 'coronal')	4
+('labial', 'velar', 'coronal', 'coronal', 'velar')	4
+('glottal', 'coronal', 'glottal', 'coronal')	3
+('velar', 'velar', 'coronal')	3
+('velar', 'coronal', 'velar')	3
+('velar', 'glottal', 'coronal')	3
+('velar', 'coronal', 'coronal')	3
+('labial', 'glottal', 'labial', 'glottal')	3
+('labial', 'labial', 'velar')	3
+('labial', 'velar', 'coronal', 'glottal')	3
+('labial', 'velar', 'coronal', 'velar', 'coronal')	3
+('labial', 'labial', 'coronal')	3
+('labial', 'velar', 'glottal', 'labial')	3
+('labial', 'velar', 'labial', 'velar', 'velar')	3
+('labial', 'velar', 'labial', 'coronal', 'velar')	3
+('labial', 'velar', 'labial', 'coronal', 'coronal')	3
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar')	3
+('velar', 'coronal', 'velar', 'coronal')	2
+('glottal', 'glottal', 'coronal')	2
+('glottal', 'labial', 'velar')	2
+('velar', 'glottal', 'velar')	2
+('labial', 'coronal', 'glottal')	2
+('coronal', 'velar', 'glottal')	2
+('coronal', 'coronal', 'coronal', 'coronal')	2
+('coronal', 'coronal', 'glottal')	2
+('labial', 'labial', 'glottal')	2
+('labial', 'velar', 'glottal', 'glottal', 'coronal')	2
+('labial', 'velar', 'velar', 'glottal')	2
+('labial', 'velar', 'velar', 'glottal', 'coronal')	2
+('labial', 'velar', 'velar', 'velar')	2
+('labial', 'velar', 'velar', 'labial')	2
+('labial', 'velar', 'labial', 'coronal', 'labial')	2
+('labial', 'velar', 'coronal', 'coronal', 'glottal')	2
+('glottal', 'velar', 'coronal')	1
+('glottal', 'labial', 'coronal')	1
+('glottal', 'glottal', 'velar')	1
+('glottal', 'labial', 'labial')	1
+('glottal', 'velar', 'labial', 'coronal', 'labial', 'coronal')	1
+('glottal', 'coronal', 'labial')	1
+('velar', 'velar', 'velar')	1
+('velar', 'velar', 'glottal')	1
+('velar', 'coronal', 'labial', 'coronal')	1
+('velar', 'coronal', 'labial')	1
+('velar', 'glottal', 'velar', 'glottal')	1
+('velar', 'labial', 'coronal', 'labial', 'coronal')	1
+('labial', 'glottal', 'velar')	1
+('labial', 'glottal', 'coronal', 'glottal', 'coronal')	1
+('labial', 'coronal', 'velar', 'coronal', 'velar')	1
+('labial', 'coronal', 'velar', 'coronal', 'glottal')	1
+('labial', 'glottal', 'glottal')	1
+('labial', 'labial', 'labial')	1
+('coronal', 'glottal', 'labial', 'glottal', 'labial')	1
+('coronal', 'velar', 'velar', 'coronal')	1
+('coronal', 'velar', 'labial', 'labial')	1
+('coronal', 'velar', 'labial')	1
+('coronal', 'velar', 'labial', 'coronal')	1
+('coronal', 'labial', 'coronal', 'labial')	1
+('coronal', 'labial', 'coronal', 'labial', 'glottal')	1
+('coronal', 'coronal', 'glottal', 'coronal', 'glottal')	1
+('coronal', 'velar', 'velar')	1
+('coronal', 'coronal', 'glottal', 'velar')	1
+('coronal', 'coronal', 'velar', 'coronal', 'velar')	1
+('coronal', 'labial', 'coronal', 'velar')	1
+('labial', 'velar', 'velar', 'velar', 'glottal')	1
+('labial', 'velar', 'glottal', 'coronal', 'labial')	1
+('labial', 'velar', 'glottal', 'coronal', 'coronal')	1
+('labial', 'velar', 'glottal', 'coronal', 'glottal', 'coronal')	1
+('labial', 'velar', 'velar', 'glottal', 'velar')	1
+('labial', 'velar', 'velar', 'velar', 'coronal')	1
+('labial', 'velar', 'velar', 'coronal', 'labial')	1
+('labial', 'velar', 'velar', 'labial', 'velar', 'labial')	1
+('labial', 'velar', 'velar', 'labial', 'velar')	1
+('labial', 'velar', 'velar', 'coronal', 'velar', 'coronal')	1
+('labial', 'velar', 'velar', 'coronal', 'labial', 'velar')	1
+('labial', 'velar', 'velar', 'labial', 'coronal')	1
+('labial', 'velar', 'labial', 'coronal', 'glottal', 'velar')	1
+('labial', 'velar', 'labial', 'glottal', 'glottal')	1
+('labial', 'velar', 'labial', 'velar', 'coronal')	1
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'coronal')	1
+('labial', 'velar', 'coronal', 'labial', 'glottal')	1
+('labial', 'velar', 'coronal', 'labial', 'labial', 'coronal')	1
+('labial', 'velar', 'coronal', 'glottal', 'coronal')	1
+('labial', 'velar', 'coronal', 'velar', 'coronal', 'velar', 'coronal')	1
+('labial', 'velar', 'coronal', 'coronal', 'coronal', 'coronal')	1
+('labial', 'velar', 'coronal', 'coronal', 'coronal')	1
+('labial', 'velar', 'labial', 'coronal', 'coronal', 'velar')	1
+('labial', 'coronal', 'coronal', 'velar')	1
