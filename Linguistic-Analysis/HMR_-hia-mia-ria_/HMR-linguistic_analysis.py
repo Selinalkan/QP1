@@ -489,8 +489,8 @@ def main(args: argparse.Namespace) -> None:
                 # the probabilities, and total final vowel count out of 886
                 tsv_writer3.writerow(
                     [
-                        vowel,
                         suffix,
+                        vowel,
                         p,
                         final_vowel_suffix[(vowel, suffix)],
                         final_vowel[vowel],
@@ -518,8 +518,8 @@ def main(args: argparse.Namespace) -> None:
                 # and total vowel feature counts out of 886
                 tsv_writer6.writerow(
                     [
+                        suffix,                        
                         feature,
-                        suffix,
                         p,
                         final_vowel_features_suffix[(feature, suffix)],
                         final_vowel_features[feature],
@@ -568,8 +568,8 @@ def main(args: argparse.Namespace) -> None:
                 # the probabilities, and total vowel seq counts out of 886
                 tsv_writer9.writerow(
                     [
+                        suffix,                        
                         sequence,
-                        suffix,
                         p,
                         vowel_seq_suffix[(sequence, suffix)],
                         vowel_seq[sequence],
@@ -639,8 +639,8 @@ def main(args: argparse.Namespace) -> None:
                 # out of 886
                 tsv_writer12.writerow(
                     [
+                        suffix,                        
                         sequence,
-                        suffix,
                         p,
                         cons_seq_suffix[(sequence, suffix)],
                         cons_seq[sequence],
@@ -668,8 +668,8 @@ def main(args: argparse.Namespace) -> None:
                 # counts out of 886
                 tsv_writer34.writerow(
                     [
+                        suffix,                        
                         consonant,
-                        suffix,
                         p,
                         final_consonant_suffix[(consonant, suffix)],
                         final_consonant[consonant],
@@ -722,8 +722,8 @@ def main(args: argparse.Namespace) -> None:
                 # the probabilities, and vowel feat counts out of 886
                 tsv_writer15.writerow(
                     [
+                        suffix,                        
                         v_feature,
-                        suffix,
                         p,
                         vowel_features_suffix[(v_feature, suffix)],
                         vowel_features[v_feature],
@@ -827,8 +827,8 @@ def main(args: argparse.Namespace) -> None:
                 # counts, the probabilities, cons feat counts out of 886
                 tsv_writer18.writerow(
                     [
+                        suffix,                        
                         c_feature,
-                        suffix,
                         p,
                         cons_features_suffix[(c_feature, suffix)],
                         cons_features[c_feature],
@@ -854,8 +854,8 @@ def main(args: argparse.Namespace) -> None:
                 p = round(count / final_cons_features[feature], 4)
                 tsv_writer21.writerow(
                     [
+                        suffix,                        
                         feature,
-                        suffix,
                         p,
                         final_cons_features_suffix[(feature, suffix)],
                         final_cons_features[feature],
@@ -918,8 +918,8 @@ def main(args: argparse.Namespace) -> None:
                 # reduplications
                 tsv_writer25.writerow(
                     [
+                        suffix,                        
                         syllable,
-                        suffix,
                         p,
                         syllable_suffix_count[(syllable, suffix)],
                         syllable_count[syllable],
@@ -996,8 +996,8 @@ def main(args: argparse.Namespace) -> None:
                 # counts, the probabilities, cons feat counts out of 886
                 tsv_writer28.writerow(
                     [
+                        suffix,                        
                         c_feature,
-                        suffix,
                         p,
                         cons_features_nasality_suffix[(c_feature, suffix)],
                         cons_features_nasality[c_feature],
@@ -1070,8 +1070,8 @@ def main(args: argparse.Namespace) -> None:
                 # counts, the probabilities, cons feat counts out of 886
                 tsv_writer31.writerow(
                     [
+                        suffix,                        
                         c_feature,
-                        suffix,
                         p,
                         cons_features_place_suffix[(c_feature, suffix)],
                         cons_features_place[c_feature],
