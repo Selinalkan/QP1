@@ -883,10 +883,20 @@ def main(args: argparse.Namespace) -> None:
         # Syllable count-passive conditional probabilities: output25
         tsv_writer25 = csv.writer(sink25, delimiter="\t")
 
+
+        # # The following counts the suffixes
+        # suffix_counts = {}
         # Counting the diphthong and monophthongs
         for lemma, suffix in tsv_reader:
             diphthong_count = 0
             vowel_count = 0
+
+        #     # Counting the suffixes
+        #     suffix_counts[suffix] = suffix_counts.get(suffix, 0) + 1
+
+        # for suffix, count in suffix_counts.items():
+        #     print(f"{suffix}: {count}")
+        
             # Skipping reduplications
             if lemma in reduplications:
                 continue
