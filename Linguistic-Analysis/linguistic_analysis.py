@@ -1326,19 +1326,19 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o1",
         "--output1",
-        default="0_final-V_counts.tsv",
+        default="00_final-V_counts.tsv",
         help="outputs stem-final vowel counts",
     )
     parser.add_argument(
         "-o2",
         "--output2",
-        default="0_final-V-suffix_counts.tsv",
+        default="00_final-V-suffix_counts.tsv",
         help="outputs the final vowel-suffix counts",
     )
     parser.add_argument(
         "-o3",
         "--output3",
-        default="0_final-V-suffix_prob.tsv",
+        default="00_final-V-suffix_prob.tsv",
         help="outputs p(passive|final_vowel)",
     )
     parser.add_argument(
