@@ -1,0 +1,38 @@
+ria	('-son',)	0.0746	5	67
+hia	('+son',)	0.1333	4	30
+ria	('-son', '-son')	0.0584	9	154
+hia	('-son',)	0.0448	3	67
+hia	('-son', '-son')	0.0455	7	154
+mia	('+son',)	0.1333	4	30
+mia	('+son', '+son')	0.0638	3	47
+hia	('-son', '+son')	0.0849	9	106
+mia	('-son', '+son')	0.0189	2	106
+hia	('-son', '-son', '+son')	0.1077	7	65
+ria	('-son', '-son', '-son')	0.1324	9	68
+hia	('-son', '+son', '+son')	0.08	2	25
+hia	('-son', '-son', '-son')	0.0294	2	68
+hia	('+son', '-son', '+son')	0.125	1	8
+ria	('+son', '-son', '-son')	0.125	1	8
+hia	('+son', '+son', '-son')	0.2143	3	14
+hia	('+son', '+son')	0.1489	7	47
+ria	('+son', '-son')	0.0169	1	59
+ria	('+son',)	0.0333	1	30
+hia	('+son', '-son', '+son', '-son')	0.3	3	10
+hia	('+son', '-son')	0.1017	6	59
+hia	('+son', '+son', '+son')	0.1667	1	6
+ria	('-son', '+son', '-son')	0.0588	1	17
+hia	('-son', '+son', '+son', '-son')	1.0	1	1
+hia	('-son', '+son', '-son')	0.0588	1	17
+ria	('-son', '-son', '-son', '-son', '-son')	0.25	3	12
+mia	('-son', '-son', '+son')	0.0154	1	65
+hia	('-son', '-son', '+son', '+son')	0.0714	2	28
+ria	('-son', '-son', '+son', '-son', '-son')	0.6	3	5
+ria	('-son', '-son', '+son', '-son')	0.0588	1	17
+mia	('-son', '-son', '+son', '+son')	0.0357	1	28
+hia	('-son', '-son', '+son', '+son', '+son')	0.2	1	5
+hia	('-son', '-son', '-son', '+son')	0.0435	1	23
+hia	('-son', '-son', '-son', '-son')	0.0217	1	46
+hia	('-son', '-son', '+son', '-son')	0.0588	1	17
+ria	('-son', '-son', '-son', '-son', '-son', '-son', '-son')	1.0	1	1
+hia	('-son', '-son', '-son', '+son', '-son', '+son')	0.5	2	4
+ria	('-son', '-son', '-son', '-son')	0.0652	3	46

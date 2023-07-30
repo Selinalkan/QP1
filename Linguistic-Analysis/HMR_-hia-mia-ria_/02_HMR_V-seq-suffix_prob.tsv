@@ -5,7 +5,7 @@ ria	āii	0.125	1	8
 hia	aoao	0.3333	1	3
 hia	aa	0.1	2	20
 mia	au	0.0909	2	22
-mia	auau	0.1111	1	9
+mia	auau	0.125	1	8
 hia	oa	0.1111	1	9
 mia	oo	0.0556	1	18
 hia	ou	0.2222	2	9
@@ -17,7 +17,6 @@ ria	āau	0.2222	2	9
 hia	aao	0.6667	2	3
 ria	aau	0.5	2	4
 hia	aaa	0.2	1	5
-ria	auau	0.1111	1	9
 hia	ii	0.1053	2	19
 hia	oe	0.0909	1	11
 hia	ōii	0.1667	1	6
@@ -27,7 +26,7 @@ hia	eeee	0.4	2	5
 hia	eee	1.0	1	1
 mia	aao	0.3333	1	3
 mia	ao	0.1053	2	19
-hia	ee	0.0833	1	12
+hia	ee	0.0909	1	11
 hia	uu	0.1304	3	23
 hia	uuuu	0.125	1	8
 hia	oo	0.1111	2	18
@@ -53,7 +52,6 @@ ria	uu	0.0435	1	23
 mia	uu	0.0435	1	23
 hia	au	0.0455	1	22
 hia	eo	0.5	1	2
-ria	āā	1.0	2	2
 ria	aaaaau	1.0	1	1
 ria	aaao	0.1667	1	6
 hia	aaaa	0.2	2	10
@@ -78,5 +76,6 @@ ria	aaiu	0.25	1	4
 ria	aaū	0.5	1	2
 ria	aaūao	1.0	1	1
 ria	aauu	0.2	1	5
+ria	āā	1.0	1	1
 hia	ea	0.25	1	4
 ria	īii	1.0	1	1

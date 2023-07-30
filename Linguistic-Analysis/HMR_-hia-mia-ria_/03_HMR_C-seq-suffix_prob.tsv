@@ -16,7 +16,7 @@ hia	kpn	0.25	1	4
 ria	kh	0.125	1	8
 ria	kkh	1.0	1	1
 hia	kkr	0.5	1	2
-ria	kk	0.2857	2	7
+ria	kk	0.1667	1	6
 hia	kp	0.2	1	5
 hia	krng	0.5	1	2
 hia	kr	0.1111	1	9
@@ -61,7 +61,6 @@ ria	tp	0.0769	1	13
 hia	n	0.1429	1	7
 hia	wr	0.5	2	4
 hia	whnk	1.0	1	1
-ria	whwh	0.2857	2	7
 ria	whkkkh	1.0	1	1
 ria	whkk	0.2857	2	7
 hia	whkr	0.2222	2	9
@@ -86,5 +85,6 @@ ria	whktp	0.75	3	4
 hia	whktrtr	1.0	1	1
 ria	whktpt	1.0	1	1
 ria	wht	0.25	1	4
+ria	whwh	0.1667	1	6
 hia	whr	0.2	1	5
 ria	whtk	1.0	1	1

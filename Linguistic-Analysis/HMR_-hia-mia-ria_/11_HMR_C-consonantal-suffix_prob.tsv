@@ -1,0 +1,24 @@
+ria	('-cons',)	0.0769	1	13
+hia	('+cons',)	0.0714	6	84
+ria	('+cons', '+cons')	0.0315	8	254
+hia	('+cons', '+cons')	0.0945	24	254
+ria	('+cons',)	0.0595	5	84
+mia	('+cons',)	0.0476	4	84
+mia	('+cons', '+cons')	0.0157	4	254
+hia	('-cons', '+cons')	0.102	5	49
+mia	('-cons', '+cons')	0.0204	1	49
+hia	('-cons',)	0.0769	1	13
+hia	('+cons', '+cons', '+cons')	0.1039	16	154
+ria	('+cons', '-cons')	0.0455	2	44
+ria	('+cons', '+cons', '-cons')	0.0417	1	24
+ria	('+cons', '+cons', '+cons')	0.0649	10	154
+hia	('+cons', '+cons', '+cons', '+cons')	0.0989	9	91
+hia	('+cons', '-cons', '+cons')	0.0588	1	17
+ria	('+cons', '+cons', '+cons', '+cons', '-cons')	0.1429	1	7
+mia	('+cons', '+cons', '+cons')	0.0065	1	154
+ria	('+cons', '+cons', '+cons', '+cons', '+cons')	0.1786	5	28
+ria	('+cons', '+cons', '+cons', '+cons')	0.044	4	91
+mia	('+cons', '+cons', '+cons', '+cons')	0.011	1	91
+hia	('+cons', '+cons', '+cons', '-cons', '+cons')	0.1111	1	9
+ria	('+cons', '+cons', '+cons', '+cons', '+cons', '+cons', '+cons')	1.0	1	1
+hia	('+cons', '+cons', '+cons', '+cons', '+cons', '+cons')	0.2	2	10
