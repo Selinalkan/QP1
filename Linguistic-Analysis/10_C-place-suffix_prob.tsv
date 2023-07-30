@@ -1,17 +1,17 @@
 ('glottal',)	ria	0.0909	1	11
 ('glottal', 'glottal')	ngia	0.0769	1	13
 ('velar',)	na	0.1111	2	18
-('velar', 'velar')	na	0.0909	1	11
+('velar', 'velar')	na	0.1	1	10
 ('velar', 'coronal')	tia	0.1818	4	22
 ('velar', 'coronal', 'velar', 'coronal')	tia	0.5	1	2
 ('labial',)	tia	0.2258	7	31
-('labial', 'coronal')	ngia	0.0267	2	75
+('labial', 'coronal')	ngia	0.027	2	74
 ('labial',)	hia	0.0645	2	31
-('labial', 'labial')	tia	0.2778	5	18
-('labial', 'coronal')	ria	0.0533	4	75
-('labial', 'labial')	hia	0.0556	1	18
+('labial', 'labial')	tia	0.2941	5	17
+('labial', 'coronal')	ria	0.0541	4	74
+('labial', 'labial')	hia	0.0588	1	17
 ('labial',)	ria	0.0645	2	31
-('labial', 'coronal')	a	0.3733	28	75
+('labial', 'coronal')	a	0.3784	28	74
 ('coronal',)	hia	0.1081	4	37
 ('coronal', 'glottal')	na	0.12	3	25
 ('coronal',)	a	0.3243	12	37
@@ -26,7 +26,7 @@
 ('coronal',)	tia	0.1351	5	37
 ('labial', 'velar')	tia	0.4	10	25
 ('labial',)	a	0.4194	13	31
-('labial', 'coronal')	tia	0.3467	26	75
+('labial', 'coronal')	tia	0.3514	26	74
 ('glottal',)	a	0.6364	7	11
 ('velar',)	a	0.3889	7	18
 ('labial',)	ina	0.0645	2	31
@@ -68,8 +68,8 @@
 ('velar', 'glottal')	ria	0.1111	1	9
 ('velar', 'velar', 'glottal')	ria	1.0	1	1
 ('velar', 'velar', 'coronal')	hia	0.3333	1	3
-('velar', 'velar')	ria	0.1818	2	11
-('velar', 'velar')	a	0.6364	7	11
+('velar', 'velar')	ria	0.1	1	10
+('velar', 'velar')	a	0.7	7	10
 ('velar', 'labial')	a	0.6364	7	11
 ('velar', 'labial')	hia	0.1818	2	11
 ('velar', 'coronal', 'velar')	tia	0.6667	2	3
@@ -93,7 +93,7 @@
 ('velar', 'glottal', 'coronal')	tia	0.6667	2	3
 ('velar', 'glottal', 'velar', 'glottal')	a	1.0	1	1
 ('velar', 'glottal', 'coronal')	a	0.3333	1	3
-('velar', 'velar')	tia	0.0909	1	11
+('velar', 'velar')	tia	0.1	1	10
 ('velar', 'coronal', 'coronal')	a	0.6667	2	3
 ('velar', 'labial', 'velar')	tia	0.25	1	4
 ('velar', 'labial', 'coronal', 'labial', 'coronal')	tia	1.0	1	1
@@ -109,9 +109,9 @@
 ('labial', 'labial', 'velar')	tia	0.6667	2	3
 ('labial', 'coronal', 'velar')	tia	0.5556	5	9
 ('labial', 'coronal', 'velar')	hia	0.2222	2	9
-('labial', 'labial')	a	0.5556	10	18
+('labial', 'labial')	a	0.5882	10	17
 ('labial', 'coronal', 'coronal')	tia	1.0	4	4
-('labial', 'coronal')	hia	0.08	6	75
+('labial', 'coronal')	hia	0.0811	6	74
 ('labial', 'coronal', 'velar')	na	0.1111	1	9
 ('labial', 'coronal', 'velar', 'coronal', 'velar')	na	1.0	1	1
 ('labial', 'velar', 'labial', 'velar')	hia	0.2	1	5
@@ -119,9 +119,9 @@
 ('labial', 'coronal', 'labial', 'coronal')	a	0.7	7	10
 ('labial', 'glottal')	tia	0.3636	4	11
 ('labial', 'velar', 'coronal')	tia	0.2593	7	27
-('labial', 'coronal')	kia	0.0533	4	75
+('labial', 'coronal')	kia	0.0541	4	74
 ('labial', 'velar', 'labial', 'velar')	a	0.4	2	5
-('labial', 'coronal')	ia	0.04	3	75
+('labial', 'coronal')	ia	0.0405	3	74
 ('coronal', 'coronal', 'velar')	tia	0.4	4	10
 ('coronal', 'coronal')	a	0.6279	27	43
 ('coronal', 'glottal')	tia	0.24	6	25
@@ -154,7 +154,7 @@
 ('labial', 'coronal', 'labial')	a	0.25	1	4
 ('labial',)	ia	0.0323	1	31
 ('labial', 'coronal', 'labial')	tia	0.75	3	4
-('labial', 'coronal')	ina	0.0133	1	75
+('labial', 'coronal')	ina	0.0135	1	74
 ('coronal', 'glottal', 'coronal', 'glottal')	a	0.75	3	4
 ('coronal', 'velar', 'glottal')	a	1.0	2	2
 ('coronal', 'velar', 'coronal', 'velar')	a	0.4286	3	7
@@ -213,10 +213,8 @@
 ('labial', 'labial', 'glottal')	a	0.5	1	2
 ('labial', 'velar', 'coronal')	ngia	0.0741	2	27
 ('labial', 'labial', 'glottal')	tia	0.5	1	2
-('labial', 'coronal')	kina	0.0133	1	75
 ('labial', 'coronal', 'labial', 'coronal')	kia	0.1	1	10
 ('labial', 'velar')	na	0.04	1	25
-('labial', 'labial')	ria	0.1111	2	18
 ('labial', 'velar', 'coronal', 'coronal')	tia	0.0769	1	13
 ('labial', 'velar', 'glottal')	tia	0.625	5	8
 ('labial', 'velar', 'glottal', 'coronal')	tia	0.2	1	5
@@ -318,5 +316,6 @@
 ('labial', 'velar', 'coronal', 'velar')	tia	0.2	1	5
 ('labial', 'velar', 'labial', 'coronal', 'coronal', 'velar')	tia	1.0	1	1
 ('labial', 'velar', 'labial', 'labial')	a	0.125	1	8
+('labial', 'labial')	ria	0.0588	1	17
 ('labial', 'coronal', 'coronal', 'velar')	tia	1.0	1	1
 ('labial', 'coronal', 'velar')	ria	0.1111	1	9

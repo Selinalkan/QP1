@@ -442,9 +442,9 @@ def main(args: argparse.Namespace) -> None:
 
     # PART 9 – [+/-nasal]
     # Oral vs nasal consonant sequence
-    cons_features_nasality: Counter[Tuple[str, ...]] = collections.Counter()
+    nasality: Counter[Tuple[str, ...]] = collections.Counter()
     # Oral vs nasal consonant sequence-passive counter
-    cons_features_nasality_suffix: Counter[
+    nasality_suffix: Counter[
         Tuple[Any, ...]
     ] = collections.Counter()
 
@@ -1028,46 +1028,46 @@ def main(args: argparse.Namespace) -> None:
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
                     consonant_feature_sequence.append(
-                        consonant_features_dict_nasality["ng"]
+                        nasality_dict["ng"]
                     )
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
                     consonant_feature_sequence.append(
-                        consonant_features_dict_nasality["wh"]
+                        nasality_dict["wh"]
                     )
                     i += 2
                     continue
                 # Checking for other consonantal segments
-                if char in consonant_features_dict_nasality:
+                if char in nasality_dict:
                     consonant_feature_sequence.append(
-                        consonant_features_dict_nasality[char]
+                        nasality_dict[char]
                     )
                 i += 1
 
             # Handling the consonant feature sequence counter
             if consonant_feature_sequence:
-                cons_features_nasality[tuple(consonant_feature_sequence)] += 1
-                cons_features_nasality_suffix[
+                nasality[tuple(consonant_feature_sequence)] += 1
+                nasality_suffix[
                     (tuple(consonant_feature_sequence), suffix)
                 ] += 1
         # Writing the consonant features into a tsv file
-        for c_feature, count in cons_features_nasality.most_common():
+        for c_feature, count in nasality.most_common():
             tsv_writer26.writerow([c_feature, count])
             # print(f"{c_feature}:\t{count}")
         # Writing the consonant feature seq-suffix counts into a tsv file
         for (
             c_feature,
             suffix,
-        ), count in cons_features_nasality_suffix.most_common():
+        ), count in nasality_suffix.most_common():
             tsv_writer27.writerow([c_feature, suffix, count])
         # Conditional Probability: p(passive|consonant_features)
         for (
             c_feature,
             suffix,
-        ), count in cons_features_nasality_suffix.items():
-            p = round(count / cons_features_nasality[c_feature], 4)
+        ), count in nasality_suffix.items():
+            p = round(count / nasality[c_feature], 4)
             # Outputting cons features, suffix, cons feature-suffix
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer28.writerow(
@@ -1075,8 +1075,8 @@ def main(args: argparse.Namespace) -> None:
                     c_feature,
                     suffix,
                     p,
-                    cons_features_nasality_suffix[(c_feature, suffix)],
-                    cons_features_nasality[c_feature],
+                    nasality_suffix[(c_feature, suffix)],
+                    nasality[c_feature],
                 ]
             )
 
@@ -1344,127 +1344,127 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o4",
         "--output4",
-        default="1_final-V-feat_counts.tsv",
+        default="01_final-V-feat_counts.tsv",
         help="outputs stem-final vowel feature counts",
     )
     parser.add_argument(
         "-o5",
         "--output5",
-        default="1_final-V-feat-suffix_counts.tsv",
+        default="01_final-V-feat-suffix_counts.tsv",
         help="outputs the final vowel feature-suffix counts",
     )
     parser.add_argument(
         "-o6",
         "--output6",
-        default="1_final-V-feat-suffix_prob.tsv",
+        default="01_final-V-feat-suffix_prob.tsv",
         help="outputs p(passive|final_vowel_feature)",
     )
     parser.add_argument(
         "-o7",
         "--output7",
-        default="2_V-seq_counts.tsv",
+        default="02_V-seq_counts.tsv",
         help="outputs vowel sequence counts",
     )
     parser.add_argument(
         "-o8",
         "--output8",
-        default="2_V-seq-suffix_counts.tsv",
+        default="02_V-seq-suffix_counts.tsv",
         help="outputs vowel sequence-passive counts",
     )
     parser.add_argument(
         "-o9",
         "--output9",
-        default="2_V-seq-suffix_prob.tsv",
+        default="02_V-seq-suffix_prob.tsv",
         help="outputs p(passive|vowel_sequence)",
     )
     parser.add_argument(
         "-o10",
         "--output10",
-        default="3_C-seq_counts.tsv",
+        default="03_C-seq_counts.tsv",
         help="outputs consonant sequence counts",
     )
     parser.add_argument(
         "-o11",
         "--output11",
-        default="3_C-seq-suffix_counts.tsv",
+        default="03_C-seq-suffix_counts.tsv",
         help="outputs consonant sequence-passive counts",
     )
     parser.add_argument(
         "-o12",
         "--output12",
-        default="3_C-seq-suffix_prob.tsv",
+        default="03_C-seq-suffix_prob.tsv",
         help="outputs p(passive|consonant_sequence)",
     )
     parser.add_argument(
         "-o32",
         "--output32",
-        default="4_final-C_counts.tsv",
+        default="04_final-C_counts.tsv",
         help="outputs final consonant counts",
     )
     parser.add_argument(
         "-o33",
         "--output33",
-        default="4_final-C-suffix_counts.tsv",
+        default="04_final-C-suffix_counts.tsv",
         help="outputs final consonant-passive counts",
     )
     parser.add_argument(
         "-o34",
         "--output34",
-        default="4_final-C-suffix_prob.tsv",
+        default="04_final-C-suffix_prob.tsv",
         help="outputs p(passive|final_consonant)",
     )
     parser.add_argument(
         "-o13",
         "--output13",
-        default="5_V-feat_counts.tsv",
+        default="05_V-feat_counts.tsv",
         help="outputs vowel feature counts",
     )
     parser.add_argument(
         "-o14",
         "--output14",
-        default="5_V-feat-suffix_counts.tsv",
+        default="05_V-feat-suffix_counts.tsv",
         help="outputs vowel feature-passive counts",
     )
     parser.add_argument(
         "-o15",
         "--output15",
-        default="5_V-feat-suffix_prob.tsv",
+        default="05_V-feat-suffix_prob.tsv",
         help="outputs p(passive|vowel_feature)",
     )
     parser.add_argument(
         "-o16",
         "--output16",
-        default="6_C-feat_counts.tsv",
+        default="06_C-feat_counts.tsv",
         help="outputs consonant feature counts",
     )
     parser.add_argument(
         "-o17",
         "--output17",
-        default="6_C-feat-suffix_counts.tsv",
+        default="06_C-feat-suffix_counts.tsv",
         help="outputs consonant feature-passive counts",
     )
     parser.add_argument(
         "-o18",
         "--output18",
-        default="6_C-feat-suffix_prob.tsv",
+        default="06_C-feat-suffix_prob.tsv",
         help="outputs p(passive|consonant_feature)",
     )
     parser.add_argument(
         "-o19",
         "--output19",
-        default="7_final-C-feat_counts.tsv",
+        default="07_final-C-feat_counts.tsv",
         help="outputs final consonant feature counts",
     )
     parser.add_argument(
         "-o20",
         "--output20",
-        default="7_final-C-feat-suffix_counts.tsv",
+        default="07_final-C-feat-suffix_counts.tsv",
         help="outputs the final vowel feature-suffix counts",
     )
     parser.add_argument(
         "-o21",
         "--output21",
-        default="7_final-C-feat-suffix_prob.tsv",
+        default="07_final-C-feat-suffix_prob.tsv",
         help="outputs p(passive|final_vowel_feature)",
     )
     # # -o22 gives all lemma-cons feature sequences for testing
@@ -1478,37 +1478,37 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o23",
         "--output23",
-        default="8_syllable_counts.tsv",
+        default="08_syllable_counts.tsv",
         help="outputs final consonant feature counts",
     )
     parser.add_argument(
         "-o24",
         "--output24",
-        default="8_syllable-suffix_counts.tsv",
+        default="08_syllable-suffix_counts.tsv",
         help="outputs the final vowel feature-suffix counts",
     )
     parser.add_argument(
         "-o25",
         "--output25",
-        default="8_syllable-suffix_prob.tsv",
+        default="08_syllable-suffix_prob.tsv",
         help="outputs p(passive|syllable-counts)",
     )
     parser.add_argument(
         "-o26",
         "--output26",
-        default="9_C-nasality_counts.tsv",
+        default="09_C-nasality_counts.tsv",
         help="outputs oral vs nasal consonant feature counts",
     )
     parser.add_argument(
         "-o27",
         "--output27",
-        default="9_C-nasality-suffix_counts.tsv",
+        default="09_C-nasality-suffix_counts.tsv",
         help="outputs oral vs nasal consonant feature-passive counts",
     )
     parser.add_argument(
         "-o28",
         "--output28",
-        default="9_C-nasality-suffix_prob.tsv",
+        default="09_C-nasality-suffix_prob.tsv",
         help="outputs p(passive|consonant_feature_nasality)",
     )
     parser.add_argument(
