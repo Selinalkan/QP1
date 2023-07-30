@@ -1,254 +1,254 @@
-('dorsal',)	ria	0.069	2	29
-('dorsal', 'dorsal')	ngia	0.0213	1	47
-('dorsal',)	na	0.069	2	29
-('dorsal', 'dorsal')	na	0.0851	4	47
-('dorsal', 'coronal')	tia	0.1667	7	42
-('dorsal', 'coronal', 'dorsal', 'coronal')	tia	0.2	1	5
-('labial',)	tia	0.2258	7	31
-('labial', 'coronal')	ngia	0.027	2	74
-('labial',)	hia	0.0645	2	31
-('labial', 'labial')	tia	0.2941	5	17
-('labial', 'coronal')	ria	0.0541	4	74
-('labial', 'labial')	hia	0.0588	1	17
-('labial',)	ria	0.0645	2	31
-('labial', 'coronal')	a	0.3784	28	74
-('coronal',)	hia	0.1081	4	37
-('coronal', 'dorsal')	na	0.1455	8	55
-('coronal',)	a	0.3243	12	37
-('coronal', 'coronal', 'dorsal')	na	0.4167	5	12
-('coronal',)	ngia	0.0541	2	37
-('coronal', 'dorsal')	ina	0.0364	2	55
-('coronal',)	mia	0.1081	4	37
-('coronal', 'coronal')	mia	0.0698	3	43
-('coronal', 'labial')	tia	0.2222	8	36
-('coronal', 'coronal')	tia	0.1395	6	43
-('dorsal', 'dorsal')	tia	0.2553	12	47
-('coronal',)	tia	0.1351	5	37
-('labial', 'dorsal')	tia	0.3889	14	36
-('labial',)	a	0.4194	13	31
-('labial', 'coronal')	tia	0.3514	26	74
-('dorsal',)	a	0.4828	14	29
-('labial',)	ina	0.0645	2	31
-('dorsal', 'dorsal')	a	0.5532	26	47
-('dorsal', 'coronal')	a	0.619	26	42
-('dorsal', 'dorsal', 'coronal')	a	0.2222	2	9
-('dorsal', 'dorsal', 'dorsal', 'dorsal')	a	0.8	4	5
-('dorsal', 'labial', 'coronal')	tia	0.3333	5	15
-('dorsal', 'labial')	nga	0.0625	1	16
-('dorsal', 'dorsal', 'dorsal')	tia	0.4	2	5
-('dorsal', 'labial', 'labial')	tia	1.0	1	1
-('dorsal', 'labial')	tia	0.1875	3	16
-('dorsal', 'coronal', 'dorsal', 'coronal')	a	0.8	4	5
-('dorsal', 'dorsal', 'coronal')	tia	0.6667	6	9
-('dorsal', 'dorsal')	ia	0.0426	2	47
-('dorsal', 'labial', 'dorsal')	na	0.6667	4	6
-('dorsal', 'labial')	a	0.5625	9	16
-('dorsal', 'dorsal', 'dorsal', 'dorsal')	na	0.2	1	5
-('dorsal', 'dorsal', 'labial', 'coronal', 'labial', 'coronal')	a	1.0	1	1
-('dorsal', 'labial')	kia	0.0625	1	16
-('dorsal', 'coronal')	hia	0.1429	6	42
-('dorsal', 'coronal')	mia	0.0476	2	42
-('dorsal', 'coronal', 'labial')	a	1.0	2	2
-('dorsal',)	hia	0.0345	1	29
-('dorsal',)	ia	0.1379	4	29
-('dorsal',)	ina	0.1034	3	29
-('dorsal', 'labial', 'dorsal')	tia	0.3333	2	6
-('coronal', 'dorsal')	tia	0.2364	13	55
-('dorsal',)	ngia	0.0345	1	29
-('dorsal', 'dorsal', 'dorsal')	na	0.4	2	5
-('dorsal',)	nga	0.0345	1	29
-('dorsal', 'labial', 'coronal')	hia	0.1333	2	15
-('dorsal', 'dorsal')	ria	0.0426	2	47
-('dorsal', 'dorsal', 'dorsal')	ria	0.2	1	5
-('dorsal', 'dorsal', 'coronal')	hia	0.1111	1	9
-('dorsal', 'labial')	hia	0.125	2	16
-('dorsal', 'coronal', 'dorsal')	tia	0.6667	2	3
-('dorsal', 'coronal', 'dorsal')	hia	0.3333	1	3
-('dorsal', 'coronal', 'labial', 'coronal')	a	1.0	1	1
-('dorsal', 'coronal')	ina	0.0238	1	42
-('dorsal',)	tia	0.0345	1	29
-('dorsal', 'labial', 'coronal')	a	0.5333	8	15
-('dorsal', 'coronal', 'coronal')	a	0.6667	2	3
-('dorsal', 'labial', 'coronal', 'labial', 'coronal')	tia	1.0	1	1
-('dorsal', 'coronal', 'coronal')	tia	0.3333	1	3
-('labial', 'dorsal', 'dorsal')	tia	0.5	10	20
-('labial', 'dorsal', 'coronal')	tia	0.3548	11	31
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal')	tia	0.4	2	5
-('labial', 'dorsal')	a	0.5	18	36
-('labial', 'dorsal', 'labial', 'dorsal')	a	0.7143	10	14
-('labial', 'dorsal', 'coronal')	hia	0.129	4	31
-('labial', 'dorsal', 'coronal')	ria	0.129	4	31
-('labial', 'labial', 'dorsal')	tia	0.6	3	5
-('labial', 'coronal', 'dorsal')	tia	0.6364	7	11
-('labial', 'coronal', 'dorsal')	hia	0.1818	2	11
-('labial', 'labial')	a	0.5882	10	17
-('labial', 'coronal', 'coronal')	tia	1.0	4	4
-('labial', 'coronal')	hia	0.0811	6	74
-('labial', 'coronal', 'dorsal')	na	0.0909	1	11
-('labial', 'coronal', 'dorsal', 'coronal', 'dorsal')	na	0.5	1	2
-('labial', 'dorsal', 'labial', 'dorsal')	hia	0.0714	1	14
-('labial', 'labial', 'dorsal')	hia	0.2	1	5
-('labial', 'coronal', 'labial', 'coronal')	a	0.7	7	10
-('labial', 'coronal')	kia	0.0541	4	74
-('labial', 'coronal')	ia	0.0405	3	74
-('coronal', 'coronal', 'dorsal')	tia	0.5	6	12
-('coronal', 'coronal')	a	0.6279	27	43
-('coronal', 'dorsal')	a	0.3455	19	55
-('coronal', 'dorsal')	hia	0.1636	9	55
-('coronal', 'dorsal', 'coronal', 'dorsal')	hia	0.1818	2	11
-('coronal', 'dorsal')	ia	0.0364	2	55
-('coronal', 'dorsal', 'coronal')	tia	0.5	6	12
-('coronal', 'labial')	a	0.5556	20	36
-('labial',)	kia	0.0323	1	31
-('coronal',)	kia	0.0541	2	37
-('coronal',)	ina	0.1351	5	37
-('labial',)	ngia	0.0968	3	31
-('labial', 'dorsal', 'coronal', 'dorsal')	tia	0.25	2	8
-('labial', 'dorsal', 'coronal')	a	0.2581	8	31
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal')	a	0.2	1	5
-('labial', 'dorsal', 'labial')	tia	0.2857	4	14
-('labial', 'coronal', 'dorsal', 'coronal', 'dorsal')	tia	0.5	1	2
-('labial', 'labial', 'coronal')	tia	1.0	3	3
-('labial', 'dorsal')	ina	0.0278	1	36
-('labial', 'dorsal')	ia	0.0278	1	36
-('labial', 'labial', 'labial')	tia	1.0	1	1
-('labial', 'coronal', 'labial', 'coronal')	tia	0.2	2	10
-('labial', 'coronal', 'labial')	a	0.25	1	4
-('labial',)	ia	0.0323	1	31
-('labial', 'coronal', 'labial')	tia	0.75	3	4
-('labial', 'coronal')	ina	0.0135	1	74
-('coronal', 'dorsal', 'coronal', 'dorsal')	a	0.5455	6	11
-('coronal', 'dorsal', 'dorsal')	a	1.0	3	3
-('coronal', 'labial')	ngia	0.0278	1	36
-('coronal', 'labial')	hia	0.0833	3	36
-('coronal', 'coronal', 'labial')	hia	0.1	1	10
-('coronal', 'coronal', 'labial')	a	0.3	3	10
-('coronal', 'labial', 'coronal')	tia	0.6667	10	15
-('coronal', 'coronal')	ngia	0.0698	3	43
-('coronal', 'labial', 'dorsal')	tia	0.5385	7	13
-('coronal', 'coronal', 'dorsal')	hia	0.0833	1	12
-('coronal', 'labial', 'dorsal')	na	0.2308	3	13
-('coronal', 'coronal', 'coronal', 'coronal')	a	1.0	2	2
-('coronal', 'coronal')	hia	0.0465	2	43
-('coronal', 'dorsal', 'labial', 'dorsal', 'labial')	tia	1.0	1	1
-('coronal', 'dorsal', 'dorsal', 'coronal')	tia	1.0	1	1
-('coronal', 'dorsal', 'labial', 'labial')	a	1.0	1	1
-('coronal', 'dorsal', 'labial')	ria	1.0	1	1
-('coronal', 'dorsal', 'coronal')	hia	0.1667	2	12
-('coronal', 'dorsal', 'labial', 'coronal')	tia	1.0	1	1
-('coronal', 'dorsal', 'coronal', 'dorsal')	na	0.1818	2	11
-('coronal', 'dorsal', 'coronal')	ria	0.0833	1	12
-('coronal', 'labial', 'labial')	a	0.25	1	4
-('coronal', 'labial', 'labial')	tia	0.75	3	4
-('coronal', 'coronal', 'labial')	tia	0.6	6	10
-('coronal',)	na	0.027	1	37
-('coronal', 'labial')	ia	0.0556	2	36
-('coronal', 'labial', 'dorsal')	a	0.1538	2	13
-('coronal', 'labial', 'coronal', 'labial')	ia	1.0	1	1
-('coronal', 'labial', 'coronal', 'labial', 'dorsal')	a	1.0	1	1
-('coronal', 'labial', 'coronal')	a	0.2	3	15
-('coronal', 'coronal', 'coronal')	tia	0.5	2	4
-('coronal', 'coronal')	ria	0.0233	1	43
-('coronal',)	ria	0.0541	2	37
-('coronal', 'dorsal', 'coronal')	a	0.25	3	12
-('coronal', 'coronal', 'dorsal', 'coronal', 'dorsal')	tia	0.5	1	2
-('coronal', 'labial', 'coronal')	ria	0.0667	1	15
-('coronal', 'coronal', 'dorsal', 'dorsal')	tia	1.0	1	1
-('coronal', 'coronal', 'coronal')	a	0.5	2	4
-('coronal', 'coronal', 'dorsal', 'coronal', 'dorsal')	na	0.5	1	2
-('coronal', 'labial', 'coronal')	hia	0.0667	1	15
-('coronal', 'dorsal', 'coronal', 'dorsal')	ina	0.0909	1	11
-('coronal', 'dorsal')	ngia	0.0182	1	55
-('coronal', 'dorsal')	ria	0.0182	1	55
-('coronal', 'labial')	kia	0.0278	1	36
-('coronal', 'coronal')	na	0.0233	1	43
-('coronal', 'labial', 'coronal', 'dorsal')	hia	1.0	1	1
-('coronal', 'labial', 'dorsal')	kia	0.0769	1	13
-('coronal', 'labial')	ria	0.0278	1	36
-('labial', 'labial', 'dorsal')	a	0.2	1	5
-('labial', 'dorsal', 'coronal')	ngia	0.0645	2	31
-('labial', 'coronal', 'labial', 'coronal')	kia	0.1	1	10
-('labial', 'dorsal')	na	0.0278	1	36
-('labial', 'dorsal', 'coronal', 'coronal')	tia	0.0769	1	13
-('labial', 'dorsal', 'dorsal', 'coronal')	tia	0.3636	4	11
-('labial', 'dorsal', 'dorsal', 'dorsal', 'dorsal')	ria	0.5	1	2
-('labial', 'dorsal', 'dorsal')	na	0.05	1	20
-('labial', 'dorsal', 'dorsal')	ria	0.1	2	20
-('labial', 'dorsal', 'coronal', 'labial', 'coronal')	tia	0.5	2	4
-('labial', 'dorsal', 'dorsal')	a	0.25	5	20
-('labial', 'dorsal', 'labial')	hia	0.0714	1	14
-('labial', 'dorsal', 'dorsal', 'labial')	a	0.6	3	5
-('labial', 'dorsal', 'dorsal', 'labial')	tia	0.4	2	5
-('labial', 'dorsal', 'dorsal', 'coronal')	a	0.5455	6	11
-('labial', 'dorsal', 'dorsal', 'dorsal')	tia	0.375	3	8
-('labial', 'dorsal', 'dorsal', 'coronal', 'labial')	tia	1.0	2	2
-('labial', 'dorsal', 'dorsal')	ngia	0.1	2	20
-('labial', 'dorsal', 'dorsal', 'dorsal')	a	0.375	3	8
-('labial', 'dorsal', 'dorsal', 'dorsal')	ia	0.125	1	8
-('labial', 'dorsal', 'dorsal', 'dorsal', 'coronal')	tia	1.0	5	5
-('labial', 'dorsal', 'dorsal', 'coronal', 'coronal')	tia	1.0	1	1
-('labial', 'dorsal', 'dorsal', 'coronal', 'dorsal', 'coronal')	tia	1.0	2	2
-('labial', 'dorsal', 'coronal')	mia	0.0323	1	31
-('labial', 'dorsal', 'labial', 'labial')	tia	0.875	7	8
-('labial', 'dorsal', 'dorsal', 'dorsal')	ngia	0.125	1	8
-('labial', 'dorsal', 'dorsal', 'dorsal', 'dorsal')	tia	0.5	1	2
-('labial', 'dorsal', 'dorsal', 'labial', 'dorsal', 'labial')	ia	1.0	1	1
-('labial', 'dorsal', 'dorsal', 'labial', 'dorsal')	tia	1.0	1	1
-('labial', 'dorsal', 'dorsal', 'coronal', 'labial', 'dorsal')	tia	1.0	1	1
-('labial', 'dorsal', 'labial', 'dorsal', 'coronal')	tia	0.8	4	5
-('labial', 'dorsal', 'labial', 'dorsal', 'dorsal')	tia	0.75	3	4
-('labial', 'dorsal', 'labial', 'coronal')	hia	0.125	3	24
-('labial', 'dorsal', 'labial', 'coronal', 'labial')	tia	1.0	2	2
-('labial', 'dorsal', 'labial', 'coronal')	tia	0.375	9	24
-('labial', 'dorsal', 'labial', 'coronal', 'dorsal')	tia	0.6667	2	3
-('labial', 'dorsal', 'labial', 'coronal', 'coronal')	tia	0.3333	1	3
-('labial', 'dorsal', 'labial', 'coronal', 'dorsal')	ria	0.3333	1	3
-('labial', 'dorsal', 'labial', 'coronal', 'coronal')	ria	0.6667	2	3
-('labial', 'dorsal', 'labial', 'coronal')	ria	0.0417	1	24
-('labial', 'dorsal', 'labial', 'coronal')	a	0.4167	10	24
-('labial', 'dorsal', 'labial')	a	0.4286	6	14
-('labial', 'dorsal', 'labial', 'dorsal')	tia	0.1429	2	14
-('labial', 'dorsal', 'coronal', 'coronal')	a	0.5385	7	13
-('labial', 'dorsal', 'dorsal', 'coronal')	mia	0.0909	1	11
-('labial', 'dorsal', 'dorsal', 'labial', 'coronal')	hia	1.0	1	1
-('labial', 'dorsal', 'coronal', 'dorsal')	ia	0.25	2	8
-('labial', 'dorsal', 'labial')	kia	0.1429	2	14
-('labial', 'dorsal', 'labial', 'coronal', 'dorsal', 'dorsal')	tia	1.0	1	1
-('labial', 'dorsal', 'labial')	ngia	0.0714	1	14
-('labial', 'dorsal', 'labial', 'dorsal', 'dorsal')	ngia	0.25	1	4
-('labial', 'dorsal', 'labial', 'dorsal')	na	0.0714	1	14
-('labial', 'dorsal', 'labial', 'dorsal', 'coronal')	a	0.2	1	5
-('labial', 'dorsal', 'labial', 'coronal')	ina	0.0417	1	24
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal', 'coronal')	tia	1.0	1	1
-('labial', 'dorsal', 'coronal', 'labial')	ngia	0.1111	1	9
-('labial', 'dorsal', 'coronal', 'labial', 'dorsal')	tia	1.0	1	1
-('labial', 'dorsal', 'coronal', 'labial', 'labial', 'coronal')	ngia	1.0	1	1
-('labial', 'dorsal', 'coronal', 'coronal', 'dorsal')	tia	1.0	6	6
-('labial', 'dorsal', 'coronal', 'coronal')	hia	0.0769	1	13
-('labial', 'dorsal', 'coronal', 'labial')	tia	0.3333	3	9
-('labial', 'dorsal', 'coronal', 'labial')	a	0.1111	1	9
-('labial', 'dorsal', 'coronal', 'dorsal')	ngia	0.125	1	8
-('labial', 'dorsal', 'coronal', 'labial')	ia	0.1111	1	9
-('labial', 'dorsal', 'coronal', 'coronal')	ia	0.1538	2	13
-('labial', 'dorsal', 'coronal', 'dorsal')	hia	0.125	1	8
-('labial', 'dorsal', 'coronal', 'coronal')	ngia	0.1538	2	13
-('labial', 'dorsal', 'coronal', 'dorsal')	a	0.125	1	8
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal')	ngia	0.2	1	5
-('labial', 'dorsal', 'coronal', 'dorsal')	na	0.125	1	8
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal', 'dorsal')	na	0.3333	1	3
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal')	ria	0.2	1	5
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal', 'dorsal', 'coronal')	ria	1.0	1	1
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal', 'dorsal')	hia	0.3333	1	3
-('labial', 'dorsal', 'coronal', 'labial')	ria	0.3333	3	9
-('labial', 'dorsal', 'coronal', 'coronal', 'coronal', 'coronal')	hia	1.0	1	1
-('labial', 'dorsal', 'coronal', 'coronal', 'coronal')	a	1.0	1	1
-('labial', 'dorsal', 'coronal', 'dorsal', 'coronal', 'dorsal')	ina	0.3333	1	3
-('labial', 'dorsal', 'coronal', 'labial', 'coronal')	ngia	0.25	1	4
-('labial', 'dorsal', 'coronal')	kia	0.0323	1	31
-('labial', 'dorsal', 'coronal', 'labial', 'coronal')	ria	0.25	1	4
-('labial', 'dorsal')	ngia	0.0278	1	36
-('labial', 'dorsal', 'labial', 'coronal', 'coronal', 'dorsal')	tia	1.0	1	1
-('labial', 'dorsal', 'labial', 'labial')	a	0.125	1	8
-('labial', 'labial')	ria	0.0588	1	17
-('labial', 'coronal', 'coronal', 'dorsal')	tia	1.0	1	1
-('labial', 'coronal', 'dorsal')	ria	0.0909	1	11
+('dors',)	ria	0.069	2	29
+('dors', 'dors')	ngia	0.0213	1	47
+('dors',)	na	0.069	2	29
+('dors', 'dors')	na	0.0851	4	47
+('dors', 'cor')	tia	0.1667	7	42
+('dors', 'cor', 'dors', 'cor')	tia	0.2	1	5
+('lab',)	tia	0.2258	7	31
+('lab', 'cor')	ngia	0.027	2	74
+('lab',)	hia	0.0645	2	31
+('lab', 'lab')	tia	0.2941	5	17
+('lab', 'cor')	ria	0.0541	4	74
+('lab', 'lab')	hia	0.0588	1	17
+('lab',)	ria	0.0645	2	31
+('lab', 'cor')	a	0.3784	28	74
+('cor',)	hia	0.1081	4	37
+('cor', 'dors')	na	0.1455	8	55
+('cor',)	a	0.3243	12	37
+('cor', 'cor', 'dors')	na	0.4167	5	12
+('cor',)	ngia	0.0541	2	37
+('cor', 'dors')	ina	0.0364	2	55
+('cor',)	mia	0.1081	4	37
+('cor', 'cor')	mia	0.0698	3	43
+('cor', 'lab')	tia	0.2222	8	36
+('cor', 'cor')	tia	0.1395	6	43
+('dors', 'dors')	tia	0.2553	12	47
+('cor',)	tia	0.1351	5	37
+('lab', 'dors')	tia	0.3889	14	36
+('lab',)	a	0.4194	13	31
+('lab', 'cor')	tia	0.3514	26	74
+('dors',)	a	0.4828	14	29
+('lab',)	ina	0.0645	2	31
+('dors', 'dors')	a	0.5532	26	47
+('dors', 'cor')	a	0.619	26	42
+('dors', 'dors', 'cor')	a	0.2222	2	9
+('dors', 'dors', 'dors', 'dors')	a	0.8	4	5
+('dors', 'lab', 'cor')	tia	0.3333	5	15
+('dors', 'lab')	nga	0.0625	1	16
+('dors', 'dors', 'dors')	tia	0.4	2	5
+('dors', 'lab', 'lab')	tia	1.0	1	1
+('dors', 'lab')	tia	0.1875	3	16
+('dors', 'cor', 'dors', 'cor')	a	0.8	4	5
+('dors', 'dors', 'cor')	tia	0.6667	6	9
+('dors', 'dors')	ia	0.0426	2	47
+('dors', 'lab', 'dors')	na	0.6667	4	6
+('dors', 'lab')	a	0.5625	9	16
+('dors', 'dors', 'dors', 'dors')	na	0.2	1	5
+('dors', 'dors', 'lab', 'cor', 'lab', 'cor')	a	1.0	1	1
+('dors', 'lab')	kia	0.0625	1	16
+('dors', 'cor')	hia	0.1429	6	42
+('dors', 'cor')	mia	0.0476	2	42
+('dors', 'cor', 'lab')	a	1.0	2	2
+('dors',)	hia	0.0345	1	29
+('dors',)	ia	0.1379	4	29
+('dors',)	ina	0.1034	3	29
+('dors', 'lab', 'dors')	tia	0.3333	2	6
+('cor', 'dors')	tia	0.2364	13	55
+('dors',)	ngia	0.0345	1	29
+('dors', 'dors', 'dors')	na	0.4	2	5
+('dors',)	nga	0.0345	1	29
+('dors', 'lab', 'cor')	hia	0.1333	2	15
+('dors', 'dors')	ria	0.0426	2	47
+('dors', 'dors', 'dors')	ria	0.2	1	5
+('dors', 'dors', 'cor')	hia	0.1111	1	9
+('dors', 'lab')	hia	0.125	2	16
+('dors', 'cor', 'dors')	tia	0.6667	2	3
+('dors', 'cor', 'dors')	hia	0.3333	1	3
+('dors', 'cor', 'lab', 'cor')	a	1.0	1	1
+('dors', 'cor')	ina	0.0238	1	42
+('dors',)	tia	0.0345	1	29
+('dors', 'lab', 'cor')	a	0.5333	8	15
+('dors', 'cor', 'cor')	a	0.6667	2	3
+('dors', 'lab', 'cor', 'lab', 'cor')	tia	1.0	1	1
+('dors', 'cor', 'cor')	tia	0.3333	1	3
+('lab', 'dors', 'dors')	tia	0.5	10	20
+('lab', 'dors', 'cor')	tia	0.3548	11	31
+('lab', 'dors', 'cor', 'dors', 'cor')	tia	0.4	2	5
+('lab', 'dors')	a	0.5	18	36
+('lab', 'dors', 'lab', 'dors')	a	0.7143	10	14
+('lab', 'dors', 'cor')	hia	0.129	4	31
+('lab', 'dors', 'cor')	ria	0.129	4	31
+('lab', 'lab', 'dors')	tia	0.6	3	5
+('lab', 'cor', 'dors')	tia	0.6364	7	11
+('lab', 'cor', 'dors')	hia	0.1818	2	11
+('lab', 'lab')	a	0.5882	10	17
+('lab', 'cor', 'cor')	tia	1.0	4	4
+('lab', 'cor')	hia	0.0811	6	74
+('lab', 'cor', 'dors')	na	0.0909	1	11
+('lab', 'cor', 'dors', 'cor', 'dors')	na	0.5	1	2
+('lab', 'dors', 'lab', 'dors')	hia	0.0714	1	14
+('lab', 'lab', 'dors')	hia	0.2	1	5
+('lab', 'cor', 'lab', 'cor')	a	0.7	7	10
+('lab', 'cor')	kia	0.0541	4	74
+('lab', 'cor')	ia	0.0405	3	74
+('cor', 'cor', 'dors')	tia	0.5	6	12
+('cor', 'cor')	a	0.6279	27	43
+('cor', 'dors')	a	0.3455	19	55
+('cor', 'dors')	hia	0.1636	9	55
+('cor', 'dors', 'cor', 'dors')	hia	0.1818	2	11
+('cor', 'dors')	ia	0.0364	2	55
+('cor', 'dors', 'cor')	tia	0.5	6	12
+('cor', 'lab')	a	0.5556	20	36
+('lab',)	kia	0.0323	1	31
+('cor',)	kia	0.0541	2	37
+('cor',)	ina	0.1351	5	37
+('lab',)	ngia	0.0968	3	31
+('lab', 'dors', 'cor', 'dors')	tia	0.25	2	8
+('lab', 'dors', 'cor')	a	0.2581	8	31
+('lab', 'dors', 'cor', 'dors', 'cor')	a	0.2	1	5
+('lab', 'dors', 'lab')	tia	0.2857	4	14
+('lab', 'cor', 'dors', 'cor', 'dors')	tia	0.5	1	2
+('lab', 'lab', 'cor')	tia	1.0	3	3
+('lab', 'dors')	ina	0.0278	1	36
+('lab', 'dors')	ia	0.0278	1	36
+('lab', 'lab', 'lab')	tia	1.0	1	1
+('lab', 'cor', 'lab', 'cor')	tia	0.2	2	10
+('lab', 'cor', 'lab')	a	0.25	1	4
+('lab',)	ia	0.0323	1	31
+('lab', 'cor', 'lab')	tia	0.75	3	4
+('lab', 'cor')	ina	0.0135	1	74
+('cor', 'dors', 'cor', 'dors')	a	0.5455	6	11
+('cor', 'dors', 'dors')	a	1.0	3	3
+('cor', 'lab')	ngia	0.0278	1	36
+('cor', 'lab')	hia	0.0833	3	36
+('cor', 'cor', 'lab')	hia	0.1	1	10
+('cor', 'cor', 'lab')	a	0.3	3	10
+('cor', 'lab', 'cor')	tia	0.6667	10	15
+('cor', 'cor')	ngia	0.0698	3	43
+('cor', 'lab', 'dors')	tia	0.5385	7	13
+('cor', 'cor', 'dors')	hia	0.0833	1	12
+('cor', 'lab', 'dors')	na	0.2308	3	13
+('cor', 'cor', 'cor', 'cor')	a	1.0	2	2
+('cor', 'cor')	hia	0.0465	2	43
+('cor', 'dors', 'lab', 'dors', 'lab')	tia	1.0	1	1
+('cor', 'dors', 'dors', 'cor')	tia	1.0	1	1
+('cor', 'dors', 'lab', 'lab')	a	1.0	1	1
+('cor', 'dors', 'lab')	ria	1.0	1	1
+('cor', 'dors', 'cor')	hia	0.1667	2	12
+('cor', 'dors', 'lab', 'cor')	tia	1.0	1	1
+('cor', 'dors', 'cor', 'dors')	na	0.1818	2	11
+('cor', 'dors', 'cor')	ria	0.0833	1	12
+('cor', 'lab', 'lab')	a	0.25	1	4
+('cor', 'lab', 'lab')	tia	0.75	3	4
+('cor', 'cor', 'lab')	tia	0.6	6	10
+('cor',)	na	0.027	1	37
+('cor', 'lab')	ia	0.0556	2	36
+('cor', 'lab', 'dors')	a	0.1538	2	13
+('cor', 'lab', 'cor', 'lab')	ia	1.0	1	1
+('cor', 'lab', 'cor', 'lab', 'dors')	a	1.0	1	1
+('cor', 'lab', 'cor')	a	0.2	3	15
+('cor', 'cor', 'cor')	tia	0.5	2	4
+('cor', 'cor')	ria	0.0233	1	43
+('cor',)	ria	0.0541	2	37
+('cor', 'dors', 'cor')	a	0.25	3	12
+('cor', 'cor', 'dors', 'cor', 'dors')	tia	0.5	1	2
+('cor', 'lab', 'cor')	ria	0.0667	1	15
+('cor', 'cor', 'dors', 'dors')	tia	1.0	1	1
+('cor', 'cor', 'cor')	a	0.5	2	4
+('cor', 'cor', 'dors', 'cor', 'dors')	na	0.5	1	2
+('cor', 'lab', 'cor')	hia	0.0667	1	15
+('cor', 'dors', 'cor', 'dors')	ina	0.0909	1	11
+('cor', 'dors')	ngia	0.0182	1	55
+('cor', 'dors')	ria	0.0182	1	55
+('cor', 'lab')	kia	0.0278	1	36
+('cor', 'cor')	na	0.0233	1	43
+('cor', 'lab', 'cor', 'dors')	hia	1.0	1	1
+('cor', 'lab', 'dors')	kia	0.0769	1	13
+('cor', 'lab')	ria	0.0278	1	36
+('lab', 'lab', 'dors')	a	0.2	1	5
+('lab', 'dors', 'cor')	ngia	0.0645	2	31
+('lab', 'cor', 'lab', 'cor')	kia	0.1	1	10
+('lab', 'dors')	na	0.0278	1	36
+('lab', 'dors', 'cor', 'cor')	tia	0.0769	1	13
+('lab', 'dors', 'dors', 'cor')	tia	0.3636	4	11
+('lab', 'dors', 'dors', 'dors', 'dors')	ria	0.5	1	2
+('lab', 'dors', 'dors')	na	0.05	1	20
+('lab', 'dors', 'dors')	ria	0.1	2	20
+('lab', 'dors', 'cor', 'lab', 'cor')	tia	0.5	2	4
+('lab', 'dors', 'dors')	a	0.25	5	20
+('lab', 'dors', 'lab')	hia	0.0714	1	14
+('lab', 'dors', 'dors', 'lab')	a	0.6	3	5
+('lab', 'dors', 'dors', 'lab')	tia	0.4	2	5
+('lab', 'dors', 'dors', 'cor')	a	0.5455	6	11
+('lab', 'dors', 'dors', 'dors')	tia	0.375	3	8
+('lab', 'dors', 'dors', 'cor', 'lab')	tia	1.0	2	2
+('lab', 'dors', 'dors')	ngia	0.1	2	20
+('lab', 'dors', 'dors', 'dors')	a	0.375	3	8
+('lab', 'dors', 'dors', 'dors')	ia	0.125	1	8
+('lab', 'dors', 'dors', 'dors', 'cor')	tia	1.0	5	5
+('lab', 'dors', 'dors', 'cor', 'cor')	tia	1.0	1	1
+('lab', 'dors', 'dors', 'cor', 'dors', 'cor')	tia	1.0	2	2
+('lab', 'dors', 'cor')	mia	0.0323	1	31
+('lab', 'dors', 'lab', 'lab')	tia	0.875	7	8
+('lab', 'dors', 'dors', 'dors')	ngia	0.125	1	8
+('lab', 'dors', 'dors', 'dors', 'dors')	tia	0.5	1	2
+('lab', 'dors', 'dors', 'lab', 'dors', 'lab')	ia	1.0	1	1
+('lab', 'dors', 'dors', 'lab', 'dors')	tia	1.0	1	1
+('lab', 'dors', 'dors', 'cor', 'lab', 'dors')	tia	1.0	1	1
+('lab', 'dors', 'lab', 'dors', 'cor')	tia	0.8	4	5
+('lab', 'dors', 'lab', 'dors', 'dors')	tia	0.75	3	4
+('lab', 'dors', 'lab', 'cor')	hia	0.125	3	24
+('lab', 'dors', 'lab', 'cor', 'lab')	tia	1.0	2	2
+('lab', 'dors', 'lab', 'cor')	tia	0.375	9	24
+('lab', 'dors', 'lab', 'cor', 'dors')	tia	0.6667	2	3
+('lab', 'dors', 'lab', 'cor', 'cor')	tia	0.3333	1	3
+('lab', 'dors', 'lab', 'cor', 'dors')	ria	0.3333	1	3
+('lab', 'dors', 'lab', 'cor', 'cor')	ria	0.6667	2	3
+('lab', 'dors', 'lab', 'cor')	ria	0.0417	1	24
+('lab', 'dors', 'lab', 'cor')	a	0.4167	10	24
+('lab', 'dors', 'lab')	a	0.4286	6	14
+('lab', 'dors', 'lab', 'dors')	tia	0.1429	2	14
+('lab', 'dors', 'cor', 'cor')	a	0.5385	7	13
+('lab', 'dors', 'dors', 'cor')	mia	0.0909	1	11
+('lab', 'dors', 'dors', 'lab', 'cor')	hia	1.0	1	1
+('lab', 'dors', 'cor', 'dors')	ia	0.25	2	8
+('lab', 'dors', 'lab')	kia	0.1429	2	14
+('lab', 'dors', 'lab', 'cor', 'dors', 'dors')	tia	1.0	1	1
+('lab', 'dors', 'lab')	ngia	0.0714	1	14
+('lab', 'dors', 'lab', 'dors', 'dors')	ngia	0.25	1	4
+('lab', 'dors', 'lab', 'dors')	na	0.0714	1	14
+('lab', 'dors', 'lab', 'dors', 'cor')	a	0.2	1	5
+('lab', 'dors', 'lab', 'cor')	ina	0.0417	1	24
+('lab', 'dors', 'cor', 'dors', 'cor', 'cor')	tia	1.0	1	1
+('lab', 'dors', 'cor', 'lab')	ngia	0.1111	1	9
+('lab', 'dors', 'cor', 'lab', 'dors')	tia	1.0	1	1
+('lab', 'dors', 'cor', 'lab', 'lab', 'cor')	ngia	1.0	1	1
+('lab', 'dors', 'cor', 'cor', 'dors')	tia	1.0	6	6
+('lab', 'dors', 'cor', 'cor')	hia	0.0769	1	13
+('lab', 'dors', 'cor', 'lab')	tia	0.3333	3	9
+('lab', 'dors', 'cor', 'lab')	a	0.1111	1	9
+('lab', 'dors', 'cor', 'dors')	ngia	0.125	1	8
+('lab', 'dors', 'cor', 'lab')	ia	0.1111	1	9
+('lab', 'dors', 'cor', 'cor')	ia	0.1538	2	13
+('lab', 'dors', 'cor', 'dors')	hia	0.125	1	8
+('lab', 'dors', 'cor', 'cor')	ngia	0.1538	2	13
+('lab', 'dors', 'cor', 'dors')	a	0.125	1	8
+('lab', 'dors', 'cor', 'dors', 'cor')	ngia	0.2	1	5
+('lab', 'dors', 'cor', 'dors')	na	0.125	1	8
+('lab', 'dors', 'cor', 'dors', 'cor', 'dors')	na	0.3333	1	3
+('lab', 'dors', 'cor', 'dors', 'cor')	ria	0.2	1	5
+('lab', 'dors', 'cor', 'dors', 'cor', 'dors', 'cor')	ria	1.0	1	1
+('lab', 'dors', 'cor', 'dors', 'cor', 'dors')	hia	0.3333	1	3
+('lab', 'dors', 'cor', 'lab')	ria	0.3333	3	9
+('lab', 'dors', 'cor', 'cor', 'cor', 'cor')	hia	1.0	1	1
+('lab', 'dors', 'cor', 'cor', 'cor')	a	1.0	1	1
+('lab', 'dors', 'cor', 'dors', 'cor', 'dors')	ina	0.3333	1	3
+('lab', 'dors', 'cor', 'lab', 'cor')	ngia	0.25	1	4
+('lab', 'dors', 'cor')	kia	0.0323	1	31
+('lab', 'dors', 'cor', 'lab', 'cor')	ria	0.25	1	4
+('lab', 'dors')	ngia	0.0278	1	36
+('lab', 'dors', 'lab', 'cor', 'cor', 'dors')	tia	1.0	1	1
+('lab', 'dors', 'lab', 'lab')	a	0.125	1	8
+('lab', 'lab')	ria	0.0588	1	17
+('lab', 'cor', 'cor', 'dors')	tia	1.0	1	1
+('lab', 'cor', 'dors')	ria	0.0909	1	11

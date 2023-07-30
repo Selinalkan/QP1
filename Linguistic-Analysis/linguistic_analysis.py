@@ -292,44 +292,44 @@ suffixes = {
 
 # Sound features are based on Harlow 1996, Māori
 vowel_features_dict = {
-    "a": "low, back, unround, short",
-    "ā": "low, back, unround, long",
-    "e": "mid, front, unround, short",
-    "ē": "mid, front, unround, long",
-    "i": "high, front, unround, short",
-    "ī": "high, front, unround, long",
-    "o": "mid, back, round, short",
-    "ō": "mid, back, round, long",
-    "u": "high, central, round, short",
-    "ū": "high, central, round, long",
+    "a": "[low, back, -round, short]",
+    "ā": "[low, back, -round, long]",
+    "e": "[mid, front, -round, short]",
+    "ē": "[mid, front, -round, long]",
+    "i": "[high, front, -round, short]",
+    "ī": "[high, front, -round, long]",
+    "o": "[mid, back, +round, short]",
+    "ō": "[mid, back, +round, long]",
+    "u": "[high, central, +round, short]",
+    "ū": "[high, central, +round, long]",
 }
 
 consonant_features_dict = {
-    "h": "voiceless, glottal, oral, fricative",
-    "k": "voiceless, velar, oral, stop",
-    "m": "voiced, bilabial, nasal, stop",
-    "n": "voiced, dental, nasal, stop",
-    "ng": "voiced, velar, nasal, stop",
-    "p": "voiceless, bilabial, oral, stop",
-    "r": "voiced, dental-alveolar, oral, flap",
-    "t": "voiceless, dental, oral, stop",
-    "w": "voiced, bilabial, oral, approximant",
-    "wh": "voiceless, labio-dental, oral, fricative",
+    "h": "[-cons, -son, -nas, dors, +cont, +SG, -voi]",
+    "k": "[+cons, -son, -nas, dors, -cont, -SG, -voi]",
+    "m": "[+cons, +son, +nas, lab, -cont, -SG, +voi]",
+    "n": "[+cons, +son, +nas, cor, -cont, -SG, +voi]",
+    "ng": "[+cons, +son, +nas, dors, -cont, -SG, +voi]",
+    "p": "[+cons, -son, -nas, lab, -cont, -SG, -voi]",
+    "r": "[+cons, +son, -nas, cor, +cont, -SG, +voi]",
+    "t": "[+cons, -son, -nas, cor, -cont, -SG, -voi]",
+    "w": "[-cons, +son, -nas, lab, +cont, -SG, +voi]",
+    "wh": "[+cons, -son, -nas, lab, +cont, -SG, -voi]",
 }
 
 # PART9: [+/-nasal]
 # Used to check oral vs nasal feature in consonant sequences
 nasality_dict = {
-    "h": "o",
-    "k": "o",
-    "m": "n",
-    "n": "n",
-    "ng": "n",
-    "p": "o",
-    "r": "o",
-    "t": "o",
-    "w": "o",
-    "wh": "o",
+    "h": "-nas",
+    "k": "-nas",
+    "m": "+nas",
+    "n": "+nas",
+    "ng": "+nas",
+    "p": "-nas",
+    "r": "-nas",
+    "t": "-nas",
+    "w": "-nas",
+    "wh": "-nas",
 }
 
 # PART10: place of articulation
@@ -337,16 +337,16 @@ nasality_dict = {
 place_dict = {
     # Harlow 2007:63 – Kearns (1990) [h] --> [+high]
     # Blevins: all [+high] are [dorsal] by definition.
-    "h": "dorsal",
-    "k": "dorsal",
-    "m": "labial",
-    "n": "coronal",
-    "ng": "dorsal",
-    "p": "labial",
-    "r": "coronal",
-    "t": "coronal",
-    "w": "labial",
-    "wh": "labial",
+    "h": "dors",
+    "k": "dors",
+    "m": "lab",
+    "n": "cor",
+    "ng": "dors",
+    "p": "lab",
+    "r": "cor",
+    "t": "cor",
+    "w": "lab",
+    "wh": "lab",
 }
 
 # JULY 29, 2023

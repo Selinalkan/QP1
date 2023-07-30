@@ -1,574 +1,574 @@
-('voiceless, glottal, oral, fricative',)	ria	0.0909	1	11
-('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	ngia	0.0769	1	13
-('voiceless, velar, oral, stop',)	na	0.125	2	16
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	na	0.1667	1	6
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.3333	3	9
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop',)	tia	0.2857	2	7
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	ngia	0.1667	1	6
-('voiced, bilabial, nasal, stop',)	hia	0.1429	1	7
-('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	0.3333	1	3
-('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ria	0.2	2	10
-('voiceless, bilabial, oral, stop',)	hia	0.0714	1	14
-('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	hia	0.25	1	4
-('voiceless, bilabial, oral, stop',)	ria	0.0714	1	14
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.3529	6	17
-('voiced, dental-alveolar, oral, flap',)	hia	0.1667	2	12
-('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	na	0.2	2	10
-('voiced, dental-alveolar, oral, flap',)	a	0.5	6	12
-('voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1.0	1	1
-('voiced, dental-alveolar, oral, flap',)	ngia	0.0833	1	12
-('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	ina	0.1	1	10
-('voiced, dental-alveolar, oral, flap',)	mia	0.0833	1	12
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	mia	0.1111	1	9
-('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	tia	0.3333	2	6
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	tia	0.1667	2	12
-('voiceless, dental, oral, stop',)	hia	0.0556	1	18
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	tia	0.5	4	8
-('voiced, dental-alveolar, oral, flap',)	tia	0.1667	2	12
-('voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative',)	a	0.625	5	8
-('voiceless, labio-dental, oral, fricative',)	tia	0.375	3	8
-('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	tia	0.8	4	5
-('voiceless, glottal, oral, fricative',)	a	0.6364	7	11
-('voiceless, velar, oral, stop',)	a	0.3125	5	16
-('voiceless, bilabial, oral, stop',)	ina	0.1429	2	14
-('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	a	0.5385	7	13
-('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	0.5714	8	14
-('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	tia	0.3846	5	13
-('voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	tia	0.2	1	5
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	a	0.5455	6	11
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	a	0.6667	2	3
-('voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	a	0.8	4	5
-('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	a	0.5	2	4
-('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop')	nga	0.5	1	2
-('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiceless, labio-dental, oral, fricative')	tia	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1.0	2	2
-('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	tia	0.25	1	4
-('voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	ia	0.1818	2	11
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	0.0909	1	11
-('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	na	0.25	1	4
-('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	0.5	1	2
-('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	0.1429	2	14
-('voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	a	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	na	0.1818	2	11
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	na	0.3333	1	3
-('voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	a	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop')	kia	0.5	1	2
-('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	hia	0.2143	3	14
-('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	mia	0.0714	1	14
-('voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	a	1.0	1	1
-('voiceless, glottal, oral, fricative',)	hia	0.0909	1	11
-('voiceless, glottal, oral, fricative',)	ia	0.0909	1	11
-('voiceless, glottal, oral, fricative',)	ina	0.0909	1	11
-('voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop')	a	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	0.5	1	2
-('voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	0.2	1	5
-('voiced, dental, nasal, stop',)	a	0.1429	1	7
-('voiced, dental, nasal, stop',)	mia	0.4286	3	7
-('voiceless, velar, oral, stop',)	ngia	0.0625	1	16
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	na	1.0	2	2
-('voiceless, velar, oral, stop',)	nga	0.0625	1	16
-('voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	hia	0.25	1	4
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ria	0.125	1	8
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ria	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	ria	0.1667	1	6
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	0.6667	4	6
-('voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	a	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	a	0.8	4	5
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	hia	0.2	1	5
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5556	5	9
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	0.1111	1	9
-('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ina	0.1111	1	9
-('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	0.6667	6	9
-('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	hia	0.2222	2	9
-('voiceless, velar, oral, stop',)	ria	0.0625	1	16
-('voiceless, velar, oral, stop',)	tia	0.0625	1	16
-('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	3	3
-('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative')	tia	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	na	1.0	2	2
-('voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	0.375	3	8
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	hia	0.25	1	4
-('voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, velar, oral, stop',)	ia	0.1875	3	16
-('voiceless, velar, oral, stop',)	ina	0.125	2	16
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	0.6667	2	3
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	0.3333	1	3
-('voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	tia	0.25	1	4
-('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	0.5	1	2
-('voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	0.5	2	4
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	tia	0.25	1	4
-('voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	tia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	hia	0.5	1	2
-('voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	a	0.5	2	4
-('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	a	0.6667	2	3
-('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	a	1.0	3	3
-('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	0.5	1	2
-('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	0.5	1	2
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	0.5	1	2
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	a	0.1667	1	6
-('voiced, bilabial, nasal, stop', 'voiceless, bilabial, oral, stop')	a	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	0.6667	4	6
-('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	hia	0.1667	1	6
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ria	0.2	1	5
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	0.4	2	5
-('voiced, bilabial, nasal, stop',)	ria	0.1429	1	7
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	tia	0.3333	2	6
-('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	hia	0.5	1	2
-('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	hia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	1.0	2	2
-('voiced, bilabial, nasal, stop',)	a	0.2857	2	7
-('voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	0.3333	1	3
-('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	tia	0.5	1	2
-('voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	a	0.6667	2	3
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	kia	0.1667	1	6
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	kia	0.2	1	5
-('voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	hia	0.2	1	5
-('voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	a	0.5	1	2
-('voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	ia	0.1667	1	6
-('voiced, dental, nasal, stop', 'voiced, dental, nasal, stop')	mia	0.5	1	2
-('voiced, dental, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiced, dental, nasal, stop', 'voiceless, dental, oral, stop')	a	1.0	2	2
-('voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	0.3333	1	3
-('voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	a	0.3333	1	3
-('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	0.4	2	5
-('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	1.0	2	2
-('voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiced, velar, nasal, stop', 'voiceless, velar, oral, stop')	a	1.0	1	1
-('voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5	1	2
-('voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	mia	0.5	1	2
-('voiced, velar, nasal, stop',)	a	1.0	2	2
-('voiced, velar, nasal, stop', 'voiced, velar, nasal, stop')	a	1.0	1	1
-('voiced, velar, nasal, stop', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	a	0.2	1	5
-('voiced, dental, nasal, stop',)	tia	0.1429	1	7
-('voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	ia	0.3333	1	3
-('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	ia	0.2	1	5
-('voiced, dental, nasal, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiced, dental, nasal, stop', 'voiced, bilabial, nasal, stop')	a	1.0	2	2
-('voiceless, dental, oral, stop',)	tia	0.1111	2	18
-('voiced, bilabial, nasal, stop',)	kia	0.1429	1	7
-('voiced, dental, nasal, stop', 'voiced, dental, nasal, stop')	tia	0.5	1	2
-('voiced, dental, nasal, stop',)	kia	0.1429	1	7
-('voiceless, dental, oral, stop',)	ina	0.2778	5	18
-('voiceless, bilabial, oral, stop',)	ngia	0.2143	3	14
-('voiceless, bilabial, oral, stop',)	a	0.3571	5	14
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.5882	10	17
-('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	tia	0.5	2	4
-('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	a	0.3636	4	11
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	0.4545	5	11
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	2	2
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	0.3333	3	9
-('voiceless, bilabial, oral, stop', 'voiced, velar, nasal, stop')	a	0.6667	2	3
-('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	tia	0.5556	5	9
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	a	0.4	4	10
-('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	hia	0.1	1	10
-('voiceless, bilabial, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	0.5	2	4
-('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	ina	0.0909	1	11
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, velar, nasal, stop')	tia	0.3333	1	3
-('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop',)	tia	0.0714	1	14
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	ngia	0.0588	1	17
-('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	a	0.5	2	4
-('voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	ia	0.0909	1	11
-('voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	ia	0.1111	1	9
-('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	0.25	1	4
-('voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1.0	2	2
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.5	1	2
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	0.1	1	10
-('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	kia	0.1	1	10
-('voiceless, bilabial, oral, stop',)	ia	0.0714	1	14
-('voiceless, bilabial, oral, stop', 'voiced, bilabial, oral, approximant')	tia	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	tia	1.0	3	3
-('voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5	1	2
-('voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ina	0.1	1	10
-('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	a	0.5	5	10
-('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	0.2	2	10
-('voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	0.4	2	5
-('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	a	0.6667	2	3
-('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	a	0.2	1	5
-('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	a	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	a	1.0	2	2
-('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	ngia	0.1667	1	6
-('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	hia	0.1667	1	6
-('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	a	0.6667	4	6
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	0.5556	5	9
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	0.5	1	2
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	hia	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	ngia	0.3333	1	3
-('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	ngia	0.1111	1	9
-('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	0.6	3	5
-('voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	0.5	1	2
-('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	a	0.6667	2	3
-('voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	na	0.2	1	5
-('voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	hia	0.4	2	5
-('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	na	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	0.1111	1	9
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	hia	0.1111	1	9
-('voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop',)	ngia	0.0556	1	18
-('voiceless, dental, oral, stop',)	a	0.2778	5	18
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	0.25	3	12
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	a	0.5	6	12
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	a	0.6667	2	3
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	na	0.0833	1	12
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	tia	0.2308	3	13
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.2222	2	9
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	a	0.6667	8	12
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ina	0.1	1	10
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	a	0.4	4	10
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	ria	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	0.5	2	4
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	tia	0.1	1	10
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	0.4	4	10
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.5	2	4
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	0.5	2	4
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.5	1	2
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	tia	0.5	2	4
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	a	0.25	1	4
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	a	0.5	1	2
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	0.5	1	2
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, bilabial, oral, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	hia	0.4	2	5
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	mia	0.25	1	4
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop',)	na	0.0556	1	18
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5556	5	9
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ia	0.0769	1	13
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	a	0.4615	6	13
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	hia	0.1538	2	13
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	0.3333	1	3
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1.0	2	2
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	0.6667	4	6
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.5	1	2
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	tia	0.3333	1	3
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	tia	1.0	3	3
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ngia	0.0833	1	12
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	a	0.5	1	2
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.3333	1	3
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ria	0.0833	1	12
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiceless, dental, oral, stop',)	ria	0.1111	2	18
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1.0	2	2
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	tia	0.4	2	5
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5	1	2
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	0.3333	2	6
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1.0	3	3
-('voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	0.5	3	6
-('voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	3	3
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ria	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5	1	2
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	a	0.75	3	4
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	0.1111	1	9
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	tia	0.5	1	2
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.6667	2	3
-('voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	hia	1.0	1	1
-('voiceless, dental, oral, stop',)	kia	0.0556	1	18
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	ina	0.3333	1	3
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	ngia	0.0833	1	12
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	ria	0.0833	1	12
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop')	kia	0.25	1	4
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	na	0.1111	1	9
-('voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	a	0.5	2	4
-('voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	1.0	1	1
-('voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	a	0.2	1	5
-('voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	kia	0.3333	1	3
-('voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ria	0.0769	1	13
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	na	0.5	1	2
-('voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	0.5	1	2
-('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative')	ia	0.1667	1	6
-('voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.1667	1	6
-('voiced, dental, nasal, stop',)	hia	0.1429	1	7
-('voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	0.2	1	5
-('voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	tia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	a	0.4	2	5
-('voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	0.75	3	4
-('voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiced, bilabial, oral, approximant',)	tia	0.5	1	2
-('voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	a	0.5	2	4
-('voiced, bilabial, oral, approximant',)	a	0.5	1	2
-('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	tia	0.5	1	2
-('voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	tia	0.25	1	4
-('voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	ngia	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	hia	0.5	2	4
-('voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant')	a	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiceless, velar, oral, stop')	a	0.5	1	2
-('voiced, bilabial, oral, approximant', 'voiceless, bilabial, oral, stop')	a	1.0	1	1
-('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	kia	0.5	1	2
-('voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	kia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	na	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	hia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiced, velar, nasal, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	0.4	2	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	tia	0.6	3	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	tia	0.625	5	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ria	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	na	0.1429	1	7
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	ria	0.2857	2	7
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	0.2222	2	9
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.3333	3	9
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.3333	3	9
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	0.375	3	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	0.2857	2	7
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	hia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	0.5	2	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, oral, approximant')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	0.8	4	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	a	0.25	2	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ngia	0.125	1	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	a	0.6667	2	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, bilabial, nasal, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, velar, nasal, stop')	ia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	mia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	tia	0.3333	2	6
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop')	tia	1.0	3	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	0.25	2	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	ngia	0.1429	1	7
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, labio-dental, oral, fricative')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	0.1429	1	7
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	ia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	a	0.6667	2	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, bilabial, nasal, stop')	tia	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	hia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop', 'voiced, bilabial, oral, approximant')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	tia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	tia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.6667	2	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ria	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ria	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ria	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	a	0.6667	2	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop')	a	0.5	2	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental, nasal, stop')	a	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiced, dental-alveolar, oral, flap')	mia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, velar, nasal, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	hia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, glottal, oral, fricative')	ia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental, nasal, stop')	a	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	ngia	0.1111	1	9
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	hia	0.125	1	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	kia	0.1667	1	6
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	a	0.3333	2	6
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, velar, oral, stop')	tia	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	0.75	3	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop')	ngia	0.1667	1	6
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	tia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiceless, glottal, oral, fricative')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental, nasal, stop')	hia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	hia	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, velar, oral, stop')	na	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiced, bilabial, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ina	0.3333	1	3
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, bilabial, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	a	0.6	3	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	hia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	tia	0.5	2	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	a	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, bilabial, oral, approximant')	ia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, dental-alveolar, oral, flap')	ia	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	hia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, dental, oral, stop')	ngia	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative', 'voiced, dental-alveolar, oral, flap')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	na	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	ria	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, velar, nasal, stop', 'voiceless, dental, oral, stop', 'voiced, velar, nasal, stop')	hia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	ria	0.75	3	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap')	hia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ina	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, bilabial, nasal, stop', 'voiceless, dental, oral, stop')	ngia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental, nasal, stop')	ia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	kia	0.125	1	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop')	tia	0.125	1	8
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop')	tia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, bilabial, oral, stop', 'voiceless, dental, oral, stop')	ria	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, glottal, oral, fricative')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop')	ngia	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	kia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, glottal, oral, fricative')	a	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, dental-alveolar, oral, flap')	a	1.0	2	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiceless, dental, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiced, bilabial, oral, approximant', 'voiced, bilabial, oral, approximant')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	tia	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiced, dental, nasal, stop', 'voiceless, velar, oral, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	a	0.5	1	2
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, velar, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	a	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop', 'voiceless, labio-dental, oral, fricative', 'voiced, dental, nasal, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	a	0.5	2	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	ia	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop')	ria	0.25	1	4
-('voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	ria	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, labio-dental, oral, fricative')	tia	0.4	2	5
-('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	hia	0.2	1	5
-('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	0.4	2	5
-('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop', 'voiced, dental-alveolar, oral, flap', 'voiced, velar, nasal, stop')	tia	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap', 'voiceless, labio-dental, oral, fricative', 'voiced, dental-alveolar, oral, flap')	a	1.0	1	1
-('voiceless, labio-dental, oral, fricative', 'voiceless, dental, oral, stop', 'voiceless, velar, oral, stop')	ria	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]',)	ria	0.0909	1	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ngia	0.0769	1	13
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	na	0.125	2	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.1667	1	6
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.3333	3	9
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]',)	tia	0.2857	2	7
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	ngia	0.1667	1	6
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]',)	hia	0.1429	1	7
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.2	2	10
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	hia	0.0714	1	14
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	hia	0.25	1	4
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	ria	0.0714	1	14
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.3529	6	17
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]',)	hia	0.1667	2	12
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	na	0.2	2	10
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]',)	a	0.5	6	12
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]',)	ngia	0.0833	1	12
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ina	0.1	1	10
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]',)	mia	0.0833	1	12
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	mia	0.1111	1	9
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	tia	0.3333	2	6
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.1667	2	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	hia	0.0556	1	18
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.5	4	8
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]',)	tia	0.1667	2	12
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]',)	a	0.625	5	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]',)	tia	0.375	3	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.8	4	5
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]',)	a	0.6364	7	11
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	a	0.3125	5	16
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	ina	0.1429	2	14
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.5385	7	13
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5714	8	14
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.3846	5	13
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.2	1	5
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.5455	6	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.6667	2	3
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.8	4	5
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	0.5	2	4
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	nga	0.5	1	2
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	tia	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	2	2
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.25	1	4
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ia	0.1818	2	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.0909	1	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	na	0.25	1	4
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	1	2
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.1429	2	14
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.1818	2	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.3333	1	3
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	kia	0.5	1	2
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.2143	3	14
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	mia	0.0714	1	14
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]',)	hia	0.0909	1	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]',)	ia	0.0909	1	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]',)	ina	0.0909	1	11
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.5	1	2
+('[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.2	1	5
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]',)	a	0.1429	1	7
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]',)	mia	0.4286	3	7
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	ngia	0.0625	1	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	2	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	nga	0.0625	1	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	hia	0.25	1	4
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ria	0.125	1	8
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ria	0.1667	1	6
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.6667	4	6
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	0.8	4	5
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	hia	0.2	1	5
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	hia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5556	5	9
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.1111	1	9
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ina	0.1111	1	9
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.6667	6	9
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.2222	2	9
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	ria	0.0625	1	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	tia	0.0625	1	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	3	3
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	2	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.375	3	8
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	hia	0.25	1	4
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	ia	0.1875	3	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]',)	ina	0.125	2	16
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.6667	2	3
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.3333	1	3
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.25	1	4
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.5	2	4
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.25	1	4
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.5	1	2
+('[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.5	2	4
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.6667	2	3
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	1.0	3	3
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.5	1	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	0.5	1	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.1667	1	6
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.6667	4	6
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.1667	1	6
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.2	1	5
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.4	2	5
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]',)	ria	0.1429	1	7
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.3333	2	6
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	0.5	1	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	2	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]',)	a	0.2857	2	7
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.3333	1	3
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.6667	2	3
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	kia	0.1667	1	6
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	kia	0.2	1	5
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.2	1	5
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	ia	0.1667	1	6
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	mia	0.5	1	2
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	2	2
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.3333	1	3
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.3333	1	3
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	0.4	2	5
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	1.0	2	2
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	mia	0.5	1	2
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]',)	a	1.0	2	2
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.2	1	5
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]',)	tia	0.1429	1	7
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ia	0.3333	1	3
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ia	0.2	1	5
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	1.0	2	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	tia	0.1111	2	18
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]',)	kia	0.1429	1	7
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]',)	kia	0.1429	1	7
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	ina	0.2778	5	18
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	ngia	0.2143	3	14
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	a	0.3571	5	14
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5882	10	17
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.5	2	4
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.3636	4	11
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.4545	5	11
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	2	2
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.3333	3	9
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	0.6667	2	3
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.5556	5	9
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.4	4	10
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.1	1	10
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.5	2	4
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ina	0.0909	1	11
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	tia	0.0714	1	14
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	ngia	0.0588	1	17
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	0.5	2	4
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ia	0.0909	1	11
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	ia	0.1111	1	9
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	0.25	1	4
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.1	1	10
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	kia	0.1	1	10
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]',)	ia	0.0714	1	14
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	1.0	3	3
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ina	0.1	1	10
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.5	5	10
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.2	2	10
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.4	2	5
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.6667	2	3
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	0.2	1	5
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	2	2
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ngia	0.1667	1	6
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	hia	0.1667	1	6
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	0.6667	4	6
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5556	5	9
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	hia	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ngia	0.3333	1	3
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	ngia	0.1111	1	9
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	hia	0.6	3	5
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	hia	0.5	1	2
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.6667	2	3
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.2	1	5
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	0.4	2	5
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.1111	1	9
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.1111	1	9
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	ngia	0.0556	1	18
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	a	0.2778	5	18
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.25	3	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.5	6	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.6667	2	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	na	0.0833	1	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	0.2308	3	13
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.2222	2	9
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.6667	8	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ina	0.1	1	10
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.4	4	10
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.5	2	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.1	1	10
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.4	4	10
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5	2	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	2	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.5	2	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.25	1	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	hia	0.4	2	5
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	mia	0.25	1	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	na	0.0556	1	18
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5556	5	9
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ia	0.0769	1	13
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	0.4615	6	13
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	hia	0.1538	2	13
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.3333	1	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.6667	4	6
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	1.0	3	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ngia	0.0833	1	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.0833	1	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	ria	0.1111	2	18
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	2	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.4	2	5
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.3333	2	6
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	3	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	0.5	3	6
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	3	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.75	3	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.1111	1	9
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.6667	2	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]',)	kia	0.0556	1	18
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ina	0.3333	1	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ngia	0.0833	1	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ria	0.0833	1	12
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	kia	0.25	1	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	na	0.1111	1	9
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.5	2	4
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	0.2	1	5
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	kia	0.3333	1	3
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ria	0.0769	1	13
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	ia	0.1667	1	6
+('[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.1667	1	6
+('[+cons, +son, +nas, cor, -cont, -SG, +voi]',)	hia	0.1429	1	7
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.2	1	5
+('[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	0.4	2	5
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.75	3	4
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]',)	tia	0.5	1	2
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	2	4
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]',)	a	0.5	1	2
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.5	1	2
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.25	1	4
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	ngia	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.5	2	4
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.5	1	2
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	1.0	1	1
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	kia	0.5	1	2
+('[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	kia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.4	2	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.6	3	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.625	5	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.1429	1	7
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ria	0.2857	2	7
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.2222	2	9
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.3333	3	9
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.3333	3	9
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.375	3	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.2857	2	7
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	hia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.5	2	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.8	4	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.25	2	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ngia	0.125	1	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.6667	2	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	ia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	mia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	0.3333	2	6
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	1.0	3	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.25	2	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ngia	0.1429	1	7
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.1429	1	7
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	0.6667	2	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	hia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.6667	2	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.6667	2	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	a	0.5	2	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	mia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	ngia	0.1111	1	9
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.125	1	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	kia	0.1667	1	6
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	a	0.3333	2	6
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.75	3	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ngia	0.1667	1	6
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ina	0.3333	1	3
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.6	3	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	hia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	0.5	2	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	ia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	ia	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	hia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ngia	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	na	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	ria	0.75	3	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ina	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, lab, -cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ngia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	ia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	kia	0.125	1	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.125	1	8
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]')	tia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ngia	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	kia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, -son, -nas, dors, +cont, +SG, -voi]')	a	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	2	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]', '[-cons, +son, -nas, lab, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	tia	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.5	1	2
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, +nas, cor, -cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	0.5	2	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ia	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]')	ria	0.25	1	4
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	ria	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]')	tia	0.4	2	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	hia	0.2	1	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	0.4	2	5
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, +son, +nas, dors, -cont, -SG, +voi]')	tia	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]', '[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, +son, -nas, cor, +cont, -SG, +voi]')	a	1.0	1	1
+('[+cons, -son, -nas, lab, +cont, -SG, -voi]', '[+cons, -son, -nas, cor, -cont, -SG, -voi]', '[+cons, -son, -nas, dors, -cont, -SG, -voi]')	ria	1.0	1	1
