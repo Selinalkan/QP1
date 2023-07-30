@@ -324,31 +324,31 @@ consonant_features_dict = {
 
 # PART11: [+/-consonantal]
 cons_or_not_dict = {
-    "h": "-c",
-    "k": "+c",
-    "m": "+c",
-    "n": "+c",
-    "ng": "+c",
-    "p": "+c",
-    "r": "+c",
-    "t": "+c",
-    "w": "-c",
-    "wh": "+c",
+    "h": "-cons",
+    "k": "+cons",
+    "m": "+cons",
+    "n": "+cons",
+    "ng": "+cons",
+    "p": "+cons",
+    "r": "+cons",
+    "t": "+cons",
+    "w": "-cons",
+    "wh": "+cons",
 }
 
 # PART12: [+/-sonorant]
 son_or_not_dict = {
-    "h": "-s",
-    "k": "-s",
-    "m": "+s",
-    "n": "+s",
-    "ng": "+s",
-    "p": "-s",
+    "h": "-son",
+    "k": "-son",
+    "m": "+son",
+    "n": "+son",
+    "ng": "+son",
+    "p": "-son",
     # r is considered a flap, hence sonorant.
-    "r": "+s",
-    "t": "-s",
-    "w": "+s",
-    "wh": "-s",
+    "r": "+son",
+    "t": "-son",
+    "w": "+son",
+    "wh": "-son",
 }
 
 # PART9: [+/-nasal]
@@ -366,13 +366,16 @@ nasality_dict = {
     "wh": "o",
 }
 
+# PART10: place of articulation
 # Used to check the place of articulation in consonant sequences
-consonant_features_dict_place = {
-    "h": "glottal",
-    "k": "velar",
+place_dict = {
+    # Harlow 2007:63 – Kearns (1990) [h] --> [+high]
+    # Blevins: all [+high] are [dorsal] by definition.
+    "h": "dorsal",
+    "k": "dorsal",
     "m": "labial",
     "n": "coronal",
-    "ng": "velar",
+    "ng": "dorsal",
     "p": "labial",
     "r": "coronal",
     "t": "coronal",
@@ -448,11 +451,11 @@ def main(args: argparse.Namespace) -> None:
         Tuple[Any, ...]
     ] = collections.Counter()
 
-    # PART 10 – Place of articulation in consonant sequences
+    # PART 10 – [labial], [coronal], [dorsal]
     # PoA of consonant sequences counter
-    cons_features_place: Counter[Tuple[str, ...]] = collections.Counter()
+    place: Counter[Tuple[str, ...]] = collections.Counter()
     # # PoA of consonant sequences-passive counter
-    cons_features_place_suffix: Counter[
+    place_suffix: Counter[
         Tuple[Any, ...]
     ] = collections.Counter()
 
@@ -1107,43 +1110,43 @@ def main(args: argparse.Namespace) -> None:
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
                     consonant_feature_sequence.append(
-                        consonant_features_dict_place["ng"]
+                        place_dict["ng"]
                     )
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
                     consonant_feature_sequence.append(
-                        consonant_features_dict_place["wh"]
+                        place_dict["wh"]
                     )
                     i += 2
                     continue
                 # Checking for other consonantal segments
-                if char in consonant_features_dict_place:
+                if char in place_dict:
                     consonant_feature_sequence.append(
-                        consonant_features_dict_place[char]
+                        place_dict[char]
                     )
                 i += 1
 
             # Handling the consonant feature sequence counter
             if consonant_feature_sequence:
-                cons_features_place[tuple(consonant_feature_sequence)] += 1
-                cons_features_place_suffix[
+                place[tuple(consonant_feature_sequence)] += 1
+                place_suffix[
                     (tuple(consonant_feature_sequence), suffix)
                 ] += 1
         # Writing the consonant features into a tsv file
-        for c_feature, count in cons_features_place.most_common():
+        for c_feature, count in place.most_common():
             tsv_writer29.writerow([c_feature, count])
             # print(f"{c_feature}:\t{count}")
         # Writing the consonant feature seq-suffix counts into a tsv file
         for (
             c_feature,
             suffix,
-        ), count in cons_features_place_suffix.most_common():
+        ), count in place_suffix.most_common():
             tsv_writer30.writerow([c_feature, suffix, count])
         # Conditional Probability: p(passive|consonant_features)
-        for (c_feature, suffix), count in cons_features_place_suffix.items():
-            p = round(count / cons_features_place[c_feature], 4)
+        for (c_feature, suffix), count in place_suffix.items():
+            p = round(count / place[c_feature], 4)
             # Outputting cons features, suffix, cons feature-suffix
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer31.writerow(
@@ -1151,8 +1154,8 @@ def main(args: argparse.Namespace) -> None:
                     c_feature,
                     suffix,
                     p,
-                    cons_features_place_suffix[(c_feature, suffix)],
-                    cons_features_place[c_feature],
+                    place_suffix[(c_feature, suffix)],
+                    place[c_feature],
                 ]
             )
 
@@ -1533,38 +1536,38 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o35",
         "--output35",
-        default="11_consonantal_counts.tsv",
+        default="11_C-consonantal_counts.tsv",
         help="outputs consonant place counts",
     )
     parser.add_argument(
         "-o36",
         "--output36",
-        default="11_consonantal-suffix_counts.tsv",
+        default="11_C-consonantal-suffix_counts.tsv",
         help="outputs consonant place-passive counts",
     )
     parser.add_argument(
         "-o37",
         "--output37",
-        default="11_consonantal-suffix_prob.tsv",
+        default="11_C-consonantal-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     # [+/-sonorant]
     parser.add_argument(
         "-o38",
         "--output38",
-        default="12_sonorant_counts.tsv",
+        default="12_C-sonorant_counts.tsv",
         help="outputs consonant place counts",
     )
     parser.add_argument(
         "-o39",
         "--output39",
-        default="12_sonorant-suffix_counts.tsv",
+        default="12_C-sonorant-suffix_counts.tsv",
         help="outputs consonant place-passive counts",
     )
     parser.add_argument(
         "-o40",
         "--output40",
-        default="12_sonorant-suffix_prob.tsv",
+        default="12_C-sonorant-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     main(parser.parse_args())
