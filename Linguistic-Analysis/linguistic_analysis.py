@@ -415,10 +415,18 @@ voicing_dict = {
 }
 
 # PART15: [spread glottis]
-
-
-
-
+spread_g_dict = {
+    "h": "+SG",
+    "k": "-SG",
+    "m": "-SG",
+    "n": "-SG",
+    "ng": "-SG",
+    "p": "-SG",
+    "r": "-SG",
+    "t": "-SG",
+    "w": "-SG",
+    "wh": "-SG",
+}
 
 def main(args: argparse.Namespace) -> None:
     # PART 0 - Stem-final vowels and passives
@@ -527,10 +535,15 @@ def main(args: argparse.Namespace) -> None:
         Tuple[Any, ...]
     ] = collections.Counter()
 
+    # PART 15 – Sequential [spread glottis]
+    # phoneme feature counter
+    spread_g: Counter[Tuple[str, ...]] = collections.Counter()
+    # phoneme feature-suffix counter
+    spread_g_suffix: Counter[
+        Tuple[Any, ...]
+    ] = collections.Counter()
 
-
-
-
+########################################################################
     # PART 0 & 1 – Stem-final vowels (0), stem-final vowel features (1)
     # and passives
     with open(args.input, "r") as source, open(
@@ -1517,6 +1530,81 @@ def main(args: argparse.Namespace) -> None:
                 ]
             )
 
+    # PART 15 – Sequential [spread glottis]
+    with open(args.input, "r") as source, open(
+        args.output47, "w"
+    ) as sink47, open(args.output48, "w") as sink48, open(
+        args.output49, "w"
+    ) as sink49:
+        # Input file
+        tsv_reader = csv.reader(source, delimiter="\t")
+        # Output files
+        # Consonant features: output16
+        tsv_writer47 = csv.writer(sink47, delimiter="\t")
+        # Consonant features-passive: output17
+        tsv_writer48 = csv.writer(sink48, delimiter="\t")
+        # Consonant features-passive conditional probabilities: output18
+        tsv_writer49 = csv.writer(sink49, delimiter="\t")
+
+        # Filling the counters for consonant features and passives
+        for lemma, suffix in tsv_reader:
+            consonant_feature_sequence = []
+
+            # Traversing each character for the digraphs and the rest
+            i = 0
+            while i < len(lemma):
+                char = lemma[i]
+                # Checking for <ng> digraph
+                if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
+                    consonant_feature_sequence.append(
+                        spread_g_dict["ng"]
+                    )
+                    i += 2
+                    continue
+                # Checking for <wh> digraph
+                if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
+                    consonant_feature_sequence.append(
+                        spread_g_dict["wh"]
+                    )
+                    i += 2
+                    continue
+                # Checking for other consonantal segments
+                if char in spread_g_dict:
+                    consonant_feature_sequence.append(
+                        spread_g_dict[char]
+                    )
+                i += 1
+
+            # Handling the consonant feature sequence counter
+            if consonant_feature_sequence:
+                spread_g[tuple(consonant_feature_sequence)] += 1
+                spread_g_suffix[
+                    (tuple(consonant_feature_sequence), suffix)
+                ] += 1
+        # Writing the consonant features into a tsv file
+        for c_feature, count in spread_g.most_common():
+            tsv_writer47.writerow([c_feature, count])
+            # print(f"{c_feature}:\t{count}")
+        # Writing the consonant feature seq-suffix counts into a tsv file
+        for (
+            c_feature,
+            suffix,
+        ), count in spread_g_suffix.most_common():
+            tsv_writer48.writerow([c_feature, suffix, count])
+        # Conditional Probability: p(passive|consonant_features)
+        for (c_feature, suffix), count in spread_g_suffix.items():
+            p = round(count / spread_g[c_feature], 4)
+            # Outputting cons features, suffix, cons feature-suffix
+            # counts, the probabilities, cons feat counts out of 886
+            tsv_writer49.writerow(
+                [
+                    c_feature,
+                    suffix,
+                    p,
+                    spread_g_suffix[(c_feature, suffix)],
+                    spread_g[c_feature],
+                ]
+            )
 
 
 
@@ -1808,6 +1896,25 @@ if __name__ == "__main__":
         "-o46",
         "--output46",
         default="14_C-voicing-suffix_prob.tsv",
+        help="outputs p(passive|consonant_place)",
+    )
+    # [spread glottis]
+    parser.add_argument(
+        "-o47",
+        "--output47",
+        default="15_C-spread-g_counts.tsv",
+        help="outputs consonant place counts",
+    )
+    parser.add_argument(
+        "-o48",
+        "--output48",
+        default="15_C-spread-g-suffix_counts.tsv",
+        help="outputs consonant place-passive counts",
+    )
+    parser.add_argument(
+        "-o49",
+        "--output49",
+        default="15_C-spread-g-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     main(parser.parse_args())
