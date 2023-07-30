@@ -2,11 +2,8 @@
 
 """
 This program analyzes 886 Māori verb-passive suffix pairs in a TSV file and
-performs various computations and counts related to 7 linguistic features. It
-focuses on stem-final vowels and passives, vowel sequences and passives,
-consonant sequences and passives, vowel features and passives, consonant
-features and passives, final consonant features and passives, and syllable
-counts and passives.
+performs various computations and counts related to 15 linguistic features
+as detailed below.
 
 The program performs the following steps:
 
@@ -48,9 +45,40 @@ It counts the occurrences of syllables.
 It counts the occurrences of syllable-suffix combinations.
 It calculates the syllable count-suffix probabilities.
 
-PART 9
+PART 9 - [+/-nasal] for consonants
+It counts the occurrences of oral/nasal consonants.
+It counts the occurrences of oral/nasal consonants-suffix combinations.
+It calculates the oral/nasal consonant count-suffix probabilities.
 
-PART 10
+PART 10 - PoA: [labial], [coronal], [dorsal]
+It counts the occurrences of [labial], [coronal], [dorsal] consonants.
+It counts the occurrences of [labial], [coronal], [dorsal] consonants-suffix combinations.
+It calculates the [labial], [coronal], [dorsal] consonant count-suffix probabilities.
+
+PART 11 - [+/-consonantal]
+It counts the occurrences of [+/-consonantal] consonants.
+It counts the occurrences of [+/-consonantal] consonants-suffix combinations.
+It calculates the [+/-consonantal] consonant count-suffix probabilities.
+
+PART 12 - [+/-sonorant]
+It counts the occurrences of [+/-sonorant] consonants.
+It counts the occurrences of [+/-sonorant] consonants-suffix combinations.
+It calculates the [+/-sonorant] consonant count-suffix probabilities.
+
+PART 13 - [+/-continuant]
+It counts the occurrences of [+/-continuant] consonants.
+It counts the occurrences of [+/-continuant] consonants-suffix combinations.
+It calculates the [+/-continuant] consonant count-suffix probabilities.
+
+PART 14 - [+/-voiced]
+It counts the occurrences of [+/-voiced] consonants.
+It counts the occurrences of [+/-voiced] consonants-suffix combinations.
+It calculates the [+/-voiced] consonant count-suffix probabilities.
+
+PART 15 - [spread glottis]
+It counts the occurrences of [spread glottis] consonants.
+It counts the occurrences of [spread glottis] consonants-suffix combinations.
+It calculates the [spread glottis] consonant count-suffix probabilities.
 
 The program uses several counters from the collections module to keep track
 of the counts. The vowel, consonant, diphthong, reduplication, and suffix sets
@@ -64,12 +92,10 @@ respective output files.
 import argparse
 import collections
 import csv
-from typing import Counter, Tuple, Any
+from typing import Any, Counter, Tuple
 
-# The alphabet is based on Biggs 2013 English-Māori Māori-English
-# Dictionary. Even though I have <n, g, w, h> as single entries
-# in the consonant dictionary, they are handled as diagraphs in
-# the consonant sequences.
+# The alphabet is based on Biggs 1990 English-Māori Māori-English
+# Dictionary. I handle <ng> and <wh> in relevant sections.
 vowels = {
     # Short vowels
     "a",
@@ -97,7 +123,7 @@ consonants = {
     "w",
 }
 
-# Diphthongs are also based on Biggs 2013. They are used
+# Diphthongs are also based on Biggs 1990. They are used
 # to handle syllable counts.
 diphthongs = {
     "ae",
@@ -428,6 +454,7 @@ spread_g_dict = {
     "wh": "-SG",
 }
 
+
 def main(args: argparse.Namespace) -> None:
     # PART 0 - Stem-final vowels and passives
     # Stem-final vowels counter
@@ -491,59 +518,45 @@ def main(args: argparse.Namespace) -> None:
     # Oral vs nasal consonant sequence
     nasality: Counter[Tuple[str, ...]] = collections.Counter()
     # Oral vs nasal consonant sequence-passive counter
-    nasality_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    nasality_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 10 – [labial], [coronal], [dorsal]
     # PoA of consonant sequences counter
     place: Counter[Tuple[str, ...]] = collections.Counter()
     # # PoA of consonant sequences-passive counter
-    place_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    place_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 11 – Sequential [+/-consonantal]
     # phoneme feature counter
     consonantal: Counter[Tuple[str, ...]] = collections.Counter()
     # phoneme feature-suffix counter
-    consonantal_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    consonantal_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 12 – Sequential [+/-sonorant]
     # phoneme feature counter
     sonorant: Counter[Tuple[str, ...]] = collections.Counter()
     # phoneme feature-suffix counter
-    sonorant_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    sonorant_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 13 – Sequential [+/-continuant]
     # phoneme feature counter
     continuant: Counter[Tuple[str, ...]] = collections.Counter()
     # phoneme feature-suffix counter
-    continuant_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    continuant_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 14 – Sequential [+/-voiced]
     # phoneme feature counter
     voicing: Counter[Tuple[str, ...]] = collections.Counter()
     # phoneme feature-suffix counter
-    voicing_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    voicing_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
     # PART 15 – Sequential [spread glottis]
     # phoneme feature counter
     spread_g: Counter[Tuple[str, ...]] = collections.Counter()
     # phoneme feature-suffix counter
-    spread_g_suffix: Counter[
-        Tuple[Any, ...]
-    ] = collections.Counter()
+    spread_g_suffix: Counter[Tuple[Any, ...]] = collections.Counter()
 
-########################################################################
+    ########################################################################
     # PART 0 & 1 – Stem-final vowels (0), stem-final vowel features (1)
     # and passives
     with open(args.input, "r") as source, open(
@@ -612,8 +625,8 @@ def main(args: argparse.Namespace) -> None:
             # the probabilities, and total final vowel count out of 886
             tsv_writer3.writerow(
                 [
-                    vowel,
                     suffix,
+                    vowel,
                     p,
                     final_vowel_suffix[(vowel, suffix)],
                     final_vowel[vowel],
@@ -638,8 +651,8 @@ def main(args: argparse.Namespace) -> None:
             # and total vowel feature counts out of 886
             tsv_writer6.writerow(
                 [
-                    feature,
                     suffix,
+                    feature,
                     p,
                     final_vowel_features_suffix[(feature, suffix)],
                     final_vowel_features[feature],
@@ -689,8 +702,8 @@ def main(args: argparse.Namespace) -> None:
             # the probabilities, and total vowel seq counts out of 886
             tsv_writer9.writerow(
                 [
-                    sequence,
                     suffix,
+                    sequence,
                     p,
                     vowel_seq_suffix[(sequence, suffix)],
                     vowel_seq[sequence],
@@ -767,8 +780,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, and cons seq-suffix counts out of 886
             tsv_writer12.writerow(
                 [
-                    sequence,
                     suffix,
+                    sequence,
                     p,
                     cons_seq_suffix[(sequence, suffix)],
                     cons_seq[sequence],
@@ -792,8 +805,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, and cons seq-suffix counts out of 886
             tsv_writer34.writerow(
                 [
-                    consonant,
                     suffix,
+                    consonant,
                     p,
                     final_consonant_suffix[(consonant, suffix)],
                     final_consonant[consonant],
@@ -847,8 +860,8 @@ def main(args: argparse.Namespace) -> None:
             # the probabilities, and vowel feat counts out of 886
             tsv_writer15.writerow(
                 [
-                    v_feature,
                     suffix,
+                    v_feature,
                     p,
                     vowel_features_suffix[(v_feature, suffix)],
                     vowel_features[v_feature],
@@ -957,8 +970,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer18.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     cons_features_suffix[(c_feature, suffix)],
                     cons_features[c_feature],
@@ -982,8 +995,8 @@ def main(args: argparse.Namespace) -> None:
             p = round(count / final_cons_features[feature], 4)
             tsv_writer21.writerow(
                 [
-                    feature,
                     suffix,
+                    feature,
                     p,
                     final_cons_features_suffix[(feature, suffix)],
                     final_cons_features[feature],
@@ -1006,7 +1019,6 @@ def main(args: argparse.Namespace) -> None:
         # Syllable count-passive conditional probabilities: output25
         tsv_writer25 = csv.writer(sink25, delimiter="\t")
 
-
         # # The following counts the suffixes
         # suffix_counts = {}
         # Counting the diphthong and monophthongs
@@ -1014,12 +1026,12 @@ def main(args: argparse.Namespace) -> None:
             diphthong_count = 0
             vowel_count = 0
 
-        #     # Counting the suffixes
-        #     suffix_counts[suffix] = suffix_counts.get(suffix, 0) + 1
+            #     # Counting the suffixes
+            #     suffix_counts[suffix] = suffix_counts.get(suffix, 0) + 1
 
-        # for suffix, count in suffix_counts.items():
-        #     print(f"{suffix}: {count}")
-        
+            # for suffix, count in suffix_counts.items():
+            #     print(f"{suffix}: {count}")
+
             # Skipping reduplications
             if lemma in reduplications:
                 continue
@@ -1058,8 +1070,8 @@ def main(args: argparse.Namespace) -> None:
             # reduplications
             tsv_writer25.writerow(
                 [
-                    syllable,
                     suffix,
+                    syllable,
                     p,
                     syllable_suffix_count[(syllable, suffix)],
                     syllable_count[syllable],
@@ -1096,23 +1108,17 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        nasality_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(nasality_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        nasality_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(nasality_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in nasality_dict:
-                    consonant_feature_sequence.append(
-                        nasality_dict[char]
-                    )
+                    consonant_feature_sequence.append(nasality_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
@@ -1141,8 +1147,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer28.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     nasality_suffix[(c_feature, suffix)],
                     nasality[c_feature],
@@ -1175,31 +1181,23 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        place_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(place_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        place_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(place_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in place_dict:
-                    consonant_feature_sequence.append(
-                        place_dict[char]
-                    )
+                    consonant_feature_sequence.append(place_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
             if consonant_feature_sequence:
                 place[tuple(consonant_feature_sequence)] += 1
-                place_suffix[
-                    (tuple(consonant_feature_sequence), suffix)
-                ] += 1
+                place_suffix[(tuple(consonant_feature_sequence), suffix)] += 1
         # Writing the consonant features into a tsv file
         for c_feature, count in place.most_common():
             tsv_writer29.writerow([c_feature, count])
@@ -1217,8 +1215,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer31.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     place_suffix[(c_feature, suffix)],
                     place[c_feature],
@@ -1252,23 +1250,17 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        consonantal_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(consonantal_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        consonantal_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(consonantal_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in consonantal_dict:
-                    consonant_feature_sequence.append(
-                        consonantal_dict[char]
-                    )
+                    consonant_feature_sequence.append(consonantal_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
@@ -1294,8 +1286,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer37.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     consonantal_suffix[(c_feature, suffix)],
                     consonantal[c_feature],
@@ -1328,23 +1320,17 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        sonorant_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(sonorant_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        sonorant_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(sonorant_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in sonorant_dict:
-                    consonant_feature_sequence.append(
-                        sonorant_dict[char]
-                    )
+                    consonant_feature_sequence.append(sonorant_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
@@ -1370,8 +1356,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer40.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     sonorant_suffix[(c_feature, suffix)],
                     sonorant[c_feature],
@@ -1404,23 +1390,17 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        continuant_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(continuant_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        continuant_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(continuant_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in continuant_dict:
-                    consonant_feature_sequence.append(
-                        continuant_dict[char]
-                    )
+                    consonant_feature_sequence.append(continuant_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
@@ -1446,8 +1426,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer43.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     continuant_suffix[(c_feature, suffix)],
                     continuant[c_feature],
@@ -1480,23 +1460,17 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        voicing_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(voicing_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        voicing_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(voicing_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in voicing_dict:
-                    consonant_feature_sequence.append(
-                        voicing_dict[char]
-                    )
+                    consonant_feature_sequence.append(voicing_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
@@ -1522,8 +1496,8 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer46.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     voicing_suffix[(c_feature, suffix)],
                     voicing[c_feature],
@@ -1556,23 +1530,17 @@ def main(args: argparse.Namespace) -> None:
                 char = lemma[i]
                 # Checking for <ng> digraph
                 if char == "n" and i + 1 < len(lemma) and lemma[i + 1] == "g":
-                    consonant_feature_sequence.append(
-                        spread_g_dict["ng"]
-                    )
+                    consonant_feature_sequence.append(spread_g_dict["ng"])
                     i += 2
                     continue
                 # Checking for <wh> digraph
                 if char == "w" and i + 1 < len(lemma) and lemma[i + 1] == "h":
-                    consonant_feature_sequence.append(
-                        spread_g_dict["wh"]
-                    )
+                    consonant_feature_sequence.append(spread_g_dict["wh"])
                     i += 2
                     continue
                 # Checking for other consonantal segments
                 if char in spread_g_dict:
-                    consonant_feature_sequence.append(
-                        spread_g_dict[char]
-                    )
+                    consonant_feature_sequence.append(spread_g_dict[char])
                 i += 1
 
             # Handling the consonant feature sequence counter
@@ -1598,14 +1566,13 @@ def main(args: argparse.Namespace) -> None:
             # counts, the probabilities, cons feat counts out of 886
             tsv_writer49.writerow(
                 [
-                    c_feature,
                     suffix,
+                    c_feature,
                     p,
                     spread_g_suffix[(c_feature, suffix)],
                     spread_g[c_feature],
                 ]
             )
-
 
 
 if __name__ == "__main__":

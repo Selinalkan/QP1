@@ -1467,105 +1467,105 @@ if __name__ == "__main__":
     parser.add_argument(
         "-o6",
         "--output6",
-        default="01_final-V-feat-suffix_prob.tsv",
+        default="01_HMR_final-V-feat-suffix_prob.tsv",
         help="outputs p(passive|final_vowel_feature)",
     )
     # PART2
     parser.add_argument(
         "-o9",
         "--output9",
-        default="02_V-seq-suffix_prob.tsv",
+        default="02_HMR_V-seq-suffix_prob.tsv",
         help="outputs p(passive|vowel_sequence)",
     )
     # PART3
     parser.add_argument(
         "-o12",
         "--output12",
-        default="03_C-seq-suffix_prob.tsv",
+        default="03_HMR_C-seq-suffix_prob.tsv",
         help="outputs p(passive|consonant_sequence)",
     )
     # PART4
     parser.add_argument(
         "-o34",
         "--output34",
-        default="04_final-C-suffix_prob.tsv",
+        default="04_HMR_final-C-suffix_prob.tsv",
         help="outputs p(passive|final_consonant)",
     )
     # PART5
     parser.add_argument(
         "-o15",
         "--output15",
-        default="05_V-feat-suffix_prob.tsv",
+        default="05_HMR_V-feat-suffix_prob.tsv",
         help="outputs p(passive|vowel_feature)",
     )
     # PART6
     parser.add_argument(
         "-o18",
         "--output18",
-        default="06_C-feat-suffix_prob.tsv",
+        default="06_HMR_C-feat-suffix_prob.tsv",
         help="outputs p(passive|consonant_feature)",
     )
     # PART7
     parser.add_argument(
         "-o21",
         "--output21",
-        default="07_final-C-feat-suffix_prob.tsv",
+        default="07_HMR_final-C-feat-suffix_prob.tsv",
         help="outputs p(passive|final_vowel_feature)",
     )
     # PART8
     parser.add_argument(
         "-o25",
         "--output25",
-        default="08_syllable-suffix_prob.tsv",
+        default="08_HMR_syllable-suffix_prob.tsv",
         help="outputs p(passive|syllable-counts)",
     )
     # PART9
     parser.add_argument(
         "-o28",
         "--output28",
-        default="09_C-nasality-suffix_prob.tsv",
+        default="09_HMR_C-nasality-suffix_prob.tsv",
         help="outputs p(passive|consonant_feature_nasality)",
     )
     # PART10
     parser.add_argument(
         "-o31",
         "--output31",
-        default="10_C-place-suffix_prob.tsv",
+        default="10_HMR_C-place-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     # PART11 [+/-consonantal]
     parser.add_argument(
         "-o37",
         "--output37",
-        default="11_C-consonantal-suffix_prob.tsv",
+        default="11_HMR_C-consonantal-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     # PART12 [+/-sonorant]
     parser.add_argument(
         "-o40",
         "--output40",
-        default="12_C-sonorant-suffix_prob.tsv",
+        default="12_HMR_C-sonorant-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     # PART13 [+/-continuant]
     parser.add_argument(
         "-o43",
         "--output43",
-        default="13_C-continuant-suffix_prob.tsv",
+        default="13_HMR_C-continuant-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     # PART14 [+/-voiced]
     parser.add_argument(
         "-o46",
         "--output46",
-        default="14_C-voicing-suffix_prob.tsv",
+        default="14_HMR_C-voicing-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     # PART15 [spread glottis]
     parser.add_argument(
         "-o49",
         "--output49",
-        default="15_C-spread-g-suffix_prob.tsv",
+        default="15_HMR_C-spread-g-suffix_prob.tsv",
         help="outputs p(passive|consonant_place)",
     )
     main(parser.parse_args())
