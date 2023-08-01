@@ -1,0 +1,59 @@
+ria	('dors',)	0.069	2	29
+hia	('lab',)	0.0645	2	31
+ria	('lab', 'cor')	0.0541	4	74
+hia	('lab', 'lab')	0.0588	1	17
+ria	('lab',)	0.0645	2	31
+hia	('cor',)	0.1081	4	37
+mia	('cor',)	0.1081	4	37
+mia	('cor', 'cor')	0.0698	3	43
+hia	('dors', 'cor')	0.1429	6	42
+mia	('dors', 'cor')	0.0476	2	42
+hia	('dors',)	0.0345	1	29
+hia	('dors', 'lab', 'cor')	0.1333	2	15
+ria	('dors', 'dors')	0.0426	2	47
+ria	('dors', 'dors', 'dors')	0.2	1	5
+hia	('dors', 'dors', 'cor')	0.1111	1	9
+hia	('dors', 'lab')	0.125	2	16
+hia	('dors', 'cor', 'dors')	0.3333	1	3
+hia	('lab', 'dors', 'cor')	0.129	4	31
+ria	('lab', 'dors', 'cor')	0.129	4	31
+hia	('lab', 'cor', 'dors')	0.1818	2	11
+hia	('lab', 'cor')	0.0811	6	74
+hia	('lab', 'dors', 'lab', 'dors')	0.0714	1	14
+hia	('lab', 'lab', 'dors')	0.2	1	5
+hia	('cor', 'dors')	0.1636	9	55
+hia	('cor', 'dors', 'cor', 'dors')	0.1818	2	11
+hia	('cor', 'lab')	0.0833	3	36
+hia	('cor', 'cor', 'lab')	0.1	1	10
+hia	('cor', 'cor', 'dors')	0.0833	1	12
+hia	('cor', 'cor')	0.0465	2	43
+ria	('cor', 'dors', 'lab')	1.0	1	1
+hia	('cor', 'dors', 'cor')	0.1667	2	12
+ria	('cor', 'dors', 'cor')	0.0833	1	12
+ria	('cor', 'cor')	0.0233	1	43
+ria	('cor',)	0.0541	2	37
+ria	('cor', 'lab', 'cor')	0.0667	1	15
+hia	('cor', 'lab', 'cor')	0.0667	1	15
+ria	('cor', 'dors')	0.0182	1	55
+hia	('cor', 'lab', 'cor', 'dors')	1.0	1	1
+ria	('cor', 'lab')	0.0278	1	36
+ria	('lab', 'dors', 'dors', 'dors', 'dors')	0.5	1	2
+ria	('lab', 'dors', 'dors')	0.1	2	20
+hia	('lab', 'dors', 'lab')	0.0714	1	14
+mia	('lab', 'dors', 'cor')	0.0323	1	31
+hia	('lab', 'dors', 'lab', 'cor')	0.125	3	24
+ria	('lab', 'dors', 'lab', 'cor', 'dors')	0.3333	1	3
+ria	('lab', 'dors', 'lab', 'cor', 'cor')	0.6667	2	3
+ria	('lab', 'dors', 'lab', 'cor')	0.0417	1	24
+mia	('lab', 'dors', 'dors', 'cor')	0.0909	1	11
+hia	('lab', 'dors', 'dors', 'lab', 'cor')	1.0	1	1
+hia	('lab', 'dors', 'cor', 'cor')	0.0769	1	13
+hia	('lab', 'dors', 'cor', 'dors')	0.125	1	8
+ria	('lab', 'dors', 'cor', 'dors', 'cor')	0.2	1	5
+ria	('lab', 'dors', 'cor', 'dors', 'cor', 'dors', 'cor')	1.0	1	1
+hia	('lab', 'dors', 'cor', 'dors', 'cor', 'dors')	0.3333	1	3
+ria	('lab', 'dors', 'cor', 'lab')	0.3333	3	9
+hia	('lab', 'dors', 'cor', 'cor', 'cor', 'cor')	1.0	1	1
+ria	('lab', 'dors', 'cor', 'lab', 'cor')	0.25	1	4
+ria	('lab', 'lab')	0.0588	1	17
+ria	('lab', 'cor', 'dors')	0.0909	1	11
