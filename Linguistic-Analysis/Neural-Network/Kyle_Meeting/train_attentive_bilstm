@@ -1,0 +1,37 @@
+#!/bin/bash
+# Training for the bidirectional LSTM with attention.
+
+set -eou pipefail
+
+readonly DATA=../../abstractness/data
+readonly ARCH=attentive_lstm
+readonly MODEL_DIR=../models/attentive_bilstm
+# TODO: Set according to language.
+readonly LANGUAGE=mri  
+
+readonly TRAIN="${DATA}/${LANGUAGE}/${LANGUAGE}_train.tsv"
+cat "${DATA}/${LANGUAGE}/${LANGUAGE}_"[0-7]".tsv" > "${TRAIN}"
+trap "rm -f ${TRAIN}" EXIT
+readonly VAL="${DATA}/${LANGUAGE}/${LANGUAGE}_8.tsv"
+
+# Model parameters from Kann & Schütze (MED):
+# https://aclanthology.org/W16-2010/
+yoyodyne-train \
+    --model_dir "${MODEL_DIR}" \
+    --experiment "${LANGUAGE}" \
+    --train "${TRAIN}" \
+    --val "${VAL}" \
+    --arch "${ARCH}" \
+    --embedding_size 300 \
+    --hidden_size 100 \
+    --batch_size 20 \
+    --max_epochs 60 \
+    --log_every_n_step 20 \
+    --optimizer adadelta \
+    --learning_rate 1 \
+    --dropout .3 \
+    --seed 49 \
+    --gradient_clip_val 3
+    # --precision 16 \
+    # --accelerator gpu
+    #--log_wandb

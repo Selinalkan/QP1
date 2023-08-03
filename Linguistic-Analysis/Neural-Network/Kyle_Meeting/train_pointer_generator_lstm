@@ -1,0 +1,37 @@
+#!/bin/bash
+# Training for the pointer-generator LSTM.
+
+set -eou pipefail
+
+readonly DATA=../../abstractness/data
+readonly ARCH=pointer_generator_lstm
+# TODO: Set according to language.
+readonly LANGUAGE=mri
+readonly MODEL_DIR=../models/pointer_generator_bilstm
+
+readonly TRAIN="${DATA}/${LANGUAGE}/${LANGUAGE}_train.tsv"
+cat "${DATA}/${LANGUAGE}/${LANGUAGE}_"[0-7]".tsv" > "${TRAIN}"
+trap "rm -f ${TRAIN}" EXIT
+readonly VAL="${DATA}/${LANGUAGE}/${LANGUAGE}_8.tsv"
+
+# Model parameters from Sharma et. al. for high setting:
+# https://aclanthology.org/K18-3013/
+yoyodyne-train \
+    --experiment "${LANGUAGE}" \
+    --train "${TRAIN}" \
+    --val "${VAL}" \
+    --model_dir "${MODEL_DIR}" \
+    --arch "${ARCH}" \
+    --embedding_size 300 \
+    --hidden_size 100 \
+    --batch_size 32 \
+    --max_epochs 60 \
+    --log_every_n_step 20 \
+    --optimizer adam \
+    --learning_rate .001 \
+    --dropout .3 \
+    --seed 49 \
+    --gradient_clip_val 3
+    #--precision 16 \
+    #--accelerator gpu
+    #-log_wandb
