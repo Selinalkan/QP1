@@ -12,7 +12,7 @@ import numpy
 #     https://github.com/benhoyt/pybktree
 # and on PyPI (i.e. via pip).
 import pybktree
-import argparse
+# import argparse
 
 DATA = [
     "animus",
