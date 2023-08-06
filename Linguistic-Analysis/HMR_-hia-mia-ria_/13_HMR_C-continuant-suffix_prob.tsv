@@ -1,0 +1,25 @@
+ria	('+cont',)	0.0213	1	47
+hia	('-cont',)	0.0723	6	83
+ria	('-cont', '-cont')	0.051	8	157
+ria	('-cont',)	0.0964	8	83
+hia	('+cont',)	0.0851	4	47
+mia	('+cont',)	0.0213	1	47
+hia	('+cont', '+cont')	0.0972	7	72
+mia	('+cont', '+cont')	0.0139	1	72
+mia	('-cont',)	0.0361	3	83
+hia	('-cont', '-cont', '-cont')	0.0444	2	45
+ria	('-cont', '+cont')	0.0206	2	97
+ria	('-cont', '-cont', '+cont')	0.0286	1	35
+hia	('-cont', '-cont')	0.0955	15	157
+hia	('-cont', '+cont', '-cont')	0.0667	2	30
+hia	('-cont', '+cont')	0.0309	3	97
+hia	('-cont', '-cont', '+cont')	0.0857	3	35
+ria	('-cont', '-cont', '-cont')	0.1333	6	45
+mia	('-cont', '+cont')	0.0103	1	97
+hia	('+cont', '-cont')	0.0933	7	75
+mia	('-cont', '-cont')	0.0064	1	157
+hia	('-cont', '+cont', '+cont')	0.0606	2	33
+hia	('-cont', '-cont', '-cont', '-cont')	0.2	1	5
+hia	('+cont', '-cont', '-cont')	0.0769	1	13
+ria	('+cont', '-cont')	0.0133	1	75
+ria	('+cont', '-cont', '-cont')	0.0769	1	13

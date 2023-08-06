@@ -1,0 +1,24 @@
+ria	('-nas',)	0.0741	8	108
+hia	('+nas',)	0.1364	3	22
+ria	('-nas', '-nas')	0.0358	10	279
+hia	('-nas',)	0.0648	7	108
+mia	('-nas',)	0.0093	1	108
+hia	('-nas', '-nas')	0.0717	20	279
+mia	('-nas', '-nas')	0.0036	1	279
+mia	('+nas',)	0.1364	3	22
+hia	('-nas', '-nas', '+nas')	0.1	2	20
+ria	('-nas', '-nas', '-nas')	0.0485	5	103
+hia	('-nas', '+nas')	0.1045	7	67
+hia	('-nas', '-nas', '-nas')	0.0388	4	103
+hia	('+nas', '-nas', '-nas')	0.1667	2	12
+ria	('+nas', '-nas', '-nas')	0.1667	2	12
+hia	('+nas', '+nas', '-nas')	0.25	1	4
+hia	('+nas', '-nas')	0.1	4	40
+ria	('+nas', '-nas')	0.025	1	40
+ria	('+nas',)	0.0455	1	22
+mia	('+nas', '-nas')	0.025	1	40
+mia	('-nas', '+nas')	0.0149	1	67
+ria	('-nas', '+nas', '-nas')	0.05	1	20
+hia	('-nas', '+nas', '+nas', '-nas')	1.0	1	1
+hia	('-nas', '+nas', '-nas')	0.05	1	20
+hia	('+nas', '+nas')	0.0667	1	15

@@ -1,0 +1,14 @@
+ria	('[high, central, +round, short]',)	0.1407	19	135
+hia	('[mid, back, +round, short]',)	0.2556	23	90
+ria	('[high, front, -round, short]',)	0.0182	4	220
+hia	('[low, back, -round, short]',)	0.0537	8	149
+mia	('[high, central, +round, short]',)	0.0296	4	135
+mia	('[mid, back, +round, short]',)	0.0333	3	90
+hia	('[high, central, +round, short]',)	0.0519	7	135
+hia	('[high, front, -round, short]',)	0.05	11	220
+hia	('[mid, front, -round, short]',)	0.0273	3	110
+hia	('[mid, back, +round, long]',)	0.25	1	4
+hia	('[high, central, +round, long]',)	0.1667	1	6
+ria	('[mid, back, +round, short]',)	0.0333	3	90
+ria	('[low, back, -round, short]',)	0.0067	1	149
+ria	('[high, central, +round, long]',)	0.1667	1	6

@@ -1,0 +1,16 @@
+ria	('-cons',)	0.0476	1	21
+hia	('+cons',)	0.0826	9	109
+ria	('+cons', '+cons')	0.0324	9	278
+ria	('+cons',)	0.0734	8	109
+mia	('+cons',)	0.0367	4	109
+hia	('-cons', '+cons')	0.0909	5	55
+mia	('-cons', '+cons')	0.0182	1	55
+hia	('-cons',)	0.0476	1	21
+hia	('+cons', '+cons', '+cons')	0.0702	8	114
+ria	('+cons', '-cons')	0.0392	2	51
+ria	('+cons', '+cons', '-cons')	0.0556	1	18
+hia	('+cons', '+cons')	0.0971	27	278
+ria	('+cons', '+cons', '+cons')	0.0614	7	114
+mia	('+cons', '+cons')	0.0072	2	278
+hia	('+cons', '-cons', '+cons')	0.0833	2	24
+hia	('+cons', '+cons', '+cons', '+cons')	0.0833	1	12

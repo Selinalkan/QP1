@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-This program analyzes 886 Māori verb-passive suffix pairs in a TSV file and
+This program analyzes 889 Māori verb-passive suffix pairs in a TSV file and
 performs various computations and counts related to 15 linguistic features
 as detailed below.
 
@@ -1580,7 +1580,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "-i",
         "--input",
-        default="lemma-suffix_only.tsv",
+        default="mri-lemma-suffix.tsv",
         help="input Maori TSV file",
     )
     parser.add_argument(
