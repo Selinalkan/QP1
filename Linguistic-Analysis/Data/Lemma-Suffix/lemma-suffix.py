@@ -32,7 +32,7 @@ def main(args: argparse.Namespace) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="BR_8-1-23.tsv", help="input Maori file")
+    parser.add_argument("--input", default="BR_Feat_8-6-23.tsv", help="input Maori file")
     parser.add_argument(
         "--output", default="mri-lemma-suffix.tsv", help="output Maori file as lemmas"
     )

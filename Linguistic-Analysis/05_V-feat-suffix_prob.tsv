@@ -1,0 +1,356 @@
+ia	('[low, back, -round, long]',)	0.1667	1	6
+ria	('[low, back, -round, short]', '[high, central, +round, short]')	0.2903	9	31
+tia	('[low, back, -round, short]', '[high, front, -round, short]')	0.0714	2	28
+na	('[low, back, -round, long]', '[high, front, -round, short]')	0.2857	2	7
+tia	('[low, back, -round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	0.7778	7	9
+na	('[low, back, -round, short]', '[mid, back, +round, short]')	0.087	2	23
+tia	('[low, back, -round, long]', '[high, front, -round, short]')	0.1429	1	7
+ngia	('[low, back, -round, long]', '[high, front, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+hia	('[low, back, -round, short]', '[mid, back, +round, short]')	0.4348	10	23
+ria	('[low, back, -round, short]', '[high, front, -round, short]', '[high, front, -round, short]')	0.3333	1	3
+ria	('[low, back, -round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	0.1111	1	9
+a	('[low, back, -round, long]', '[high, central, +round, short]', '[high, central, +round, short]')	0.3333	1	3
+hia	('[low, back, -round, short]', '[low, back, -round, short]')	0.1154	3	26
+na	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.2222	2	9
+na	('[low, back, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	4	12
+a	('[low, back, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.4167	5	12
+na	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	1	3
+ngia	('[low, back, -round, short]', '[mid, back, +round, short]')	0.0435	1	23
+ina	('[low, back, -round, short]', '[mid, back, +round, short]', '[low, back, -round, short]')	0.5	1	2
+mia	('[low, back, -round, short]', '[high, central, +round, short]')	0.0645	2	31
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.6667	2	3
+tia	('[low, back, -round, long]', '[mid, front, -round, short]', '[mid, front, -round, short]')	0.6667	2	3
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[mid, front, -round, long]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	3	3
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[high, central, +round, short]')	1.0	4	4
+tia	('[low, back, -round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	0.4	2	5
+a	('[low, back, -round, short]', '[mid, front, -round, short]')	0.8889	16	18
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]')	0.8	4	5
+tia	('[low, back, -round, long]', '[high, front, -round, short]', '[low, back, -round, short]')	1.0	2	2
+tia	('[low, back, -round, long]', '[high, front, -round, short]', '[mid, back, +round, short]')	1.0	2	2
+a	('[mid, front, -round, short]', '[high, central, +round, short]')	1.0	9	9
+a	('[mid, front, -round, short]', '[mid, front, -round, short]')	0.6923	9	13
+ina	('[mid, front, -round, short]', '[low, back, -round, short]')	0.2857	2	7
+a	('[low, back, -round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	0.6	3	5
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	0.5	3	6
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	0.6	6	10
+a	('[low, back, -round, short]', '[high, central, +round, short]')	0.5161	16	31
+a	('[low, back, -round, short]', '[low, back, -round, short]')	0.5	13	26
+a	('[low, back, -round, long]', '[mid, front, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+a	('[low, back, -round, short]', '[mid, back, +round, short]')	0.2174	5	23
+nga	('[low, back, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.0833	1	12
+a	('[low, back, -round, short]', '[high, front, -round, short]')	0.6786	19	28
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+tia	('[low, back, -round, long]', '[mid, front, -round, short]')	0.6667	2	3
+a	('[high, front, -round, long]',)	1.0	2	2
+tia	('[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]')	0.5	1	2
+tia	('[high, front, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	0.4	2	5
+ia	('[high, front, -round, short]', '[low, back, -round, short]')	0.6667	4	6
+tia	('[high, front, -round, short]', '[high, front, -round, short]')	0.1364	3	22
+ia	('[high, front, -round, short]', '[mid, back, +round, short]')	0.2	2	10
+na	('[high, front, -round, short]', '[low, back, -round, short]')	0.1667	1	6
+na	('[high, front, -round, long]', '[mid, back, +round, short]', '[high, front, -round, short]')	0.3333	1	3
+tia	('[high, front, -round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	2	2
+tia	('[high, front, -round, long]', '[high, front, -round, short]')	0.6667	2	3
+a	('[high, front, -round, short]', '[high, front, -round, short]')	0.7273	16	22
+a	('[mid, back, +round, short]', '[mid, front, -round, short]')	0.8333	10	12
+tia	('[mid, back, +round, short]', '[mid, back, +round, short]', '[high, central, +round, short]')	1.0	2	2
+a	('[mid, back, +round, short]', '[high, front, -round, short]')	0.7857	11	14
+na	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.0952	2	21
+a	('[mid, back, +round, short]', '[mid, back, +round, short]', '[high, front, -round, short]', '[high, front, -round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+a	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.2857	6	21
+kia	('[mid, back, +round, short]', '[high, central, +round, short]')	0.1111	1	9
+hia	('[mid, back, +round, short]', '[low, back, -round, short]')	0.0833	1	12
+mia	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.0476	1	21
+a	('[mid, back, +round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	2	2
+hia	('[mid, back, +round, short]', '[high, central, +round, short]')	0.2222	2	9
+a	('[mid, back, +round, short]', '[high, central, +round, short]', '[mid, back, +round, short]', '[high, central, +round, short]')	1.0	2	2
+ia	('[high, central, +round, short]', '[low, back, -round, short]')	0.25	4	16
+ina	('[high, central, +round, short]', '[low, back, -round, short]')	0.3125	5	16
+na	('[high, central, +round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.8571	6	7
+a	('[high, central, +round, short]', '[high, central, +round, short]')	0.75	18	24
+a	('[high, central, +round, short]', '[high, front, -round, short]')	0.8889	16	18
+a	('[high, central, +round, short]', '[mid, front, -round, short]')	0.8333	5	6
+a	('[high, central, +round, short]', '[low, back, -round, short]')	0.25	4	16
+tia	('[high, central, +round, long]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	2	2
+hia	('[high, central, +round, short]', '[low, back, -round, short]')	0.0625	1	16
+hia	('[high, central, +round, short]', '[high, front, -round, short]')	0.0556	1	18
+a	('[high, front, -round, short]', '[mid, front, -round, short]', '[high, central, +round, short]', '[mid, front, -round, short]', '[high, central, +round, short]')	1.0	1	1
+tia	('[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	1	2
+a	('[high, front, -round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+mia	('[high, front, -round, short]', '[high, central, +round, short]')	0.1667	1	6
+ngia	('[low, back, -round, long]',)	0.5	3	6
+nga	('[low, back, -round, short]', '[high, front, -round, short]')	0.0357	1	28
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	1	1
+hia	('[low, back, -round, short]', '[high, front, -round, short]', '[mid, back, +round, short]', '[high, central, +round, short]')	1.0	1	1
+ria	('[low, back, -round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	0.2	2	10
+ria	('[low, back, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	0.5	3	6
+a	('[low, back, -round, long]', '[high, central, +round, short]', '[high, front, -round, short]')	0.5	4	8
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]')	1.0	4	4
+hia	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	0.1667	1	6
+a	('[low, back, -round, short]', '[low, back, -round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+a	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[high, central, +round, short]')	1.0	1	1
+ina	('[low, back, -round, short]', '[low, back, -round, short]')	0.0769	2	26
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[mid, back, +round, short]', '[mid, front, -round, short]')	1.0	2	2
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[high, front, -round, short]')	0.75	3	4
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, long]', '[high, central, +round, short]', '[low, back, -round, short]')	1.0	1	1
+a	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[mid, front, -round, short]')	0.6667	2	3
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	3	3
+a	('[mid, front, -round, short]', '[high, front, -round, short]')	0.8	4	5
+hia	('[high, front, -round, short]', '[high, front, -round, short]')	0.0909	2	22
+a	('[high, front, -round, short]', '[mid, front, -round, short]')	1.0	4	4
+ia	('[mid, back, +round, short]',)	1.0	1	1
+ia	('[mid, back, +round, long]',)	0.3333	1	3
+ina	('[mid, back, +round, short]', '[low, back, -round, short]')	0.3333	4	12
+tia	('[mid, back, +round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[mid, back, +round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	3	6
+tia	('[mid, back, +round, long]', '[high, central, +round, short]', '[low, back, -round, short]')	1.0	2	2
+tia	('[mid, back, +round, long]', '[high, central, +round, short]', '[mid, front, -round, short]')	0.5	1	2
+a	('[mid, back, +round, long]', '[high, central, +round, short]', '[mid, front, -round, short]')	0.5	1	2
+tia	('[mid, back, +round, long]', '[high, central, +round, short]', '[high, central, +round, short]')	1.0	2	2
+tia	('[mid, back, +round, short]', '[high, front, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+tia	('[mid, back, +round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	0.5	3	6
+a	('[mid, back, +round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	0.3333	2	6
+tia	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.1429	3	21
+a	('[mid, back, +round, short]', '[high, central, +round, short]', '[high, central, +round, short]')	1.0	2	2
+a	('[mid, back, +round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	1	1
+tia	('[mid, back, +round, long]', '[low, back, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+na	('[mid, back, +round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.1667	1	6
+a	('[mid, back, +round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	1	3
+a	('[mid, back, +round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	2	6
+a	('[mid, back, +round, long]', '[low, back, -round, short]', '[mid, front, -round, short]')	0.6667	2	3
+tia	('[mid, back, +round, long]', '[mid, front, -round, short]', '[high, central, +round, short]')	1.0	1	1
+a	('[mid, back, +round, long]', '[high, front, -round, short]', '[mid, back, +round, short]')	0.5	1	2
+tia	('[mid, back, +round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[mid, back, +round, long]', '[mid, front, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+a	('[mid, back, +round, long]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+hia	('[mid, back, +round, short]', '[mid, front, -round, short]')	0.0833	1	12
+a	('[mid, back, +round, long]', '[high, front, -round, short]')	0.3333	1	3
+a	('[mid, back, +round, long]', '[high, central, +round, short]', '[high, front, -round, short]')	1.0	1	1
+na	('[mid, back, +round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	1	3
+tia	('[mid, back, +round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+hia	('[mid, back, +round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	0.1667	1	6
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	0.8333	5	6
+hia	('[low, back, -round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	0.1111	1	9
+ria	('[low, back, -round, long]', '[high, central, +round, short]', '[high, central, +round, short]')	0.3333	1	3
+hia	('[low, back, -round, short]', '[low, back, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+a	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]')	0.2	1	5
+a	('[low, back, -round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	0.2	2	10
+tia	('[low, back, -round, long]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	5	5
+tia	('[low, back, -round, long]', '[high, central, +round, short]', '[high, central, +round, short]')	0.3333	1	3
+tia	('[mid, front, -round, short]', '[low, back, -round, short]')	0.2857	2	7
+tia	('[high, front, -round, long]', '[low, back, -round, short]', '[mid, back, +round, short]')	0.5	1	2
+tia	('[high, front, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]')	1.0	2	2
+tia	('[high, front, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	3	3
+a	('[high, front, -round, short]', '[mid, back, +round, short]')	0.3	3	10
+tia	('[mid, back, +round, long]', '[high, front, -round, short]', '[mid, back, +round, short]')	0.5	1	2
+tia	('[mid, back, +round, long]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	2	2
+kia	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.1905	4	21
+mia	('[low, back, -round, short]', '[mid, back, +round, short]')	0.087	2	23
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]')	1.0	6	6
+tia	('[mid, front, -round, long]', '[high, front, -round, short]')	0.5	1	2
+hia	('[mid, front, -round, short]', '[mid, front, -round, short]')	0.0769	1	13
+tia	('[mid, back, +round, short]', '[low, back, -round, short]')	0.25	3	12
+ia	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.0476	1	21
+tia	('[high, central, +round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	1	1
+hia	('[high, central, +round, short]', '[high, central, +round, short]')	0.125	3	24
+tia	('[mid, back, +round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	1	3
+kia	('[mid, back, +round, short]', '[low, back, -round, short]')	0.0833	1	12
+tia	('[mid, back, +round, short]', '[high, front, -round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+hia	('[mid, back, +round, short]', '[mid, back, +round, short]')	0.1905	4	21
+tia	('[low, back, -round, long]', '[high, central, +round, short]', '[low, back, -round, short]')	1.0	3	3
+ngia	('[low, back, -round, short]', '[high, front, -round, short]')	0.0357	1	28
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	2	2
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[low, back, -round, long]', '[high, front, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+a	('[low, back, -round, long]', '[high, front, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+tia	('[low, back, -round, short]', '[low, back, -round, short]')	0.1538	4	26
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[mid, front, -round, short]')	0.6667	2	3
+tia	('[low, back, -round, long]', '[high, central, +round, short]', '[high, front, -round, short]')	0.5	4	8
+tia	('[low, back, -round, short]', '[mid, back, +round, short]', '[low, back, -round, short]')	0.5	1	2
+tia	('[low, back, -round, short]', '[mid, back, +round, short]', '[mid, back, +round, short]')	0.6667	2	3
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.3333	3	9
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[high, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+hia	('[low, back, -round, short]', '[mid, back, +round, long]')	1.0	1	1
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	3	3
+tia	('[mid, front, -round, long]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	1	1
+a	('[mid, front, -round, long]', '[high, front, -round, short]')	0.5	1	2
+a	('[mid, front, -round, short]', '[high, front, -round, short]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[mid, front, -round, long]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[mid, front, -round, long]', '[low, back, -round, long]')	1.0	3	3
+tia	('[mid, front, -round, long]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[mid, front, -round, short]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[high, front, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	1	2
+tia	('[high, front, -round, long]', '[mid, back, +round, short]', '[high, front, -round, short]')	0.6667	2	3
+ngia	('[high, front, -round, short]', '[mid, back, +round, short]')	0.1	1	10
+a	('[high, front, -round, short]', '[high, central, +round, short]')	0.6667	4	6
+ngia	('[mid, back, +round, long]',)	0.3333	1	3
+ia	('[mid, back, +round, short]', '[low, back, -round, short]')	0.1667	2	12
+tia	('[mid, back, +round, short]', '[mid, back, +round, short]', '[high, central, +round, short]', '[low, back, -round, short]')	1.0	2	2
+a	('[mid, back, +round, short]', '[mid, back, +round, short]', '[high, front, -round, short]', '[high, central, +round, short]')	1.0	1	1
+tia	('[mid, back, +round, long]', '[high, front, -round, short]')	0.6667	2	3
+a	('[mid, back, +round, short]', '[high, central, +round, short]')	0.4444	4	9
+kia	('[mid, back, +round, long]', '[high, central, +round, short]', '[mid, back, +round, short]')	1.0	1	1
+ia	('[high, central, +round, long]',)	0.3333	1	3
+tia	('[high, central, +round, short]', '[low, back, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, long]', '[low, back, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	1.0	1	1
+a	('[high, central, +round, long]', '[low, back, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	1	2
+tia	('[high, central, +round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[high, central, +round, short]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, long]', '[mid, front, -round, short]', '[high, central, +round, short]')	1.0	2	2
+tia	('[high, central, +round, short]', '[high, front, -round, short]')	0.0556	1	18
+tia	('[high, central, +round, short]', '[high, central, +round, short]', '[low, back, -round, short]')	1.0	3	3
+tia	('[high, central, +round, short]', '[high, central, +round, long]', '[low, back, -round, short]')	1.0	1	1
+tia	('[low, back, -round, long]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+a	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	0.5	1	2
+a	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.75	3	4
+ngia	('[low, back, -round, short]', '[low, back, -round, short]')	0.1154	3	26
+hia	('[low, back, -round, short]', '[high, front, -round, short]')	0.0714	2	28
+a	('[low, back, -round, long]', '[mid, back, +round, short]', '[high, front, -round, short]')	0.5	1	2
+ngia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[mid, back, +round, short]')	0.5	1	2
+tia	('[mid, front, -round, long]', '[high, front, -round, short]', '[low, back, -round, short]')	1.0	1	1
+ngia	('[mid, front, -round, short]', '[mid, front, -round, short]')	0.0769	1	13
+tia	('[mid, front, -round, short]', '[mid, front, -round, short]', '[high, front, -round, long]')	1.0	1	1
+hia	('[high, front, -round, long]', '[high, front, -round, short]')	0.3333	1	3
+tia	('[high, front, -round, long]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[mid, back, +round, short]', '[mid, back, +round, short]', '[high, central, +round, short]', '[high, front, -round, short]')	1.0	1	1
+hia	('[high, central, +round, short]', '[mid, front, -round, short]')	0.1667	1	6
+tia	('[high, central, +round, long]', '[high, front, -round, short]')	1.0	1	1
+hia	('[high, central, +round, long]', '[high, central, +round, long]')	1.0	1	1
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+na	('[low, back, -round, short]', '[high, central, +round, short]')	0.0323	1	31
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.25	1	4
+a	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.4444	4	9
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+a	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+ria	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	0.5	1	2
+hia	('[low, back, -round, long]', '[low, back, -round, short]', '[mid, back, +round, short]')	0.6667	2	3
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+na	('[low, back, -round, short]', '[high, front, -round, short]')	0.0357	1	28
+ria	('[low, back, -round, short]', '[mid, back, +round, short]', '[mid, back, +round, short]')	0.3333	1	3
+a	('[low, back, -round, long]', '[high, front, -round, short]')	0.5714	4	7
+a	('[low, back, -round, long]', '[mid, back, +round, short]', '[mid, back, +round, short]')	1.0	1	1
+ia	('[low, back, -round, short]', '[low, back, -round, short]')	0.0385	1	26
+a	('[low, back, -round, long]', '[low, back, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+tia	('[low, back, -round, long]', '[low, back, -round, long]', '[low, back, -round, long]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[high, front, -round, short]')	0.6667	2	3
+tia	('[low, back, -round, long]', '[high, central, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[low, back, -round, long]', '[mid, back, +round, short]', '[low, back, -round, short]')	1.0	2	2
+ngia	('[low, back, -round, short]', '[low, back, -round, long]')	1.0	1	1
+a	('[low, back, -round, long]', '[low, back, -round, long]', '[high, front, -round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	1.0	1	1
+hia	('[low, back, -round, short]', '[high, central, +round, short]', '[low, back, -round, short]', '[mid, back, +round, short]')	0.5	1	2
+a	('[low, back, -round, short]', '[high, central, +round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	2	2
+na	('[low, back, -round, short]', '[high, central, +round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, central, +round, short]', '[mid, back, +round, short]', '[mid, front, -round, short]', '[mid, back, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+na	('[low, back, -round, short]', '[high, central, +round, short]', '[mid, back, +round, short]', '[mid, back, +round, short]')	1.0	1	1
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	1	1
+a	('[low, back, -round, long]', '[high, front, -round, short]', '[high, central, +round, short]')	1.0	1	1
+ina	('[high, front, -round, short]', '[low, back, -round, short]')	0.1667	1	6
+na	('[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	1	2
+a	('[high, front, -round, long]', '[low, back, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+a	('[high, front, -round, long]', '[mid, back, +round, short]', '[mid, front, -round, short]')	1.0	2	2
+hia	('[high, front, -round, long]', '[low, back, -round, short]', '[mid, back, +round, short]')	0.5	1	2
+na	('[high, front, -round, short]', '[high, front, -round, short]')	0.0455	1	22
+a	('[high, front, -round, long]', '[mid, back, +round, short]', '[mid, back, +round, short]')	1.0	1	1
+ria	('[high, front, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	0.2	1	5
+a	('[high, front, -round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+a	('[high, front, -round, short]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[high, front, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[high, front, -round, short]', '[high, front, -round, short]', '[low, back, -round, long]')	1.0	1	1
+hia	('[high, front, -round, short]', '[mid, back, +round, short]')	0.2	2	10
+a	('[high, front, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	1	2
+na	('[high, front, -round, short]', '[mid, back, +round, short]', '[mid, back, +round, short]')	1.0	1	1
+hia	('[high, front, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	0.2	1	5
+kia	('[mid, back, +round, long]',)	0.3333	1	3
+ina	('[mid, back, +round, short]', '[low, back, -round, short]', '[mid, back, +round, short]', '[low, back, -round, short]')	1.0	1	1
+ngia	('[mid, back, +round, short]', '[high, central, +round, short]')	0.1111	1	9
+ria	('[mid, back, +round, short]', '[high, central, +round, short]')	0.1111	1	9
+ria	('[high, central, +round, long]',)	0.3333	1	3
+ina	('[high, central, +round, long]', '[low, back, -round, long]')	1.0	1	1
+tia	('[high, central, +round, long]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	2	2
+a	('[high, central, +round, long]', '[mid, back, +round, short]', '[mid, back, +round, short]')	1.0	1	1
+a	('[high, central, +round, short]', '[mid, front, -round, short]', '[high, central, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, long]', '[high, front, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+hia	('[high, central, +round, long]', '[low, back, -round, short]', '[low, back, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+kia	('[high, central, +round, short]', '[mid, front, -round, short]', '[low, back, -round, short]', '[high, central, +round, short]')	1.0	1	1
+tia	('[high, central, +round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	2	2
+na	('[high, central, +round, short]', '[mid, back, +round, short]', '[high, front, -round, short]')	1.0	1	1
+ria	('[high, central, +round, short]', '[high, central, +round, short]')	0.0417	1	24
+tia	('[high, central, +round, short]', '[high, central, +round, short]', '[high, front, -round, short]')	0.6667	2	3
+na	('[high, central, +round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.5	1	2
+a	('[high, central, +round, long]', '[high, central, +round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, short]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[high, central, +round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	1	1
+a	('[high, central, +round, short]', '[high, front, -round, short]', '[high, central, +round, short]', '[high, front, -round, short]')	1.0	1	1
+ia	('[high, central, +round, short]', '[high, central, +round, short]')	0.0417	1	24
+a	('[high, central, +round, short]', '[high, central, +round, short]', '[high, front, -round, short]')	0.3333	1	3
+mia	('[high, central, +round, short]', '[high, central, +round, short]')	0.0417	1	24
+tia	('[high, central, +round, short]', '[high, central, +round, short]', '[high, central, +round, short]', '[high, central, +round, short]')	1.0	1	1
+tia	('[high, central, +round, long]', '[mid, back, +round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]')	1.0	2	2
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+ngia	('[low, back, -round, short]', '[high, front, -round, short]', '[mid, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	2	2
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[high, central, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+hia	('[low, back, -round, short]', '[high, central, +round, short]')	0.0323	1	31
+hia	('[mid, front, -round, short]', '[mid, back, +round, short]')	0.25	1	4
+kia	('[mid, front, -round, short]', '[mid, front, -round, short]')	0.0769	1	13
+tia	('[low, back, -round, short]', '[high, front, -round, short]', '[mid, back, +round, long]', '[mid, front, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[mid, front, -round, short]')	0.1111	2	18
+tia	('[low, back, -round, short]', '[high, central, +round, short]')	0.0323	1	31
+ria	('[low, back, -round, short]', '[mid, back, +round, short]')	0.0435	1	23
+tia	('[low, back, -round, short]', '[mid, back, +round, short]')	0.087	2	23
+tia	('[mid, front, -round, short]', '[low, back, -round, short]', '[mid, front, -round, short]', '[low, back, -round, short]')	1.0	1	1
+hia	('[mid, front, -round, short]', '[high, front, -round, short]')	0.2	1	5
+tia	('[mid, front, -round, short]', '[mid, front, -round, short]')	0.0769	1	13
+tia	('[mid, front, -round, short]', '[mid, back, +round, short]')	0.5	2	4
+a	('[low, back, -round, long]', '[mid, front, -round, short]')	0.3333	1	3
+ngia	('[mid, front, -round, long]',)	1.0	1	1
+a	('[mid, front, -round, short]', '[mid, back, +round, short]')	0.25	1	4
+tia	('[mid, back, +round, long]', '[mid, back, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[high, central, +round, short]', '[low, back, -round, short]')	0.125	2	16
+tia	('[high, front, -round, short]', '[mid, back, +round, short]', '[low, back, -round, short]')	1.0	1	1
+tia	('[high, front, -round, short]', '[mid, back, +round, short]')	0.2	2	10
+tia	('[low, back, -round, long]', '[mid, back, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+ria	('[low, back, -round, short]', '[high, front, -round, short]')	0.0357	1	28
+tia	('[high, front, -round, short]', '[high, front, -round, long]')	1.0	1	1
+tia	('[mid, back, +round, short]', '[high, front, -round, short]')	0.1429	2	14
+tia	('[mid, back, +round, short]', '[mid, front, -round, short]')	0.0833	1	12
+tia	('[mid, back, +round, short]', '[mid, back, +round, short]', '[mid, front, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[low, back, -round, long]', '[high, central, +round, short]')	1.0	1	1
+tia	('[low, back, -round, long]', '[mid, back, +round, short]', '[high, front, -round, short]')	0.5	1	2
+tia	('[low, back, -round, long]', '[high, front, -round, short]', '[mid, front, -round, short]')	0.3333	1	3
+tia	('[low, back, -round, short]', '[mid, back, +round, short]', '[mid, front, -round, short]')	1.0	1	1
+tia	('[mid, back, +round, long]', '[low, back, -round, long]')	1.0	1	1
+hia	('[low, back, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.0833	1	12
+ngia	('[mid, back, +round, short]', '[low, back, -round, short]')	0.0833	1	12
+hia	('[mid, back, +round, short]', '[high, front, -round, short]')	0.0714	1	14
+kia	('[low, back, -round, long]',)	0.3333	2	6
+tia	('[low, back, -round, short]', '[low, back, -round, short]', '[low, back, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+ngia	('[low, back, -round, short]', '[high, central, +round, short]')	0.0323	1	31
+a	('[high, central, +round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	0.1429	1	7
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	0.0833	1	12
+ngia	('[mid, front, -round, short]', '[low, back, -round, short]')	0.1429	1	7
+ia	('[mid, front, -round, short]', '[low, back, -round, short]')	0.1429	1	7
+ngia	('[low, back, -round, short]', '[mid, front, -round, short]', '[low, back, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+ngia	('[low, back, -round, short]', '[high, central, +round, short]', '[high, front, -round, short]')	0.25	1	4
+tia	('[low, back, -round, long]', '[low, back, -round, short]', '[mid, back, +round, short]')	0.3333	1	3
+a	('[low, back, -round, short]', '[high, central, +round, short]', '[high, front, -round, short]', '[mid, front, -round, short]')	1.0	1	1
+ina	('[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]')	0.5	1	2
+ngia	('[high, front, -round, long]', '[low, back, -round, short]', '[low, back, -round, short]')	0.2	1	5
+ria	('[high, front, -round, short]', '[high, central, +round, short]')	0.1667	1	6
+tia	('[mid, back, +round, long]', '[high, central, +round, long]')	1.0	1	1
+ria	('[high, central, +round, long]', '[low, back, -round, short]', '[mid, back, +round, short]')	1.0	1	1
+ngia	('[high, central, +round, long]',)	0.3333	1	3
+tia	('[mid, front, -round, short]', '[high, central, +round, long]')	1.0	1	1
+tia	('[high, front, -round, short]', '[high, front, -round, short]', '[low, back, -round, short]', '[high, front, -round, short]')	1.0	1	1
+ia	('[low, back, -round, short]', '[high, front, -round, short]')	0.0357	1	28
+hia	('[mid, front, -round, short]', '[low, back, -round, short]')	0.1429	1	7
+tia	('[mid, front, -round, short]', '[high, central, +round, long]', '[low, back, -round, short]', '[high, front, -round, short]')	1.0	1	1
+ria	('[high, front, -round, long]', '[high, front, -round, short]', '[high, front, -round, short]')	1.0	1	1
